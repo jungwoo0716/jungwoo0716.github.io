@@ -1,9 +1,9 @@
 module.exports = {
   /** Site MetaData (Required all)*/
-  title: `Title`,                           // (* Required)
-  description: `Blog Description`,          // (* Required)
-  author: `Author`,                         // (* Required)
-  siteUrl: 'https://',                      // (* Required)
+  title: `Spacebar`,                           // (* Required)
+  description: `My Blog`,          // (* Required)
+  author: `jungwoo kim`,                         // (* Required)
+  siteUrl: 'https://jungwoo0716.github.io',                      // (* Required)
     // ex.'https://junhobaik.github.io'
     // ex.'https://junhobaik.github.io/' << X, Do not enter "/" at the end.
 
@@ -13,12 +13,12 @@ module.exports = {
     // If the file does not exist, it is replaced by a random image.
 
   /** Home > Bio information*/
-  comment: 'Enter your information in the "./config.js" file. ',
-  name: 'User Name',
+  comment: 'Interested in System',
+  name: 'Jungwoo Kim',
   company: '',
   location: 'Korea',
-  email: '',
-  website: 'https://github.com/junhobaik/junhobaik.github.io',           // ex.'https://junhobaik.github.io'
+  email: 'kimjungwoo0716@gmail.com',
+  website: 'https://github.com/jungwoo0716/jungwoo0716.github.io',           // ex.'https://junhobaik.github.io'
   linkedin: '',                                                          // ex.'https://www.linkedin.com/in/junho-baik-16073a19ab'
   facebook: '',                                                          // ex.'https://www.facebook.com/zuck' or 'https://www.facebook.com/profile.php?id=000000000000000'
   instagram: '',                                                         // ex.'https://www.instagram.com/junhobaik'
