@@ -1,6 +1,8 @@
 ---
-title: 고분자를 생성하는 방법 - 중합반응(Polymerization) 
+title: 고분자를 만드는 방법 - 중합반응(Polymerization) 
 date: 2020-03-27
+tags:
+  - Polymer
 ---
 
 ##고분자(Polymer)

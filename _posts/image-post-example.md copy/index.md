@@ -1,6 +1,9 @@
 ---
 title: Image, 이미지 게시물 예제
 date: 1991-03-24
+tags:
+  - tag
+  - 태그
 ---
 
 ![](screenshot.png)
