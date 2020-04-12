@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Spacebar | Feed]]></title><description><![CDATA[My Blog]]></description><link>https://jungwoo0716.github.io</link><generator>GatsbyJS</generator><lastBuildDate>Sun, 12 Apr 2020 12:46:11 GMT</lastBuildDate><item><title><![CDATA[임금대장(급여대장) 구글 드라이브 양식 및 작성방법]]></title><description><![CDATA[…]]></description><link>https://jungwoo0716.github.io/business-hr/</link><guid isPermaLink="false">https://jungwoo0716.github.io/business-hr/</guid><pubDate>Thu, 09 Apr 2020 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;자영업자나 초기 사업가들이 직원을 고용을 할 때 시스템이 갖춰져 있지 않아 기본적인 사항을 지키지 못하는 경우가 많습니다.
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Spacebar | Feed]]></title><description><![CDATA[My Blog]]></description><link>https://jungwoo0716.github.io</link><generator>GatsbyJS</generator><lastBuildDate>Sun, 12 Apr 2020 12:48:35 GMT</lastBuildDate><item><title><![CDATA[임금대장(급여대장) 구글 드라이브 양식 및 작성방법]]></title><description><![CDATA[…]]></description><link>https://jungwoo0716.github.io/business-hr/</link><guid isPermaLink="false">https://jungwoo0716.github.io/business-hr/</guid><pubDate>Thu, 09 Apr 2020 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;자영업자나 초기 사업가들이 직원을 고용을 할 때 시스템이 갖춰져 있지 않아 기본적인 사항을 지키지 못하는 경우가 많습니다.
 기본적인 인사노무에 관하여 배운 적이 없거나, 배울 여력과 기회가 없는 경우 좋지 않은 상황이 일어날 때까지 모르는 경우가 많습니다.&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;근로기준법 제48조(임금대장)&lt;/p&gt;
@@ -72,7 +72,7 @@
       /&gt;
   &lt;/a&gt;
     &lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;위의 서식이 &lt;strong&gt;근로기준법에 명시된 법정 서식&lt;/strong&gt;입니다. 임금대장 양식 검색해보시면 이 외에 다른 형태의 임금대장 양식이 많이 보이는데, 대부분 각 사업장이나 회계사무소에 맞게 변형시킨 형태입니다. 위의 서식 외에 다른 임금대장을 사용할 경우, 공식적으로 고용노동부나 그 산하단체(ex. 근로복지공단 등)에서 점검 시 적발되어 &lt;strong&gt;행정처분&lt;/strong&gt;을 받을 수 있습니다.&lt;/p&gt;
+&lt;p&gt;위의 서식이 &lt;strong&gt;근로기준법에 명시된 법정 서식&lt;/strong&gt;입니다. 임금대장 양식 검색해보시면 이 외에 다른 형태의 임금대장 양식이 많이 보이는데, 대부분 각 사업장이나 회계사무소에 맞게 변형시킨 것 입니다. 위의 서식 외에 다른 임금대장을 사용할 경우, 공식적으로 고용노동부나 그 산하단체(ex. 근로복지공단 등)에서 점검 시 적발되어 &lt;strong&gt;행정처분&lt;/strong&gt;을 받을 수 있습니다.&lt;/p&gt;
 &lt;p&gt;요새 스타트업이나 소규모 기업에서 주로 구글 드라이브를 이용합니다. 저도 구글 드라이브를 이용하여 임금대장을 관리하고 있습니다.
 구글 스프레드시트로 만든 임금대장(급여대장) 양식파일 공유합니다. 법정 양식 부분에서 공제액을 상세히 적을 수 있도록 추가하여 급여명세서로도 사용 가능합니다.
 개인적으로 4대보험 공제액이 명확하게 나와있는 것이 보기 좋아 추가하였습니다.&lt;/p&gt;
