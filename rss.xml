@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Spacebar | Feed]]></title><description><![CDATA[My Blog]]></description><link>https://jungwoo0716.github.io</link><generator>GatsbyJS</generator><lastBuildDate>Tue, 14 Apr 2020 05:01:44 GMT</lastBuildDate><item><title><![CDATA[임금대장(급여대장) 구글 스프레드시트 양식 및 작성방법]]></title><description><![CDATA[…]]></description><link>https://jungwoo0716.github.io/payroll-form/</link><guid isPermaLink="false">https://jungwoo0716.github.io/payroll-form/</guid><pubDate>Wed, 08 Apr 2020 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;자영업자나 초기 사업가들이 직원을 고용을 할 때 시스템이 갖춰져 있지 않아 기본적인 사항을 지키지 못하는 경우가 많습니다.
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Spacebar | Feed]]></title><description><![CDATA[My Blog]]></description><link>https://jungwoo0716.github.io</link><generator>GatsbyJS</generator><lastBuildDate>Tue, 14 Apr 2020 05:03:44 GMT</lastBuildDate><item><title><![CDATA[임금대장(급여대장) 구글 스프레드시트 양식 및 작성방법]]></title><description><![CDATA[…]]></description><link>https://jungwoo0716.github.io/payroll-form/</link><guid isPermaLink="false">https://jungwoo0716.github.io/payroll-form/</guid><pubDate>Wed, 08 Apr 2020 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;자영업자나 초기 사업가들이 직원을 고용을 할 때 시스템이 갖춰져 있지 않아 기본적인 사항을 지키지 못하는 경우가 많습니다.
 기본적인 인사노무에 관하여 배운 적이 없거나, 배울 여력과 기회가 없는 경우 좋지 않은 상황이 일어날 때까지 모르는 경우가 많습니다.&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;근로기준법 제48조(임금대장)&lt;/p&gt;
@@ -505,7 +505,38 @@
 &lt;p&gt;시장이 형성된 이유는 간단하게 보면 인간이 &lt;strong&gt;자급자족 할 수 없기 때문&lt;/strong&gt;이다. 반대로 말하면 분업과 교환을 통해 서로 풍요로운 경제생활을 할 수 있기 때문에 시장이 형성되었다. &lt;/p&gt;
 &lt;p&gt;두 사람이 각자 상대적으로 더 잘할 수 있는 생산활동에 집중한다. 그러면 그들은 그 생산활동에 특화된다. 특화는 생산활동의 증대로 이어지고, 전체적인 생산의 양은 늘어난다. 그리고 각자 생산한 결과물을 일정한 비율로 교환한다면, 두 사람 모두 전보다 더 많은 결과물을 소비할 수 있게 되는데, 이를 &lt;strong&gt;&apos;교환의 이득(gains from trade)&apos;&lt;/strong&gt;라고 한다. &lt;/p&gt;
 &lt;p&gt;이런 교환의 이득이 시장의 형성에 가장 중요한 이유이다. 생산에 특화 및 전문화하고 이를 본인보다 더 적은 기회비용으로 생산하는 재화 및 서비스와 교환함으로써 이득을 얻을 수 있기 때문이다.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;image3.png&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 590px;&quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/3560192c0c9f287d3c32d09f753f3482/e7068/image3.jpg&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 55.00000000000001%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAALABQDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAABAD/xAAWAQEBAQAAAAAAAAAAAAAAAAACAwT/2gAMAwEAAhADEAAAAWlRZmKRUP8A/8QAGhAAAgIDAAAAAAAAAAAAAAAAABEBAgMhIv/aAAgBAQABBQJxUybuJ1XJ/8QAFREBAQAAAAAAAAAAAAAAAAAAARD/2gAIAQMBAT8BZ//EABYRAQEBAAAAAAAAAAAAAAAAAAACEf/aAAgBAgEBPwGWv//EABcQAAMBAAAAAAAAAAAAAAAAAAAQIWH/2gAIAQEABj8Cpir/AP/EABgQAQEBAQEAAAAAAAAAAAAAAAEAESFB/9oACAEBAAE/IeBWbBROzGR7oAOeSG3/2gAMAwEAAgADAAAAEITv/8QAFhEBAQEAAAAAAAAAAAAAAAAAABEx/9oACAEDAQE/EMI//8QAFhEAAwAAAAAAAAAAAAAAAAAAARAh/9oACAECAQE/EIKf/8QAGRABAQEBAQEAAAAAAAAAAAAAAQARMUEh/9oACAEBAAE/EHMZWCyg4cTjZeWQGD6QSAAXiX//2Q==&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;image3&quot;
+        title=&quot;image3&quot;
+        src=&quot;/static/3560192c0c9f287d3c32d09f753f3482/88218/image3.jpg&quot;
+        srcset=&quot;/static/3560192c0c9f287d3c32d09f753f3482/7237a/image3.jpg 148w,
+/static/3560192c0c9f287d3c32d09f753f3482/0cfdf/image3.jpg 295w,
+/static/3560192c0c9f287d3c32d09f753f3482/88218/image3.jpg 590w,
+/static/3560192c0c9f287d3c32d09f753f3482/77d57/image3.jpg 885w,
+/static/3560192c0c9f287d3c32d09f753f3482/5a917/image3.jpg 1180w,
+/static/3560192c0c9f287d3c32d09f753f3482/e7068/image3.jpg 1280w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
 &lt;h6 id=&quot;center-1930년도-이전까지-교환의-매개수단으로-사용했던-금-center&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#center-1930%EB%85%84%EB%8F%84-%EC%9D%B4%EC%A0%84%EA%B9%8C%EC%A7%80-%EA%B5%90%ED%99%98%EC%9D%98-%EB%A7%A4%EA%B0%9C%EC%88%98%EB%8B%A8%EC%9C%BC%EB%A1%9C-%EC%82%AC%EC%9A%A9%ED%96%88%EB%8D%98-%EA%B8%88-center&quot; aria-label=&quot;center 1930년도 이전까지 교환의 매개수단으로 사용했던 금 center permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;&lt;center&gt; 1930년도 이전까지 교환의 매개수단으로 사용했던 금 &lt;/center&gt;&lt;/h6&gt;
 &lt;h3 id=&quot;교환의-매개수단&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%EA%B5%90%ED%99%98%EC%9D%98-%EB%A7%A4%EA%B0%9C%EC%88%98%EB%8B%A8&quot; aria-label=&quot;교환의 매개수단 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;교환의 매개수단&lt;/h3&gt;
 &lt;p&gt;화폐가 나타나기 전인 물물교환경제에서는 직접 생산하는 물품과 필요한 물품을 거래했다. 하지만 두 거래간의 욕구를 일치시키는 것이 쉽지 않았고, 원하는 거래자를 만나는데 많은 비용이 들었으며 그 이외 교섭하고 운반하는 비용이 들었다. 즉 거래비용이 많이 소모되었다. 이런 불편을 해소하기 위해 화폐가 출현했고, 시장에서도 모든 상품들이 시장에서 화폐를 통해 교환된다. &lt;/p&gt;</content:encoded></item><item><title><![CDATA[경제적 자원과 생산가능곡선]]></title><description><![CDATA[경제적 자원 경제적 자원은 넓은 의미에서 보았을 때 우리가 아껴 써야 하는 모든 것을 의미한다. 좁은 의미에서는 생산요소(Factors of Production…]]></description><link>https://jungwoo0716.github.io/basic-economics_3/</link><guid isPermaLink="false">https://jungwoo0716.github.io/basic-economics_3/</guid><pubDate>Sat, 05 Jan 2019 00:00:00 GMT</pubDate><content:encoded>&lt;h2 id=&quot;경제적-자원&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%EA%B2%BD%EC%A0%9C%EC%A0%81-%EC%9E%90%EC%9B%90&quot; aria-label=&quot;경제적 자원 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;경제적 자원&lt;/h2&gt;
