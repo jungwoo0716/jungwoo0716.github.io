@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Spacebar | Feed]]></title><description><![CDATA[My Blog]]></description><link>https://jungwoo0716.github.io</link><generator>GatsbyJS</generator><lastBuildDate>Tue, 14 Apr 2020 02:54:30 GMT</lastBuildDate><item><title><![CDATA[임금대장(급여대장) 구글 스프레드시트 양식 및 작성방법]]></title><description><![CDATA[…]]></description><link>https://jungwoo0716.github.io/payroll-form/</link><guid isPermaLink="false">https://jungwoo0716.github.io/payroll-form/</guid><pubDate>Thu, 09 Apr 2020 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;자영업자나 초기 사업가들이 직원을 고용을 할 때 시스템이 갖춰져 있지 않아 기본적인 사항을 지키지 못하는 경우가 많습니다.
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Spacebar | Feed]]></title><description><![CDATA[My Blog]]></description><link>https://jungwoo0716.github.io</link><generator>GatsbyJS</generator><lastBuildDate>Tue, 14 Apr 2020 03:02:38 GMT</lastBuildDate><item><title><![CDATA[임금대장(급여대장) 구글 스프레드시트 양식 및 작성방법]]></title><description><![CDATA[…]]></description><link>https://jungwoo0716.github.io/payroll-form/</link><guid isPermaLink="false">https://jungwoo0716.github.io/payroll-form/</guid><pubDate>Thu, 09 Apr 2020 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;자영업자나 초기 사업가들이 직원을 고용을 할 때 시스템이 갖춰져 있지 않아 기본적인 사항을 지키지 못하는 경우가 많습니다.
 기본적인 인사노무에 관하여 배운 적이 없거나, 배울 여력과 기회가 없는 경우 좋지 않은 상황이 일어날 때까지 모르는 경우가 많습니다.&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;근로기준법 제48조(임금대장)&lt;/p&gt;
@@ -311,7 +311,83 @@
       /&gt;
   &lt;/a&gt;
     &lt;/span&gt;
-왼쪽 그림처럼 빛은 혼합할 수록 색상이 밝아진다. 혼합할수록 명도가 올라가기 때문에 가산혼합이라고 부른다. RGB도 가산혼합이기 때문에, 빛을 이용하여 나타내는 디스플레이 등에는 RGB를 주로 이용한다. 하지만 물감과 같은 색은 오른쪽 그림처럼 혼합할 수록 색상이 어두워진다. 혼합할수록 명도가 낮아지기 때문에 감산혼합이라고 부른다. CMYK는 감산혼합이고, 색을 이용하여 나타내는 책, 필름, 사진 등에는 CMYK를 주로 이용한다.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[경제적 자원과 생산가능곡선]]></title><description><![CDATA[경제적 자원 경제적 자원은 넓은 의미에서 보았을 때 우리가 아껴 써야 하는 모든 것을 의미한다. 좁은 의미에서는 생산요소(Factors of Production…]]></description><link>https://jungwoo0716.github.io/basic-economics_3/</link><guid isPermaLink="false">https://jungwoo0716.github.io/basic-economics_3/</guid><pubDate>Sat, 05 Jan 2019 00:00:00 GMT</pubDate><content:encoded>&lt;h2 id=&quot;경제적-자원&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%EA%B2%BD%EC%A0%9C%EC%A0%81-%EC%9E%90%EC%9B%90&quot; aria-label=&quot;경제적 자원 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;경제적 자원&lt;/h2&gt;
+왼쪽 그림처럼 빛은 혼합할 수록 색상이 밝아진다. 혼합할수록 명도가 올라가기 때문에 가산혼합이라고 부른다. RGB도 가산혼합이기 때문에, 빛을 이용하여 나타내는 디스플레이 등에는 RGB를 주로 이용한다. 하지만 물감과 같은 색은 오른쪽 그림처럼 혼합할 수록 색상이 어두워진다. 혼합할수록 명도가 낮아지기 때문에 감산혼합이라고 부른다. CMYK는 감산혼합이고, 색을 이용하여 나타내는 책, 필름, 사진 등에는 CMYK를 주로 이용한다.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[경제학에서 시장(Market)이란]]></title><description><![CDATA[경제학에서는 크게 3가지의 경제주체로 나누는데, 가계, 기업, 정부가 바로 그것들이다. 가계(household)는 생산요소를 공급하고, 상품을 소비하는 역할을 갖고 있고, 기업(Firm…]]></description><link>https://jungwoo0716.github.io/basic-economics_4/</link><guid isPermaLink="false">https://jungwoo0716.github.io/basic-economics_4/</guid><pubDate>Sun, 06 Jan 2019 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;경제학에서는 크게 3가지의 경제주체로 나누는데, &lt;strong&gt;가계, 기업, 정부&lt;/strong&gt;가 바로 그것들이다. 가계(household)는 생산요소를 공급하고, 상품을 소비하는 역할을 갖고 있고, 기업(Firm)은 생산요소를 구입하여, 상품을 만들고 공급하는 역할을 갖는다. 그리고 정부(Government)는 세금을 징수하고 효율적인 자원 배분을 위해 각종 여러 사업을 수행하는 역할을 갖는다. &lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 590px;&quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/526f2a5834d75d7ee96b3716d0374476/e7068/image1.jpg&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 66.640625%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAANABQDASIAAhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAAAAMEAv/EABYBAQEBAAAAAAAAAAAAAAAAAAQBAv/aAAwDAQACEAMQAAABU+PBUOJy5//EABkQAAMBAQEAAAAAAAAAAAAAAAABEQIDE//aAAgBAQABBQLMIjydThpi6M//xAAWEQEBAQAAAAAAAAAAAAAAAAAAISL/2gAIAQMBAT8BjL//xAAXEQEAAwAAAAAAAAAAAAAAAAAAASEi/9oACAECAQE/Ablt/8QAGRAAAgMBAAAAAAAAAAAAAAAAAKEgMTIz/9oACAEBAAY/ArRpHSH/xAAcEAEAAgIDAQAAAAAAAAAAAAABAEERMRAhYXH/2gAIAQEAAT8hVMCoF6RuFEjD5wr/ACoAxuf/2gAMAwEAAgADAAAAENM//8QAFhEAAwAAAAAAAAAAAAAAAAAAAAER/9oACAEDAQE/EE4If//EABkRAAIDAQAAAAAAAAAAAAAAAAARASFBsf/aAAgBAgEBPxCGIpvD/8QAHBABAQADAAMBAAAAAAAAAAAAAREAIUFRYZHB/9oACAEBAAE/EHU68fvN5EGo335jIAsCDGDC3y46m4kbSnvDaGOrn//Z&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;image1&quot;
+        title=&quot;image1&quot;
+        src=&quot;/static/526f2a5834d75d7ee96b3716d0374476/88218/image1.jpg&quot;
+        srcset=&quot;/static/526f2a5834d75d7ee96b3716d0374476/7237a/image1.jpg 148w,
+/static/526f2a5834d75d7ee96b3716d0374476/0cfdf/image1.jpg 295w,
+/static/526f2a5834d75d7ee96b3716d0374476/88218/image1.jpg 590w,
+/static/526f2a5834d75d7ee96b3716d0374476/77d57/image1.jpg 885w,
+/static/526f2a5834d75d7ee96b3716d0374476/5a917/image1.jpg 1180w,
+/static/526f2a5834d75d7ee96b3716d0374476/e7068/image1.jpg 1280w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;h6 id=&quot;center-시장-center&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#center-%EC%8B%9C%EC%9E%A5-center&quot; aria-label=&quot;center 시장 center permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;&lt;center&gt; 시장 &lt;/center&gt;&lt;/h6&gt;
+&lt;h2 id=&quot;시장market&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%EC%8B%9C%EC%9E%A5market&quot; aria-label=&quot;시장market permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;시장(Market)&lt;/h2&gt;
+&lt;p&gt;시장은 개인과 기업이 상품을 사고 팔기 위해 모인 모임을 의미한다. 시장은 크게 상품시장과 생산요소시장 2가지로 나눌 수 있는데, 이 생산요소시장은 노동시장과 자본시장을 포함한다. 상품시장은 기업이 상품을 공급하고, 가계가 상품을 수요하는 시장을 의미한다. 반대로 생산요소시장은 기업이 수요자이고, 가계는 공급자의 역할을 갖게 된다.&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 590px;&quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/d95782094b4f02add172807e371e55c4/14e05/image2.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 64.765625%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAANCAYAAACpUE5eAAAACXBIWXMAABYlAAAWJQFJUiTwAAABVElEQVQ4y42T246CUAxF+f+/8kUYEogxPngJ3qKiBlRAxbdt1knqiMo4D82Rc9rVdrd6VVWpzc7nsy6Xy8Ou16s77c3sOcZrA3EeDgdtNhtFUaRut6skSZRlmcqydHY6nVQUxd9AYDgC2m632u/3mkwmGg6H7m6322m9XmuxWChNU/feCgR2PB41n8+1XC4dkEpu9U11XT9a5s7gJsEb0NokO1CM9qwlIK/aAs3zvAFtAK0dIBb0KroZCegA/2cfz2BA+v2+fN/XYDB4B1S/FZJoPB4rCALFcew6sSobGtICjkyTCqxCtDMNuUeO1Wql0Wjk9H6Wo9EyZtMlAAlYndls5oL5ZqrT6dSd+PL+UUOD4oAuBuR3r9dT+BO61QHOunBP4q+LTTYmRxUEWAL2jm+AJKPCTwPz2v52CG2wMAzV6XRchSRjgK/79xVoA7HA/6wSdgd/Zdb7/cn0ggAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;image2&quot;
+        title=&quot;image2&quot;
+        src=&quot;/static/d95782094b4f02add172807e371e55c4/799d3/image2.png&quot;
+        srcset=&quot;/static/d95782094b4f02add172807e371e55c4/00d96/image2.png 148w,
+/static/d95782094b4f02add172807e371e55c4/0b23c/image2.png 295w,
+/static/d95782094b4f02add172807e371e55c4/799d3/image2.png 590w,
+/static/d95782094b4f02add172807e371e55c4/2a3d6/image2.png 885w,
+/static/d95782094b4f02add172807e371e55c4/ae92f/image2.png 1180w,
+/static/d95782094b4f02add172807e371e55c4/14e05/image2.png 1280w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;h6 id=&quot;center-시장의-구조-경제순환모형circular-flow-diagram-center&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#center-%EC%8B%9C%EC%9E%A5%EC%9D%98-%EA%B5%AC%EC%A1%B0-%EA%B2%BD%EC%A0%9C%EC%88%9C%ED%99%98%EB%AA%A8%ED%98%95circular-flow-diagram-center&quot; aria-label=&quot;center 시장의 구조 경제순환모형circular flow diagram center permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;&lt;center&gt; 시장의 구조, 경제순환모형(Circular-Flow Diagram) &lt;/center&gt;&lt;/h6&gt;
+&lt;h3 id=&quot;분업과-교환&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%EB%B6%84%EC%97%85%EA%B3%BC-%EA%B5%90%ED%99%98&quot; aria-label=&quot;분업과 교환 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;분업과 교환&lt;/h3&gt;
+&lt;p&gt;시장이 형성된 이유는 간단하게 보면 인간이 &lt;strong&gt;자급자족 할 수 없기 때문&lt;/strong&gt;이다. 반대로 말하면 분업과 교환을 통해 서로 풍요로운 경제생활을 할 수 있기 때문에 시장이 형성되었다. &lt;/p&gt;
+&lt;p&gt;두 사람이 각자 상대적으로 더 잘할 수 있는 생산활동에 집중한다. 그러면 그들은 그 생산활동에 특화된다. 특화는 생산활동의 증대로 이어지고, 전체적인 생산의 양은 늘어난다. 그리고 각자 생산한 결과물을 일정한 비율로 교환한다면, 두 사람 모두 전보다 더 많은 결과물을 소비할 수 있게 되는데, 이를 &lt;strong&gt;&apos;교환의 이득(gains from trade)&apos;&lt;/strong&gt;라고 한다. &lt;/p&gt;
+&lt;p&gt;이런 교환의 이득이 시장의 형성에 가장 중요한 이유이다. 생산에 특화 및 전문화하고 이를 본인보다 더 적은 기회비용으로 생산하는 재화 및 서비스와 교환함으로써 이득을 얻을 수 있기 때문이다.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;image3.png&quot;&gt;&lt;/p&gt;
+&lt;h6 id=&quot;center-1930년도-이전까지-교환의-매개수단으로-사용했던-금-center&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#center-1930%EB%85%84%EB%8F%84-%EC%9D%B4%EC%A0%84%EA%B9%8C%EC%A7%80-%EA%B5%90%ED%99%98%EC%9D%98-%EB%A7%A4%EA%B0%9C%EC%88%98%EB%8B%A8%EC%9C%BC%EB%A1%9C-%EC%82%AC%EC%9A%A9%ED%96%88%EB%8D%98-%EA%B8%88-center&quot; aria-label=&quot;center 1930년도 이전까지 교환의 매개수단으로 사용했던 금 center permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;&lt;center&gt; 1930년도 이전까지 교환의 매개수단으로 사용했던 금 &lt;/center&gt;&lt;/h6&gt;
+&lt;h3 id=&quot;교환의-매개수단&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%EA%B5%90%ED%99%98%EC%9D%98-%EB%A7%A4%EA%B0%9C%EC%88%98%EB%8B%A8&quot; aria-label=&quot;교환의 매개수단 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;교환의 매개수단&lt;/h3&gt;
+&lt;p&gt;화폐가 나타나기 전인 물물교환경제에서는 직접 생산하는 물품과 필요한 물품을 거래했다. 하지만 두 거래간의 욕구를 일치시키는 것이 쉽지 않았고, 원하는 거래자를 만나는데 많은 비용이 들었으며 그 이외 교섭하고 운반하는 비용이 들었다. 즉 거래비용이 많이 소모되었다. 이런 불편을 해소하기 위해 화폐가 출현했고, 시장에서도 모든 상품들이 시장에서 화폐를 통해 교환된다. &lt;/p&gt;</content:encoded></item><item><title><![CDATA[경제적 자원과 생산가능곡선]]></title><description><![CDATA[경제적 자원 경제적 자원은 넓은 의미에서 보았을 때 우리가 아껴 써야 하는 모든 것을 의미한다. 좁은 의미에서는 생산요소(Factors of Production…]]></description><link>https://jungwoo0716.github.io/basic-economics_3/</link><guid isPermaLink="false">https://jungwoo0716.github.io/basic-economics_3/</guid><pubDate>Sat, 05 Jan 2019 00:00:00 GMT</pubDate><content:encoded>&lt;h2 id=&quot;경제적-자원&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%EA%B2%BD%EC%A0%9C%EC%A0%81-%EC%9E%90%EC%9B%90&quot; aria-label=&quot;경제적 자원 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;경제적 자원&lt;/h2&gt;
 &lt;p&gt;경제적 자원은 넓은 의미에서 보았을 때 우리가 아껴 써야 하는 모든 것을 의미한다. 좁은 의미에서는 생산요소(Factors of Production)를 의미한다. 즉 상품이나 서비스를 만들기 위해 필요한 자원을 우리는 경제적 자원이라고 부른다. &lt;/p&gt;
 &lt;p&gt;이 경제적 자원에는 크게 4가지 요소가 있다. &lt;strong&gt;노동(Labor), 자본(Capital), 토지(Land), 기업가적 노력(Entrepreneurials Efforts)&lt;/strong&gt;이다. 사실 이런 요소들도 시간에 따라 변화해 왔다. 18세기 이전에는 오로지 토지와 노동만을 생산요소로 취급했지만, 산업화가 진행되고 제조업이 발달하면서 노동, 자본, 토지가 3대 생산 요소로 자리 매김했다. 최근에는 시대의 변화, 생산의 변화가 급속도로 이루어짐에 따라 기업가적 노력을 중시하는 경향이 생기면서 공식적이지는 않지만, 생산요소의 한 요소로 포함되기도 한다.&lt;/p&gt;
 &lt;p&gt;&lt;span
