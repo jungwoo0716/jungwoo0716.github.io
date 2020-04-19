@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Spacebar | Feed]]></title><description><![CDATA[My Blog]]></description><link>https://jungwoo0716.github.io</link><generator>GatsbyJS</generator><lastBuildDate>Sun, 19 Apr 2020 01:47:58 GMT</lastBuildDate><item><title><![CDATA[임금대장(급여대장) 구글 스프레드시트 양식 및 작성방법]]></title><description><![CDATA[…]]></description><link>https://jungwoo0716.github.io/payroll-form/</link><guid isPermaLink="false">https://jungwoo0716.github.io/payroll-form/</guid><pubDate>Wed, 08 Apr 2020 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;자영업자나 초기 사업가들이 직원을 고용을 할 때 시스템이 갖춰져 있지 않아 기본적인 사항을 지키지 못하는 경우가 많습니다.
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Spacebar | Feed]]></title><description><![CDATA[My Blog]]></description><link>https://jungwoo0716.github.io</link><generator>GatsbyJS</generator><lastBuildDate>Sun, 19 Apr 2020 02:04:23 GMT</lastBuildDate><item><title><![CDATA[임금대장(급여대장) 구글 스프레드시트 양식 및 작성방법]]></title><description><![CDATA[…]]></description><link>https://jungwoo0716.github.io/payroll-form/</link><guid isPermaLink="false">https://jungwoo0716.github.io/payroll-form/</guid><pubDate>Wed, 08 Apr 2020 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;자영업자나 초기 사업가들이 직원을 고용을 할 때 시스템이 갖춰져 있지 않아 기본적인 사항을 지키지 못하는 경우가 많습니다.
 기본적인 인사노무에 관하여 배운 적이 없거나, 배울 여력과 기회가 없는 경우 좋지 않은 상황이 일어날 때까지 모르는 경우가 많습니다.&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;근로기준법 제48조(임금대장)&lt;/p&gt;
@@ -311,7 +311,51 @@
       /&gt;
   &lt;/a&gt;
     &lt;/span&gt;
-왼쪽 그림처럼 빛은 혼합할 수록 색상이 밝아진다. 혼합할수록 명도가 올라가기 때문에 가산혼합이라고 부른다. RGB도 가산혼합이기 때문에, 빛을 이용하여 나타내는 디스플레이 등에는 RGB를 주로 이용한다. 하지만 물감과 같은 색은 오른쪽 그림처럼 혼합할 수록 색상이 어두워진다. 혼합할수록 명도가 낮아지기 때문에 감산혼합이라고 부른다. CMYK는 감산혼합이고, 색을 이용하여 나타내는 책, 필름, 사진 등에는 CMYK를 주로 이용한다.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[경제이론과 경제이론의 구분]]></title><description><![CDATA[…]]></description><link>https://jungwoo0716.github.io/basic-economics_6/</link><guid isPermaLink="false">https://jungwoo0716.github.io/basic-economics_6/</guid><pubDate>Tue, 08 Jan 2019 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;어떤 학문이든 가설을 정하고, 이 가설을 검증할만한 과학적인 방법을 통해 가설을 증명해냄으로서 이론을 정립한다. 이런 많은 이론과 지식이 모여서 학문이 된다. 과학에서의 이론은 현실에 존재하는 여러 변수들 사이의 관계를 의도적으로 단순화하여 이론을 만든다. 그렇다면 경제학에서도 이게 가능할까?&lt;/p&gt;
+왼쪽 그림처럼 빛은 혼합할 수록 색상이 밝아진다. 혼합할수록 명도가 올라가기 때문에 가산혼합이라고 부른다. RGB도 가산혼합이기 때문에, 빛을 이용하여 나타내는 디스플레이 등에는 RGB를 주로 이용한다. 하지만 물감과 같은 색은 오른쪽 그림처럼 혼합할 수록 색상이 어두워진다. 혼합할수록 명도가 낮아지기 때문에 감산혼합이라고 부른다. CMYK는 감산혼합이고, 색을 이용하여 나타내는 책, 필름, 사진 등에는 CMYK를 주로 이용한다.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[수요(Demand)와 수요곡선]]></title><description><![CDATA[수요(Demand) 수요란 소비자가 재화나 서비스를 구매하고자 하는 욕구이며, 수요량은 소비자가 구매하고자 하는 재화나 서비스의 양이다. 수요는 크게 2가지의 성질을 가진다. 첫 번째 성질은 소비자들이 구매하려고 하는 의도(willingness to…]]></description><link>https://jungwoo0716.github.io/basic-economics_7/</link><guid isPermaLink="false">https://jungwoo0716.github.io/basic-economics_7/</guid><pubDate>Wed, 09 Jan 2019 00:00:00 GMT</pubDate><content:encoded>&lt;h2 id=&quot;수요demand&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%EC%88%98%EC%9A%94demand&quot; aria-label=&quot;수요demand permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;수요(Demand)&lt;/h2&gt;
+&lt;p&gt;수요란 소비자가 재화나 서비스를 구매하고자 하는 욕구이며, 수요량은 소비자가 구매하고자 하는 재화나 서비스의 양이다. 수요는 크게 2가지의 성질을 가진다. 첫 번째 성질은 소비자들이 구매하려고 하는 의도(willingness to purchase)를 나타낸다. 이는 실제 구매량이 아니라서 그 재화의 존재량이나 공급량과 직접적인 관계가 없다. 두 번째 성질은 수요는 어떤 일정 기간 동안 구매의 흐름, 즉 유량(flow)를 의미한다. 유량은 일정한 기간을 기준으로 그 양을 재야 하는 것이기 때문에, 기간당 얼마라는 식으로 표현된다. 예를 들면 아이스크림에 대한 수요가 천만 개라고 할 때, 그것이 어떤 기간(예를 들면 일년) 동안의 수요인지를 무조건 나타내야 한다. 기간 뿐 아니라 어느 시점에서의 수요를 나타내는 방법도 있는데, 이를 저량(stock)이라고 한다. &lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 590px;&quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/d222022d5d4f1b9c06fa4020a840a3b3/14e05/image.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 69.6875%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAOCAYAAAAvxDzwAAAACXBIWXMAAAsSAAALEgHS3X78AAAEJ0lEQVQ4y11RaUyadxj/v2v2ySz2y7bsyJZ92Jdu65odaZotusYPLp1psg+tq3adtmm0Kp1FvBUvFLVoUA4PREG5b+RFBQRBDl+EV1DkKDc0TZuth6zV2i3rOzFpE/ckT/I8ye968oB2hXdr1YSiRpnwn3KunrWzJRpeCygt96MS/mKqfafKvjZipPSUz7vLnrGtwrgb5QZk2iVdCO59qWcSM5NErjvkEfipD0vbLjjrn4OutUm02xee3rA1S4g6TYq3FZxl2B0O5bpFZEpytJqkP/0kLh1dftCTkobl7lRs5Z5rcyEd9Ij3+skrmySWBRUmFOEBu2pnrn10D7hL8iJI3/Dq4nbyL5VZGpIGwmm9L+LSbofkAs/YxPK6yng/vuBwx7U1+kBAENpSUFHn6h6CxNA1iya4tHh73W9awSJs9nqMVtsM7lqZ4gf4SwKkm5FQ0OVMq99HNnj9DXoNfJJub3lPaeo4zqBNvwUOSiFSfWy1qz90rG1/F/aJhu47Rre95oYtnYmwZ0FFj4TuqQwQbfqExAX1Egk/IkbGNRiy5EwIjbaT4H+FYUd37zq/0BSfmJdFp6wi62JGIBM/pPYObYHOPnivuUW/36ymBNiuabd+BbmRJSApz7HJVTJkcHGhNbMUSDVyIFJqIKN5BtpR2o5lMYbBX/tMhLaV2QnTPnPOvtEtRI1gFWGq9fx+WCfQGJQRgY2ZLP8xC55Ld0Kkg1TO7QDIyckBEASBDScPYL9Zgb+v/DBlCof/JjExylWQVYkZmvbeqBF1gbuqSUVC3JKJVF7lRzrIPKw++mYWvNRYdkgqCeS+PtNug0EPRgFhTjWU3dPm4rfNEy3wOFWfYM1qntM5sj9BpObmsztSksQSQ25LZ6nigg/e/TwLbh8ohOa4X4NxL+1QjLlMALxPThzOLkIe9MpEQCvjjw3U79sRxWOrW5sE9cXFM00tnSzecBl8vavOe6qBPHjkGQedx5uDTrNYECYBgMo79VrMEmWWrqrJSqT50lO0tQNLjgkwMD/TCqOSJp3ISPb9NC5Wf9nIrajR5TZeCL1zBgPIG0feezYOvTIpJM7l4/sFzrpbqsjYrZGmXZh5JdrVnQaKsYbaDlLnvySZRfWz4XsO5XqRXl114hFf+0VQyc6flimLroHKp8c/FcPvZ8W+HQG5C199xCrBDXrPM+DHtGGjw6CNLtL/aK4b8BepQG0tx1NZOWkaIE1vTrlKM5LKHyIlVwo2tMqLmEddgBkl57UUdb346tDvd9j400SK+zPTZXr+iyrG2TTV3BSqY847aW1kLKpWZAzWfjn45SKeh6vutcEuGAtyhl70X6tC8T3VMY9j4EltRSGqleOs2/aK4LicsdvagkdnYxW7N9TnfK32cxifSg8SGsV/427iXg7Xde22XyZY/wMeh2JzZsB1EwAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;image&quot;
+        title=&quot;image&quot;
+        src=&quot;/static/d222022d5d4f1b9c06fa4020a840a3b3/799d3/image.png&quot;
+        srcset=&quot;/static/d222022d5d4f1b9c06fa4020a840a3b3/00d96/image.png 148w,
+/static/d222022d5d4f1b9c06fa4020a840a3b3/0b23c/image.png 295w,
+/static/d222022d5d4f1b9c06fa4020a840a3b3/799d3/image.png 590w,
+/static/d222022d5d4f1b9c06fa4020a840a3b3/2a3d6/image.png 885w,
+/static/d222022d5d4f1b9c06fa4020a840a3b3/ae92f/image.png 1180w,
+/static/d222022d5d4f1b9c06fa4020a840a3b3/14e05/image.png 1280w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;h6 id=&quot;center수요demand란center&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#center%EC%88%98%EC%9A%94demand%EB%9E%80center&quot; aria-label=&quot;center수요demand란center permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;&lt;center&gt;수요(Demand)란&lt;/center&gt;&lt;/h6&gt;
+&lt;h2 id=&quot;수요를-결정하는-요인들&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%EC%88%98%EC%9A%94%EB%A5%BC-%EA%B2%B0%EC%A0%95%ED%95%98%EB%8A%94-%EC%9A%94%EC%9D%B8%EB%93%A4&quot; aria-label=&quot;수요를 결정하는 요인들 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;수요를 결정하는 요인들&lt;/h2&gt;
+&lt;p&gt;수요에 영향을 주는 요인들은 여러가지가 있다. 첫번째 그 재화의 시장가격이다. 일반적으로 시장가격이 높다면 수요는 적다. 낮다면 물론 수요는 많다. &lt;/p&gt;
+&lt;p&gt;두 번째 다른 재화의 가격이다. 다른 재화가 대체제(substitute goods)일 경우, 재화의 가격이 증가한다면 이 대체제의 수요는 증가한다. 보완재(complementary goods)일 경우는 재화의 가격이 증가한다면 이 보완재의 수요 역시 감소한다. 독립재(independent goods)일 경우 재화의 가격이 변화하더라도 수요가 전혀 변하지 않는 경우이다.&lt;/p&gt;
+&lt;p&gt;세 번째는 소비자의 소득수준이다. 대부분은 소득이 증가하면 수요가 증가한다. 이런 재화를 정상재(normal goods)라고 한다. 하지만 반대의 경우도 있다. 소득이 증가하면서 수요가 낮아지는 것을 열등재(inferior goods)라고 한다. 이건 재화의 고유의 속성은 아니다. 역사적, 문화적 환경에 따라, 기술의 변화에 따라 어떤 재화던지 정상재가 될 수 있고, 열등재가 될 수 있다.&lt;/p&gt;
+&lt;p&gt;네 번째는 소비자의 기호이다. 소비자가 원하는 것이 달라지면 수요가 변화한다. 소비자들이 건강에 관심이 생기면서 유기농 식품에 대한 수요가 높아지는 것도 그 예로 들 수 있다. 소비자의 기호는 언론, 미디어, 광고, 혹은 해외 사례 등을 통해 변화한다.&lt;/p&gt;
+&lt;p&gt;다섯 번째는 인구규모와 구성이다. 인구가 증가하면 모든 재화에 대한 수요가 증가한다. 중국처럼 많은 인구를 가지고 있는 나라를 보면 알 수 있다. 이 외에도 어떤 인구분포를 가지느냐에 따라 주로 가지는 수요도 달라진다. 고령화 사회에 접어들수록 의료서비스에 대한 수요가 증가하는 것이 그 예이다.&lt;/p&gt;
+&lt;p&gt;여섯 번째는 소비자들 간의 소득분포이다. 소득수준의 차이가 별로 없는 곳일 경우 큰 차이가 없을 것이지만, 소득수준의 차이가 크면 각 층이 수요하는 재화의 종류나 양에 많은 차이가 발생할 것이다.&lt;/p&gt;
+&lt;h2 id=&quot;수요곡선&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%EC%88%98%EC%9A%94%EA%B3%A1%EC%84%A0&quot; aria-label=&quot;수요곡선 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;수요곡선&lt;/h2&gt;
+&lt;p&gt;수요곡선은 다른 변수들이 변하지 않는다고 가정하고, 가격에 따라 변하는 수요량을 그래프로 나타낸 것이다. 어떤 상품의 가격이 떨어짐에 따라 소비자들이 더 많은 양을 수요하는 현상이 바로 &apos;수요의 법칙&apos;이다. 물론 이 수요의 법칙을 따르지 않는 상품도 있다. 이런 상품들은 가격이 오를 때 수요량이 더 커지는데, 흔히 과시적 소비를 하기 위한 상품으로 기픈재(Giffen goods)라고 한다.&lt;/p&gt;
+&lt;p&gt;수요곡선의 예를 들기 위해, 경민이가 아이스크림 가격에 따라 한달 수요량을 아래와 같은 그래프로 나타낼 수 있다. 이와 같이 수요곡선은 우하향하는 모양을 가진다.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[경제이론과 경제이론의 구분]]></title><description><![CDATA[…]]></description><link>https://jungwoo0716.github.io/basic-economics_6/</link><guid isPermaLink="false">https://jungwoo0716.github.io/basic-economics_6/</guid><pubDate>Tue, 08 Jan 2019 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;어떤 학문이든 가설을 정하고, 이 가설을 검증할만한 과학적인 방법을 통해 가설을 증명해냄으로서 이론을 정립한다. 이런 많은 이론과 지식이 모여서 학문이 된다. 과학에서의 이론은 현실에 존재하는 여러 변수들 사이의 관계를 의도적으로 단순화하여 이론을 만든다. 그렇다면 경제학에서도 이게 가능할까?&lt;/p&gt;
 &lt;h2 id=&quot;경제이론이란&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%EA%B2%BD%EC%A0%9C%EC%9D%B4%EB%A1%A0%EC%9D%B4%EB%9E%80&quot; aria-label=&quot;경제이론이란 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;경제이론이란&lt;/h2&gt;
 &lt;p&gt;경제학은 어떻게 보면 인간의 행동을 예측해야 한다. 경제학은 앞서 말했듯이 선택에 관련된 학문이다. 정확히 말하면 인간의 선택, 인간들의 선택이다. 공학이나 자연과학과는 다르게 사회과학이 힘든 점이 바로 이 사람의 행동을 이해하고 예측하는 것이 매우 어렵기 때문이다. &lt;/p&gt;
 &lt;p&gt;경제학에서는 이를 조금 더 쉽게 해결할 수 있는 방법을 찾았는데, 이것을 &lt;strong&gt;&apos;대수의 법칙(Law of large numbers)&apos;&lt;/strong&gt; 이라고 부른다. 개인의 행동은 매우 다를 수 있으나, 집단의 행동은 상당히 안정적이고 예측할 수 있다는 점이다. 전체 집단을 놓고 볼 때, 각 개인의 우연한 반응이 상쇄돼어 버리는 현상을 말한다. 즉 많은 수의 집단을 표본으로 할 수록 개인이 갖고 있는 우연한 특징이 보이지 않게 된다는 의미이다.&lt;/p&gt;
@@ -351,7 +395,36 @@
 &lt;p&gt;경제를 집단의 차원에서 보게 된다면, 일정한 흐름을 볼 수 있다. 이를 통해 현실 경제를 단순화하고 축소하여 경제가 어떻게 움직이는지 수식 등으로 표현한 것을 &lt;strong&gt;경제모형(economic model)&lt;/strong&gt;이라고 한다. &lt;/p&gt;
 &lt;p&gt;다른 학문과 똑같이 가설(hypothesis)를 세우고 가정(assumption)을 세우고, 변수(variable)를 나타내고 관계를 함수(function)로 표현한다. 이런 방법으로 경제분석을 함으로써 여러 변수들 사이에 존재하는 상관관계(Correlation)나 인과관계(Causation)를 밝혀내게 된다.&lt;/p&gt;
 &lt;p&gt;이런 과정을 통해 경제학에서는 실업률과 인플레이션율이 상관관계를 갖고 있음을 밝혀냈다. 실업률과 인플레이션은 역의 관계를 갖고 있다. 즉 실업률이 높아지면, 인플레이션이 낮아지고, 반대로 실업률이 낮아지면 인플레이션이 높아진다. 이를 &lt;strong&gt;필립스 곡선&lt;/strong&gt;이라고 부른다. &lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;image2.jpeg&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 590px;&quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/d1acbc1fb12b90df618ff3bdccbecf6c/3f01f/image2.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 70.66666666666667%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAOCAIAAACgpqunAAAACXBIWXMAAA7FAAAOxQFHbOz/AAABUklEQVQoz51S226DMAzl/7+LVe3LtvKwFlgndWhcSqBLCZRcnMyGUrGHSaxWEiWRj8/xxXPOWWvdQ+bhVkpprTEEGGP/YxMYYVrLunaDkiW0BM7z/Hj8JFpk5xc7/C4xAPCSJCEwAAa7nkrT9wvxBI7C/dtuNyoxbWuEGDQtkx1FYRhFoz9oI5IEwCwhJ+aPwwHR9zppIVRVuyGL2+e8frMnMQfBdhsEbqLCC0ilzmfdtlhCO/lRFwHsIHBcxBzHURy/u5lOugP0jKmqMpzL+nwtTpfdXpVMV7X55tBdMS5Y8NBbSuRS7neeN0KlDE5BI/osM02jURFj8itVbYsJ0JBgg0cw3FP9q8LTotYYQ2Bk7vteKdl1XStEmqasquhkrCiKU1mmWVoxxjknNylF0xjik968b3gWeeb7/mq12qw3T77//PK6WZPhLIRheE9nhPwAPBEwC/TRd40AAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;image2&quot;
+        title=&quot;image2&quot;
+        src=&quot;/static/d1acbc1fb12b90df618ff3bdccbecf6c/799d3/image2.png&quot;
+        srcset=&quot;/static/d1acbc1fb12b90df618ff3bdccbecf6c/00d96/image2.png 148w,
+/static/d1acbc1fb12b90df618ff3bdccbecf6c/0b23c/image2.png 295w,
+/static/d1acbc1fb12b90df618ff3bdccbecf6c/799d3/image2.png 590w,
+/static/d1acbc1fb12b90df618ff3bdccbecf6c/3f01f/image2.png 600w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
 &lt;h6 id=&quot;center-1960년대의-미국의-필립스-곡선-center&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#center-1960%EB%85%84%EB%8C%80%EC%9D%98-%EB%AF%B8%EA%B5%AD%EC%9D%98-%ED%95%84%EB%A6%BD%EC%8A%A4-%EA%B3%A1%EC%84%A0-center&quot; aria-label=&quot;center 1960년대의 미국의 필립스 곡선 center permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;&lt;center&gt; 1960년대의 미국의 필립스 곡선 &lt;/center&gt;&lt;/h6&gt;
 &lt;p&gt;인플레이션율을 우리는 흔히 물가 상승률이라고도 보는데, 좀 다른 개념이다. 인플레이션율은 지속적인 물가 상승률이 얼마나 진행되고 있는가가 더 중요한 것으로, 일반적으로 6개월 동안 물가가 상승해야 인플레이션이 존재한다고 본다. 좀 이해하기 쉽게 본다면, 실업률이 높아지면 물가가 떨어지고, 실업률이 낮아지면 물가가 올라간다고 볼 수 있다. 물가 안정과 고용 안정을 둘 다 잡기 힘든 이유가 바로 이런 상관관계가 있기 때문이다.&lt;/p&gt;
 &lt;h2 id=&quot;경제이론의-구분&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%EA%B2%BD%EC%A0%9C%EC%9D%B4%EB%A1%A0%EC%9D%98-%EA%B5%AC%EB%B6%84&quot; aria-label=&quot;경제이론의 구분 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;경제이론의 구분&lt;/h2&gt;
