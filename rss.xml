@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Spacebar | Feed]]></title><description><![CDATA[My Blog]]></description><link>https://jungwoo0716.github.io</link><generator>GatsbyJS</generator><lastBuildDate>Tue, 21 Apr 2020 06:16:30 GMT</lastBuildDate><item><title><![CDATA[임금대장(급여대장) 구글 스프레드시트 양식 및 작성방법]]></title><description><![CDATA[…]]></description><link>https://jungwoo0716.github.io/payroll-form/</link><guid isPermaLink="false">https://jungwoo0716.github.io/payroll-form/</guid><pubDate>Wed, 08 Apr 2020 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;자영업자나 초기 사업가들이 직원을 고용을 할 때 시스템이 갖춰져 있지 않아 기본적인 사항을 지키지 못하는 경우가 많습니다.
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Spacebar | Feed]]></title><description><![CDATA[My Blog]]></description><link>https://jungwoo0716.github.io</link><generator>GatsbyJS</generator><lastBuildDate>Tue, 21 Apr 2020 06:25:03 GMT</lastBuildDate><item><title><![CDATA[임금대장(급여대장) 구글 스프레드시트 양식 및 작성방법]]></title><description><![CDATA[…]]></description><link>https://jungwoo0716.github.io/payroll-form/</link><guid isPermaLink="false">https://jungwoo0716.github.io/payroll-form/</guid><pubDate>Wed, 08 Apr 2020 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;자영업자나 초기 사업가들이 직원을 고용을 할 때 시스템이 갖춰져 있지 않아 기본적인 사항을 지키지 못하는 경우가 많습니다.
 기본적인 인사노무에 관하여 배운 적이 없거나, 배울 여력과 기회가 없는 경우 좋지 않은 상황이 일어날 때까지 모르는 경우가 많습니다.&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;근로기준법 제48조(임금대장)&lt;/p&gt;
@@ -311,7 +311,118 @@
       /&gt;
   &lt;/a&gt;
     &lt;/span&gt;
-왼쪽 그림처럼 빛은 혼합할 수록 색상이 밝아진다. 혼합할수록 명도가 올라가기 때문에 가산혼합이라고 부른다. RGB도 가산혼합이기 때문에, 빛을 이용하여 나타내는 디스플레이 등에는 RGB를 주로 이용한다. 하지만 물감과 같은 색은 오른쪽 그림처럼 혼합할 수록 색상이 어두워진다. 혼합할수록 명도가 낮아지기 때문에 감산혼합이라고 부른다. CMYK는 감산혼합이고, 색을 이용하여 나타내는 책, 필름, 사진 등에는 CMYK를 주로 이용한다.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[수요(Demand)의 탄력성]]></title><description><![CDATA[수요의 개념을 알고 수요곡선을 알고 있다고 해도 이를 실제 현실 세계에서는 사용할 일이 많지 않다. 실용적으로 사용하기 위해서는 수요의 탄력성(elasticity of demand…]]></description><link>https://jungwoo0716.github.io/basic-economics_8/</link><guid isPermaLink="false">https://jungwoo0716.github.io/basic-economics_8/</guid><pubDate>Thu, 10 Jan 2019 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;수요의 개념을 알고 수요곡선을 알고 있다고 해도 이를 실제 현실 세계에서는 사용할 일이 많지 않다. 실용적으로 사용하기 위해서는 &lt;strong&gt;수요의 탄력성(elasticity of demand)&lt;/strong&gt;을 알아야 한다. 수요의 탄력성은 수요에 영향을 주는 요인들이 변화함에 따라 해당 상품의 수요량이 얼마나 민감하게 반응하는가를 나타내는 정도를 의미한다.&lt;/p&gt;
+왼쪽 그림처럼 빛은 혼합할 수록 색상이 밝아진다. 혼합할수록 명도가 올라가기 때문에 가산혼합이라고 부른다. RGB도 가산혼합이기 때문에, 빛을 이용하여 나타내는 디스플레이 등에는 RGB를 주로 이용한다. 하지만 물감과 같은 색은 오른쪽 그림처럼 혼합할 수록 색상이 어두워진다. 혼합할수록 명도가 낮아지기 때문에 감산혼합이라고 부른다. CMYK는 감산혼합이고, 색을 이용하여 나타내는 책, 필름, 사진 등에는 CMYK를 주로 이용한다.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[공급(Supply)이란]]></title><description><![CDATA[공급이란 생산자가 재화나 서비스를 판매하고자 하는 의도이다. 공급량은 생산자가 재화나 서비스를 판매하고자 하는 양을 의미한다. 수요와 마찬가지로 공급 역시 똑같은…]]></description><link>https://jungwoo0716.github.io/basic-economics_9/</link><guid isPermaLink="false">https://jungwoo0716.github.io/basic-economics_9/</guid><pubDate>Fri, 11 Jan 2019 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;공급이란 생산자가 재화나 서비스를 판매하고자 하는 의도이다. 공급량은 생산자가 재화나 서비스를 판매하고자 하는 양을 의미한다. 수요와 마찬가지로 공급 역시 똑같은 2가지 성질을 가진다. 실제로 판매한 양이 아니라 판매하고자 하는 의도를 말한다는 점과, 공급량은 유량 개념이어야 한다는 점이다.&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 590px;&quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/1c37f8e3b56496bd902d8a60d373f48e/e7068/image1.jpg&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 66.640625%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAANABQDASIAAhEBAxEB/8QAGAAAAwEBAAAAAAAAAAAAAAAAAAIDAQX/xAAVAQEBAAAAAAAAAAAAAAAAAAAAAf/aAAwDAQACEAMQAAABllljmilf/8QAHBAAAQMFAAAAAAAAAAAAAAAAAAECAxESIjEy/9oACAEBAAEFAk5l1QiZeTpgf//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQMBAT8BP//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQIBAT8BP//EABcQAQADAAAAAAAAAAAAAAAAABAAMYH/2gAIAQEABj8CmFv/xAAaEAADAQEBAQAAAAAAAAAAAAAAARExIWFx/9oACAEBAAE/IUs/BNNJPwOp0mdjhpucLh//2gAMAwEAAgADAAAAEA/P/8QAFREBAQAAAAAAAAAAAAAAAAAAEBH/2gAIAQMBAT8Qh//EABURAQEAAAAAAAAAAAAAAAAAABAR/9oACAECAQE/EKf/xAAbEAEAAgMBAQAAAAAAAAAAAAABABEhQXExgf/aAAgBAQABPxCiYXfrWJSwCiFM77ELAY3CtgA4jgTU/RL1xP/Z&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;image1&quot;
+        title=&quot;image1&quot;
+        src=&quot;/static/1c37f8e3b56496bd902d8a60d373f48e/88218/image1.jpg&quot;
+        srcset=&quot;/static/1c37f8e3b56496bd902d8a60d373f48e/7237a/image1.jpg 148w,
+/static/1c37f8e3b56496bd902d8a60d373f48e/0cfdf/image1.jpg 295w,
+/static/1c37f8e3b56496bd902d8a60d373f48e/88218/image1.jpg 590w,
+/static/1c37f8e3b56496bd902d8a60d373f48e/77d57/image1.jpg 885w,
+/static/1c37f8e3b56496bd902d8a60d373f48e/5a917/image1.jpg 1180w,
+/static/1c37f8e3b56496bd902d8a60d373f48e/e7068/image1.jpg 1280w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;h6 id=&quot;center-공급supply이란-center&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#center-%EA%B3%B5%EA%B8%89supply%EC%9D%B4%EB%9E%80-center&quot; aria-label=&quot;center 공급supply이란 center permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;&lt;center&gt; 공급(Supply)이란? &lt;/center&gt;&lt;/h6&gt;
+&lt;h2 id=&quot;공급을-결정하는-요인들&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%EA%B3%B5%EA%B8%89%EC%9D%84-%EA%B2%B0%EC%A0%95%ED%95%98%EB%8A%94-%EC%9A%94%EC%9D%B8%EB%93%A4&quot; aria-label=&quot;공급을 결정하는 요인들 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;공급을 결정하는 요인들&lt;/h2&gt;
+&lt;p&gt;공급을 결정하는 요인에는 5가지가 있다. 첫 번째 재화의 시장가격이다. 재화의 시장가격이 상승하면 그 재화를 생산하는 것이 더 큰 이득을 가져다주기 때문에 공급량이 증가한다. 반대의 경우는 공급량이 감소한다.&lt;/p&gt;
+&lt;p&gt;두 번째 다른 재화의 가격이다. 다른 재화의 가격이 상승하면 이들을 공급하는 것이 더 많은 이득이 되기 때문에, 가격이 그대로인 재화의 공급은 감소하게 된다.&lt;/p&gt;
+&lt;p&gt;세 번째 생산요소의 가격이다. 생산요소의 가격이 증가하면 그 생산요소를 많이 사용하는 재화의 생산비용은 크게 증가하지만, 그 생산요소를 적게 사용하면 생산비용이 작게 증가한다. 생산요소 가격의 변화는 이윤의 크기를 변화시키고, 생산의 공급량도 변화시킨다.&lt;/p&gt;
+&lt;p&gt;네 번째는 기술수준이다. 기술진보는 새로운 상품을 개발 할 수 있게 하며, 이미 개발된 제품의 생산비 절감도 불러일으켜 공급을 증가시키는 결과를 만든다.&lt;/p&gt;
+&lt;p&gt;다섯 번째는 기업의 목표이다. 경제이론에서 기업의 목표는 오직 이윤극대화에 있다고 가정한다. 하지만 대부분의 기업이 갖고 있는 목표는 이윤극대화에 초점이 맞춰져 있지 않다. 각 기업이 갖고 있는 방향성과 목표에 따라 재화를 생산하고 공급하는 방법이 달라지게 된다.&lt;/p&gt;
+&lt;h2 id=&quot;공급곡선&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%EA%B3%B5%EA%B8%89%EA%B3%A1%EC%84%A0&quot; aria-label=&quot;공급곡선 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;공급곡선&lt;/h2&gt;
+&lt;p&gt;공급곡선도 수요곡선과 같이 가격에 따라 변하는 공급량을 그래프로 나타낸 것이다. 어떤 상품의 가격이 올라가면 생산자들이 더 많은 양을 공급하는 현상을 &lt;strong&gt;&apos;공급의 법칙(Law of supply)&apos;&lt;/strong&gt;라고 한다. 수요곡선은 우하향하는 모양을 갖지만, 공급곡선은 아래와 같이 우상향하는 모양을 갖는다.&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 590px;&quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/47ea9efebee812e98cdd02965aecd124/14e05/image2.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 56.796875%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAALCAIAAADwazoUAAAACXBIWXMAABYlAAAWJQFJUiTwAAAA2klEQVQoz42SzQ6DIBCE+/6v50ETL0ajxh8UFTz3i1NJpW3sHMiwMjsD62M7sK5rURTDMDjntiu899TLspymKfr6CMxay2c1CmBLMc/z7RteYlpyqOu6ZVnsiXmeqWdZ1jTNvu/q9VM8jmNwpguBq6rCFvKpjMXcDS5zBARJ03Q5cBObkHLmKFs4Sjr+K8aZcyTs+z5JEpRw6jdiXRU3urRtiyfJ4bq8uvsTYWAXsTEGDf7mBJwUEPz7A5pILNY76ak1cwTSKzn/SV3XrAp1EUdwb1CFUZOZNVSetdVrhBM2iQQAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;image2&quot;
+        title=&quot;image2&quot;
+        src=&quot;/static/47ea9efebee812e98cdd02965aecd124/799d3/image2.png&quot;
+        srcset=&quot;/static/47ea9efebee812e98cdd02965aecd124/00d96/image2.png 148w,
+/static/47ea9efebee812e98cdd02965aecd124/0b23c/image2.png 295w,
+/static/47ea9efebee812e98cdd02965aecd124/799d3/image2.png 590w,
+/static/47ea9efebee812e98cdd02965aecd124/2a3d6/image2.png 885w,
+/static/47ea9efebee812e98cdd02965aecd124/ae92f/image2.png 1180w,
+/static/47ea9efebee812e98cdd02965aecd124/14e05/image2.png 1280w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;h6 id=&quot;center-공급곡선-center&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#center-%EA%B3%B5%EA%B8%89%EA%B3%A1%EC%84%A0-center&quot; aria-label=&quot;center 공급곡선 center permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;&lt;center&gt; 공급곡선 &lt;/center&gt;&lt;/h6&gt;
+&lt;p&gt;공급곡선의 높이는 생산자가 최소한으로 지급 받고 싶은 금액을 의미한다. 공급곡선이 위와 같이 우상향하는 모양을 갖는 이유는 생산량을 늘릴 때 추가적으로 드는 비용이 점차 증가한다. 또한 가격이 오르면 새로운 공급자를 출현시켜 공급량이 증가하게 된다. &lt;/p&gt;
+&lt;p&gt;공급곡선 위에서 운동하는 것은 해당 상품 가격변화에 따른 공급량의 변화일 뿐이다. 공급량을 결정하는 요인들에는 그 상품의 가격, 투입요소의 가격, 생산기술, 산업내의 기업 수, 미래에 대한 기대 등이 있다. 공급곡선이 이동하는 경우는 가격 이외 앞에서 언급했던 공급을 결정하는 다른 요인에 의해 공급이 변화될 때이다. &lt;/p&gt;
+&lt;h2 id=&quot;시장-전체의-공급곡선&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%EC%8B%9C%EC%9E%A5-%EC%A0%84%EC%B2%B4%EC%9D%98-%EA%B3%B5%EA%B8%89%EA%B3%A1%EC%84%A0&quot; aria-label=&quot;시장 전체의 공급곡선 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;시장 전체의 공급곡선&lt;/h2&gt;
+&lt;p&gt;일정한 조건이 충족될 때, 생산자의 공급곡선을 수평방향으로 더하면 시장 전체의 공급곡선을 구할 수 있다. 여기서 일정한 조건은 모든 생산자가 동시에 생산량을 증가시켜도 투입요소의 가격이 변화하지 않음을 전제로 한다. 현실에서는 모든 생산자가 동시에 생산량을 증가시키면 투입요소의 가격이 올라가는 것이 일반적이기 때문에 이는 가정일 뿐이다.&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 590px;&quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/7d26c88863a4a15cf1e44c62c007d208/14e05/image3.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 58.046875%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAMCAYAAABiDJ37AAAACXBIWXMAAAsSAAALEgHS3X78AAABKElEQVQoz32T3baCIBCFff8XPNUyNUNEFMXfupvcdCDQ8mKvNTLDx+wBo3mcqZEN1bKmaZho7MdDocbXNhcByHJmhHi70cX9+3vQA+lWO23rIgtomzYAobjv+qALxKpWxO4FZUlGJS/degBE0KkuAEohzQYc5EPhAlAAn8vzN9B2aL+rsjIbt10+5gdd44TqqnYjOuwQRXqFCC7Mmj8j5LAWX+LdvB3QDlqUws0NF1SwwsSQ7rQRas+ni+lumZavlxdYBhhP6JbedrOD1TzLKVntWtghEFYAxOwQ6//ZQQAUjFN6TcOntHmPuw5h2XYJWcsQbCLXqk8d9BWIhL1RFPOCm059oAUAjMPR7envvHun5k8xmj6CRcjlPGF9GkaSlVzB6r3HY7wAKfWSynXCw60AAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;image3&quot;
+        title=&quot;image3&quot;
+        src=&quot;/static/7d26c88863a4a15cf1e44c62c007d208/799d3/image3.png&quot;
+        srcset=&quot;/static/7d26c88863a4a15cf1e44c62c007d208/00d96/image3.png 148w,
+/static/7d26c88863a4a15cf1e44c62c007d208/0b23c/image3.png 295w,
+/static/7d26c88863a4a15cf1e44c62c007d208/799d3/image3.png 590w,
+/static/7d26c88863a4a15cf1e44c62c007d208/2a3d6/image3.png 885w,
+/static/7d26c88863a4a15cf1e44c62c007d208/ae92f/image3.png 1180w,
+/static/7d26c88863a4a15cf1e44c62c007d208/14e05/image3.png 1280w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;h6 id=&quot;center-시장-전체의-공급곡선-center&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#center-%EC%8B%9C%EC%9E%A5-%EC%A0%84%EC%B2%B4%EC%9D%98-%EA%B3%B5%EA%B8%89%EA%B3%A1%EC%84%A0-center&quot; aria-label=&quot;center 시장 전체의 공급곡선 center permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;&lt;center&gt; 시장 전체의 공급곡선 &lt;/center&gt;&lt;/h6&gt;</content:encoded></item><item><title><![CDATA[수요(Demand)의 탄력성]]></title><description><![CDATA[수요의 개념을 알고 수요곡선을 알고 있다고 해도 이를 실제 현실 세계에서는 사용할 일이 많지 않다. 실용적으로 사용하기 위해서는 수요의 탄력성(elasticity of demand…]]></description><link>https://jungwoo0716.github.io/basic-economics_8/</link><guid isPermaLink="false">https://jungwoo0716.github.io/basic-economics_8/</guid><pubDate>Thu, 10 Jan 2019 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;수요의 개념을 알고 수요곡선을 알고 있다고 해도 이를 실제 현실 세계에서는 사용할 일이 많지 않다. 실용적으로 사용하기 위해서는 &lt;strong&gt;수요의 탄력성(elasticity of demand)&lt;/strong&gt;을 알아야 한다. 수요의 탄력성은 수요에 영향을 주는 요인들이 변화함에 따라 해당 상품의 수요량이 얼마나 민감하게 반응하는가를 나타내는 정도를 의미한다.&lt;/p&gt;
 &lt;p&gt;어떤 제품을 판매할 때, 가격에 따라 수요량이 얼마인지를 파악한다면, 판매수입을 예측할 수 있고, 이에 따른 손익분기점을 추정하여 예산계획을 수립할 수 있다. &lt;/p&gt;
 &lt;p&gt;&lt;span
       class=&quot;gatsby-resp-image-wrapper&quot;
@@ -1034,86 +1145,4 @@
 &lt;h6 id=&quot;center-쌀과-옷의-생산가능곡선-center&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#center-%EC%8C%80%EA%B3%BC-%EC%98%B7%EC%9D%98-%EC%83%9D%EC%82%B0%EA%B0%80%EB%8A%A5%EA%B3%A1%EC%84%A0-center&quot; aria-label=&quot;center 쌀과 옷의 생산가능곡선 center permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;&lt;center&gt; 쌀과 옷의 생산가능곡선 &lt;/center&gt;&lt;/h6&gt;
 &lt;p&gt;현실에서의 생산가능곡선은 직선 형태가 아닌 원점에서 오목한 형태이다. 이런 현상이 일어나는 이유는 &lt;strong&gt;&apos;기회비용체증의 법칙(Law of increasing opportunity cost)&apos;&lt;/strong&gt; 때문이다. 이 법칙은 한 상품의 생산이 점차 늘어나면서 그것의 기회비용이 더 커지는 현상이 나타나는 것을 의미한다. &lt;/p&gt;
 &lt;p&gt;이런 이유가 발생하는 이유는 결론적으로 유한한 자원과 선택 때문이다. 생산가능곡선의 정의에서는 사용 가능한 자원이 일정하다라는 가정이 있다. 쌀과 옷은 각각 적합한 자원이 다르다. 유한한 자원에서 더 많은 쌀을 얻기 위해 옷을 생산하는데 유리한 자원까지 사용해서 생산한다. 그렇다면 그만큼 옷을 적게 생산하기 때문에 기회비용이 커지게 되는 것이다.&lt;/p&gt;
-&lt;p&gt;이 둘의 생산을 늘리게 하는 방법이 있는데, 바로 &lt;strong&gt;성장(Growth)&lt;/strong&gt; 이다. 기술을 개발하고 개선함으로써 생산자원의 양을 증가시키는 방법이다. 성장하면 그래프에서 보여지는 것처럼 생산가능곡선이 원점에서 먼 곳으로 이동하게 된다.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[합리적 선택(Rational Choice)을 하는 방법]]></title><description><![CDATA[…]]></description><link>https://jungwoo0716.github.io/basic-economics_2/</link><guid isPermaLink="false">https://jungwoo0716.github.io/basic-economics_2/</guid><pubDate>Fri, 04 Jan 2019 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;경제학은 선택의 학문이라고도 했다. 경제학에서는 개인뿐 아니라 사회적 차원에서 이루어지는 모든 경제적 선택행위에 대해 연구 한다. 기존의 경제학은 상품 생산, 교환, 소비와 관련된 문제에 대해서 주로 연구하는 학문으로서 받아들여졌지만, 현대의 경제학은 선택의 문제와 관련된 모든 것이 연구 대상이다. &lt;/p&gt;
-&lt;p&gt;현대에 들면서 경제학에서 다루는 관심사가 매우 포괄적이고 넓어졌다. 범죄와 처벌의 경제학, 예술의 경제학, 스포츠의 경제학 등 다양한 관심 분야의 경제학이 생기고 있다. 이외에도 국가와 사회라는 큰 차원에서 이루어지는 선택도 각 사회마다, 나라마다 다른 경제제도와, 그 경제제도로 인해 나타나는 독특한 경제현상을 배우고 이해하는 것이다. 즉 경제학의 원론은 모든 분야에서 합리적 선택을 가능하게 한다. &lt;/p&gt;
-&lt;p&gt;&lt;span
-      class=&quot;gatsby-resp-image-wrapper&quot;
-      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 590px;&quot;
-    &gt;
-      &lt;a
-    class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/92c5e5c28daa604bcec2828d45a20f1f/e7068/image1.jpg&quot;
-    style=&quot;display: block&quot;
-    target=&quot;_blank&quot;
-    rel=&quot;noopener&quot;
-  &gt;
-    &lt;span
-    class=&quot;gatsby-resp-image-background-image&quot;
-    style=&quot;padding-bottom: 37.34375%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAHABQDASIAAhEBAxEB/8QAFgABAQEAAAAAAAAAAAAAAAAAAAED/8QAFgEBAQEAAAAAAAAAAAAAAAAAAQAC/9oADAMBAAIQAxAAAAGZGShv/8QAGBABAAMBAAAAAAAAAAAAAAAAAgEDERL/2gAIAQEAAQUClrgNa7kV/8QAFhEBAQEAAAAAAAAAAAAAAAAAABEB/9oACAEDAQE/AZiP/8QAFxEAAwEAAAAAAAAAAAAAAAAAAAEREv/aAAgBAgEBPwGs0z//xAAaEAACAgMAAAAAAAAAAAAAAAAAEQExISJx/9oACAEBAAY/AqjJT6LU/8QAGxAAAgEFAAAAAAAAAAAAAAAAAAExESFBYZH/2gAIAQEAAT8hbrjSsESmjFiOD//aAAwDAQACAAMAAAAQd8//xAAVEQEBAAAAAAAAAAAAAAAAAAAAEf/aAAgBAwEBPxBQ/8QAFxEAAwEAAAAAAAAAAAAAAAAAAAERYf/aAAgBAgEBPxB2tND/xAAaEAEAAwEBAQAAAAAAAAAAAAABABFBIVGB/9oACAEBAAE/EBbr0h+Jxb8p0e3kSIqDgmf/2Q==&apos;); background-size: cover; display: block;&quot;
-  &gt;&lt;/span&gt;
-  &lt;img
-        class=&quot;gatsby-resp-image-image&quot;
-        alt=&quot;image1&quot;
-        title=&quot;image1&quot;
-        src=&quot;/static/92c5e5c28daa604bcec2828d45a20f1f/88218/image1.jpg&quot;
-        srcset=&quot;/static/92c5e5c28daa604bcec2828d45a20f1f/7237a/image1.jpg 148w,
-/static/92c5e5c28daa604bcec2828d45a20f1f/0cfdf/image1.jpg 295w,
-/static/92c5e5c28daa604bcec2828d45a20f1f/88218/image1.jpg 590w,
-/static/92c5e5c28daa604bcec2828d45a20f1f/77d57/image1.jpg 885w,
-/static/92c5e5c28daa604bcec2828d45a20f1f/5a917/image1.jpg 1180w,
-/static/92c5e5c28daa604bcec2828d45a20f1f/e7068/image1.jpg 1280w&quot;
-        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
-        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
-        loading=&quot;lazy&quot;
-      /&gt;
-  &lt;/a&gt;
-    &lt;/span&gt;&lt;/p&gt;
-&lt;h2 id=&quot;합리적-선택이란&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%ED%95%A9%EB%A6%AC%EC%A0%81-%EC%84%A0%ED%83%9D%EC%9D%B4%EB%9E%80&quot; aria-label=&quot;합리적 선택이란 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;합리적 선택이란&lt;/h2&gt;
-&lt;p&gt;경제학에서 &lt;strong&gt;&apos;모든 주체는 합리적&apos;&lt;/strong&gt;이라는 기본적인 가정을 가진다. 그래서 경제학에서 설정하고 있는 경제인(homo economicus)은 합리성을 특징으로 하는 전형적인 인간형을 의미한다. 합리적 선택은 주어진 목표를 가장 효율적으로 달성할 수 있게 해야 한다. &lt;/p&gt;
-&lt;p&gt;합리적 선택이 무엇인가를 알기 위해서는 선택이라는 행위에 대해서 좀 더 구체적으로 봐야한다.
-우리는 어떤 방식으로 선택할까? &lt;/p&gt;
-&lt;p&gt;많은 사람들이 쉬운 목표에 있어서는 무의식적으로 선택을 하지만, 어려운 목표는 많은 고민 후에 선택을 한다. 쉬운 목표이든, 어려운 목표이든 우리는 선택을 통해 얻는 것이 있고 잃는 것이 있다. 경제학적 용어로는 얻는 것을 &lt;strong&gt;편익(benefit)&lt;/strong&gt;, 잃는 것을 &lt;strong&gt;비용(cost)&lt;/strong&gt;이라고 한다. &lt;/p&gt;
-&lt;p&gt;예를 들어 내일 시험이라고 하자. 게임을 해서 재미를 얻고 싶은 욕구와 시험 공부를 해서 좋은 성적을 얻고 싶은 욕구가 있을 것이다. 내일 시험인데 지금 게임을 재미를 얻지만, 좋은 성적은 잃는다. 득이 있으면 실이 있다. 반대로 말하면 실이 없는 득은 없다는 것이다. 우리는 어떤 것을 얻을 때 무조건 그만한 대가를 지급하게 되고, 이것이 바로 경제학의 원리이다.&lt;/p&gt;
-&lt;h2 id=&quot;비용이란&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%EB%B9%84%EC%9A%A9%EC%9D%B4%EB%9E%80&quot; aria-label=&quot;비용이란 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;비용이란&lt;/h2&gt;
-&lt;p&gt;편익을 위해 비용은 어쩔 수 없는 것이지만, 비용을 줄이면서 높은 편익을 얻을 수 있게 하면 된다. 위험을 줄이고 더 높은 성과를 얻으면 된다. 최소의 비용으로 최대의 편익을 거둘 수 있는 선택을 하면 된다. 물론 쉽지 않다. 경제학에서는 인간을 합리적이다라고 가정하지만, 실제로 그렇지 않다. 많은 사람들이 비합리적인 선택을 하고, 그것을 통해 손실을 얻기 때문이다. &lt;/p&gt;
-&lt;p&gt;합리적 선택을 위해서는 비용을 정확히 파악하고 있어야 한다. 편익이 아니라 비용을 파악하는 이유는 일반적으로 편익은 개인이나 사회가 컨트롤 할 수 없기 때문이다. 하지만 비용은 주체가 정확히 파악하고 있다면 선택을 통해 최소화할 수 있다. &lt;/p&gt;
-&lt;p&gt;&lt;span
-      class=&quot;gatsby-resp-image-wrapper&quot;
-      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 590px;&quot;
-    &gt;
-      &lt;a
-    class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/fdfbdf22fb7e093eda0bda3938198cea/14e05/image2.png&quot;
-    style=&quot;display: block&quot;
-    target=&quot;_blank&quot;
-    rel=&quot;noopener&quot;
-  &gt;
-    &lt;span
-    class=&quot;gatsby-resp-image-background-image&quot;
-    style=&quot;padding-bottom: 56.25%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAALCAYAAAB/Ca1DAAAACXBIWXMAAAsSAAALEgHS3X78AAABmUlEQVQoz42SXUvCUBjH/T5FXUcQdV9B9ALRy1eIPkAQ3UTUVW8g0kVpMFgXQXqni1YZ4TSjq4qZha6ZOBV1Trf575yt1bIiH3j2HM7O+fH8n//xlB/PIO7PQjxewt3WMJK7k0hujuCWrKOrQ8he7IFGyzTs2mp9VlmWkUqlUC6XP/c8qpLB06kPL/EQ0pcM0rEgnoUTSPfXeLrhUMg8QK1rUBQFpmnCCXqZ53mwLItcLvcFxD9hkIZoB5qmfYPREAQBXq8X1Wr1C0g/VI6dOunCsNOwJebzb1YHuq6j2WxaYIP8U1UViUQCDMNAFMU24B/pHGo0GigWiygUCiiVSqhUKgiFguAiEUTCYQtaq9Ws879KdsPaQ6vXIb2+IhYXwB6xOAgEcEhS/1D05wzdUGctE5CckyFcRTE3MY6ZqSlMj43B7/d3boobSOeZyWbh29nGQHcXRvv7MNjbg7X1DdSIMfQVdAR01zqRzJ+fY2FxEbPz81heWQHHcZAkyTLsX+BP+fYe7aZKzKHuOy+Aut+x5HbnfxsJjXe+WjMVfRe7AgAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
-  &gt;&lt;/span&gt;
-  &lt;img
-        class=&quot;gatsby-resp-image-image&quot;
-        alt=&quot;image2&quot;
-        title=&quot;image2&quot;
-        src=&quot;/static/fdfbdf22fb7e093eda0bda3938198cea/799d3/image2.png&quot;
-        srcset=&quot;/static/fdfbdf22fb7e093eda0bda3938198cea/00d96/image2.png 148w,
-/static/fdfbdf22fb7e093eda0bda3938198cea/0b23c/image2.png 295w,
-/static/fdfbdf22fb7e093eda0bda3938198cea/799d3/image2.png 590w,
-/static/fdfbdf22fb7e093eda0bda3938198cea/2a3d6/image2.png 885w,
-/static/fdfbdf22fb7e093eda0bda3938198cea/ae92f/image2.png 1180w,
-/static/fdfbdf22fb7e093eda0bda3938198cea/14e05/image2.png 1280w&quot;
-        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
-        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
-        loading=&quot;lazy&quot;
-      /&gt;
-  &lt;/a&gt;
-    &lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;경제학에서는 이 비용을 &lt;strong&gt;기회비용&lt;/strong&gt;의 개념으로 파악해야 한다. 우리가 흔히 생각하는 비용은 회계비용(accounting cost)이다. 회계비용은 실제로 지출한 비용이다. 하지만 기회비용(Opportunity cost)은 선택에 의해 포기해야 하는 행위 중 가장 큰 가치를 갖는 행위이다. 경제학에서는 아무리 이윤이 1억이라고 해도, 실제로 지출하지 않은 기회비용을 포함한 비용이 1억 5천만원 이라면, 5천만원을 손해본 것이다.&lt;/p&gt;
-&lt;h2 id=&quot;매몰비용&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%EB%A7%A4%EB%AA%B0%EB%B9%84%EC%9A%A9&quot; aria-label=&quot;매몰비용 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;매몰비용&lt;/h2&gt;
-&lt;p&gt;이 비용 이외에도 &lt;strong&gt;매몰비용(sunk cost)&lt;/strong&gt;이라는 것이 있다. 매몰비용은 어떤 선택을 하던 이미 지출되었기 때문에 다시 회수 할 수 없는 성격의 비용이다. 우리가 선택을 할 때 매몰 비용은 의사결정에 고려하지 않는 것이다. 이 매몰 비용은 흔히 현재까지의 투자라고 생각하면 된다. &lt;/p&gt;
-&lt;p&gt;예를 들면 &lt;strong&gt;주식 투자&lt;/strong&gt;를 하고 있다고 하자. 수익을 얻고자 주식투자를 했지만, 손실을 보고 있고 하락 추세인 경우이다. 어떤 사람들은 현재 손실이 아까워서 하락추세에도 반등이 올 것이라 믿고 더 기다린다. 또 다른 사람들은 왜 하락하는지 파악한 후 손절하여 큰 손실을 막고, 반등 상황에 들어가 수익을 얻는다. &lt;/p&gt;
-&lt;p&gt;전자의 사람은 비합리적 선택을 한 것이다. 지금까지 기다린 시간은 수익을 얻을 것이라 기대하고 선택한 투자이다. 손실을 보고 있는 상황에서, 전자의 사람은 기다린 시간과 손실이 아깝다는 이유만으로 손절을 하지 못했다. 경제학에서는 이 기다린 시간과 손실은 매몰비용이다. 이미 지출된 뒤에 어떤 선택을 하던 다시 회수할 수 없기 때문이다. &lt;/p&gt;
-&lt;p&gt;후자의 사람은 합리적 선택을 한 것이다. 손실과 기다린 시간을 고려하지 않고, 현재의 하락추세를 파악한 의사결정을 했기 때문이다.&lt;/p&gt;
-&lt;p&gt;비합리적 선택을 하는 것은 비단 개인뿐만이 아니다. 매몰비용의 대표적인 예인 &lt;strong&gt;콩고드의 오류(Concorde fallacy)&lt;/strong&gt;는 프랑스와 영국이라는 두 국가가 비합리적인 선택으로 인해 손해를 본 예시이다. 프랑스와 영국은 기존 여객기보다 2배 이상 빠른 콩코드 여객기를 개발도중, 높은 생산비와 기체 결함 등의 다양한 이유로 사업 전망이 비관적임을 깨닫고 개발을 지속할지 여부를 고민했다. &lt;/p&gt;
-&lt;p&gt;하지만 프랑스와 영국은 이 때까지 들어간 &lt;strong&gt;1조 6천원&lt;/strong&gt;의 비용이 아까워서 개발을 지속했고, 1976년 1월 21일 영국 항공이 상용비행을 첫 시작했다. 30여년간 비행했지만 결국 높은 비용와, 기체 결함, 대기 오염 등 예측했던 문제로 인해서 2003년 11월 26일 마지막 비행으로 역사속에 묻혀졌다.&lt;/p&gt;</content:encoded></item></channel></rss>
+&lt;p&gt;이 둘의 생산을 늘리게 하는 방법이 있는데, 바로 &lt;strong&gt;성장(Growth)&lt;/strong&gt; 이다. 기술을 개발하고 개선함으로써 생산자원의 양을 증가시키는 방법이다. 성장하면 그래프에서 보여지는 것처럼 생산가능곡선이 원점에서 먼 곳으로 이동하게 된다.&lt;/p&gt;</content:encoded></item></channel></rss>
