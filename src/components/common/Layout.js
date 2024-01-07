@@ -32,6 +32,9 @@ const DefaultLayout = ({ data, children, bodyClass, isHome }) => {
             <html lang={site.lang} />
             <style type="text/css">{`${site.codeinjection_styles}`}</style>
             <body className={bodyClass} />
+            <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1067668052326016"
+                crossorigin="anonymous"></script>
+            <meta name="naver-site-verification" content="e417132b15560606c25a05c33cc1e529ee411bb3" />
         </Helmet>
 
         <div className="viewport">
@@ -103,7 +106,7 @@ const DefaultLayout = ({ data, children, bodyClass, isHome }) => {
                                 </a>
                             </div>
                         </div>
-                        {isHome ? (
+                        {/* {isHome ? (
                             <div className="site-banner">
                                 <h1 className="site-banner-title">
                                     {site.title}
@@ -112,7 +115,7 @@ const DefaultLayout = ({ data, children, bodyClass, isHome }) => {
                                     {site.description}
                                 </p>
                             </div>
-                        ) : null}
+                        ) : null} */}
                         <nav className="site-nav">
                             <div className="site-nav-left">
                                 {/* The navigation items as setup in Ghost */}
