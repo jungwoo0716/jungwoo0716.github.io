@@ -1,0 +1,10 @@
+{
+  "development": {
+    "apiUrl": "https://mylittlehometown.ghost.io",
+    "contentApiKey": "bd9ca73a66d94342d283a25b2c"
+  },
+  "production": {
+    "apiUrl": "https://mylittlehometown.ghost.io",
+    "contentApiKey": "bd9ca73a66d94342d283a25b2c"
+  }
+}
