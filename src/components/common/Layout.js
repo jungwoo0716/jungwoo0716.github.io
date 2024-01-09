@@ -35,6 +35,7 @@ const DefaultLayout = ({ data, children, bodyClass, isHome }) => {
             <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1067668052326016"
                 crossorigin="anonymous"></script>
             <meta name="naver-site-verification" content="e417132b15560606c25a05c33cc1e529ee411bb3" />
+            <meta name="google-site-verification" content="KzlsKQF7AFEoHXuXUBvLrXJehghsraUq0Kdc49wKbrA" />
         </Helmet>
 
         <div className="viewport">
