@@ -1,4 +1,245 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0" xmlns:media="http://search.yahoo.com/mrss/"><channel><title><![CDATA[AWT]]></title><description><![CDATA[Always With Tech]]></description><link>http://localhost:8000/</link><image><url>http://localhost:8000/favicon.png</url><title>AWT</title><link>http://localhost:8000/</link></image><generator>Ghost 2.9</generator><lastBuildDate>Wed, 13 Mar 2024 06:20:46 GMT</lastBuildDate><atom:link href="http://localhost:8000/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title><![CDATA[2024년 국내 증권사 순위 Top10 알아보기]]></title><description><![CDATA[투자를 시작하기 전에 적절한 증권사를 선택하는 것은 투자 초보자들한테 매우 어려울 수 있습니다. 국내에도 생각보다 많은 증권사가 있기 때문이죠.
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0" xmlns:media="http://search.yahoo.com/mrss/"><channel><title><![CDATA[AWT]]></title><description><![CDATA[Always With Tech]]></description><link>http://localhost:8000/</link><image><url>http://localhost:8000/favicon.png</url><title>AWT</title><link>http://localhost:8000/</link></image><generator>Ghost 2.9</generator><lastBuildDate>Wed, 13 Mar 2024 06:55:57 GMT</lastBuildDate><atom:link href="http://localhost:8000/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title><![CDATA[주식 초보를 위한 주식 거래 하는 방법]]></title><description><![CDATA[주식 초보를 위한 주식 거래하는 방법에 대해 알아보겠습니다.
+​많은 사람들이 직장을 다니면서, 옆에 직장 동료나 친구들이 주식을 하면서 따라서 주식을 하게 되는데요.
+이 글을 끝까지 읽는다면 여러분은 주식을 거래하는 방법에 대해 완벽하게 알게 될 것입니다. ]]></description><link>http://localhost:8000/how-to-trade-stocks-for-beginners/</link><guid isPermaLink="false">Ghost__Post__65f10c985708af00011f3781</guid><category><![CDATA[주식]]></category><dc:creator><![CDATA[Jungwoo]]></dc:creator><pubDate>Fri, 26 Jan 2024 00:15:00 GMT</pubDate><media:content url="https://images.unsplash.com/photo-1569025690938-a00729c9e1f9?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3wxMTc3M3wwfDF8c2VhcmNofDN8fHN0b2NrfGVufDB8fHx8MTcxMDMwNjAzNnww&amp;ixlib=rb-4.0.3&amp;q=80&amp;w=2000" medium="image"/><content:encoded><![CDATA[
+<!--kg-card-begin: html-->
+<div id="ad-container" style="display: flex; justify-content: center; flex-wrap: wrap;"/>
+
+<script>
+    // 광고를 동적으로 생성하고 페이지에 삽입하는 함수
+    function createAd(slotId, isSecondAd) {
+        var ad = document.createElement('ins');
+        ad.className = 'adsbygoogle';
+        ad.style.display = 'block';
+        ad.style.width = '300px'; // 광고 너비 설정
+        ad.style.height = '250px'; // 광고 높이 설정
+        ad.dataset.adClient = 'ca-pub-1067668052326016';
+        ad.dataset.adSlot = slotId;
+        ad.dataset.adFormat = 'rectangle';
+        ad.dataset.fullWidthResponsive = 'true';
+        ad.style.margin = 'auto';
+
+        // 두 번째 광고에만 좌측 마진 적용하여 광고 사이 간격 조정
+        if (isSecondAd) {
+            ad.style.marginLeft = '20px';
+        }
+
+        document.getElementById('ad-container').appendChild(ad);
+        (adsbygoogle = window.adsbygoogle || []).push({});
+    }
+
+    // 화면 너비에 따라 광고 로드
+    var width = window.innerWidth || document.documentElement.clientWidth || document.body.clientWidth;
+
+    // 항상 첫 번째 광고 로드
+    createAd('8610341899', false);
+
+    // 데스크탑 환경에서만 두 번째 광고 로드
+    if (width > 768) { // 768px은 모바일과 데스크탑을 구분하는 일반적인 기준입니다.
+        createAd('5984178559', true);
+    }
+</script>
+
+<script async="" src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"/>
+<!--kg-card-end: html-->
+<img src="https://images.unsplash.com/photo-1569025690938-a00729c9e1f9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMTc3M3wwfDF8c2VhcmNofDN8fHN0b2NrfGVufDB8fHx8MTcxMDMwNjAzNnww&ixlib=rb-4.0.3&q=80&w=2000" alt="주식 초보를 위한 주식 거래 하는 방법"/><p>주식 초보를 위한 주식 거래하는 방법에 대해 알아보겠습니다.</p><p>​많은 사람들이 직장을 다니면서, 옆에 직장 동료나 친구들이 주식을 하면서 따라서 주식을 하게 되는데요.</p><p>이 글을 끝까지 읽는다면 여러분은 주식을 거래하는 방법에 대해 완벽하게 알게 될 것입니다. </p><p/>
+<!--kg-card-begin: html-->
+<div class="pulsing-button">
+  <a href="https://jungwoo0716.github.io/2024-top-10-domestic-securities-companies/?ref=alwayswithtech.ghost.io">
+  오늘 추천 종목
+  </a>
+</div>
+<!--kg-card-end: html-->
+<p/><p>주식을 하기 위해서는 증권사를 먼저 선택하고, 증권사에서 계좌를 개설하고, 실제 어떤 주식을 살 지 결정하여, 주식을 매수 하면 됩니다. </p><p>정말 간단하죠?</p><p>바로 알아봅시다. </p><p/><h2 id="1%EC%A6%9D%EA%B6%8C%EC%82%AC-%EC%84%A0%ED%83%9D%ED%95%98%EA%B8%B0"><strong>1.증권사 선택하기</strong></h2><p>여러분 은행 계좌 없으신 분은 없을 것입니다. 은행 계좌가 없으면 기본적으로 증권 계좌를 만들기 전에 은행 계좌를 먼저 만드셔야 합니다.</p><p>은행 계좌가 있으시다면, 주식 거래를 위해서 증권계좌를 만드셔야 합니다.</p><p>최근 들어서 대부분 증권사에서 비대면 거래를 지원하고 있으며, 수수료 할인 혜택도 있으니 참고하시기 바랍니다. </p>
+<!--kg-card-begin: html-->
+<div id="ad-container-1" style="display: flex; justify-content: center; flex-wrap: wrap;"/>
+
+<script>
+    // 광고를 동적으로 생성하고 페이지에 삽입하는 함수
+    function createAd(slotId, isSecondAd) {
+        var ad = document.createElement('ins');
+        ad.className = 'adsbygoogle';
+        ad.style.display = 'block';
+        ad.style.width = '300px'; // 광고 너비 설정
+        ad.style.height = '250px'; // 광고 높이 설정
+        ad.dataset.adClient = 'ca-pub-1067668052326016';
+        ad.dataset.adSlot = slotId;
+        ad.dataset.adFormat = 'rectangle';
+        ad.dataset.fullWidthResponsive = 'true';
+        ad.style.margin = 'auto';
+
+        // 두 번째 광고에만 좌측 마진 적용하여 광고 사이 간격 조정
+        if (isSecondAd) {
+            ad.style.marginLeft = '20px';
+        }
+
+        document.getElementById('ad-container-1').appendChild(ad);
+        (adsbygoogle = window.adsbygoogle || []).push({});
+    }
+
+    // 화면 너비에 따라 광고 로드
+    var width = window.innerWidth || document.documentElement.clientWidth || document.body.clientWidth;
+
+    // 항상 첫 번째 광고 로드
+    createAd('8610341899', false);
+
+    // 데스크탑 환경에서만 두 번째 광고 로드
+    if (width > 768) { // 768px은 모바일과 데스크탑을 구분하는 일반적인 기준입니다.
+        createAd('5984178559', true);
+    }
+</script>
+
+<script async="" src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"/>
+<!--kg-card-end: html-->
+<p>여러분이 비대면 주식 계좌를 만들 때 고려해야 할 사항이 있습니다. 이 많은 증권사 중에 어떤 증권사를 선택할 지 고민될 것입니다. </p><p>증권사 선택할 때는 여러 가지 중요한 사항이 있습니다. 아래의 내용을 먼저 읽어야 내용을 더 빠르게 이해할 수 있습니다.</p>
+<!--kg-card-begin: html-->
+<div class="pulsing-button">
+  <a href="https://jungwoo0716.github.io/2024-top-10-domestic-securities-companies/?ref=alwayswithtech.ghost.io">
+  국내 증권사 순위
+  </a>
+</div>
+
+<style>
+  @keyframes pulse {
+    0% { transform: scale(1); }
+    50% { transform: scale(1.1); }
+    100% { transform: scale(1); }
+  }
+
+  .pulsing-button {
+    padding: 10px 20px;
+    font-size: 20px;
+    color: white;
+    background-color: red;
+    border: none;
+    cursor: pointer;
+    border-radius: 20px;
+    text-decoration: none;
+    display: block;
+    width: max-content;
+    margin: 0 auto;
+    animation: pulse 2s infinite; /* 애니메이션 적용 */
+  }
+
+  .pulsing-button a {
+    color: white;
+    text-decoration: none;
+  }
+</style>
+<!--kg-card-end: html-->
+<p/><h2 id="2%EC%A6%9D%EA%B6%8C%EA%B3%84%EC%A2%8C-%EA%B0%9C%EC%84%A4%ED%95%98%EA%B8%B0"><strong>2.증권계좌 개설하기</strong></h2><p>증권계좌를 개설하는 방법은 크게 3가지가 있습니다.</p><p>1) 스마트폰을 이용하여 비대면 계좌 개설을 한다.<br>2) 자신이 원하는 증권사 지점을 방문하여 증권 계좌를 개설한다(ex. 미래에셋증권사 방문).<br>3) 거래하고 있는 주거래 은행에 방문하여 연계된 증권계좌를 개설한다(ex. 하나은행 방문하여 연계 계좌 개설)</br></br></p><p>최근 들어서 개인의 경우 대부분 증권계좌는 비대면으로 개설을 합니다. 물론 법인일 경우는 직접 증권사 지점을 방문하여 증권 계좌를 개설해야 합니다.</p><p>증권계좌에 필요한 것은 3가지 입니다.</p><p>1) 핸드폰<br>2) 신분증<br>3) 은행 계좌</br></br></p><p>여러분이 선택한 증권사 앱을 다운로드 받으셔서, 계좌 개설 절차를 진행하면 쉽게 계좌 개설이 가능합니다. </p><p>증권사마다 가이드가 있으므로 가이드에 따라 진행하면 쉽게 가입할 수 있습니다.<br>가끔 가다 어떤 상품을 선택해야 하는지 헷갈리실 수 있습니다.</br></p><p>종합 계좌를 선택하시면 됩니다. 종합 계좌는 일반적으로 주식, 펀드, 채권, 해외주식, ELS 등을 거래할 수 있습니다. </p><p>최근 문제가 되는 ELS 에 대해 자세히 알고 싶으시다면 다음 내용을 읽으시면 내용을 빠르게 이해할 수 있습니다.</p>
+<!--kg-card-begin: html-->
+<div class="pulsing-button">
+  <a href="https://jungwoo0716.github.io/difference-between-els-eld-elf/?ref=alwayswithtech.ghost.io">
+  ELS 알아보기
+  </a>
+</div>
+
+<style>
+  @keyframes pulse {
+    0% { transform: scale(1); }
+    50% { transform: scale(1.1); }
+    100% { transform: scale(1); }
+  }
+
+  .pulsing-button {
+    padding: 10px 20px;
+    font-size: 20px;
+    color: white;
+    background-color: red;
+    border: none;
+    cursor: pointer;
+    border-radius: 20px;
+    text-decoration: none;
+    display: block;
+    width: max-content;
+    margin: 0 auto;
+    animation: pulse 2s infinite; /* 애니메이션 적용 */
+  }
+
+  .pulsing-button a {
+    color: white;
+    text-decoration: none;
+  }
+</style>
+<!--kg-card-end: html-->
+<p/><h2 id="3%EC%96%B4%EB%96%A4-%EC%A3%BC%EC%8B%9D%EC%9D%84-%EC%82%AC%EC%95%BC%ED%95%98%EB%8A%94%EA%B0%80"><strong>3.어떤 주식을 사야하는가?</strong></h2><p>투자의 대가인 워런 버핏은 다음과 같이 이야기했습니다.</p><blockquote>내가 100만 달러나 1000만 달러를 운용할 수 있다면,<br>그 금액을 모두 투자할 수 있다.<br>금액의 규모가 작은 것은 큰 장점이다.<br>만약 내가 100만 달러를 운용한다면,<br>나는 당신에게 매년 50%의 수익률을 보증할 수 있다.</br></br></br></br></blockquote><blockquote>by 워런 버핏</blockquote><p>즉, 워런 버핏 본인이 규모가 작은 개인 투자자라면 매년 50% 수익을 달성할 수 있다는 것입니다. </p>
+<!--kg-card-begin: html-->
+<div class="pulsing-button">
+  <a href="https://jungwoo0716.github.io/2024-top-10-domestic-securities-companies/?ref=alwayswithtech.ghost.io">
+  연 50% 수익내는 버핏의 투자 기법
+  </a>
+</div>
+
+<style>
+  @keyframes pulse {
+    0% { transform: scale(1); }
+    50% { transform: scale(1.1); }
+    100% { transform: scale(1); }
+  }
+
+  .pulsing-button {
+    padding: 10px 20px;
+    font-size: 20px;
+    color: white;
+    background-color: red;
+    border: none;
+    cursor: pointer;
+    border-radius: 20px;
+    text-decoration: none;
+    display: block;
+    width: max-content;
+    margin: 0 auto;
+    animation: pulse 2s infinite; /* 애니메이션 적용 */
+  }
+
+  .pulsing-button a {
+    color: white;
+    text-decoration: none;
+  }
+</style>
+<!--kg-card-end: html-->
+<p>워런 버핏 이외에도 여러 방식으로 자신의 원칙을 세워 주식으로 수익 내는 경우가 많습니다. 자본이 많을 때보다 오히려, 자본이 적을 때 수익을 내는 것이 기회가 많기 때문에 유리합니다. </p>
+<!--kg-card-begin: html-->
+<div id="ad-container-2" style="display: flex; justify-content: center; flex-wrap: wrap;"/>
+
+<script>
+    // 광고를 동적으로 생성하고 페이지에 삽입하는 함수
+    function createAd(slotId, isSecondAd) {
+        var ad = document.createElement('ins');
+        ad.className = 'adsbygoogle';
+        ad.style.display = 'block';
+        ad.style.width = '300px'; // 광고 너비 설정
+        ad.style.height = '250px'; // 광고 높이 설정
+        ad.dataset.adClient = 'ca-pub-1067668052326016';
+        ad.dataset.adSlot = slotId;
+        ad.dataset.adFormat = 'rectangle';
+        ad.dataset.fullWidthResponsive = 'true';
+        ad.style.margin = 'auto';
+
+        // 두 번째 광고에만 좌측 마진 적용하여 광고 사이 간격 조정
+        if (isSecondAd) {
+            ad.style.marginLeft = '20px';
+        }
+
+        document.getElementById('ad-container-2').appendChild(ad);
+        (adsbygoogle = window.adsbygoogle || []).push({});
+    }
+
+    // 화면 너비에 따라 광고 로드
+    var width = window.innerWidth || document.documentElement.clientWidth || document.body.clientWidth;
+
+    // 항상 첫 번째 광고 로드
+    createAd('8610341899', false);
+
+    // 데스크탑 환경에서만 두 번째 광고 로드
+    if (width > 768) { // 768px은 모바일과 데스크탑을 구분하는 일반적인 기준입니다.
+        createAd('5984178559', true);
+    }
+</script>
+
+<script async="" src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"/>
+<!--kg-card-end: html-->
+<p>개인투자자는 이러한 유리한 점을 이용할 수 있어야 합니다.</p><p/><h2 id="4%EC%A3%BC%EC%8B%9D%EC%9D%84-%EC%82%AC%EB%8A%94-%EB%B0%A9%EB%B2%95"><strong>4.주식을 사는 방법</strong></h2><p>'주식(stock)'은 기업의 소유권을 나타내는 단위라고 이해하면 됩니다. </p><p>사람들이 '주식을 산다'고 할 때, 그들은 사실 기업의 일부분을 소유하게 되는 것이죠. 주식 시장은 이러한 주식이 거래되는 공간입니다. </p><p>여기서 중요한 개념은 '수요와 공급'입니다. 주식의 가격은 사람들이 그 주식을 얼마나 사고 싶어 하느냐(수요), 그리고 시장에 얼마나 많은 주식이 나와 있느냐(공급)에 따라 결정됩니다.</p><blockquote>매수 = 주식을 산다<br>매도 = 주식을 판다</br></blockquote><p>위의 개념만 이해할 수 있으면, 여러 분은 주문 창에서 주문을 할 수 있습니다.</p><p>주식을 사는 방법이라고 써있지만, 대부분은 주식을 매수하거나 매도한다고 표현 합니다. 주식을 전문적으로 하는 사람이라면 흔히 쓰는 표현입니다.</p><p>시장가, 지정가 등 거래 방법은 앱 마다 다양하므로, 주문 방식에 대해서는 다른 글에서 다룰 것입니다.</p><p/><h2 id="%EB%A7%88%EC%B9%98%EB%A9%B0">마치며</h2><p><br>여러분이 주식 시장에 들어온 것은 돈을 벌기 위해서 일 것입니다. 주식 시장은 분명 매력적인 투자 기회를 제공하지만, 성공적인 투자를 위해서는 충분한 준비와 지식이 필요합니다. </br></p><p>이 글을 통해 주식 거래의 기본을 이해하고, 첫 걸음을 내딛는 데 도움이 되기를 바랍니다. </p>]]></content:encoded></item><item><title><![CDATA[2024년 국내 증권사 순위 Top10 알아보기]]></title><description><![CDATA[투자를 시작하기 전에 적절한 증권사를 선택하는 것은 투자 초보자들한테 매우 어려울 수 있습니다. 국내에도 생각보다 많은 증권사가 있기 때문이죠.
 국내 2024년 증권사 순위 Top 10 에 대해 알아보겠습니다.
 증권사 순위는 증권사의 자기자본 규모 데이터로 보시면 됩니다. 끝까지 읽어보시면 왜 자기자본 규모로 증권사를 추천 하는지, 어떤 증권사를 써야 하는지 확인하실 수 있습니다. 
 ]]></description><link>http://localhost:8000/2024-top-10-domestic-securities-companies/</link><guid isPermaLink="false">Ghost__Post__65f12e345708af00011f37b6</guid><category><![CDATA[주식]]></category><dc:creator><![CDATA[Jungwoo]]></dc:creator><pubDate>Thu, 25 Jan 2024 23:15:00 GMT</pubDate><media:content url="https://images.unsplash.com/photo-1549421263-6064833b071b?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3wxMTc3M3wwfDF8c2VhcmNofDE2fHxzdG9ja3xlbnwwfHx8fDE3MTAzMDYwMzZ8MA&amp;ixlib=rb-4.0.3&amp;q=80&amp;w=2000" medium="image"/><content:encoded><![CDATA[<img src="https://images.unsplash.com/photo-1549421263-6064833b071b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMTc3M3wwfDF8c2VhcmNofDE2fHxzdG9ja3xlbnwwfHx8fDE3MTAzMDYwMzZ8MA&ixlib=rb-4.0.3&q=80&w=2000" alt="2024년 국내 증권사 순위 Top10 알아보기"/><p>투자를 시작하기 전에 적절한 증권사를 선택하는 것은 투자 초보자들한테 매우 어려울 수 있습니다. 국내에도 생각보다 많은 증권사가 있기 때문이죠.</p><p>국내 <strong><u>2024년 증권사 순위 Top 10</u></strong> 에 대해 알아보겠습니다.</p><p>증권사 순위는 증권사의 자기자본 규모 데이터로 보시면 됩니다. 끝까지 읽어보시면 왜 자기자본 규모로 증권사를 추천 하는지, 어떤 증권사를 써야 하는지 확인하실 수 있습니다. </p><h2 id="2024%EB%85%84-%EA%B5%AD%EB%82%B4-%EC%A6%9D%EA%B6%8C%EC%82%AC-%EC%88%9C%EC%9C%84-top-10">2024년 국내 증권사 순위 Top 10</h2>
