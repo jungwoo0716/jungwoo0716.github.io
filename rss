@@ -1,4 +1,88 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0" xmlns:media="http://search.yahoo.com/mrss/"><channel><title><![CDATA[AWT]]></title><description><![CDATA[Always With Tech]]></description><link>http://localhost:8000/</link><image><url>http://localhost:8000/favicon.png</url><title>AWT</title><link>http://localhost:8000/</link></image><generator>Ghost 2.9</generator><lastBuildDate>Fri, 29 Mar 2024 12:53:28 GMT</lastBuildDate><atom:link href="http://localhost:8000/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title><![CDATA[공모주 코칩 상장 IPO 종목 분석 및 청약 정보]]></title><description><![CDATA[공모주 코칩은 간단하게 설명하면 슈퍼커패시터(Super Capacitors)를 제조 및 판매하는 회사입니다. 여기서 슈퍼커패시터를 간단하게 요약하면 보조 배터리 같은 개념으로 이해하시면 됩니다. ]]></description><link>http://localhost:8000/korchip-ipo/</link><guid isPermaLink="false">Ghost__Post__660676ffcf454b000126f270</guid><category><![CDATA[주식]]></category><dc:creator><![CDATA[Jungwoo]]></dc:creator><pubDate>Thu, 28 Mar 2024 01:00:00 GMT</pubDate><media:content url="https://alwayswithtech.ghost.io/content/images/2024/03/korchip.png" medium="image"/><content:encoded><![CDATA[
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0" xmlns:media="http://search.yahoo.com/mrss/"><channel><title><![CDATA[AWT]]></title><description><![CDATA[Always With Tech]]></description><link>http://localhost:8000/</link><image><url>http://localhost:8000/favicon.png</url><title>AWT</title><link>http://localhost:8000/</link></image><generator>Ghost 2.9</generator><lastBuildDate>Mon, 22 Apr 2024 05:20:32 GMT</lastBuildDate><atom:link href="http://localhost:8000/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title><![CDATA[HBM 관련주 TOP 5 고대역폭 메모리 반도체 대장주]]></title><description><![CDATA[이번 포스팅에서는 HBM 관련주 Top 5 에 대해 알아보겠습니다. 
+
+HBM 관련주가 주목받는 이유는 바로 AI 산업이 급속도로 발전하면서인데요. HBM 은 High Bandwith Memory 의 줄인말로, 고성능 컴퓨팅이 필요한 AI 산업에 주요 기술로 자리매김 하고 있습니다. 
+
+이 기술의 경우 기존의 GDDR SGRAM 메모리에 비해 훨씬 높은 대역폭과 낮은 지연시간을 제공하면서 전력 소비도 적게하여, 최신의 높은 고성능 컴퓨팅 요구 사항을 충족할 수 있습니다. ]]></description><link>http://localhost:8000/hbm-themed-stock-top-5/</link><guid isPermaLink="false">Ghost__Post__661b69443261f10001b82f69</guid><category><![CDATA[주식]]></category><dc:creator><![CDATA[Jungwoo]]></dc:creator><pubDate>Fri, 29 Mar 2024 01:00:00 GMT</pubDate><content:encoded><![CDATA[<p>이번 포스팅에서는 HBM 관련주 Top 5 에 대해 알아보겠습니다. <br><br>HBM 관련주가 주목받는 이유는 바로 AI 산업이 급속도로 발전하면서인데요. HBM 은 High Bandwith Memory 의 줄인말로, 고성능 컴퓨팅이 필요한 AI 산업에 주요 기술로 자리매김 하고 있습니다. <br><br>이 기술의 경우 기존의 GDDR SGRAM 메모리에 비해 훨씬 높은 대역폭과 낮은 지연시간을 제공하면서 전력 소비도 적게하여, 최신의 높은 고성능 컴퓨팅 요구 사항을 충족할 수 있습니다. </br></br></br></br></p><hr><h2 id="hbm-%EA%B4%80%EB%A0%A8%EC%A3%BC-top5">HBM 관련주 TOP5</h2><p>아래는 HBM 관련주 주요 5가지 종목에 대해 알아보겠습니다.</p>
+<!--kg-card-begin: html-->
+<table class="table-comparison tbody-bg-odd">
+  <thead>
+    <tr>
+      <th> </th>
+      <th>종목명 </th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>1</td>
+      <td>한미반도체</td>
+    </tr>
+    <tr>
+      <td>2</td>
+      <td>윈팩</td>
+    </tr>
+    <tr>
+      <td>3</td>
+      <td>이오테크니스</td>
+    </tr>
+    <tr>
+      <td>4</td>
+      <td>오픈엣지테크놀로지</td>
+    </tr>
+    <tr>
+      <td>5</td>
+      <td>리노공업</td>
+    </tr>
+  </tbody>
+</table>
+
+<style>
+  .table-comparison {
+    width: 100%;
+    border-collapse: collapse; /* Collapse borders */
+  }
+
+  .table-comparison th, .table-comparison td {
+    border: 1px solid #ddd; /* Light grey border */
+    padding: 8px; /* Spacing inside cells */
+    text-align: left; /* Align text to the left in cells */
+  }
+
+  .table-comparison thead {
+    background-color: #f2f2f2; /* Light grey background for header */
+  }
+
+  .table-comparison tbody tr:nth-child(odd) {
+    background-color: #f9f9f9; /* Slightly darker shade for odd rows */
+  }
+
+  .table-comparison tbody tr:hover {
+    background-color: #eaeaea; /* Highlight row on hover */
+  }
+</style>
+<!--kg-card-end: html-->
+<p/><h2 id="1%ED%95%9C%EB%AF%B8%EB%B0%98%EB%8F%84%EC%B2%B4"><strong>1.한미반도체</strong></h2><h3 id="%ED%9A%8C%EC%82%AC%EA%B0%9C%EC%9A%94">회사개요</h3><p>한미반도체는 1980년 설립된 회사로 다양한 반도체 제조용 장비를 자체 기술로 설계, 제작해왔습니다. 주요 제품에는 VISION PLACEMENT, DUAL TC BONDER, FLIP CHIP BONDER 등이 있으며, 이를 통해 반도체 패키지 절단, 세척, 건조, 검사, 적재까지의 전 공정을 일괄 처리할 수 있는 생산 라인을 갖추고 있습니다. 특히, 회사는 반도체 패키지 절단 모듈인 'micro SAW'를 국산화하는 데 성공했으며, 이 장비는 2000년대 중반 이후로 세계 시장 점유율 1위를 유지하고 있습니다.</p><p>또한, SK하이닉스와 공동 개발한 'DUAL TC BONDER'는 고대역폭 메모리반도체(HBM) 생산에 필수적인 열압착 본딩 장비로, HBM 칩 생산의 핵심 장비로서 그 중요성이 커지고 있습니다. 이외에도 FLIP CHIP BONDER, MULTI DIE BONDER 등 다양한 반도체 본딩 장비를 개발하여 시장에 선보이고 있습니다.</p><p>한미반도체는 또한 EMI Shield 장비를 통해 반도체를 전자파로부터 보호하는 솔루션을 제공하며, 이는 AI, IoT, 전기자동차, 자율주행 자동차 등 다양한 분야에서 중요한 역할을 하고 있습니다. 회사는 4차 산업 혁명의 성장과 함께 이 기술을 더욱 확장하여 적용할 계획입니다.<br/></p><h3 id="%EC%B5%9C%EA%B7%BC%EC%A3%BC%EA%B0%80">최근주가</h3><p>최근 주가는 다음과 같습니다.</p>
+<!--kg-card-begin: html-->
+<!-- TradingView Widget BEGIN -->
+<div class="tradingview-widget-container">
+  <div class="tradingview-widget-container__widget"/>
+  <div class="tradingview-widget-copyright"><a href="https://kr.tradingview.com/?ref=alwayswithtech.ghost.io" rel="noopener nofollow" target="_blank"><span class="blue-text">트레이딩뷰에서 모든 시장 추적</span></a></div>
+  <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-mini-symbol-overview.js" async="">
+  {
+  "symbol": "KRX:042700",
+  "width": "350",
+  "height": "250",
+  "locale": "kr",
+  "dateRange": "12M",
+  "colorTheme": "light",
+  "isTransparent": false,
+  "autosize": false,
+  "largeChartUrl": ""
+}
+  </script>
+</div>
+<!-- TradingView Widget END -->
+<!--kg-card-end: html-->
+<p/><p/><h3 id="%EC%84%A0%EC%A0%95%EC%9D%B4%EC%9C%A0">선정이유</h3><p>한미반도체는 SK 하이닉스와 공동으로 DUAL TC BONDER 를 개발했습니다. 해당 제품은 HBM 생산에 필수적인 열압착 본딩 장비로, HBM 칩 생산에 핵심 장비이기 때문에 관련주로 선정하였습니다. </p><p/><h2 id="2%EC%9C%88%ED%8C%A9"><strong>2.윈팩</strong></h2><h3 id="%ED%9A%8C%EC%82%AC%EA%B0%9C%EC%9A%94-1">회사개요</h3><p>윈팩은 DRAM의 패키징 및 테스트에 관여하며, SK 하이닉스의 DDR 메모리 테스트의 중요한 역할을 담당하고 있어 HBM 분야에서 중요한 위치를 차지하고 있습니다.<br><br><br/></br></br></p><h3 id="%EC%B5%9C%EA%B7%BC%EC%A3%BC%EA%B0%80-1">최근주가</h3><p>최근 주가는 다음과 같습니다.</p><p/><h3 id="%EC%84%A0%EC%A0%95%EC%9D%B4%EC%9C%A0-1">선정이유</h3><p>한미반도체가 HBM 관련주로 뽑힌 이유는 다음과 같습니다. </p><p/><h2 id="3%EC%9D%B4%EC%98%A4%ED%85%8C%ED%81%AC%EB%8B%89%EC%8A%A4"><strong>3.이오테크닉스</strong></h2><h3 id="%ED%9A%8C%EC%82%AC%EA%B0%9C%EC%9A%94-2">회사개요</h3><p>이오테크닉스는 반도체 제조에 필요한 레이저 장비를 제작하는 회사로, HBM 생산에 필수적인 장비를 제공하고 있습니다.<br><br/></br></p><h3 id="%EC%B5%9C%EA%B7%BC%EC%A3%BC%EA%B0%80-2">최근주가</h3><p>최근 주가는 다음과 같습니다.</p><p/><h3 id="%EC%84%A0%EC%A0%95%EC%9D%B4%EC%9C%A0-2">선정이유</h3><p>한미반도체가 HBM 관련주로 뽑힌 이유는 다음과 같습니다. </p><p/><h2 id="4%EC%98%A4%ED%94%88%EC%97%A3%EC%A7%80%ED%85%8C%ED%81%AC%EB%86%80%EB%A1%9C%EC%A7%80"><strong>4.오픈엣지테크놀로지</strong></h2><h3 id="%ED%9A%8C%EC%82%AC%EA%B0%9C%EC%9A%94-3">회사개요</h3><p>AI 기술을 위한 시스템반도체 디자인 IP를 개발하는 이 회사는 고성능 AI 서버용 HBM 인터페이스 기술을 개발하며 HBM 관련 주요 기업으로 자리매김하고 있습니다.<br><br/></br></p><h3 id="%EC%B5%9C%EA%B7%BC%EC%A3%BC%EA%B0%80-3">최근주가</h3><p>최근 주가는 다음과 같습니다.</p><p/><h3 id="%EC%84%A0%EC%A0%95%EC%9D%B4%EC%9C%A0-3">선정이유</h3><p>한미반도체가 HBM 관련주로 뽑힌 이유는 다음과 같습니다. </p><p/><h2 id="5%EB%A6%AC%EB%85%B8%EA%B3%B5%EC%97%85"><strong>5.</strong>리노공업</h2><h3 id="%ED%9A%8C%EC%82%AC%EA%B0%9C%EC%9A%94-4">회사개요</h3><p>리노공업은 AI, AR, VR 기술에 사용되는 반도체 소켓을 제조하는데, 이러한 소켓은 HBM 기술을 포함한 반도체의 테스트 단계에서 중요한 역할을 합니다.<br><br/></br></p><h3 id="%EC%B5%9C%EA%B7%BC%EC%A3%BC%EA%B0%80-4">최근주가</h3><p>최근 주가는 다음과 같습니다.</p><p/><h3 id="%EC%84%A0%EC%A0%95%EC%9D%B4%EC%9C%A0-4">선정이유</h3><p>한미반도체가 HBM 관련주로 뽑힌 이유는 다음과 같습니다. </p></hr>]]></content:encoded></item><item><title><![CDATA[공모주 코칩 상장 IPO 종목 분석 및 청약 정보]]></title><description><![CDATA[공모주 코칩은 간단하게 설명하면 슈퍼커패시터(Super Capacitors)를 제조 및 판매하는 회사입니다. 여기서 슈퍼커패시터를 간단하게 요약하면 보조 배터리 같은 개념으로 이해하시면 됩니다. ]]></description><link>http://localhost:8000/korchip-ipo/</link><guid isPermaLink="false">Ghost__Post__660676ffcf454b000126f270</guid><category><![CDATA[주식]]></category><dc:creator><![CDATA[Jungwoo]]></dc:creator><pubDate>Thu, 28 Mar 2024 01:00:00 GMT</pubDate><media:content url="https://alwayswithtech.ghost.io/content/images/2024/03/korchip.png" medium="image"/><content:encoded><![CDATA[
 <!--kg-card-begin: html-->
 <div id="ad-container" style="display: flex; justify-content: center; flex-wrap: wrap;"/>
 
