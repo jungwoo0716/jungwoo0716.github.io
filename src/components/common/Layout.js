@@ -32,8 +32,28 @@ const DefaultLayout = ({ data, children, bodyClass, isHome }) => {
             <html lang={site.lang} />
             <style type="text/css">{`${site.codeinjection_styles}`}</style>
             <body className={bodyClass} />
+
             <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1067668052326016"
                 crossorigin="anonymous"></script>
+                
+            <script async src="https://www.googletagmanager.com/gtag/js?id=G-B8YMRZG4T7"></script>
+            <script>
+            {`
+                window.dataLayer = window.dataLayer || [];
+                function gtag(){dataLayer.push(arguments);}
+                gtag('js', new Date());
+                gtag('config', 'G-B8YMRZG4T7');
+            `}
+            </script>
+            <script type="text/javascript">
+            {`
+                (function(c,l,a,r,i,t,y){
+                c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+                t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+                y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+                })(window, document, "clarity", "script", "llp7mmx2ax");
+            `}
+            </script>
             <meta name="naver-site-verification" content="e417132b15560606c25a05c33cc1e529ee411bb3" />
             <meta name="google-site-verification" content="KzlsKQF7AFEoHXuXUBvLrXJehghsraUq0Kdc49wKbrA" />
         </Helmet>
@@ -65,7 +85,7 @@ const DefaultLayout = ({ data, children, bodyClass, isHome }) => {
                                 </Link>
                             </div>
                             <div className="site-mast-right">
-                                {site.twitter && (
+                                {/* {site.twitter && (
                                     <a
                                         href={twitterUrl}
                                         className="site-nav-item"
@@ -78,8 +98,9 @@ const DefaultLayout = ({ data, children, bodyClass, isHome }) => {
                                             alt="Twitter"
                                         />
                                     </a>
-                                )}
-                                {site.facebook && (
+                                )} */}
+                                {/* 페이스북 링크 */}
+                                {/* {site.facebook && (
                                     <a
                                         href={facebookUrl}
                                         className="site-nav-item"
@@ -92,7 +113,7 @@ const DefaultLayout = ({ data, children, bodyClass, isHome }) => {
                                             alt="Facebook"
                                         />
                                     </a>
-                                )}
+                                )} */}
                                 <a
                                     className="site-nav-item"
                                     href={`https://feedly.com/i/subscription/feed/${config.siteUrl}/rss/`}
@@ -119,20 +140,23 @@ const DefaultLayout = ({ data, children, bodyClass, isHome }) => {
                         ) : null} */}
                         <nav className="site-nav">
                             <div className="site-nav-left">
+
                                 {/* The navigation items as setup in Ghost */}
                                 <Navigation
                                     data={site.navigation}
                                     navClass="site-nav-item"
                                 />
+
                             </div>
-                            <div className="site-nav-right">
+
+                            {/* <div className="site-nav-right">
                                 <Link
                                     className="site-nav-button"
                                     to="/about"
                                 >
                                     About
                                 </Link>
-                            </div>
+                            </div> */}
                         </nav>
                     </div>
                 </header>

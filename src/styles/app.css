@@ -1015,6 +1015,42 @@ h6 {
     padding-right: 0;
 }
 
+/* toc */
+
+/* TOC의 전체적인 스타일 */
+.toc {
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 20px;
+  }
+  
+  /* TOC 제목 스타일 */
+  .toc-title {
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  /* TOC 항목 스타일 */
+  .toc-item {
+    list-style-type: none;
+    text-decoration: none;
+  }
+  
+  .toc-item a {
+    color: #007bff;
+    text-decoration: none;
+  }
+
+  .toc-item-h2 { 
+    margin-left: 20px; 
+    list-style-type: none;
+    text-decoration: none;}
+  .toc-item-h3 { 
+    margin-left: 40px; 
+    list-style-type: none;
+    text-decoration: none;}
 
 /* Koenig Styles
 /* ---------------------------------------------------------- */
@@ -1176,3 +1212,4 @@ h6 {
     width: 100%;   
     height: 100%; 
   }
+
