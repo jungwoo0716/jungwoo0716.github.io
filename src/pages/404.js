@@ -16,4 +16,6 @@ const NotFoundPage = () => (
     </Layout>
 );
 
+
+
 export default NotFoundPage;
