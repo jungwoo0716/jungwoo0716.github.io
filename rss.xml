@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Gatsby Starter Blog RSS Feed]]></title><description><![CDATA[Always With Tech ]]></description><link>https://jungwoo0716.github.io</link><generator>GatsbyJS</generator><lastBuildDate>Sat, 27 Jul 2024 14:03:25 GMT</lastBuildDate><item><title><![CDATA[재무제표 현금흐름표를 쉽게 분석하기 위한 3가지 단계]]></title><description><![CDATA[재무제표는 기업을 이해하고 가치를 평가하기 위해서는 꼭 알아야 하는 기업의 재무상태와 경영정보를 제공하는 중요한 자료입니다. 이번 포스팅에서는 그 중 현금흐름표에 대해 알아보겠습니다.…]]></description><link>https://jungwoo0716.github.io/principles-of-understanding-the-cash-flow/</link><guid isPermaLink="false">https://jungwoo0716.github.io/principles-of-understanding-the-cash-flow/</guid><pubDate>Mon, 01 Jul 2024 22:10:00 GMT</pubDate><content:encoded>&lt;p&gt;재무제표는 기업을 이해하고 가치를 평가하기 위해서는 꼭 알아야 하는 기업의 재무상태와 경영정보를 제공하는 중요한 자료입니다.&lt;/p&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Gatsby Starter Blog RSS Feed]]></title><description><![CDATA[Always With Tech ]]></description><link>https://jungwoo0716.github.io</link><generator>GatsbyJS</generator><lastBuildDate>Sat, 27 Jul 2024 14:20:16 GMT</lastBuildDate><item><title><![CDATA[재무제표 현금흐름표를 쉽게 분석하기 위한 3가지 단계]]></title><description><![CDATA[재무제표는 기업을 이해하고 가치를 평가하기 위해서는 꼭 알아야 하는 기업의 재무상태와 경영정보를 제공하는 중요한 자료입니다. 이번 포스팅에서는 그 중 현금흐름표에 대해 알아보겠습니다.…]]></description><link>https://jungwoo0716.github.io/principles-of-understanding-the-cash-flow/</link><guid isPermaLink="false">https://jungwoo0716.github.io/principles-of-understanding-the-cash-flow/</guid><pubDate>Mon, 01 Jul 2024 22:10:00 GMT</pubDate><content:encoded>&lt;p&gt;재무제표는 기업을 이해하고 가치를 평가하기 위해서는 꼭 알아야 하는 기업의 재무상태와 경영정보를 제공하는 중요한 자료입니다.&lt;/p&gt;
 &lt;p&gt;이번 포스팅에서는 그 중 현금흐름표에 대해 알아보겠습니다.&lt;/p&gt;
 &lt;h2&gt;1. 기본구성&lt;/h2&gt;
 &lt;p&gt;현금흐름표는 실제로 현금으로 돈을 얼마나 벌었는지 판단할 수 있는 문서입니다.&lt;/p&gt;
@@ -475,22 +475,40 @@ P 는 객단가이며 Q는 구매 고객 수 입니다. 밀리의서재는 매�
 &lt;p&gt;기타 유동자산에 선급비용, 선급금 등이 있습니다. 비유동자산 기타 채권에는 미수금 등 다양한 것이 있지만, 이것은 기업가치 평가에 큰 의미가 없기 때문에 기타로 묶었습니다.&lt;/p&gt;
 &lt;h3&gt;2) 재무상태표 - 자본&lt;/h3&gt;
 &lt;h4&gt;(1) 납입자본&lt;/h4&gt;
-&lt;p&gt;납입자본은 앞에서 자본금과 자본잉여금으로 구분할 수 있다고 언급하였습니다. 자본잉여금은 다른 회사 재무제표에서 &apos;주식발행초과금&apos;으로고도 표시합니다.
-밀리의서재 납입자본은 2022년 876억에서 2023년 32억으로 급격히 감소했습니다.&lt;/p&gt;
+&lt;a href=&quot;https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20230915000282&quot;&gt;
+  &lt;img src=&quot;https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&amp;amp;fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FbqJUQ9%2FbtsIO376Lbu%2FzJhoVZJ99XXkf9umTpr1rK%2Fimg.png&quot; alt=&quot;납입자본&quot; style=&quot;width: 100%;&quot;&gt;
+&lt;/a&gt;
+&lt;p&gt;납입자본은 앞에서 자본금과 자본잉여금으로 구분할 수 있다고 언급하였습니다. 자본잉여금은 다른 회사 재무제표에서 &lt;strong&gt;&apos;주식발행초과금&apos;&lt;/strong&gt; 으로도 표시합니다.&lt;/p&gt;
+&lt;p&gt;밀리의서재 납입자본은 2022년 876억에서 2023년 32억으로 급격히 감소했습니다.&lt;/p&gt;
 &lt;h4&gt;(2) 이익잉여금&lt;/h4&gt;
-&lt;p&gt;이익잉여금은 2022년 결손 885억에서, 2023년 상반기 기준 이익 10억으로 크게 증가하였습니다.
-2023년 3월 31일 주주총회의 결의에 의해 자본잉여금(주식발행초과금) 84,467,898천원을 결손금 보전에 사용하여 자본잉여금은 전액 상각되고, 이익잉여금이 흑자 전환하였습니다.&lt;/p&gt;
+&lt;a href=&quot;https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20230915000282&quot;&gt;
+  &lt;img src=&quot;https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&amp;amp;fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FkC8Xo%2FbtsIP5xgVvk%2FRd4WSJJNHffvcBtGk6PXAk%2Fimg.png&quot; alt=&quot;이익잉여금&quot; style=&quot;width: 100%;&quot;&gt;
+&lt;/a&gt;
+&lt;p&gt;이익잉여금은 2022년 결손 885억에서, 2023년 상반기 기준 이익 10억으로 크게 증가하였습니다.&lt;/p&gt;
+&lt;p&gt;2023년 3월 31일 주주총회의 결의에 의해 자본잉여금(주식발행초과금) 84,467,898천원을 결손금 보전에 사용하여 &lt;strong&gt;자본잉여금은 전액 상각&lt;/strong&gt; 되고, 이익잉여금이 흑자 전환하였습니다.&lt;/p&gt;
 &lt;h3&gt;3) 재무상태표 - 부채&lt;/h3&gt;
 &lt;p&gt;부채는 2021년 1008억, 2002년 200억, 2023년 상반기 183억 정도로 감소하는 추세입니다.&lt;/p&gt;
 &lt;h4&gt;(1) 금융부채&lt;/h4&gt;
-&lt;p&gt;밀리의서재 재무상태표에서 금융부채로 분류할 수 있는 것은 단기차입금, RCPS(전환상환우선주), 파생상품 부채로 볼 수 있습니다.
-금융부채는 2022년 50억에서 2023년 상반기 48억으로 소폭 감소했습니다.&lt;/p&gt;
+&lt;a href=&quot;https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20230915000282&quot;&gt;
+  &lt;img src=&quot;https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&amp;amp;fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FOiuBA%2FbtsIQwabJpg%2FdoJ0YttmeAWE3pVyH1bKM1%2Fimg.png&quot; alt=&quot;금융부채&quot; style=&quot;width: 100%;&quot;&gt;
+&lt;/a&gt;
+&lt;p&gt;밀리의서재 재무상태표에서 금융부채로 분류할 수 있는 것은 단기차입금, RCPS(전환상환우선주), 파생상품 부채로 볼 수 있습니다.&lt;/p&gt;
+&lt;p&gt;금융부채는 2022년 50억에서 2023년 상반기 48억으로 소폭 감소했습니다.&lt;/p&gt;
 &lt;h4&gt;(2) 영업부채&lt;/h4&gt;
-&lt;p&gt;영업부채는 기본적으로 기업의 자금조달의 방법 중 하나 입니다. 줄 돈을 늦게 주고, 받을 돈을 빨리 받아 자금을 마련하기도 합니다. 위의 표 중에 금융부채를 제외하고는 모두 영업부채라고 할 수 있습니다.
-2020년부터 2022년까지 영업부채는 매입채무및기타채무, 기타부채, 순확정급여부채, 기타장기종업원급여부채 등이 지속적으로 상승하는 추세입니다.&lt;/p&gt;
+&lt;p&gt;영업부채는 기본적으로 기업의 자금조달의 방법 중 하나 입니다.&lt;/p&gt;
+&lt;p&gt;줄 돈을 늦게 주고, 받을 돈을 빨리 받아 자금을 마련하기도 합니다.&lt;/p&gt;
+&lt;p&gt;위의 표 중에 금융부채를 제외하고는 모두 영업부채라고 할 수 있습니다.&lt;/p&gt;
+&lt;p&gt;2020년부터 2022년까지 영업부채는 매입채무및기타채무, 기타부채, 순확정급여부채, 기타장기종업원급여부채 등이 지속적으로 상승하는 추세입니다.&lt;/p&gt;
 &lt;h3&gt;4) 손익계산서&lt;/h3&gt;
+&lt;a href=&quot;https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20230915000282&quot;&gt;
+  &lt;img src=&quot;https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&amp;amp;fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2Fd9ETpN%2FbtsIRm5Q63P%2FsSwkyFHEFYMaSy52d4Bnf0%2Fimg.png&quot; alt=&quot;손익계산서&quot; style=&quot;width: 100%;&quot;&gt;
+&lt;/a&gt;
 &lt;h4&gt;(1) 매출&lt;/h4&gt;
-&lt;p&gt;매출액은 2020년 179억원에서, 2021년 288억원, 2022년 458억원을 달성했고, 2023년과 2022년 상반기를 비교해도 2023년 상반기에 더 큰 매출을 달성한 것으로 보아, 지속적으로 매출 상승세를 유지하고 있습니다. 단위 억원&lt;/p&gt;
+&lt;p&gt;매출액은 2020년 179억원에서, 2021년 288억원, 2022년 458억원을 달성했고, 2023년과 2022년 상반기를 비교해도 2023년 상반기에 더 큰 매출을 달성한 것으로 보아, 지속적으로 매출 상승세를 유지하고 있습니다.&lt;/p&gt;
+&lt;a href=&quot;https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20230915000282&quot;&gt;
+  &lt;img src=&quot;https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&amp;amp;fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2Fd9ETpN%2FbtsIRm5Q63P%2FsSwkyFHEFYMaSy52d4Bnf0%2Fimg.png&quot; alt=&quot;채권&quot; style=&quot;width: 100%;&quot;&gt;
+&lt;/a&gt;
+단위 억원
 &lt;h4&gt;(2) 매출원가&lt;/h4&gt;
 &lt;p&gt;매출원가는 매출액 증가에 비해 큰 증가세를 보이지 않습니다. 2020년 53% 였던 매출원가 비율이 2021년에는 43% 로 감소했고, 2022년에는 29%까지 감소하였습니다.&lt;/p&gt;
 &lt;h4&gt;(3) 판관비&lt;/h4&gt;
@@ -498,7 +516,8 @@ P 는 객단가이며 Q는 구매 고객 수 입니다. 밀리의서재는 매�
 &lt;h4&gt;(4) 영업이익&lt;/h4&gt;
 &lt;p&gt;판관비도 고정적으로 나오는데 매출이 증가하면서 영업이익이 늘어났습니다. 2020년 109억 손실, 2021년 145억 손실에서, 2022년에 41억으로 흑자 전환 하였고, 2023년 상반기만 해도 49억의 영업이익을 내고 있습니다.&lt;/p&gt;
 &lt;h4&gt;(5) 당기순이익&lt;/h4&gt;
-&lt;p&gt;2021년 금융비용이 무려 203억으로 인해 348억의 손실을 기록했지만, 2022년 136억의 금융수익을 통해 133억의 순이익을 기록했습니다. 2021년 밀리의서재 감사보고서&lt;/p&gt;
+&lt;p&gt;2021년 금융비용이 무려 203억으로 인해 348억의 손실을 기록했지만, 2022년 136억의 금융수익을 통해 133억의 순이익을 기록했습니다.&lt;/p&gt;
+&lt;p&gt;2021년 밀리의서재 감사보고서&lt;/p&gt;
 &lt;p&gt;2022년 밀리의서재 감사보고서&lt;/p&gt;
 &lt;p&gt;내용을 보면 2021년에는 파생상품거래 손실로 188억이 잡혔고, 2022년에는 반대로 파생상품거래이익으로 134억이 잡혀있습니다.
 이는 스타트업에 투자했던 재무적 투자자(FI) 가 갖고 있던 전환상환우선주(RCPS) 때문입니다. 상장을 하기 위해서는 IFRS 재무제표로 전환해야 합니다. 그렇게 하면 상법상 자본으로 잡히는 전환상환우선주(RCPS)가 부채로 잡히게 되면서 큰 손실로 잡히게 됩니다. 2021년 파생상품거래 손실이 바로 IFRS 재무제표로 전환하면서 장부상 잡힌 부채로 추정할 수 있습니다.
