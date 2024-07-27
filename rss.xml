@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Gatsby Starter Blog RSS Feed]]></title><description><![CDATA[A starter blog demonstrating what Gatsby can do.]]></description><link>https://jungwoo0716.github.io</link><generator>GatsbyJS</generator><lastBuildDate>Sat, 27 Jul 2024 07:29:21 GMT</lastBuildDate><item><title><![CDATA[재무제표 현금흐름표를 쉽게 분석하기 위한 3가지 단계]]></title><description><![CDATA[재무제표는 기업을 이해하고 가치를 평가하기 위해서는 꼭 알아야 하는 기업의 재무상태와 경영정보를 제공하는 중요한 자료입니다. 이번 포스팅에서는 그 중 현금흐름표에 대해 알아보겠습니다.…]]></description><link>https://jungwoo0716.github.io/principles-of-understanding-the-cash-flow/</link><guid isPermaLink="false">https://jungwoo0716.github.io/principles-of-understanding-the-cash-flow/</guid><pubDate>Mon, 01 Jul 2024 22:10:00 GMT</pubDate><content:encoded>&lt;p&gt;재무제표는 기업을 이해하고 가치를 평가하기 위해서는 꼭 알아야 하는 기업의 재무상태와 경영정보를 제공하는 중요한 자료입니다. 이번 포스팅에서는 그 중 현금흐름표에 대해 알아보겠습니다.&lt;/p&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Gatsby Starter Blog RSS Feed]]></title><description><![CDATA[A starter blog demonstrating what Gatsby can do.]]></description><link>https://jungwoo0716.github.io</link><generator>GatsbyJS</generator><lastBuildDate>Sat, 27 Jul 2024 07:43:56 GMT</lastBuildDate><item><title><![CDATA[재무제표 현금흐름표를 쉽게 분석하기 위한 3가지 단계]]></title><description><![CDATA[재무제표는 기업을 이해하고 가치를 평가하기 위해서는 꼭 알아야 하는 기업의 재무상태와 경영정보를 제공하는 중요한 자료입니다. 이번 포스팅에서는 그 중 현금흐름표에 대해 알아보겠습니다.…]]></description><link>https://jungwoo0716.github.io/principles-of-understanding-the-cash-flow/</link><guid isPermaLink="false">https://jungwoo0716.github.io/principles-of-understanding-the-cash-flow/</guid><pubDate>Mon, 01 Jul 2024 22:10:00 GMT</pubDate><content:encoded>&lt;p&gt;재무제표는 기업을 이해하고 가치를 평가하기 위해서는 꼭 알아야 하는 기업의 재무상태와 경영정보를 제공하는 중요한 자료입니다. 이번 포스팅에서는 그 중 현금흐름표에 대해 알아보겠습니다.&lt;/p&gt;
 &lt;h2&gt;1. 기본구성&lt;/h2&gt;
 &lt;p&gt;현금흐름표는 실제로 현금으로 돈을 얼마나 벌었는지 판단할 수 있는 문서입니다. 재무제표 중 가장 쉽게 이해할 수 있는 손익계산서에 나오는 매출 혹은 수익은 실제로 현금으로 들어 온 것이 아닙니다. 발생주의 회계원칙에 따라 사건이 발생했을 때에 수익과 비용을 기재한 문서입니다. 사건이 발생한 것이지, 현금 유출입이 일어난 것이 아닙니다.
 예를 들면, A가 스마트스토어를 운영한다고 가정해봅시다. A는 중국에서 3,000만원을 결제하여 판매할 상품 10,000개를 생산하였습니다.&lt;/p&gt;
@@ -107,32 +107,43 @@ A가 생산한 10,000개의 상품은 재고 자산입니다. 재고 자산은 �
 &lt;p&gt;자산 = 부채 + 자본&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;p&gt;재무상태표에서는 자산의 총액은 부채의 총합과 자본의 총합을 합친 것과 같습니다.&lt;/p&gt;
-&lt;a href=&quot;https://jungwoo0716.github.io&quot;&gt;
+&lt;a href=&quot;https://jungwoo0716.github.io/principles-of-understanding-the-balance-sheet/&quot;&gt;
   &lt;img src=&quot;https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&amp;amp;fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FAcs5j%2FbtsIPRTnQ3X%2FGBzzFjuY10BENecUNtgNnk%2Fimg.png&quot; alt=&quot;재무상태표 (자산 = 자본 + 부채)&quot; style=&quot;width: 100%;&quot;&gt;
-  &lt;/a&gt;
+&lt;/a&gt;
 &lt;p&gt;회계 관점에서 기업은 &lt;strong&gt;복식 부기&lt;/strong&gt;를 작성해야 합니다. 복식 부기는 차변/대변으로 이루어져 있으며, 위의 이미지 왼쪽이 재무상태표의 차변,
 오른쪽이 재무상태표의 대변이라고 이해하면 됩니다.&lt;/p&gt;
 &lt;p&gt;기업의 재무 상황을 분석할 때는 복식부기 장부를 만드는 일이 중요하지 않습니다. 그것보다는 재무상태표를 보고 중요한 재무상황을 찾아내는 것이 중요합니다.&lt;/p&gt;
-&lt;p&gt;기업 분석을 위한 재무상태표를 이해하는 핵심은 자금을 어떻게 마련했는지(대변), 그 자금을 어떻게 활용했는지(차변) 입니다.
-남의 돈(부채)과 내 돈(자본)을 통해 마련한 자금을 현금, 부동산과 같은 유형자산, 재고 등 어떻게 사용했는지를 보여주는 것이 바로 재무상태표의 핵심 가치입니다.&lt;/p&gt;
+&lt;p&gt;기업 분석을 위한 재무상태표를 이해하는 핵심은 &lt;strong&gt;자금을 어떻게 마련했는지(대변)&lt;/strong&gt;, 그 &lt;strong&gt;자금을 어떻게 활용했는지(차변)&lt;/strong&gt; 입니다.&lt;/p&gt;
+&lt;p&gt;남의 돈(부채)과 내 돈(자본)을 통해 마련한 자금을 현금, 부동산과 같은 유형자산, 재고 등 어떻게 사용했는지를 보여주는 것이 바로 재무상태표의 핵심 가치입니다.&lt;/p&gt;
 &lt;h2&gt;2. 자산&lt;/h2&gt;
-&lt;p&gt;회계적인 관점에서 자산은 유동자산과 비유동자산으로 나누어집니다. 하지만 재무적인 관점에서 자산이 유동성인지보다 훨씬 중요한 것이 자산의 유형입니다.&lt;/p&gt;
-&lt;p&gt;부채와 자본을 통해 마련한 자금을 기업에서는 아래의 4가지 유형을 마련하기 위해 사용합니다. 이 4가지의 비율이 대부분 기업의 재무상태표(대차대조표)에서 90% 이상을 차지할 정도로 중요합니다. 첫 번째는 바로 현금이며, 두 번째는 유무형 자산, 세번째는 재고이고, 네 번째는 채권입니다. (1) 현금 (2)유무형 자산 (3)재고 (4)채권&lt;/p&gt;
-&lt;p&gt;비즈니스를 하고 있다면 이 과정을 쉽게 이해할 수 있을 것입니다.
-만약 A가 일식당을 운영한다고 가정을 해봅시다. 일단 먼저 A가 모아놓은 돈 6,000만원과 A의 부모님 B가 4,000만원을 빌려주어 일식당 사업을 하기 위한 자금, 즉 현금성 자산 1억원을 조달합니다.  (1. 현금)&lt;/p&gt;
-&lt;p&gt;일식당을 운영하려면 일식당을 운영할 공간 보증금, 업소용 주방용품, 인테리어 비용 등 유무형 자산을 구매해야 합니다. 이는 향후 일식당을 운영해서 벌어들일 수익을 기대한 투자 자산이라고 볼 수 있습니다. 영어로 이를 Capital Expenditure(CAPEX) 라고 부르며 자본적 지출이라고 합니다. (2. 유무형 자산)&lt;/p&gt;
-&lt;p&gt;A가 위의 유무형 자산들을 잘 세팅해서 일식당의 운영을 시작했습니다. 유무형 자산을 이용해서 열심히 일식 식재료를 구매하며, 초밥 등과 같은 음식을 만듭니다. 아직 팔리지 않았기 때문에 우리는 이 것을 재고라고 부릅니다. (3. 재고)&lt;/p&gt;
-&lt;p&gt;다행히 A가 운영하는 일식당에 손님들이 많이 와서 초밥 등의 음식 재고가 팔립니다. 소비자들은 카드로 대금을 결제합니다. 돈을 아직 받지 못했지만, 카드사가 입금하기 전까지는 돈을 받을 권리가 생겼습니다. (4. 채권)&lt;/p&gt;
-&lt;p&gt;채권이 만기가 되면, 카드사에서 현금을 A 에게 입금해줄 것입니다. (1. 현금)&lt;/p&gt;
-&lt;p&gt;일식당을 운영하는 A 는 많은 현금을 마련하여 또 다른 현금을 창출하기 위해 2호점을 오픈하기로 결정했습니다. 2호점에 필요한 유무형 자산에 투자를 합니다. (2. 유무형 자산)&lt;/p&gt;
+&lt;p&gt;회계적인 관점에서 자산은 유동자산과 비유동자산으로 나누어집니다. 하지만 재무적인 관점에서 자산이 유동성인지보다 훨씬 중요한 것이 &lt;strong&gt;자산의 유형&lt;/strong&gt;입니다.&lt;/p&gt;
+&lt;p&gt;부채와 자본을 통해 마련한 자금을 기업에서는 아래의 4가지 유형을 마련하기 위해 사용합니다.&lt;/p&gt;
+&lt;p&gt;이 4가지의 비율이 대부분 기업의 재무상태표(대차대조표)에서 &lt;strong&gt;90% 이상&lt;/strong&gt;을 차지할 정도로 중요합니다.&lt;/p&gt;
+&lt;p&gt;첫 번째는 바로 &lt;strong&gt;현금&lt;/strong&gt;이며, 두 번째는 &lt;strong&gt;유무형 자산&lt;/strong&gt;, 세번째는 &lt;strong&gt;재고&lt;/strong&gt;이고, 네 번째는 &lt;strong&gt;채권&lt;/strong&gt;입니다.&lt;/p&gt;
+&lt;a href=&quot;https://jungwoo0716.github.io/principles-of-understanding-the-balance-sheet/&quot;&gt;
+  &lt;img src=&quot;https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&amp;amp;fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FsJiA3%2FbtsIQJUy4Nr%2FCXWA91QHdXPxfpTtJ2tSI0%2Fimg.png&quot; alt=&quot;(1) 현금 (2) 유무형 자산 (3) 재고 (4) 채권&quot; style=&quot;width: 100%;&quot;&gt;
+&lt;/a&gt;
+&lt;p&gt;비즈니스를 하고 있다면 이 과정을 쉽게 이해할 수 있을 것입니다.&lt;/p&gt;
+&lt;p&gt;만약 A가 일식당을 운영한다고 가정을 해봅시다.&lt;/p&gt;
+&lt;p&gt;일단 먼저 A가 모아놓은 돈 6,000만원과 A의 부모님 B가 4,000만원을 빌려주어 일식당 사업을 하기 위한 자금, 즉 &lt;strong&gt;현금성 자산 1억원&lt;/strong&gt;을 조달합니다.  (1. 현금)&lt;/p&gt;
+&lt;p&gt;일식당을 운영하려면 일식당을 운영할 &lt;strong&gt;공간 보증금, 업소용 주방용품, 인테리어 비용&lt;/strong&gt; 등 유무형 자산을 구매해야 합니다. 이는 향후 일식당을 운영해서 벌어들일 수익을 기대한 투자 자산이라고 볼 수 있습니다.&lt;/p&gt;
+&lt;p&gt;영어로 이를 Capital Expenditure(CAPEX) 라고 부르며 자본적 지출이라고 합니다. (2. 유무형 자산)&lt;/p&gt;
+&lt;p&gt;A가 위의 유무형 자산들을 잘 세팅해서 일식당의 운영을 시작했습니다. 유무형 자산을 이용해서 열심히 일식 식재료를 구매하며, &lt;strong&gt;초밥 등&lt;/strong&gt;과 같은 음식을 만듭니다.&lt;/p&gt;
+&lt;p&gt;아직 팔리지 않았기 때문에 우리는 이것을 재고라고 부릅니다. (3. 재고)&lt;/p&gt;
+&lt;p&gt;다행히 A가 운영하는 일식당에 손님들이 많이 와서 초밥 등의 음식 재고가 팔립니다. 소비자들은 카드로 대금을 결제합니다.&lt;/p&gt;
+&lt;p&gt;돈을 아직 받지 못했지만, 카드사가 입금하기 전까지는 &lt;strong&gt;돈을 받을 권리&lt;/strong&gt;가 생겼습니다. (4. 채권)&lt;/p&gt;
+&lt;p&gt;채권이 만기가 되면, &lt;strong&gt;카드사에서 현금&lt;/strong&gt;을 A 에게 입금해줄 것입니다. (1. 현금)&lt;/p&gt;
+&lt;p&gt;일식당을 운영하는 A 는 많은 현금을 마련하여 또 다른 현금을 창출하기 위해 &lt;strong&gt;2호점&lt;/strong&gt;을 오픈하기로 결정했습니다. 2호점에 필요한 유무형 자산에 투자를 합니다. (2. 유무형 자산)&lt;/p&gt;
 &lt;p&gt;자산은 대부분 이렇게 4가지 유형으로 설명할 수 있으며, 이 프로세스가 지속적으로 반복됩니다.&lt;/p&gt;
 &lt;h3&gt;SPC (Special Purpose Company, 특수목적회사)&lt;/h3&gt;
-&lt;p&gt;대부분 기업은 위의 프로세스가 지속적으로 반복되면서 더 많은 부가가치를 창출합니다. 하지만 가끔 이런 프로세스를 딱 한 번만 돌리고 청산하는 법인이 있는데, 이를 SPC 라고 부릅니다.
-부동산 프로젝트 프로낸싱이나 자산유동화증권을 발행하는 등의 케이스는 특히 SPC로 대부분 프로젝트를 수행합니다. 위의 특수한 목적을 달성하면 더 이상 법인을 존속할 필요가 없기 때문에 해당 프로세스를 반복하지 않고 청산하여 현금을 나눠가집니다.&lt;/p&gt;
+&lt;p&gt;대부분 기업은 위의 프로세스가 지속적으로 반복되면서 더 많은 부가가치를 창출합니다. 하지만 가끔 이런 프로세스를 딱 한 번만 돌리고 청산하는 법인이 있는데, 이를 SPC 라고 부릅니다.&lt;/p&gt;
+&lt;p&gt;부동산 프로젝트 프로낸싱이나 자산유동화증권을 발행하는 등의 케이스는 특히 SPC로 대부분 프로젝트를 수행합니다.&lt;/p&gt;
+&lt;p&gt;위의 특수한 목적을 달성하면 더 이상 법인을 존속할 필요가 없기 때문에 해당 프로세스를 반복하지 않고 청산하여 현금을 나눠가집니다.&lt;/p&gt;
 &lt;h3&gt;버핏이 좋아하는 기업&lt;/h3&gt;
-&lt;p&gt;일반적인 회사에서 유무형 자산이 바로 기업의 핵심입니다. 유무형 자산을 잘 가동해야 가치를 만들어내고, 이것이 현금으로 전환될 수 있기 때문입니다.&lt;/p&gt;
-&lt;p&gt;오마하의 현인 워런 버핏(Warren Buffet)이 좋아하는 기업이 있는데요. 바로 적은 유무형 자산의 투자로 큰 현금흐름을 만드는 기업입니다. 버핏은 위의 자산 프로세스를 반복하는 과정 속에 유무형 자산에 큰 투자를 하지 않아도, 현금이 많이 발생하는 기업을 좋아합니다.&lt;/p&gt;
-&lt;p&gt;당연하겠지만 적은 투자로 큰 현금을 창출한다는 것은, 다른 회사들이 범접하기 힘든 차별점이 있거나, 큰 부가가치를 창출하는 무엇인가 있어, 버핏이 항상 언급하는 경제적 해자를 갖고 있다는 뜻이기도 합니다.&lt;/p&gt;
+&lt;p&gt;일반적인 회사에서 &lt;strong&gt;유무형 자산&lt;/strong&gt;이 바로 기업의 핵심입니다. 유무형 자산을 잘 가동해야 가치를 만들어내고, 이것이 현금으로 전환될 수 있기 때문입니다.&lt;/p&gt;
+&lt;p&gt;오마하의 현인 워런 버핏(Warren Buffet)이 좋아하는 기업이 있는데요. 바로 &lt;strong&gt;적은 유무형 자산의 투자로 큰 현금흐름&lt;/strong&gt;을 만드는 기업입니다.&lt;/p&gt;
+&lt;p&gt;버핏은 위의 자산 프로세스를 반복하는 과정 속에 유무형 자산에 큰 투자를 하지 않아도, 현금이 많이 발생하는 기업을 좋아합니다.&lt;/p&gt;
+&lt;p&gt;당연하겠지만 적은 투자로 큰 현금을 창출한다는 것은, 다른 회사들이 범접하기 힘든 차별점이 있거나, 큰 부가가치를 창출하는 무엇인가 있어, 버핏이 항상 언급하는 &lt;strong&gt;경제적 해자&lt;/strong&gt;를 갖고 있다는 뜻이기도 합니다.&lt;/p&gt;
 &lt;h2&gt;3. 자본&lt;/h2&gt;
 &lt;p&gt;자본에는 납입자본(자본금과 자본잉여금), 이익잉여금으로 나눌 수 있습니다.&lt;/p&gt;
 &lt;p&gt;먼저 납입자본에 대한 개념을 이해해야 합니다. 자본을 납입한다는 것은 기본적으로 회사의 주주여야 합니다.&lt;/p&gt;
