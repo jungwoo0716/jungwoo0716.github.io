@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Gatsby Starter Blog RSS Feed]]></title><description><![CDATA[Always With Tech ]]></description><link>https://jungwoo0716.github.io</link><generator>GatsbyJS</generator><lastBuildDate>Sat, 27 Jul 2024 13:46:54 GMT</lastBuildDate><item><title><![CDATA[재무제표 현금흐름표를 쉽게 분석하기 위한 3가지 단계]]></title><description><![CDATA[재무제표는 기업을 이해하고 가치를 평가하기 위해서는 꼭 알아야 하는 기업의 재무상태와 경영정보를 제공하는 중요한 자료입니다. 이번 포스팅에서는 그 중 현금흐름표에 대해 알아보겠습니다.…]]></description><link>https://jungwoo0716.github.io/principles-of-understanding-the-cash-flow/</link><guid isPermaLink="false">https://jungwoo0716.github.io/principles-of-understanding-the-cash-flow/</guid><pubDate>Mon, 01 Jul 2024 22:10:00 GMT</pubDate><content:encoded>&lt;p&gt;재무제표는 기업을 이해하고 가치를 평가하기 위해서는 꼭 알아야 하는 기업의 재무상태와 경영정보를 제공하는 중요한 자료입니다.&lt;/p&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Gatsby Starter Blog RSS Feed]]></title><description><![CDATA[Always With Tech ]]></description><link>https://jungwoo0716.github.io</link><generator>GatsbyJS</generator><lastBuildDate>Sat, 27 Jul 2024 13:48:59 GMT</lastBuildDate><item><title><![CDATA[재무제표 현금흐름표를 쉽게 분석하기 위한 3가지 단계]]></title><description><![CDATA[재무제표는 기업을 이해하고 가치를 평가하기 위해서는 꼭 알아야 하는 기업의 재무상태와 경영정보를 제공하는 중요한 자료입니다. 이번 포스팅에서는 그 중 현금흐름표에 대해 알아보겠습니다.…]]></description><link>https://jungwoo0716.github.io/principles-of-understanding-the-cash-flow/</link><guid isPermaLink="false">https://jungwoo0716.github.io/principles-of-understanding-the-cash-flow/</guid><pubDate>Mon, 01 Jul 2024 22:10:00 GMT</pubDate><content:encoded>&lt;p&gt;재무제표는 기업을 이해하고 가치를 평가하기 위해서는 꼭 알아야 하는 기업의 재무상태와 경영정보를 제공하는 중요한 자료입니다.&lt;/p&gt;
 &lt;p&gt;이번 포스팅에서는 그 중 현금흐름표에 대해 알아보겠습니다.&lt;/p&gt;
 &lt;h2&gt;1. 기본구성&lt;/h2&gt;
 &lt;p&gt;현금흐름표는 실제로 현금으로 돈을 얼마나 벌었는지 판단할 수 있는 문서입니다.&lt;/p&gt;
@@ -364,7 +364,7 @@ P 는 객단가이며 Q는 구매 고객 수 입니다. 밀리의서재는 매�
 &lt;p&gt;제3자가 기업의 가치를 평가할 때는 탑에서 큰 관점에서 중요한 정보를 판단하여 필요한 정보만 보는 것이 기업을 빠르게 이해할 수 있는 방법입니다.&lt;/p&gt;
 &lt;h3&gt;1) 재무상태표&lt;/h3&gt;
 &lt;p&gt;재무상태표가 만들어지는 과정은 아래의 링크를 클릭해서 읽어보시고 나머지 글을 읽는 것을 추천드립니다.&lt;/p&gt;
-&lt;div class=&quot;pulsing-button&quot;&gt;  &lt;a href=&quot;https://youtu.be/qyIQxF7YxSs?si=nKNJ5iNAtyqFt9Zu&quot;&gt; 재무상태표 알아보기 &lt;/a&gt;&lt;/div&gt;
+&lt;div class=&quot;pulsing-button&quot;&gt;  &lt;a href=&quot;https://jungwoo0716.github.io/principles-of-understanding-the-balance-sheet/&quot;&gt; 재무상태표 알아보기 &lt;/a&gt;&lt;/div&gt;
 &lt;style&gt;  
 @keyframes pulse 
     {0% { transform: scale(1); }    
@@ -390,7 +390,7 @@ P 는 객단가이며 Q는 구매 고객 수 입니다. 밀리의서재는 매�
         }
     &lt;/style&gt;
 &lt;h3&gt;2) 손익계산서&lt;/h3&gt;
-&lt;div class=&quot;pulsing-button&quot;&gt;  &lt;a href=&quot;https://youtu.be/qyIQxF7YxSs?si=nKNJ5iNAtyqFt9Zu&quot;&gt; 손익계산서 알아보기 &lt;/a&gt;&lt;/div&gt;
+&lt;div class=&quot;pulsing-button&quot;&gt;  &lt;a href=&quot;https://jungwoo0716.github.io/principles-of-understanding-the-income-statement/&quot;&gt; 손익계산서 알아보기 &lt;/a&gt;&lt;/div&gt;
 &lt;style&gt;  
 @keyframes pulse 
     {0% { transform: scale(1); }    
@@ -416,7 +416,7 @@ P 는 객단가이며 Q는 구매 고객 수 입니다. 밀리의서재는 매�
         }
     &lt;/style&gt;
 &lt;h3&gt;3) 현금흐름표&lt;/h3&gt;
-&lt;div class=&quot;pulsing-button&quot;&gt;  &lt;a href=&quot;https://youtu.be/qyIQxF7YxSs?si=nKNJ5iNAtyqFt9Zu&quot;&gt; 현금흐름표 알아보기 &lt;/a&gt;&lt;/div&gt;
+&lt;div class=&quot;pulsing-button&quot;&gt;  &lt;a href=&quot;https://jungwoo0716.github.io/principles-of-understanding-the-cash-flow/&quot;&gt; 현금흐름표 알아보기 &lt;/a&gt;&lt;/div&gt;
 &lt;style&gt;  
 @keyframes pulse 
     {0% { transform: scale(1); }    
