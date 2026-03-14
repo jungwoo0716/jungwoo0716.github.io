@@ -34,9 +34,7 @@ tags: ["밀리의서재", "기업분석"]
 
 ## 2. 재무제표 분석
 
-[
-  
-](https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20230915000282)
+[![밀리의서재 재무상태표](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FbcF7BD%2FbtsIO1o0fvX%2FynsNppbPVC9u74yw7u5VvK%2Fimg.png)](https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20230915000282)
 
 밀리의서재 재무상태표 - 자산 (단위, 원)
 
@@ -48,9 +46,7 @@ tags: ["밀리의서재", "기업분석"]
 
 현금은 기본적으로 빠르게 현금화 할 수 있는 모든 자산을 말합니다. 밀리의 서재 현금은 현금및현금성자산과 기타유동성금융자산을 포함합니다.
 
-[
-  
-](https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20230915000282)
+[![기타유동금융자산](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FcOWzqs%2FbtsIPrAXSjY%2FsmZMkJUV6dePZ4XmQaYkc0%2Fimg.png)](https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20230915000282)
 
 기타유동금융자산
 
@@ -60,25 +56,19 @@ tags: ["밀리의서재", "기업분석"]
 
 #### (2) 유무형 자산
 
-[
-  
-](https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20230915000282)
+[![유무형 자산](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FbYBPOY%2FbtsIPWf7zmc%2FrPl1wQaCrQLJGDBkpBkr00%2Fimg.png)](https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20230915000282)
 
 유형자산은 2022년 4억6천만원, 무형자산 5억 2천만원으로 전체 유무형자산은 약 10억 정도였으나, 2023년에는 유형자산 3억 8천만원, 무형자산 4억7천만원으로 전체 유무형자산 8억 5천만원으로 일부 줄었습니다.
 
 #### (3) 재고자산
 
-[
-  
-](https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20230915000282)
+[![재고자산](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FQ2znn%2FbtsIPzlh8dB%2Fye9x1jCLtfXJZWCKO2tW2K%2Fimg.png)](https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20230915000282)
 
 재고자산은 2022년 2억3천만원, 2023년 상반기 기준 1억 4천만원으로 일부 감소했습니다.
 
 #### (4) 채권
 
-[
-  
-](https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20230915000282)
+[![채권](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2Fd9ETpN%2FbtsIRm5Q63P%2FsSwkyFHEFYMaSy52d4Bnf0%2Fimg.png)](https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20230915000282)
 
 채권은 2022년 66억 원에서 2023년 상반기 43억 원으로 23억원 감소했습니다.
 
@@ -90,9 +80,7 @@ tags: ["밀리의서재", "기업분석"]
 
 #### (1) 납입자본
 
-[
-  
-](https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20230915000282)
+[![납입자본](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FbqJUQ9%2FbtsIO376Lbu%2FzJhoVZJ99XXkf9umTpr1rK%2Fimg.png)](https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20230915000282)
 
 납입자본은 앞에서 자본금과 자본잉여금으로 구분할 수 있다고 언급하였습니다. 자본잉여금은 다른 회사 재무제표에서 **'주식발행초과금'** 으로도 표시합니다.
 
@@ -100,9 +88,7 @@ tags: ["밀리의서재", "기업분석"]
 
 #### (2) 이익잉여금
 
-[
-  
-](https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20230915000282)
+[![이익잉여금](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FkC8Xo%2FbtsIP5xgVvk%2FRd4WSJJNHffvcBtGk6PXAk%2Fimg.png)](https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20230915000282)
 
 이익잉여금은 2022년 결손 885억에서, 2023년 상반기 기준 이익 10억으로 크게 증가하였습니다.
 
@@ -114,9 +100,7 @@ tags: ["밀리의서재", "기업분석"]
 
 #### (1) 금융부채
 
-[
-  
-](https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20230915000282)
+[![금융부채](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FOiuBA%2FbtsIQwabJpg%2FdoJ0YttmeAWE3pVyH1bKM1%2Fimg.png)](https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20230915000282)
 
 밀리의서재 재무상태표에서 금융부채로 분류할 수 있는 것은 단기차입금, RCPS(전환상환우선주), 파생상품 부채로 볼 수 있습니다.
 
@@ -138,9 +122,7 @@ tags: ["밀리의서재", "기업분석"]
 
 매출액은 2020년 179억원에서, 2021년 288억원, 2022년 458억원을 달성했고, 2023년과 2022년 상반기를 비교해도 2023년 상반기에 더 큰 매출을 달성한 것으로 보아, 지속적으로 매출 상승세를 유지하고 있습니다.
 
-[
-  
-](https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20230915000282)
+[![손익계산서](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FbpTn23%2FbtsIPK1g29p%2FfcsTYaFj00XVSTnt2WVHvK%2Fimg.jpg)](https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20230915000282)
 
 #### (2) 매출원가
 
@@ -162,9 +144,7 @@ tags: ["밀리의서재", "기업분석"]
 
 2021년 금융비용이 무려 203억으로 인해 348억의 손실을 기록했지만, 2022년 136억의 금융수익을 통해 133억의 순이익을 기록했습니다.
 
-[
-  
-](https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20230915000282)
+[![2022년 밀리의서재 감사보고서](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FT89BO%2FbtsIP81MSuS%2FkhQjqk34k4jkO0FUsiKr01%2Fimg.jpg)](https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20230915000282)
 
 위의 2022년 감사보고서 표를 보면 2021년에는 파생상품거래 손실로 188억이 잡혔고, 2022년에는 반대로 파생상품거래이익으로 134억이 잡혀있습니다.
 
@@ -180,9 +160,7 @@ tags: ["밀리의서재", "기업분석"]
 
 ### 5) 현금흐름표
 
-[
-  
-](https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20230915000282)
+[![현금흐름표](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FcD7EjT%2FbtsIPrOuRX7%2FAs6uY6kQeebqMUJIdiRk6k%2Fimg.jpg)](https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20230915000282)
 
 #### (1) 영업현금흐름(CFO)
 

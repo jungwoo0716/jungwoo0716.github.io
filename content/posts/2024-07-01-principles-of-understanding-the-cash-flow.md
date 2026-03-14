@@ -54,9 +54,7 @@ A가 생산한 10,000개의 상품은 **재고 자산** 입니다. 재고 자산
 
 2022년 삼성전자의 사업보고서를 예로 들어보겠습니다.
 
-[
-  
-](https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20230307000542)
+[![2022년 삼성전자 영업활동 현금흐름](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2Fdwu67V%2FbtsIPuRYajz%2FKT80kYX0BtXK7gjb8al9uK%2Fimg.jpg)](https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20230307000542)
 
 2022년 삼성전자 영업활동 현금흐름
 
@@ -64,17 +62,13 @@ A가 생산한 10,000개의 상품은 **재고 자산** 입니다. 재고 자산
 
 당기순이익보다 '조정' 부분이 엄청 큰 부분을 차지하고 있습니다. 재무제표 주석을 통해 '조정' 부분을 자세히 보면, 감가상각비가 가장 큰 비율을 차지하고 있습니다.
 
-[
-  
-](https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20230307000542)
+[![2022년 삼성전자 영업활동 현금흐름 - 조정](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FRec3V%2FbtsIO2OTlkZ%2Fh0nbsKxVUvJbYeEKViX9A0%2Fimg.jpg)](https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20230307000542)
 
 2022년 삼성전자 영업활동 현금흐름 - 조정
 
 또한 주석을 보면 많은 금액을 차지하는 것이 매출채권/매입채무 및 재고자산이 있습니다.
 
-[
-  
-](https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20230307000542)
+[![2022년 삼성전자 영업활동 현금흐름 - 자산부채 변동](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FnhMeO%2FbtsIOBD3KkO%2FWdxigoB7Us3nKmDuT2aCfk%2Fimg.jpg)](https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20230307000542)
 
 2022년 삼성전자 영업활동 현금흐름 - 자산부채 변동
 
@@ -100,9 +94,7 @@ A가 생산한 10,000개의 상품은 **재고 자산** 입니다. 재고 자산
 
 2022년 삼성전자의 예시를 보면 기존에 갖고 있던 단기 예적금 같은 금융상품 회수를 통해 현금을 일부 마련해서 대부분 유형자산 및 무형자산에 투자한 것을 알 수 있습니다.
 
-[
-  
-](https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20230307000542)
+[![2022년 삼성전자 투자활동 현금흐름](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FdDJfNu%2FbtsIPUvTMFe%2FGjK7B4ZXGfkd97XJHvqFE1%2Fimg.jpg)](https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20230307000542)
 
 2022년 삼성전자 투자활동 현금흐름
 
@@ -110,9 +102,7 @@ A가 생산한 10,000개의 상품은 **재고 자산** 입니다. 재고 자산
 
 재무현금흐름은 재무와 관련된 현금흐름을 말합니다. 차입금이나 유상증자 등 다양한 방법으로 자금조달을 통해 추가적인 현금을 마련할 수 있고, 아래의 삼성전자 처럼 벌어들인 돈이 많아 주주에게 배당을 통해 현금을 지출할 수 있습니다.
 
-[
-  
-](https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20230307000542)
+[![2022년 삼성전자 재무활동 현금흐름](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FcIclU1%2FbtsIRmrcJAD%2FAp7rKwLWjlxTkDwCmx95vK%2Fimg.jpg)](https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20230307000542)
 
 2022년 삼성전자 재무활동 현금흐름
 

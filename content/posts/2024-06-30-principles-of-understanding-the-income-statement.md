@@ -12,9 +12,7 @@ tags: ["재무기초", "재무제표", "회계"]
 
 손익계산서는 재무제표를 잘 알지 못하는 분들도 이해하기 쉬운 재무 지표 중 하나 입니다. 1년 동안 영업을 잘했는지 알려 주는 그런 문서입니다.
 
-[
-  
-](https://jungwoo0716.github.io/principles-of-understanding-the-income-statement/)
+[![손익계산서 구성](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FbXtMxa%2FbtsIPzr0rhg%2FCUnIDBjbHWzZKj5PfJzeM0%2Fimg.png)](https://jungwoo0716.github.io/principles-of-understanding-the-income-statement/)
 
 손익계산서는 크게 (1) 매출 (2) 매출총이익 (3) 영업이익 (4) 경상이익 (5) 당기순이익 5가지로 구성됩니다.
 

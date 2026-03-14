@@ -26,9 +26,7 @@ tags: ["밀리의서재", "기업분석"]
 
 그 당시 국내에는 단권으로 전자책을 판매하는 모델은 있었으나, 매월 일정 금액을 지불하고 전자책을 읽을 수 있는 구독형 모델은 없었습니다.
 
-[
-  
-](https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20230915000282)
+[![가입자 성장 현황](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FdrzVP9%2FbtsIOVWEBgz%2F2uLlNzTdrElPeWaPHm9C70%2Fimg.jpg)](https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20230915000282)
 
 가입자 성장 현황 (당사 사업보고서)
 
@@ -76,9 +74,7 @@ TV CF 광고로 큰 성과를 얻은 경험이 있는 밀리의서재는 다시 
 
 햄버거도 단품과 세트로 나눠서 판매하는 전략 역시 번들링 전략이며, 통신사에서 주로 고객 충성도를 높이기 위해 이런 전략을 많이 사용합니다.
 
-[
-  
-](https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20230915000282)
+[![번들링 요금제](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FbMRnFX%2FbtsIRfTkhlH%2F3OHnwjFzx6tKBuE6khnHZ1%2Fimg.png)](https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20230915000282)
 
 2021년 LG U+ 밀리의서재 번들링 요금제
 
@@ -104,9 +100,7 @@ LG U+ 는 다양한 노력에도 불구하고 시장 점유율에서 여전히 1
 
 다양한 파트너와 협업을 하면서 시장에 인지도를 높이고 구독자 수를 확보하면서 현재 구독자수는 지속적인 상승 추세에 있는 상황입니다.
 
-[
-  
-](https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20230915000282)
+[![KT 번들링 요금제](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FdjFGe5%2FbtsIPZ4ZazW%2FusQHvms9Ii3qbfmM4b2WLk%2Fimg.jpg)](https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20230915000282)
 
 KT 번들링 요금제 예시
 
