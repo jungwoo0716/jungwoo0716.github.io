@@ -30,6 +30,55 @@
       <description>재무제표는 기업을 이해하고 가치를 평가하기 위해서 꼭 알아야할 기업의 재무상태와 경영정보를 제공하는 중요한 자료입니다. 재무상태표에 대해 알아보겠습니다.</description>
     </item>
     <item>
+      <title>가장 정교한 3D 프린터 방식 MJM 과 Polyjet 소재 분사 방식</title>
+      <link>https://jungwoo0716.github.io/posts/231205-mjm-polyjet-3d-printing-tech/</link>
+      <pubDate>Tue, 05 Dec 2023 09:15:00 +0900</pubDate>
+      <guid>https://jungwoo0716.github.io/posts/231205-mjm-polyjet-3d-printing-tech/</guid>
+      <description>가장 정밀한 3D 프린팅 방식인 소재 분사 방식의 개념과 Polyjet, MJM 두 가지 기법을 소개합니다.</description>
+    </item>
+    <item>
+      <title>산업용 컬러 3D 프린터 CJP 3D 프린팅 원리 (석고분말)</title>
+      <link>https://jungwoo0716.github.io/posts/231121-cjp-3d-printer-binder-jetting/</link>
+      <pubDate>Tue, 21 Nov 2023 09:15:00 +0900</pubDate>
+      <guid>https://jungwoo0716.github.io/posts/231121-cjp-3d-printer-binder-jetting/</guid>
+      <description>색상 표현이 가능한 산업용 컬러 3D 프린터 CJP의 원리인 Binder Jetting 방식과 활용 사례를 소개합니다.</description>
+    </item>
+    <item>
+      <title>3D 프린터의 정의 및 기술 분류 (3D 프린팅 개념, 기술, ISO 분류)</title>
+      <link>https://jungwoo0716.github.io/posts/231118-iso-3d-printing-tech/</link>
+      <pubDate>Sat, 18 Nov 2023 09:15:00 +0900</pubDate>
+      <guid>https://jungwoo0716.github.io/posts/231118-iso-3d-printing-tech/</guid>
+      <description>3D 프린터의 정의와 ASTM/ISO 기준 7가지 3D 프린팅 기술 분류를 알아봅니다.</description>
+    </item>
+    <item>
+      <title>FDM 3D 프린터 자주 쓰는 필라멘트/레진 재료 종류 (PLA, ABS 등)</title>
+      <link>https://jungwoo0716.github.io/posts/231114-3dprinter-filament-pla-abs/</link>
+      <pubDate>Tue, 14 Nov 2023 09:15:00 +0900</pubDate>
+      <guid>https://jungwoo0716.github.io/posts/231114-3dprinter-filament-pla-abs/</guid>
+      <description>FDM/FFF 방식 3D 프린터에서 주로 사용하는 PLA, ABS 필라멘트 재료의 특성과 차이점을 알아봅니다.</description>
+    </item>
+    <item>
+      <title>3d 프린터 SLA 방식 소개 (원리, 역사, 장단점)</title>
+      <link>https://jungwoo0716.github.io/posts/231111-sla-3d-printer-intro/</link>
+      <pubDate>Sat, 11 Nov 2023 09:15:00 +0900</pubDate>
+      <guid>https://jungwoo0716.github.io/posts/231111-sla-3d-printer-intro/</guid>
+      <description>광중합 방식을 사용하는 SLA 3D 프린터의 원리, 탄생 역사, 장단점을 소개합니다.</description>
+    </item>
+    <item>
+      <title>3d 프린터 FDM 방식과 FFF 방식 (역사, 원리, 장단점, 레진)</title>
+      <link>https://jungwoo0716.github.io/posts/231107-fdm-3d-printer-and-fff-3d-printer/</link>
+      <pubDate>Tue, 07 Nov 2023 09:15:00 +0900</pubDate>
+      <guid>https://jungwoo0716.github.io/posts/231107-fdm-3d-printer-and-fff-3d-printer/</guid>
+      <description>가장 대중적인 3D 프린터 방식인 FDM과 FFF의 원리, 역사, 장단점을 알아봅니다.</description>
+    </item>
+    <item>
+      <title>SLS 3D 프린터 소개 (역사, SLM 비교, 장단점, 가격)</title>
+      <link>https://jungwoo0716.github.io/posts/231104-sls-3d-printer-intro/</link>
+      <pubDate>Sat, 04 Nov 2023 09:15:00 +0900</pubDate>
+      <guid>https://jungwoo0716.github.io/posts/231104-sls-3d-printer-intro/</guid>
+      <description>선택적 레이저 소결 방식인 SLS 3D 프린터의 역사, SLM 방식과의 비교, 장단점, 가격대를 소개합니다.</description>
+    </item>
+    <item>
       <title>밀리의서재 투자 가치 분석 및 평가</title>
       <link>https://jungwoo0716.github.io/posts/2023-09-23-millie-2023-valuation/</link>
       <pubDate>Sat, 23 Sep 2023 00:00:00 +0000</pubDate>

@@ -1,0 +1,427 @@
+<!DOCTYPE html>
+<html lang="ko" dir="auto" data-theme="auto">
+
+<head><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="index, follow">
+<title>SLS 3D 프린터 소개 (역사, SLM 비교, 장단점, 가격) | AWT</title>
+<meta name="keywords" content="3D프린터">
+<meta name="description" content="선택적 레이저 소결 방식인 SLS 3D 프린터의 역사, SLM 방식과의 비교, 장단점, 가격대를 소개합니다.">
+<meta name="author" content="JW.Kim">
+<link rel="canonical" href="https://jungwoo0716.github.io/posts/231104-sls-3d-printer-intro/">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.da3211e5ef867bf2b75fd5a6515cfed7195c011e8ab735694e203810a827097b.css" integrity="sha256-2jIR5e&#43;Ge/K3X9WmUVz&#43;1xlcAR6KtzVpTiA4EKgnCXs=" rel="preload stylesheet" as="style">
+<link rel="icon" href="https://jungwoo0716.github.io/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="https://jungwoo0716.github.io/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="https://jungwoo0716.github.io/favicon-32x32.png">
+<link rel="apple-touch-icon" href="https://jungwoo0716.github.io/apple-touch-icon.png">
+<link rel="mask-icon" href="https://jungwoo0716.github.io/safari-pinned-tab.svg">
+<meta name="theme-color" content="#2e2e33">
+<meta name="msapplication-TileColor" content="#2e2e33">
+<link rel="alternate" hreflang="ko" href="https://jungwoo0716.github.io/posts/231104-sls-3d-printer-intro/">
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
+
+    </style>
+    <style>
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --theme: rgb(29, 30, 32);
+                --entry: rgb(46, 46, 51);
+                --primary: rgb(218, 218, 219);
+                --secondary: rgb(155, 156, 157);
+                --tertiary: rgb(65, 66, 68);
+                --content: rgb(196, 196, 197);
+                --code-block-bg: rgb(46, 46, 51);
+                --code-bg: rgb(55, 56, 62);
+                --border: rgb(51, 51, 51);
+                color-scheme: dark;
+            }
+
+            .list {
+                background: var(--theme);
+            }
+
+            .toc {
+                background: var(--entry);
+            }
+        }
+
+        @media (prefers-color-scheme: light) {
+            .list::-webkit-scrollbar-thumb {
+                border-color: var(--code-bg);
+            }
+        }
+
+    </style>
+</noscript>
+<script>
+    if (localStorage.getItem("pref-theme") === "dark") {
+        document.querySelector("html").dataset.theme = 'dark';
+    } else if (localStorage.getItem("pref-theme") === "light") {
+       document.querySelector("html").dataset.theme = 'light';
+    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.querySelector("html").dataset.theme = 'dark';
+    } else {
+        document.querySelector("html").dataset.theme = 'light';
+    }
+
+</script><meta property="og:url" content="https://jungwoo0716.github.io/posts/231104-sls-3d-printer-intro/">
+  <meta property="og:site_name" content="AWT">
+  <meta property="og:title" content="SLS 3D 프린터 소개 (역사, SLM 비교, 장단점, 가격)">
+  <meta property="og:description" content="선택적 레이저 소결 방식인 SLS 3D 프린터의 역사, SLM 방식과의 비교, 장단점, 가격대를 소개합니다.">
+  <meta property="og:locale" content="ko">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+    <meta property="article:published_time" content="2023-11-04T09:15:00+09:00">
+    <meta property="article:modified_time" content="2023-11-04T09:15:00+09:00">
+    <meta property="article:tag" content="3D프린터">
+    <meta property="og:image" content="https://jungwoo0716.github.io/posts/231104-sls-3d-printer-intro/cover.jpg">
+      <meta property="og:see_also" content="https://jungwoo0716.github.io/posts/231205-mjm-polyjet-3d-printing-tech/">
+      <meta property="og:see_also" content="https://jungwoo0716.github.io/posts/231121-cjp-3d-printer-binder-jetting/">
+      <meta property="og:see_also" content="https://jungwoo0716.github.io/posts/231118-iso-3d-printing-tech/">
+      <meta property="og:see_also" content="https://jungwoo0716.github.io/posts/231114-3dprinter-filament-pla-abs/">
+      <meta property="og:see_also" content="https://jungwoo0716.github.io/posts/231111-sla-3d-printer-intro/">
+      <meta property="og:see_also" content="https://jungwoo0716.github.io/posts/231107-fdm-3d-printer-and-fff-3d-printer/">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="https://jungwoo0716.github.io/posts/231104-sls-3d-printer-intro/cover.jpg">
+  <meta name="twitter:title" content="SLS 3D 프린터 소개 (역사, SLM 비교, 장단점, 가격)">
+  <meta name="twitter:description" content="선택적 레이저 소결 방식인 SLS 3D 프린터의 역사, SLM 방식과의 비교, 장단점, 가격대를 소개합니다.">
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position":  1 ,
+      "name": "Posts",
+      "item": "https://jungwoo0716.github.io/posts/"
+    }, 
+    {
+      "@type": "ListItem",
+      "position":  2 ,
+      "name": "SLS 3D 프린터 소개 (역사, SLM 비교, 장단점, 가격)",
+      "item": "https://jungwoo0716.github.io/posts/231104-sls-3d-printer-intro/"
+    }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "SLS 3D 프린터 소개 (역사, SLM 비교, 장단점, 가격)",
+  "name": "SLS 3D 프린터 소개 (역사, SLM 비교, 장단점, 가격)",
+  "description": "선택적 레이저 소결 방식인 SLS 3D 프린터의 역사, SLM 방식과의 비교, 장단점, 가격대를 소개합니다.",
+  "keywords": [
+    "3D프린터"
+  ],
+  "articleBody": "\n이번 포스팅에서는 선택적 레이저 소결 방식으로 불리는 SLS (Selective Laser Sintering) 3D 프린터에 대해 소개하겠습니다. SLS 3D 프린터는 SLS 방식으로 작동하는 3D 프린터입니다. SLS 방식이 어떻게 탄생했고, 원리와 장단점이 무엇인지, 실제 시중에 판매하고 있는 제품의 가격에 대해서도 알아보겠습니다.\n1. 분말적층응용결합 방식에 대한 이해 먼저 SLS 방식을 이해하기 위해서는 ‘분말적층응용결합 방식’이란 단어에 대한 이해가 있어야 합니다. 분말적층용융결합 방식은 위의 이미지처럼 결합제 분사 방식과 같이 파우더를 베드 플랫폼 위에 놓고, 레이저나 전자빔 등과 같은 에너지원을 이용하여 선택적으로 용융시켜 적층 제조하는 방법입니다.\n고체 형태인 파우더를 롤러나 블레이드를 이용하여 압력을 가하여 베드 플랫폼 위에 얇고 단단하게 만든 다음 레이저나 전자빔 등과 같은 에너지원으로 파우더 소재의 녹는점에 가까운 온도로 용융시킵니다. 그렇게 하면 파우더는 서로 접한 면에서 소재가 녹아 접합이 이루어지거나 일부가 더 붙으면서 쌓아가면서 제조가 되는 방식입니다.\n전반적으로 이런 분말적층용융결합 방식은 금속, 폴리머, 세라믹 등 다양한 재료를 사용할 수 있고, 시제품 뿐 아니라 완제품 등 실제 제품으로도 사용가능하지만, 그만큼 가격이 비싸다는 단점이 있습니다.\nSLS 방식도 이 분말적층응용결합 방식 중 하나인 것입니다.\n2. SLS 방식의 역사 SLS 방식은 1986년 텍사스 대학의 Joseph J. Beamen 교수팀에 의해 개발되어 특허를 출원한 기술입니다. 이 기술을 이용하여 DTM사를 설립했으나, 2011년 미국의 3D systems에 인수합병 되었습니다. 현재 특허는 2014년에 만료된 상황입니다.\n즉, 현재 전통있는 SLS 방식의 3D 프린터를 판매하는 곳은 특허를 갖고 있던 3D Systems 회사 입니다.\n3. SLS 방식 vs SLM 방식 SLS 방식과 SLM 방식 모두 앞에서 설명했던 분말적층응용결합 방식에 대한 이해가 있다면 쉽게 차이를 느낄 수 있습니다. SLS 의 단어는 영어로 Selective Laser Sintering 입니다. 한국어로 선택적 레이저 소결이라고 합니다. 말 그대로 레이저를 이용하여 선택적으로 소결한다는 의미이며, 여기서 소결이란 뜻은 파우더 같은 분말 입자들에 열을 가하여 하나의 덩어리로 만드는 것을 뜻합니다.\nSLS 방식 외에도 세부적으로 들어가면 SLM 방식으로 분류할 수 있습니다. 하지만 대부분 SLS 3D 프린터라고 부릅니다. 방식에는 큰 차이가 없기 때문입니다. SLM 3D 프린터는 영어로 Selective Laser Melting 이며, 한국어로는 선택적 레이저 용융 입니다. 용융은 녹는다는 뜻입니다. 실질적으로 제조하는 방식은 크게 다르지 않지만 차이점은 녹는점에 있습니다. 녹는점은 고체를 액체로 바꾸는 지점을 말합니다. 녹는점을 넘지 않고 파우더 분말 입자에 레이저를 가하여 녹는점 근처에서 하나의 덩어리로 만드는 과정을 SLS 방식의 3D 프린터라고 부르며, 녹는점을 넘어서 고체를 액체화 시켜 쌓아 제조하는 방식을 SLM 3D 프린터라고 세분화 합니다.\n4. SLS 방식의 장단점 파우더 형태로 이루어진 소재를 롤러를 이용해 한 층씩 레이어를 만들어주고 레이저 빔을 반사시킬 수 있는 거울인 다이내믹 미러(Dynamic Mirror)를 통해 적당한 각도에서 반사시켜 선택적으로 구조물을 적층 제조합니다.\n장점은 다양한 소재를 사용할 수 있기 때문에, 다양한 영역으로의 제품을 응용하여 생산할 수 있고 다양한 목적으로 사용할 수 있게 됩니다. 하지만 단점으로는 다양한 소재를 쓰는 만큼 다양한 소재의 각자 다른 녹는점과 나타나는 특성이 다르기 때문에, 각 소재마다 적절한 가열 온도를 알고 있어야 하며, 그에 맞춰 레이저 조작을 해야한다는 점이 있습니다. 5. SLS 3D 프린터 가격 보급형도 SLS 방식의 경우 매우 비싼편이라 평균적인 가격이 3,000만원 정도로 보시면 됩니다. 산업용으로 나오는 장비들은 3억원 대가 넘게 가격이 형성되어 있습니다.\n그나마 가장 저렴한 가격으로 SLS 3D 프린터를 전문으로 만드는 회사가 있습니다. Sinterit 라는 회사이며, 이곳에서 출시한 Lisa SLS 3D Printer 가 $13,990 (한화 1,800만원) 로 가장 저렴한 SLS 프린터라고 보면 됩니다.\n마치며 SLS 프린터는 개인 가정용에서는 쓰기 어려운 3D 프린터입니다. 하지만 실제 제품을 제조하거나 고도로 발전된 프로토타입을 만드는 경우에는 적합한 산업용 3D 프린터 입니다.\n",
+  "wordCount" : "508",
+  "inLanguage": "ko",
+  "image":"https://jungwoo0716.github.io/posts/231104-sls-3d-printer-intro/cover.jpg","datePublished": "2023-11-04T09:15:00+09:00",
+  "dateModified": "2023-11-04T09:15:00+09:00",
+  "author":{
+    "@type": "Person",
+    "name": "JW.Kim"
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://jungwoo0716.github.io/posts/231104-sls-3d-printer-intro/"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "AWT",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://jungwoo0716.github.io/favicon.ico"
+    }
+  }
+}
+</script>
+</head>
+<body id="top">
+    <header class="header">
+    <nav class="nav">
+        <div class="logo">
+            <a href="https://jungwoo0716.github.io/" accesskey="h" title="AWT (Alt + H)">AWT</a>
+            <div class="logo-switches">
+                <button id="theme-toggle" accesskey="t" title="(Alt + T)" aria-label="Toggle theme">
+                    <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                    </svg>
+                    <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="5"></circle>
+                        <line x1="12" y1="1" x2="12" y2="3"></line>
+                        <line x1="12" y1="21" x2="12" y2="23"></line>
+                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                        <line x1="1" y1="12" x2="3" y2="12"></line>
+                        <line x1="21" y1="12" x2="23" y2="12"></line>
+                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                    </svg>
+                </button>
+            </div>
+        </div>
+        <ul id="menu">
+            <li>
+                <a href="https://jungwoo0716.github.io/search/" title="검색 (Alt &#43; /)" accesskey=/>
+                    <span>검색</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://jungwoo0716.github.io/tags/" title="태그">
+                    <span>태그</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://jungwoo0716.github.io/series/" title="시리즈">
+                    <span>시리즈</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://jungwoo0716.github.io/archives/" title="아카이브">
+                    <span>아카이브</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</header>
+<main class="main">
+
+<article class="post-single">
+  <header class="post-header">
+    <div class="breadcrumbs"><a href="https://jungwoo0716.github.io/">홈</a>&nbsp;»&nbsp;<a href="https://jungwoo0716.github.io/posts/">Posts</a></div>
+    <h1 class="post-title entry-hint-parent">
+      SLS 3D 프린터 소개 (역사, SLM 비교, 장단점, 가격)
+    </h1>
+    <div class="post-description">
+      선택적 레이저 소결 방식인 SLS 3D 프린터의 역사, SLM 방식과의 비교, 장단점, 가격대를 소개합니다.
+    </div>
+    <div class="post-meta"><span title='2023-11-04 09:15:00 +0900 KST'>2023-11-04</span>&nbsp;·&nbsp;<span>3 분</span>&nbsp;·&nbsp;<span>JW.Kim</span>
+
+</div>
+  </header> 
+<figure class="entry-cover">
+            <img loading="eager"
+                srcset='https://jungwoo0716.github.io/posts/231104-sls-3d-printer-intro/cover_hu_29b7498ab81b466d.jpg 360w,https://jungwoo0716.github.io/posts/231104-sls-3d-printer-intro/cover_hu_a13f6b185dbf368f.jpg 480w,https://jungwoo0716.github.io/posts/231104-sls-3d-printer-intro/cover_hu_ed30353414fe5418.jpg 720w,https://jungwoo0716.github.io/posts/231104-sls-3d-printer-intro/cover_hu_a21477b52d066171.jpg 1080w,https://jungwoo0716.github.io/posts/231104-sls-3d-printer-intro/cover_hu_695e6b4c4254321a.jpg 1500w,https://jungwoo0716.github.io/posts/231104-sls-3d-printer-intro/cover.jpg 5184w'
+                src="https://jungwoo0716.github.io/posts/231104-sls-3d-printer-intro/cover.jpg"
+                sizes="(min-width: 768px) 720px, 100vw"
+                width="5184" height="3456"
+                alt="">
+        
+</figure><div class="toc">
+    <details >
+        <summary accesskey="c" title="(Alt + C)">
+            <span class="details">목차</span>
+        </summary>
+
+        <div class="inner"><ul>
+                <li>
+                    <a href="#1-%eb%b6%84%eb%a7%90%ec%a0%81%ec%b8%b5%ec%9d%91%ec%9a%a9%ea%b2%b0%ed%95%a9-%eb%b0%a9%ec%8b%9d%ec%97%90-%eb%8c%80%ed%95%9c-%ec%9d%b4%ed%95%b4" aria-label="1. 분말적층응용결합 방식에 대한 이해">1. 분말적층응용결합 방식에 대한 이해</a></li>
+                <li>
+                    <a href="#2-sls-%eb%b0%a9%ec%8b%9d%ec%9d%98-%ec%97%ad%ec%82%ac" aria-label="2. SLS 방식의 역사">2. SLS 방식의 역사</a></li>
+                <li>
+                    <a href="#3-sls-%eb%b0%a9%ec%8b%9d-vs-slm-%eb%b0%a9%ec%8b%9d" aria-label="3. SLS 방식 vs SLM 방식">3. SLS 방식 vs SLM 방식</a></li>
+                <li>
+                    <a href="#4-sls-%eb%b0%a9%ec%8b%9d%ec%9d%98-%ec%9e%a5%eb%8b%a8%ec%a0%90" aria-label="4. SLS 방식의 장단점">4. SLS 방식의 장단점</a></li>
+                <li>
+                    <a href="#5-sls-3d-%ed%94%84%eb%a6%b0%ed%84%b0-%ea%b0%80%ea%b2%a9" aria-label="5. SLS 3D 프린터 가격">5. SLS 3D 프린터 가격</a></li>
+                <li>
+                    <a href="#%eb%a7%88%ec%b9%98%eb%a9%b0" aria-label="마치며">마치며</a>
+                </li>
+            </ul>
+        </div>
+    </details>
+</div>
+
+  <div class="post-content"><p><img alt="cover.jpg" loading="lazy" src="/posts/231104-sls-3d-printer-intro/cover.jpg"></p>
+<p>이번 포스팅에서는 선택적 레이저 소결 방식으로 불리는 SLS (Selective Laser Sintering) 3D 프린터에 대해 소개하겠습니다. SLS 3D 프린터는 SLS 방식으로 작동하는 3D 프린터입니다. SLS 방식이 어떻게 탄생했고, 원리와 장단점이 무엇인지, 실제 시중에 판매하고 있는 제품의 가격에 대해서도 알아보겠습니다.</p>
+<h2 id="1-분말적층응용결합-방식에-대한-이해"><strong>1. 분말적층응용결합 방식에 대한 이해</strong><a hidden class="anchor" aria-hidden="true" href="#1-분말적층응용결합-방식에-대한-이해">#</a></h2>
+<p>먼저 SLS 방식을 이해하기 위해서는 &lsquo;분말적층응용결합 방식&rsquo;이란 단어에 대한 이해가 있어야 합니다.
+<img alt="img1.jpg" loading="lazy" src="/posts/231104-sls-3d-printer-intro/img1.jpg">
+분말적층용융결합 방식은 위의 이미지처럼 결합제 분사 방식과 같이 파우더를 베드 플랫폼 위에 놓고, 레이저나 전자빔 등과 같은 에너지원을 이용하여 선택적으로 용융시켜 적층 제조하는 방법입니다.</p>
+<p>고체 형태인 파우더를 롤러나 블레이드를 이용하여 압력을 가하여 베드 플랫폼 위에 얇고 단단하게 만든 다음 레이저나 전자빔 등과 같은 에너지원으로 파우더 소재의 녹는점에 가까운 온도로 용융시킵니다. 그렇게 하면 파우더는 서로 접한 면에서 소재가 녹아 접합이 이루어지거나 일부가 더 붙으면서 쌓아가면서 제조가 되는 방식입니다.</p>
+<p>전반적으로 이런 분말적층용융결합 방식은 금속, 폴리머, 세라믹 등 다양한 재료를 사용할 수 있고, 시제품 뿐 아니라 완제품 등 실제 제품으로도 사용가능하지만, 그만큼 가격이 비싸다는 단점이 있습니다.</p>
+<p>SLS 방식도 이 분말적층응용결합 방식 중 하나인 것입니다.</p>
+<h2 id="2-sls-방식의-역사"><strong>2. SLS 방식의 역사</strong><a hidden class="anchor" aria-hidden="true" href="#2-sls-방식의-역사">#</a></h2>
+<p>SLS 방식은 1986년 텍사스 대학의 Joseph J. Beamen 교수팀에 의해 개발되어 특허를 출원한 기술입니다. 이 기술을 이용하여 DTM사를 설립했으나, 2011년 미국의 3D systems에 인수합병 되었습니다. 현재 특허는 2014년에 만료된 상황입니다.</p>
+<p>즉, 현재 전통있는 SLS 방식의 3D 프린터를 판매하는 곳은 특허를 갖고 있던 3D Systems 회사 입니다.</p>
+<h2 id="3-sls-방식-vs-slm-방식"><strong>3. SLS 방식 vs SLM 방식</strong><a hidden class="anchor" aria-hidden="true" href="#3-sls-방식-vs-slm-방식">#</a></h2>
+<p>SLS 방식과 SLM 방식 모두 앞에서 설명했던 분말적층응용결합 방식에 대한 이해가 있다면 쉽게 차이를 느낄 수 있습니다.
+SLS 의 단어는 영어로 Selective Laser Sintering 입니다. 한국어로 선택적 레이저 소결이라고 합니다. 말 그대로 레이저를 이용하여 선택적으로 소결한다는 의미이며, 여기서 소결이란 뜻은 파우더 같은 분말 입자들에 열을 가하여 하나의 덩어리로 만드는 것을 뜻합니다.</p>
+<p>SLS 방식 외에도 세부적으로 들어가면 SLM 방식으로 분류할 수 있습니다. 하지만 대부분 SLS 3D 프린터라고 부릅니다. 방식에는 큰 차이가 없기 때문입니다.
+SLM 3D 프린터는 영어로 Selective Laser Melting 이며, 한국어로는 선택적 레이저 용융 입니다. 용융은 녹는다는 뜻입니다. 실질적으로 제조하는 방식은 크게 다르지 않지만 차이점은 녹는점에 있습니다.
+녹는점은 고체를 액체로 바꾸는 지점을 말합니다. 녹는점을 넘지 않고 파우더 분말 입자에 레이저를 가하여 녹는점 근처에서 하나의 덩어리로 만드는 과정을 SLS 방식의 3D 프린터라고 부르며, 녹는점을 넘어서 고체를 액체화 시켜 쌓아 제조하는 방식을 SLM 3D 프린터라고 세분화 합니다.</p>
+<h2 id="4-sls-방식의-장단점"><strong>4. SLS 방식의 장단점</strong><a hidden class="anchor" aria-hidden="true" href="#4-sls-방식의-장단점">#</a></h2>
+<p>파우더 형태로 이루어진 소재를 롤러를 이용해 한 층씩 레이어를 만들어주고 레이저 빔을 반사시킬 수 있는 거울인 다이내믹 미러(Dynamic Mirror)를 통해 적당한 각도에서 반사시켜 선택적으로 구조물을 적층 제조합니다.</p>
+<p>장점은 다양한 소재를 사용할 수 있기 때문에, 다양한 영역으로의 제품을 응용하여 생산할 수 있고 다양한 목적으로 사용할 수 있게 됩니다.
+하지만 단점으로는 다양한 소재를 쓰는 만큼 다양한 소재의 각자 다른 녹는점과 나타나는 특성이 다르기 때문에, 각 소재마다 적절한 가열 온도를 알고 있어야 하며, 그에 맞춰 레이저 조작을 해야한다는 점이 있습니다.
+<img alt="img2.jpg" loading="lazy" src="/posts/231104-sls-3d-printer-intro/img2.jpg"></p>
+<h2 id="5-sls-3d-프린터-가격"><strong>5. SLS 3D 프린터 가격</strong><a hidden class="anchor" aria-hidden="true" href="#5-sls-3d-프린터-가격">#</a></h2>
+<p>보급형도 SLS 방식의 경우 매우 비싼편이라 평균적인 가격이 3,000만원 정도로 보시면 됩니다. 산업용으로 나오는 장비들은 3억원 대가 넘게 가격이 형성되어 있습니다.</p>
+<p>그나마 가장 저렴한 가격으로 SLS 3D 프린터를 전문으로 만드는 회사가 있습니다. Sinterit 라는 회사이며, 이곳에서 출시한 Lisa SLS 3D Printer 가 $13,990 (한화 1,800만원) 로 가장 저렴한 SLS 프린터라고 보면 됩니다.</p>
+<h2 id="마치며"><strong>마치며</strong><a hidden class="anchor" aria-hidden="true" href="#마치며">#</a></h2>
+<p>SLS 프린터는 개인 가정용에서는 쓰기 어려운 3D 프린터입니다. 하지만 실제 제품을 제조하거나 고도로 발전된 프로토타입을 만드는 경우에는 적합한 산업용 3D 프린터 입니다.</p>
+
+
+  </div>
+
+  <footer class="post-footer">
+    <ul class="post-tags">
+      <li><a href="https://jungwoo0716.github.io/tags/3d%ED%94%84%EB%A6%B0%ED%84%B0/">3D프린터</a></li>
+    </ul>
+<nav class="paginav">
+  <a class="prev" href="https://jungwoo0716.github.io/posts/231107-fdm-3d-printer-and-fff-3d-printer/">
+    <span class="title">« 이전 페이지</span>
+    <br>
+    <span>3d 프린터 FDM 방식과 FFF 방식 (역사, 원리, 장단점, 레진)</span>
+  </a>
+  <a class="next" href="https://jungwoo0716.github.io/posts/2023-09-23-millie-2023-valuation/">
+    <span class="title">다음 페이지 »</span>
+    <br>
+    <span>밀리의서재 투자 가치 분석 및 평가</span>
+  </a>
+</nav>
+
+  </footer>
+</article>
+    </main>
+    
+<footer class="footer">
+        <span>&copy; 2026 <a href="https://jungwoo0716.github.io/">AWT</a></span> · 
+
+    <span>
+        Powered by
+        <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a> &
+        <a href="https://github.com/adityatelange/hugo-PaperMod/" rel="noopener" target="_blank">PaperMod</a>
+    </span>
+</footer>
+<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
+        <path d="M12 6H0l6-6z" />
+    </svg>
+</a>
+
+<script>
+    let menu = document.getElementById('menu');
+    if (menu) {
+        
+        const scrollPosition = localStorage.getItem("menu-scroll-position");
+        if (scrollPosition) {
+            menu.scrollLeft = parseInt(scrollPosition, 10);
+        }
+        
+        menu.onscroll = function () {
+            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+        }
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
+
+</script>
+<script>
+    var mybutton = document.getElementById("top-link");
+    window.onscroll = function () {
+        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
+            mybutton.style.visibility = "visible";
+            mybutton.style.opacity = "1";
+        } else {
+            mybutton.style.visibility = "hidden";
+            mybutton.style.opacity = "0";
+        }
+    };
+
+</script>
+<script>
+    document.getElementById("theme-toggle").addEventListener("click", () => {
+        const html = document.querySelector("html");
+        if (html.dataset.theme === "dark") {
+            html.dataset.theme = 'light';
+            localStorage.setItem("pref-theme", 'light');
+        } else {
+            html.dataset.theme = 'dark';
+            localStorage.setItem("pref-theme", 'dark');
+        }
+    })
+
+</script>
+<script>
+    document.querySelectorAll('pre > code').forEach((codeblock) => {
+        const container = codeblock.parentNode.parentNode;
+
+        const copybutton = document.createElement('button');
+        copybutton.classList.add('copy-code');
+        copybutton.innerHTML = '복사';
+
+        function copyingDone() {
+            copybutton.innerHTML = '복사 완료!';
+            setTimeout(() => {
+                copybutton.innerHTML = '복사';
+            }, 2000);
+        }
+
+        copybutton.addEventListener('click', (cb) => {
+            if ('clipboard' in navigator) {
+                navigator.clipboard.writeText(codeblock.textContent);
+                copyingDone();
+                return;
+            }
+
+            const range = document.createRange();
+            range.selectNodeContents(codeblock);
+            const selection = window.getSelection();
+            selection.removeAllRanges();
+            selection.addRange(range);
+            try {
+                document.execCommand('copy');
+                copyingDone();
+            } catch (e) { };
+            selection.removeRange(range);
+        });
+
+        if (container.classList.contains("highlight")) {
+            container.appendChild(copybutton);
+        } else if (container.parentNode.firstChild == container) {
+            
+        } else if (codeblock.parentNode.parentNode.parentNode.parentNode.parentNode.nodeName == "TABLE") {
+            
+            codeblock.parentNode.parentNode.parentNode.parentNode.parentNode.appendChild(copybutton);
+        } else {
+            
+            codeblock.parentNode.appendChild(copybutton);
+        }
+    });
+</script>
+</body>
+
+</html>

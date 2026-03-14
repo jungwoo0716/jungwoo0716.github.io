@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html lang="ko" dir="auto" data-theme="auto">
+
+<head><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="index, follow">
+<title>3d 프린터 SLA 방식 소개 (원리, 역사, 장단점) | AWT</title>
+<meta name="keywords" content="3D프린터">
+<meta name="description" content="광중합 방식을 사용하는 SLA 3D 프린터의 원리, 탄생 역사, 장단점을 소개합니다.">
+<meta name="author" content="JW.Kim">
+<link rel="canonical" href="https://jungwoo0716.github.io/posts/231111-sla-3d-printer-intro/">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.da3211e5ef867bf2b75fd5a6515cfed7195c011e8ab735694e203810a827097b.css" integrity="sha256-2jIR5e&#43;Ge/K3X9WmUVz&#43;1xlcAR6KtzVpTiA4EKgnCXs=" rel="preload stylesheet" as="style">
+<link rel="icon" href="https://jungwoo0716.github.io/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="https://jungwoo0716.github.io/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="https://jungwoo0716.github.io/favicon-32x32.png">
+<link rel="apple-touch-icon" href="https://jungwoo0716.github.io/apple-touch-icon.png">
+<link rel="mask-icon" href="https://jungwoo0716.github.io/safari-pinned-tab.svg">
+<meta name="theme-color" content="#2e2e33">
+<meta name="msapplication-TileColor" content="#2e2e33">
+<link rel="alternate" hreflang="ko" href="https://jungwoo0716.github.io/posts/231111-sla-3d-printer-intro/">
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
+
+    </style>
+    <style>
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --theme: rgb(29, 30, 32);
+                --entry: rgb(46, 46, 51);
+                --primary: rgb(218, 218, 219);
+                --secondary: rgb(155, 156, 157);
+                --tertiary: rgb(65, 66, 68);
+                --content: rgb(196, 196, 197);
+                --code-block-bg: rgb(46, 46, 51);
+                --code-bg: rgb(55, 56, 62);
+                --border: rgb(51, 51, 51);
+                color-scheme: dark;
+            }
+
+            .list {
+                background: var(--theme);
+            }
+
+            .toc {
+                background: var(--entry);
+            }
+        }
+
+        @media (prefers-color-scheme: light) {
+            .list::-webkit-scrollbar-thumb {
+                border-color: var(--code-bg);
+            }
+        }
+
+    </style>
+</noscript>
+<script>
+    if (localStorage.getItem("pref-theme") === "dark") {
+        document.querySelector("html").dataset.theme = 'dark';
+    } else if (localStorage.getItem("pref-theme") === "light") {
+       document.querySelector("html").dataset.theme = 'light';
+    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.querySelector("html").dataset.theme = 'dark';
+    } else {
+        document.querySelector("html").dataset.theme = 'light';
+    }
+
+</script><meta property="og:url" content="https://jungwoo0716.github.io/posts/231111-sla-3d-printer-intro/">
+  <meta property="og:site_name" content="AWT">
+  <meta property="og:title" content="3d 프린터 SLA 방식 소개 (원리, 역사, 장단점)">
+  <meta property="og:description" content="광중합 방식을 사용하는 SLA 3D 프린터의 원리, 탄생 역사, 장단점을 소개합니다.">
+  <meta property="og:locale" content="ko">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+    <meta property="article:published_time" content="2023-11-11T09:15:00+09:00">
+    <meta property="article:modified_time" content="2023-11-11T09:15:00+09:00">
+    <meta property="article:tag" content="3D프린터">
+    <meta property="og:image" content="https://jungwoo0716.github.io/posts/231111-sla-3d-printer-intro/cover.jpg">
+      <meta property="og:see_also" content="https://jungwoo0716.github.io/posts/231205-mjm-polyjet-3d-printing-tech/">
+      <meta property="og:see_also" content="https://jungwoo0716.github.io/posts/231121-cjp-3d-printer-binder-jetting/">
+      <meta property="og:see_also" content="https://jungwoo0716.github.io/posts/231118-iso-3d-printing-tech/">
+      <meta property="og:see_also" content="https://jungwoo0716.github.io/posts/231114-3dprinter-filament-pla-abs/">
+      <meta property="og:see_also" content="https://jungwoo0716.github.io/posts/231107-fdm-3d-printer-and-fff-3d-printer/">
+      <meta property="og:see_also" content="https://jungwoo0716.github.io/posts/231104-sls-3d-printer-intro/">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="https://jungwoo0716.github.io/posts/231111-sla-3d-printer-intro/cover.jpg">
+  <meta name="twitter:title" content="3d 프린터 SLA 방식 소개 (원리, 역사, 장단점)">
+  <meta name="twitter:description" content="광중합 방식을 사용하는 SLA 3D 프린터의 원리, 탄생 역사, 장단점을 소개합니다.">
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position":  1 ,
+      "name": "Posts",
+      "item": "https://jungwoo0716.github.io/posts/"
+    }, 
+    {
+      "@type": "ListItem",
+      "position":  2 ,
+      "name": "3d 프린터 SLA 방식 소개 (원리, 역사, 장단점)",
+      "item": "https://jungwoo0716.github.io/posts/231111-sla-3d-printer-intro/"
+    }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "3d 프린터 SLA 방식 소개 (원리, 역사, 장단점)",
+  "name": "3d 프린터 SLA 방식 소개 (원리, 역사, 장단점)",
+  "description": "광중합 방식을 사용하는 SLA 3D 프린터의 원리, 탄생 역사, 장단점을 소개합니다.",
+  "keywords": [
+    "3D프린터"
+  ],
+  "articleBody": "\n이번 포스팅에서는 3D 프린터 종류 중 하나인 SLA 방식의 3D 프린터의 원리에 대해 알아보고, 어떻게 탄생했는지와 프린터가 갖고 있는 장단점에 대해 알아보겠습니다.\n1. 광중합 방식 원리 광중합 방식은 자외선이나 가시광선 등과 같은 빛의 조사로 액상 소재를 경화하여 적층 제조하는 방식입니다. 소재 분사 방식의 PolyJet 방식이나 MJM 방식의 경우도 광중합 방식을 적용한 경우입니다.\n빛을 조사하여 물성의 변화가 단단해지는 소재를 사용해야 하기 때문에 사용할 수 있는 소재가 매우 제한적입니다. 하지만 표면이 매끄럽고 높은 정밀도를 가진 구조물 제작이 가능하다는 점에서 큰 장점을 갖고 있는 방식입니다.\n앞으로 설명할 SLA 방식이 바로 이 광중합 방식의 원리를 이용하여 만들어진 3D 프린터 입니다.\n2. SLA(Stereo Lithography Apparatus) 탄생 SLA 방식은 미국 3D Systems 사의 공동 창업자인 Charles W. Hull 이 1983년 발명했습니다. 1984년 특허 출원하여 1986년 특허를 보유하게 되면서, 특허를 기반으로 세계 최초의 3D 프린팅 회사인 3D Systems 사를 설립하게 되었습니다.\n3. SLA 3D 프린터 장단점 SLA 방식은 액체 상태의 광경화성수지가 담긴 수조 안에 자외선이나 레이저 빔 등의 광을 조사하여 한 층씩 경화를 시킵니다. 한 층씩 쌓아 올릴 때마다 베드 플랫폼이 위로 올라가면서 구조물이 형성되게 됩니다. 원료는 레이저, 다이내믹 미러(Dynamic Mirror), 수조, 액세 상태의 원료로 구성됩니다.\n장점으로는 레이저를 반사시키는 다이내믹 거울을 이용해서 정밀하게 제조가 가능하다는 점과,, 표면이 매끄럽고 높은 정밀도를 가진다는 점이 있습니다.\n하지만 단점으로 소재가 제한적이기 때문에, 원료를 구입하는 데 들어가는 비용이 매우 비싸고, 소재가 제한적이라 색상표현 역시 한계가 있습니다. 즉 전반적으로 유지비용이 많이 들어갑니다.\n마치며 이번 포스팅에서는 SLA 3D 프린터가 어떻게 탄생했으며, 어떤 원리로 정밀한 구조물을 만들어내는지 알아보았습니다. 소재가 제한적이더라도, 정밀한 구조체를 만들고 싶다면 SLA 3D 프린터는 한 번 사용해보시는 걸 추천 드립니다.\n",
+  "wordCount" : "248",
+  "inLanguage": "ko",
+  "image":"https://jungwoo0716.github.io/posts/231111-sla-3d-printer-intro/cover.jpg","datePublished": "2023-11-11T09:15:00+09:00",
+  "dateModified": "2023-11-11T09:15:00+09:00",
+  "author":{
+    "@type": "Person",
+    "name": "JW.Kim"
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://jungwoo0716.github.io/posts/231111-sla-3d-printer-intro/"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "AWT",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://jungwoo0716.github.io/favicon.ico"
+    }
+  }
+}
+</script>
+</head>
+<body id="top">
+    <header class="header">
+    <nav class="nav">
+        <div class="logo">
+            <a href="https://jungwoo0716.github.io/" accesskey="h" title="AWT (Alt + H)">AWT</a>
+            <div class="logo-switches">
+                <button id="theme-toggle" accesskey="t" title="(Alt + T)" aria-label="Toggle theme">
+                    <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                    </svg>
+                    <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="5"></circle>
+                        <line x1="12" y1="1" x2="12" y2="3"></line>
+                        <line x1="12" y1="21" x2="12" y2="23"></line>
+                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                        <line x1="1" y1="12" x2="3" y2="12"></line>
+                        <line x1="21" y1="12" x2="23" y2="12"></line>
+                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                    </svg>
+                </button>
+            </div>
+        </div>
+        <ul id="menu">
+            <li>
+                <a href="https://jungwoo0716.github.io/search/" title="검색 (Alt &#43; /)" accesskey=/>
+                    <span>검색</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://jungwoo0716.github.io/tags/" title="태그">
+                    <span>태그</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://jungwoo0716.github.io/series/" title="시리즈">
+                    <span>시리즈</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://jungwoo0716.github.io/archives/" title="아카이브">
+                    <span>아카이브</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</header>
+<main class="main">
+
+<article class="post-single">
+  <header class="post-header">
+    <div class="breadcrumbs"><a href="https://jungwoo0716.github.io/">홈</a>&nbsp;»&nbsp;<a href="https://jungwoo0716.github.io/posts/">Posts</a></div>
+    <h1 class="post-title entry-hint-parent">
+      3d 프린터 SLA 방식 소개 (원리, 역사, 장단점)
+    </h1>
+    <div class="post-description">
+      광중합 방식을 사용하는 SLA 3D 프린터의 원리, 탄생 역사, 장단점을 소개합니다.
+    </div>
+    <div class="post-meta"><span title='2023-11-11 09:15:00 +0900 KST'>2023-11-11</span>&nbsp;·&nbsp;<span>2 분</span>&nbsp;·&nbsp;<span>JW.Kim</span>
+
+</div>
+  </header> 
+<figure class="entry-cover">
+            <img loading="eager"
+                srcset='https://jungwoo0716.github.io/posts/231111-sla-3d-printer-intro/cover_hu_6c8db23626cfd0b9.jpg 360w,https://jungwoo0716.github.io/posts/231111-sla-3d-printer-intro/cover_hu_ce614e0fad59e373.jpg 480w,https://jungwoo0716.github.io/posts/231111-sla-3d-printer-intro/cover_hu_f2e78c771819087b.jpg 720w,https://jungwoo0716.github.io/posts/231111-sla-3d-printer-intro/cover_hu_7aa176b3c040cd7d.jpg 1080w,https://jungwoo0716.github.io/posts/231111-sla-3d-printer-intro/cover_hu_9f1fb08325c77996.jpg 1500w,https://jungwoo0716.github.io/posts/231111-sla-3d-printer-intro/cover.jpg 5723w'
+                src="https://jungwoo0716.github.io/posts/231111-sla-3d-printer-intro/cover.jpg"
+                sizes="(min-width: 768px) 720px, 100vw"
+                width="5723" height="3815"
+                alt="">
+        
+</figure><div class="toc">
+    <details >
+        <summary accesskey="c" title="(Alt + C)">
+            <span class="details">목차</span>
+        </summary>
+
+        <div class="inner"><ul>
+                <li>
+                    <a href="#1-%ea%b4%91%ec%a4%91%ed%95%a9-%eb%b0%a9%ec%8b%9d-%ec%9b%90%eb%a6%ac" aria-label="1. 광중합 방식 원리">1. 광중합 방식 원리</a></li>
+                <li>
+                    <a href="#2-slastereo-lithography-apparatus-%ed%83%84%ec%83%9d" aria-label="2. SLA(Stereo Lithography Apparatus) 탄생">2. SLA(Stereo Lithography Apparatus) 탄생</a></li>
+                <li>
+                    <a href="#3-sla-3d-%ed%94%84%eb%a6%b0%ed%84%b0-%ec%9e%a5%eb%8b%a8%ec%a0%90" aria-label="3. SLA 3D 프린터 장단점">3. SLA 3D 프린터 장단점</a></li>
+                <li>
+                    <a href="#%eb%a7%88%ec%b9%98%eb%a9%b0" aria-label="마치며">마치며</a>
+                </li>
+            </ul>
+        </div>
+    </details>
+</div>
+
+  <div class="post-content"><p><img alt="cover.jpg" loading="lazy" src="/posts/231111-sla-3d-printer-intro/cover.jpg"></p>
+<p>이번 포스팅에서는 3D 프린터 종류 중 하나인 SLA 방식의 3D 프린터의 원리에 대해 알아보고, 어떻게 탄생했는지와 프린터가 갖고 있는 장단점에 대해 알아보겠습니다.</p>
+<h2 id="1-광중합-방식-원리"><strong>1. 광중합 방식 원리</strong><a hidden class="anchor" aria-hidden="true" href="#1-광중합-방식-원리">#</a></h2>
+<p>광중합 방식은 자외선이나 가시광선 등과 같은 빛의 조사로 액상 소재를 경화하여 적층 제조하는 방식입니다. 소재 분사 방식의 PolyJet 방식이나 MJM 방식의 경우도 광중합 방식을 적용한 경우입니다.</p>
+<p>빛을 조사하여 물성의 변화가 단단해지는 소재를 사용해야 하기 때문에 사용할 수 있는 소재가 매우 제한적입니다. 하지만 표면이 매끄럽고 높은 정밀도를 가진 구조물 제작이 가능하다는 점에서 큰 장점을 갖고 있는 방식입니다.</p>
+<p>앞으로 설명할 SLA 방식이 바로 이 광중합 방식의 원리를 이용하여 만들어진 3D 프린터 입니다.</p>
+<h2 id="2-slastereo-lithography-apparatus-탄생"><strong>2. SLA(Stereo Lithography Apparatus) 탄생</strong><a hidden class="anchor" aria-hidden="true" href="#2-slastereo-lithography-apparatus-탄생">#</a></h2>
+<p>SLA 방식은 미국 3D Systems 사의 공동 창업자인 Charles W. Hull 이 1983년 발명했습니다. 1984년 특허 출원하여 1986년 특허를 보유하게 되면서, 특허를 기반으로 세계 최초의 3D 프린팅 회사인 3D Systems 사를 설립하게 되었습니다.</p>
+<h2 id="3-sla-3d-프린터-장단점"><strong>3. SLA 3D 프린터 장단점</strong><a hidden class="anchor" aria-hidden="true" href="#3-sla-3d-프린터-장단점">#</a></h2>
+<p>SLA 방식은 액체 상태의 광경화성수지가 담긴 수조 안에 자외선이나 레이저 빔 등의 광을 조사하여 한 층씩 경화를 시킵니다. 한 층씩 쌓아 올릴 때마다 베드 플랫폼이 위로 올라가면서 구조물이 형성되게 됩니다. 원료는 레이저, 다이내믹 미러(Dynamic Mirror), 수조, 액세 상태의 원료로 구성됩니다.</p>
+<p>장점으로는 레이저를 반사시키는 다이내믹 거울을 이용해서 정밀하게 제조가 가능하다는 점과,, 표면이 매끄럽고 높은 정밀도를 가진다는 점이 있습니다.</p>
+<p>하지만 단점으로 소재가 제한적이기 때문에, 원료를 구입하는 데 들어가는 비용이 매우 비싸고, 소재가 제한적이라 색상표현 역시 한계가 있습니다. 즉 전반적으로 유지비용이 많이 들어갑니다.</p>
+<h2 id="마치며"><strong>마치며</strong><a hidden class="anchor" aria-hidden="true" href="#마치며">#</a></h2>
+<p>이번 포스팅에서는 SLA 3D 프린터가 어떻게 탄생했으며, 어떤 원리로 정밀한 구조물을 만들어내는지 알아보았습니다. 소재가 제한적이더라도, 정밀한 구조체를 만들고 싶다면 SLA 3D 프린터는 한 번 사용해보시는 걸 추천 드립니다.</p>
+
+
+  </div>
+
+  <footer class="post-footer">
+    <ul class="post-tags">
+      <li><a href="https://jungwoo0716.github.io/tags/3d%ED%94%84%EB%A6%B0%ED%84%B0/">3D프린터</a></li>
+    </ul>
+<nav class="paginav">
+  <a class="prev" href="https://jungwoo0716.github.io/posts/231114-3dprinter-filament-pla-abs/">
+    <span class="title">« 이전 페이지</span>
+    <br>
+    <span>FDM 3D 프린터 자주 쓰는 필라멘트/레진 재료 종류 (PLA, ABS 등)</span>
+  </a>
+  <a class="next" href="https://jungwoo0716.github.io/posts/231107-fdm-3d-printer-and-fff-3d-printer/">
+    <span class="title">다음 페이지 »</span>
+    <br>
+    <span>3d 프린터 FDM 방식과 FFF 방식 (역사, 원리, 장단점, 레진)</span>
+  </a>
+</nav>
+
+  </footer>
+</article>
+    </main>
+    
+<footer class="footer">
+        <span>&copy; 2026 <a href="https://jungwoo0716.github.io/">AWT</a></span> · 
+
+    <span>
+        Powered by
+        <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a> &
+        <a href="https://github.com/adityatelange/hugo-PaperMod/" rel="noopener" target="_blank">PaperMod</a>
+    </span>
+</footer>
+<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
+        <path d="M12 6H0l6-6z" />
+    </svg>
+</a>
+
+<script>
+    let menu = document.getElementById('menu');
+    if (menu) {
+        
+        const scrollPosition = localStorage.getItem("menu-scroll-position");
+        if (scrollPosition) {
+            menu.scrollLeft = parseInt(scrollPosition, 10);
+        }
+        
+        menu.onscroll = function () {
+            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+        }
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
+
+</script>
+<script>
+    var mybutton = document.getElementById("top-link");
+    window.onscroll = function () {
+        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
+            mybutton.style.visibility = "visible";
+            mybutton.style.opacity = "1";
+        } else {
+            mybutton.style.visibility = "hidden";
+            mybutton.style.opacity = "0";
+        }
+    };
+
+</script>
+<script>
+    document.getElementById("theme-toggle").addEventListener("click", () => {
+        const html = document.querySelector("html");
+        if (html.dataset.theme === "dark") {
+            html.dataset.theme = 'light';
+            localStorage.setItem("pref-theme", 'light');
+        } else {
+            html.dataset.theme = 'dark';
+            localStorage.setItem("pref-theme", 'dark');
+        }
+    })
+
+</script>
+<script>
+    document.querySelectorAll('pre > code').forEach((codeblock) => {
+        const container = codeblock.parentNode.parentNode;
+
+        const copybutton = document.createElement('button');
+        copybutton.classList.add('copy-code');
+        copybutton.innerHTML = '복사';
+
+        function copyingDone() {
+            copybutton.innerHTML = '복사 완료!';
+            setTimeout(() => {
+                copybutton.innerHTML = '복사';
+            }, 2000);
+        }
+
+        copybutton.addEventListener('click', (cb) => {
+            if ('clipboard' in navigator) {
+                navigator.clipboard.writeText(codeblock.textContent);
+                copyingDone();
+                return;
+            }
+
+            const range = document.createRange();
+            range.selectNodeContents(codeblock);
+            const selection = window.getSelection();
+            selection.removeAllRanges();
+            selection.addRange(range);
+            try {
+                document.execCommand('copy');
+                copyingDone();
+            } catch (e) { };
+            selection.removeRange(range);
+        });
+
+        if (container.classList.contains("highlight")) {
+            container.appendChild(copybutton);
+        } else if (container.parentNode.firstChild == container) {
+            
+        } else if (codeblock.parentNode.parentNode.parentNode.parentNode.parentNode.nodeName == "TABLE") {
+            
+            codeblock.parentNode.parentNode.parentNode.parentNode.parentNode.appendChild(copybutton);
+        } else {
+            
+            codeblock.parentNode.appendChild(copybutton);
+        }
+    });
+</script>
+</body>
+
+</html>

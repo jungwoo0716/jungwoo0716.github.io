@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+<html lang="ko" dir="auto" data-theme="auto">
+
+<head><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="index, follow">
+<title>가장 정교한 3D 프린터 방식 MJM 과 Polyjet 소재 분사 방식 | AWT</title>
+<meta name="keywords" content="3D프린터">
+<meta name="description" content="가장 정밀한 3D 프린팅 방식인 소재 분사 방식의 개념과 Polyjet, MJM 두 가지 기법을 소개합니다.">
+<meta name="author" content="JW.Kim">
+<link rel="canonical" href="https://jungwoo0716.github.io/posts/231205-mjm-polyjet-3d-printing-tech/">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.da3211e5ef867bf2b75fd5a6515cfed7195c011e8ab735694e203810a827097b.css" integrity="sha256-2jIR5e&#43;Ge/K3X9WmUVz&#43;1xlcAR6KtzVpTiA4EKgnCXs=" rel="preload stylesheet" as="style">
+<link rel="icon" href="https://jungwoo0716.github.io/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="https://jungwoo0716.github.io/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="https://jungwoo0716.github.io/favicon-32x32.png">
+<link rel="apple-touch-icon" href="https://jungwoo0716.github.io/apple-touch-icon.png">
+<link rel="mask-icon" href="https://jungwoo0716.github.io/safari-pinned-tab.svg">
+<meta name="theme-color" content="#2e2e33">
+<meta name="msapplication-TileColor" content="#2e2e33">
+<link rel="alternate" hreflang="ko" href="https://jungwoo0716.github.io/posts/231205-mjm-polyjet-3d-printing-tech/">
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
+
+    </style>
+    <style>
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --theme: rgb(29, 30, 32);
+                --entry: rgb(46, 46, 51);
+                --primary: rgb(218, 218, 219);
+                --secondary: rgb(155, 156, 157);
+                --tertiary: rgb(65, 66, 68);
+                --content: rgb(196, 196, 197);
+                --code-block-bg: rgb(46, 46, 51);
+                --code-bg: rgb(55, 56, 62);
+                --border: rgb(51, 51, 51);
+                color-scheme: dark;
+            }
+
+            .list {
+                background: var(--theme);
+            }
+
+            .toc {
+                background: var(--entry);
+            }
+        }
+
+        @media (prefers-color-scheme: light) {
+            .list::-webkit-scrollbar-thumb {
+                border-color: var(--code-bg);
+            }
+        }
+
+    </style>
+</noscript>
+<script>
+    if (localStorage.getItem("pref-theme") === "dark") {
+        document.querySelector("html").dataset.theme = 'dark';
+    } else if (localStorage.getItem("pref-theme") === "light") {
+       document.querySelector("html").dataset.theme = 'light';
+    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.querySelector("html").dataset.theme = 'dark';
+    } else {
+        document.querySelector("html").dataset.theme = 'light';
+    }
+
+</script><meta property="og:url" content="https://jungwoo0716.github.io/posts/231205-mjm-polyjet-3d-printing-tech/">
+  <meta property="og:site_name" content="AWT">
+  <meta property="og:title" content="가장 정교한 3D 프린터 방식 MJM 과 Polyjet 소재 분사 방식">
+  <meta property="og:description" content="가장 정밀한 3D 프린팅 방식인 소재 분사 방식의 개념과 Polyjet, MJM 두 가지 기법을 소개합니다.">
+  <meta property="og:locale" content="ko">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+    <meta property="article:published_time" content="2023-12-05T09:15:00+09:00">
+    <meta property="article:modified_time" content="2023-12-05T09:15:00+09:00">
+    <meta property="article:tag" content="3D프린터">
+    <meta property="og:image" content="https://jungwoo0716.github.io/posts/231205-mjm-polyjet-3d-printing-tech/cover.jpeg">
+      <meta property="og:see_also" content="https://jungwoo0716.github.io/posts/231121-cjp-3d-printer-binder-jetting/">
+      <meta property="og:see_also" content="https://jungwoo0716.github.io/posts/231118-iso-3d-printing-tech/">
+      <meta property="og:see_also" content="https://jungwoo0716.github.io/posts/231114-3dprinter-filament-pla-abs/">
+      <meta property="og:see_also" content="https://jungwoo0716.github.io/posts/231111-sla-3d-printer-intro/">
+      <meta property="og:see_also" content="https://jungwoo0716.github.io/posts/231107-fdm-3d-printer-and-fff-3d-printer/">
+      <meta property="og:see_also" content="https://jungwoo0716.github.io/posts/231104-sls-3d-printer-intro/">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="https://jungwoo0716.github.io/posts/231205-mjm-polyjet-3d-printing-tech/cover.jpeg">
+  <meta name="twitter:title" content="가장 정교한 3D 프린터 방식 MJM 과 Polyjet 소재 분사 방식">
+  <meta name="twitter:description" content="가장 정밀한 3D 프린팅 방식인 소재 분사 방식의 개념과 Polyjet, MJM 두 가지 기법을 소개합니다.">
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position":  1 ,
+      "name": "Posts",
+      "item": "https://jungwoo0716.github.io/posts/"
+    }, 
+    {
+      "@type": "ListItem",
+      "position":  2 ,
+      "name": "가장 정교한 3D 프린터 방식 MJM 과 Polyjet 소재 분사 방식",
+      "item": "https://jungwoo0716.github.io/posts/231205-mjm-polyjet-3d-printing-tech/"
+    }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "가장 정교한 3D 프린터 방식 MJM 과 Polyjet 소재 분사 방식",
+  "name": "가장 정교한 3D 프린터 방식 MJM 과 Polyjet 소재 분사 방식",
+  "description": "가장 정밀한 3D 프린팅 방식인 소재 분사 방식의 개념과 Polyjet, MJM 두 가지 기법을 소개합니다.",
+  "keywords": [
+    "3D프린터"
+  ],
+  "articleBody": "이번 포스팅에서는 3D 프린터 방식 중에 가장 정교하여, 출력만으로도 완제품에 가까운 구조물을 제작할 수 있는 3D 프린터 방식인 소재 분사 방식에 대해 알아보고, 소재 분사 방식의 2가지 기법인 Polyjet 방식과 MJM 방식에 대해 알아보겠습니다.\n1. 소재 분사 방식이란 소재 분사 방식은 소재를 노즐을 통하여 작은 액체방울인 액적(스프레이 등에서 사용되는 것처럼 작고 동글한 물의 덩이를 뜻함) 형태로 빌드 플랫폼 위에 분사하고, 에너지 빔이 선택적으로 소재를 굳혀서 원하는 구조물을 적층 제조하는 방법입니다.\n간단하게 말하면 잉크젯 방식과 광경화 방식의 혼합형이라고 보면 됩니다.\n소재분사방식에는 크게 잉크젯 프린팅 기술인 CIJ 방식과 Polyjet 방식이 있으며, Thermojet 방식, MJM혹은 MJP 라고 불리는 방법이 있습니다.\n2. 잉크젯 프린팅 기술 잉크젯 프린팅 기술은 액적 형성 방식에 따라 분류할 수 있습니다.\n연속적으로 액적을 분사하는 프린팅 방법을 연속식 잉크젯 프린팅(Continuous inkjet; CIJ)이라고 하고, 필요할 때만 액적을 선택적으로 분사하는 프린팅 방법을 DOD 잉크젯 프린팅 (Drop on demand)라고 합니다. 아래의 이미지는 DOD 잉크젯 프린팅으로 현재 파란색 액적을 선택적으로 분사하고 있는 모습입니다. CIJ 방식은 연속적으로 프린팅하기 때문에 많은 양의 소재가 필요하고, 구조물로 사용하고 남은 소재들이 오염 등의 문제로 재사용이 어려운 단점이 있습니다. 결합제 분사 방식에서 쓰는 잉크젯 프린팅 방식과 소재 분사 방식에서 사용하는 프린팅 방식 모두 DOD 잉크젯 프린팅 기술을 사용합니다. 이 DOD 잉크젯 방식을 다른말로 Polyjet 방식이라고 합니다.\n2-1. PolyJet(폴리젯) 방식 PolyJet 방식은 2001년 현재는 미국 스트라타시스에 인수된 이스라엘의 Objet사가 발표한 기술로서, 프린터 헤드에 있는 수백 개의 미세 노즐에서 소재를 분사하면서 동시에 자외선으로 경화시켜 구조물을 제조합니다.\n굉장히 얇은 층으로 적층되기 때문에 구조물이 균일하고 품질이 뛰어난 특징을 갖고 있습니다. 또한 다양한 물성 혹은 색상을 갖고 있는 소재를 동시에 분사할 수 있어서, 다양한 구조물을 얻을 수 있습니다. 구조물에 사용하는 소재는 아크릴 계열의 광경화성 액상재료를 사용하고, 구조물의 서포팅 소재는 수용성 소재를 사용합니다. 그렇게 되면 향후 서포팅 소재를 제거할 때 수용성이기 때문에 워터젯 기술을 이용하여 쉽게 제거가 가능합니다.\n그 외 Thermojet 방식도 있습니다. 많이 사용하지 않지만, 이것 역시 DOD 잉크젯 프린팅 기술을 기반으로 개발된 방식입니다. 노즐 내부에 열을 가하여 기포가 발생고 팽창하여 액적을 형성하고 이를 프린팅 하는 방식을 뜻합니다.\n3. MJM 방식 MJM(Multi Jet Modeling) 방식은 MJP(Multi Jet Printing)이라고도 불리며, 프린트 헤드에서 주요 소재인 광경화성 수지와 구조물을 지지하기 위한 서포팅 재료인 왁스를 동시에 분사한 뒤, 자외선으로 경화시켜 적층 제조하는 방식입니다. 주요 소재로 사용하는 광경화성 수지는 투명도를 조절 할 수 있어 육안으로 내부를 확인할 수 있는 구조물을 제작할 수 있습니다.\n모든 3D 프린터를 통틀어 가장 정밀도가 높은 기술이며, 곡선 처리도 뛰어나기 때문에 정밀도가 높은 구조물을 제작할 수 있는 장점이 있습니다. 하지만, 강도가 약하고, 65도 이상의 온도에서는 변형이 발생할 수 있는 단점 또한 존재합니다.\n아래는 투명도를 조절 할 수 있는 MJM 방식으로 제작한 구조물 예시 입니다.\n4. 마치며 이번 포스팅에서는 가장 정교한 3D 프린팅 방식은 소재분사방식의 개념에 대해 알아보았고, 가장 많이 사용되고 있는 Polyjet 방식과 MJM 방식의 3D 프린터에 대해 알아보았습니다. 가장 복잡한 형상이나 디테일까지 표현할 수 있는 방식에, 프린팅하는 구조물 한개에 여러 색상까지 조합이 가능한 3D 프린터 방식입니다.\n",
+  "wordCount" : "450",
+  "inLanguage": "ko",
+  "image":"https://jungwoo0716.github.io/posts/231205-mjm-polyjet-3d-printing-tech/cover.jpeg","datePublished": "2023-12-05T09:15:00+09:00",
+  "dateModified": "2023-12-05T09:15:00+09:00",
+  "author":{
+    "@type": "Person",
+    "name": "JW.Kim"
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://jungwoo0716.github.io/posts/231205-mjm-polyjet-3d-printing-tech/"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "AWT",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://jungwoo0716.github.io/favicon.ico"
+    }
+  }
+}
+</script>
+</head>
+<body id="top">
+    <header class="header">
+    <nav class="nav">
+        <div class="logo">
+            <a href="https://jungwoo0716.github.io/" accesskey="h" title="AWT (Alt + H)">AWT</a>
+            <div class="logo-switches">
+                <button id="theme-toggle" accesskey="t" title="(Alt + T)" aria-label="Toggle theme">
+                    <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                    </svg>
+                    <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="5"></circle>
+                        <line x1="12" y1="1" x2="12" y2="3"></line>
+                        <line x1="12" y1="21" x2="12" y2="23"></line>
+                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                        <line x1="1" y1="12" x2="3" y2="12"></line>
+                        <line x1="21" y1="12" x2="23" y2="12"></line>
+                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                    </svg>
+                </button>
+            </div>
+        </div>
+        <ul id="menu">
+            <li>
+                <a href="https://jungwoo0716.github.io/search/" title="검색 (Alt &#43; /)" accesskey=/>
+                    <span>검색</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://jungwoo0716.github.io/tags/" title="태그">
+                    <span>태그</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://jungwoo0716.github.io/series/" title="시리즈">
+                    <span>시리즈</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://jungwoo0716.github.io/archives/" title="아카이브">
+                    <span>아카이브</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</header>
+<main class="main">
+
+<article class="post-single">
+  <header class="post-header">
+    <div class="breadcrumbs"><a href="https://jungwoo0716.github.io/">홈</a>&nbsp;»&nbsp;<a href="https://jungwoo0716.github.io/posts/">Posts</a></div>
+    <h1 class="post-title entry-hint-parent">
+      가장 정교한 3D 프린터 방식 MJM 과 Polyjet 소재 분사 방식
+    </h1>
+    <div class="post-description">
+      가장 정밀한 3D 프린팅 방식인 소재 분사 방식의 개념과 Polyjet, MJM 두 가지 기법을 소개합니다.
+    </div>
+    <div class="post-meta"><span title='2023-12-05 09:15:00 +0900 KST'>2023-12-05</span>&nbsp;·&nbsp;<span>3 분</span>&nbsp;·&nbsp;<span>JW.Kim</span>
+
+</div>
+  </header> 
+<figure class="entry-cover">
+            <img loading="eager"
+                srcset='https://jungwoo0716.github.io/posts/231205-mjm-polyjet-3d-printing-tech/cover_hu_63db57dcb9886ac6.jpeg 360w,https://jungwoo0716.github.io/posts/231205-mjm-polyjet-3d-printing-tech/cover_hu_41bfacc797c5c60a.jpeg 480w,https://jungwoo0716.github.io/posts/231205-mjm-polyjet-3d-printing-tech/cover_hu_b66ad7e8ef52920c.jpeg 720w,https://jungwoo0716.github.io/posts/231205-mjm-polyjet-3d-printing-tech/cover_hu_d8762f885e7f46fa.jpeg 1080w,https://jungwoo0716.github.io/posts/231205-mjm-polyjet-3d-printing-tech/cover_hu_77f539faea4bae9a.jpeg 1500w,https://jungwoo0716.github.io/posts/231205-mjm-polyjet-3d-printing-tech/cover.jpeg 2482w'
+                src="https://jungwoo0716.github.io/posts/231205-mjm-polyjet-3d-printing-tech/cover.jpeg"
+                sizes="(min-width: 768px) 720px, 100vw"
+                width="2482" height="1210"
+                alt="">
+        
+</figure><div class="toc">
+    <details >
+        <summary accesskey="c" title="(Alt + C)">
+            <span class="details">목차</span>
+        </summary>
+
+        <div class="inner"><ul>
+                <li>
+                    <a href="#1-%ec%86%8c%ec%9e%ac-%eb%b6%84%ec%82%ac-%eb%b0%a9%ec%8b%9d%ec%9d%b4%eb%9e%80" aria-label="1. 소재 분사 방식이란">1. 소재 분사 방식이란</a></li>
+                <li>
+                    <a href="#2-%ec%9e%89%ed%81%ac%ec%a0%af-%ed%94%84%eb%a6%b0%ed%8c%85-%ea%b8%b0%ec%88%a0" aria-label="2. 잉크젯 프린팅 기술">2. 잉크젯 프린팅 기술</a><ul>
+                        
+                <li>
+                    <a href="#2-1-polyjet%ed%8f%b4%eb%a6%ac%ec%a0%af-%eb%b0%a9%ec%8b%9d" aria-label="2-1. PolyJet(폴리젯) 방식">2-1. PolyJet(폴리젯) 방식</a></li></ul>
+                </li>
+                <li>
+                    <a href="#3-mjm-%eb%b0%a9%ec%8b%9d" aria-label="3. MJM 방식">3. MJM 방식</a></li>
+                <li>
+                    <a href="#4-%eb%a7%88%ec%b9%98%eb%a9%b0" aria-label="4. 마치며">4. 마치며</a>
+                </li>
+            </ul>
+        </div>
+    </details>
+</div>
+
+  <div class="post-content"><p>이번 포스팅에서는 3D 프린터 방식 중에 가장 정교하여, 출력만으로도 완제품에 가까운 구조물을 제작할 수 있는 3D 프린터 방식인 소재 분사 방식에 대해 알아보고, 소재 분사 방식의 2가지 기법인 Polyjet 방식과 MJM 방식에 대해 알아보겠습니다.</p>
+<h2 id="1-소재-분사-방식이란">1. 소재 분사 방식이란<a hidden class="anchor" aria-hidden="true" href="#1-소재-분사-방식이란">#</a></h2>
+<p>소재 분사 방식은 소재를 노즐을 통하여 작은 액체방울인 액적(스프레이 등에서 사용되는 것처럼 작고 동글한 물의 덩이를 뜻함) 형태로 빌드 플랫폼 위에 분사하고, 에너지 빔이 선택적으로 소재를 굳혀서 원하는 구조물을 적층 제조하는 방법입니다.</p>
+<p>간단하게 말하면 잉크젯 방식과 광경화 방식의 혼합형이라고 보면 됩니다.</p>
+<p>소재분사방식에는 크게 잉크젯 프린팅 기술인 CIJ 방식과 Polyjet 방식이 있으며, Thermojet 방식, MJM혹은 MJP 라고 불리는 방법이 있습니다.</p>
+<h2 id="2-잉크젯-프린팅-기술"><strong>2. 잉크젯 프린팅 기술</strong><a hidden class="anchor" aria-hidden="true" href="#2-잉크젯-프린팅-기술">#</a></h2>
+<p>잉크젯 프린팅 기술은 액적 형성 방식에 따라 분류할 수 있습니다.</p>
+<p>연속적으로 액적을 분사하는 프린팅 방법을 연속식 잉크젯 프린팅(Continuous inkjet; CIJ)이라고 하고, 필요할 때만 액적을 선택적으로 분사하는 프린팅 방법을 DOD 잉크젯 프린팅 (Drop on demand)라고 합니다. 아래의 이미지는 DOD 잉크젯 프린팅으로 현재 파란색 액적을 선택적으로 분사하고 있는 모습입니다.
+<img alt="img1.jpeg" loading="lazy" src="/posts/231205-mjm-polyjet-3d-printing-tech/img1.jpeg"></p>
+<p>CIJ 방식은 연속적으로 프린팅하기 때문에 많은 양의 소재가 필요하고, 구조물로 사용하고 남은 소재들이 오염 등의 문제로 재사용이 어려운 단점이 있습니다. 결합제 분사 방식에서 쓰는 잉크젯 프린팅 방식과 소재 분사 방식에서 사용하는 프린팅 방식 모두 DOD 잉크젯 프린팅 기술을 사용합니다. 이 DOD 잉크젯 방식을 다른말로 Polyjet 방식이라고 합니다.</p>
+<h3 id="2-1-polyjet폴리젯-방식">2-1. PolyJet(폴리젯) 방식<a hidden class="anchor" aria-hidden="true" href="#2-1-polyjet폴리젯-방식">#</a></h3>
+<p>PolyJet 방식은 2001년 현재는 미국 스트라타시스에 인수된 이스라엘의 Objet사가 발표한 기술로서, 프린터 헤드에 있는 수백 개의 미세 노즐에서 소재를 분사하면서 동시에 자외선으로 경화시켜 구조물을 제조합니다.</p>
+<p><img alt="cover.jpeg" loading="lazy" src="/posts/231205-mjm-polyjet-3d-printing-tech/cover.jpeg"></p>
+<p>굉장히 얇은 층으로 적층되기 때문에 구조물이 균일하고 품질이 뛰어난 특징을 갖고 있습니다. 또한 다양한 물성 혹은 색상을 갖고 있는 소재를 동시에 분사할 수 있어서, 다양한 구조물을 얻을 수 있습니다. 구조물에 사용하는 소재는 아크릴 계열의 광경화성 액상재료를 사용하고, 구조물의 서포팅 소재는 수용성 소재를 사용합니다. 그렇게 되면 향후 서포팅 소재를 제거할 때 수용성이기 때문에 워터젯 기술을 이용하여 쉽게 제거가 가능합니다.</p>
+<p>그 외 Thermojet 방식도 있습니다. 많이 사용하지 않지만, 이것 역시 DOD 잉크젯 프린팅 기술을 기반으로 개발된 방식입니다. 노즐 내부에 열을 가하여 기포가 발생고 팽창하여 액적을 형성하고 이를 프린팅 하는 방식을 뜻합니다.</p>
+<h2 id="3-mjm-방식"><strong>3. MJM 방식</strong><a hidden class="anchor" aria-hidden="true" href="#3-mjm-방식">#</a></h2>
+<p><img alt="img3.png" loading="lazy" src="/posts/231205-mjm-polyjet-3d-printing-tech/img3.png">
+MJM(Multi Jet Modeling) 방식은 MJP(Multi Jet Printing)이라고도 불리며, 프린트 헤드에서 주요 소재인 광경화성 수지와 구조물을 지지하기 위한 서포팅 재료인 왁스를 동시에 분사한 뒤, 자외선으로 경화시켜 적층 제조하는 방식입니다. 주요 소재로 사용하는 광경화성 수지는 투명도를 조절 할 수 있어 육안으로 내부를 확인할 수 있는 구조물을 제작할 수 있습니다.</p>
+<p>모든 3D 프린터를 통틀어 가장 정밀도가 높은 기술이며, 곡선 처리도 뛰어나기 때문에 정밀도가 높은 구조물을 제작할 수 있는 장점이 있습니다. 하지만, 강도가 약하고, 65도 이상의 온도에서는 변형이 발생할 수 있는 단점 또한 존재합니다.</p>
+<p>아래는 투명도를 조절 할 수 있는 MJM 방식으로 제작한 구조물 예시 입니다.</p>
+<p><img alt="img4.png" loading="lazy" src="/posts/231205-mjm-polyjet-3d-printing-tech/img4.png"></p>
+<h2 id="4-마치며"><strong>4. 마치며</strong><a hidden class="anchor" aria-hidden="true" href="#4-마치며">#</a></h2>
+<p>이번 포스팅에서는 가장 정교한 3D 프린팅 방식은 소재분사방식의 개념에 대해 알아보았고, 가장 많이 사용되고 있는 Polyjet 방식과 MJM 방식의 3D 프린터에 대해 알아보았습니다. 가장 복잡한 형상이나 디테일까지 표현할 수 있는 방식에, 프린팅하는 구조물 한개에 여러 색상까지 조합이 가능한 3D 프린터 방식입니다.</p>
+
+
+  </div>
+
+  <footer class="post-footer">
+    <ul class="post-tags">
+      <li><a href="https://jungwoo0716.github.io/tags/3d%ED%94%84%EB%A6%B0%ED%84%B0/">3D프린터</a></li>
+    </ul>
+<nav class="paginav">
+  <a class="prev" href="https://jungwoo0716.github.io/posts/2024-06-29-principles-of-understanding-the-balance-sheet/">
+    <span class="title">« 이전 페이지</span>
+    <br>
+    <span>재무제표 재무상태표를 쉽게 분석하기 위한 3가지 단계</span>
+  </a>
+  <a class="next" href="https://jungwoo0716.github.io/posts/231121-cjp-3d-printer-binder-jetting/">
+    <span class="title">다음 페이지 »</span>
+    <br>
+    <span>산업용 컬러 3D 프린터 CJP 3D 프린팅 원리 (석고분말)</span>
+  </a>
+</nav>
+
+  </footer>
+</article>
+    </main>
+    
+<footer class="footer">
+        <span>&copy; 2026 <a href="https://jungwoo0716.github.io/">AWT</a></span> · 
+
+    <span>
+        Powered by
+        <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a> &
+        <a href="https://github.com/adityatelange/hugo-PaperMod/" rel="noopener" target="_blank">PaperMod</a>
+    </span>
+</footer>
+<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
+        <path d="M12 6H0l6-6z" />
+    </svg>
+</a>
+
+<script>
+    let menu = document.getElementById('menu');
+    if (menu) {
+        
+        const scrollPosition = localStorage.getItem("menu-scroll-position");
+        if (scrollPosition) {
+            menu.scrollLeft = parseInt(scrollPosition, 10);
+        }
+        
+        menu.onscroll = function () {
+            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+        }
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
+
+</script>
+<script>
+    var mybutton = document.getElementById("top-link");
+    window.onscroll = function () {
+        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
+            mybutton.style.visibility = "visible";
+            mybutton.style.opacity = "1";
+        } else {
+            mybutton.style.visibility = "hidden";
+            mybutton.style.opacity = "0";
+        }
+    };
+
+</script>
+<script>
+    document.getElementById("theme-toggle").addEventListener("click", () => {
+        const html = document.querySelector("html");
+        if (html.dataset.theme === "dark") {
+            html.dataset.theme = 'light';
+            localStorage.setItem("pref-theme", 'light');
+        } else {
+            html.dataset.theme = 'dark';
+            localStorage.setItem("pref-theme", 'dark');
+        }
+    })
+
+</script>
+<script>
+    document.querySelectorAll('pre > code').forEach((codeblock) => {
+        const container = codeblock.parentNode.parentNode;
+
+        const copybutton = document.createElement('button');
+        copybutton.classList.add('copy-code');
+        copybutton.innerHTML = '복사';
+
+        function copyingDone() {
+            copybutton.innerHTML = '복사 완료!';
+            setTimeout(() => {
+                copybutton.innerHTML = '복사';
+            }, 2000);
+        }
+
+        copybutton.addEventListener('click', (cb) => {
+            if ('clipboard' in navigator) {
+                navigator.clipboard.writeText(codeblock.textContent);
+                copyingDone();
+                return;
+            }
+
+            const range = document.createRange();
+            range.selectNodeContents(codeblock);
+            const selection = window.getSelection();
+            selection.removeAllRanges();
+            selection.addRange(range);
+            try {
+                document.execCommand('copy');
+                copyingDone();
+            } catch (e) { };
+            selection.removeRange(range);
+        });
+
+        if (container.classList.contains("highlight")) {
+            container.appendChild(copybutton);
+        } else if (container.parentNode.firstChild == container) {
+            
+        } else if (codeblock.parentNode.parentNode.parentNode.parentNode.parentNode.nodeName == "TABLE") {
+            
+            codeblock.parentNode.parentNode.parentNode.parentNode.parentNode.appendChild(copybutton);
+        } else {
+            
+            codeblock.parentNode.appendChild(copybutton);
+        }
+    });
+</script>
+</body>
+
+</html>
