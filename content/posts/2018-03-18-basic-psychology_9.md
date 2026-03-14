@@ -1,4 +1,5 @@
 ---
+draft: true
 title: "발달심리학(Developmental Psychology)이란"
 date: 2018-03-18
 tags: ["심리학", "Psychology"]

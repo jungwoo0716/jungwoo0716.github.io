@@ -1,4 +1,5 @@
 ---
+draft: true
 title: "의식과 무의식(Consciousness & Unconsciousness)"
 date: 2018-03-15
 tags: ["심리학", "Psychology"]

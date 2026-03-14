@@ -1,4 +1,5 @@
 ---
+draft: true
 title: "경제학에서 시장(Market)이란"
 date: 2019-01-06
 tags: ["경제학", "Economics"]

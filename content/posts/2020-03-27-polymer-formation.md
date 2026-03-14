@@ -1,4 +1,5 @@
 ---
+draft: true
 title: "고분자를 만드는 방법 - 중합반응(Polymerization)"
 date: 2020-03-27
 tags: ["화학", "고분자", "Polymer"]

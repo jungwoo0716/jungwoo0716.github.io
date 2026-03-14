@@ -1,4 +1,5 @@
 ---
+draft: true
 title: "수요(Demand)와 수요곡선"
 date: 2019-01-09
 tags: ["경제학", "Economics"]

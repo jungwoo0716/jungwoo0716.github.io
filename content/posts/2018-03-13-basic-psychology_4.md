@@ -1,4 +1,5 @@
 ---
+draft: true
 title: "신경계(Nervous System)란 무엇인가?"
 date: 2018-03-13
 tags: ["심리학", "Psychology"]

@@ -1,4 +1,5 @@
 ---
+draft: true
 title: "인간 발달의 단계 및 특성"
 date: 2018-03-19
 tags: ["심리학", "Psychology"]

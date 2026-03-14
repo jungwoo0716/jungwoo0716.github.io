@@ -1,4 +1,5 @@
 ---
+draft: true
 title: "SLS 3D 프린터 소개 (역사, SLM 비교, 장단점, 가격)"
 date: 2023-11-04T09:15:00+09:00
 author: JW.Kim

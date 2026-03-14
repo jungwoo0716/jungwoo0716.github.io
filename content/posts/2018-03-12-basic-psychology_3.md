@@ -1,4 +1,5 @@
 ---
+draft: true
 title: "뉴런(Neuron)이란?"
 date: 2018-03-12
 tags: ["심리학", "Psychology"]

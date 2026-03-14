@@ -1,4 +1,5 @@
 ---
+draft: true
 title: "경제적 자원과 생산가능곡선"
 date: 2019-01-05
 tags: ["경제학", "Economics"]

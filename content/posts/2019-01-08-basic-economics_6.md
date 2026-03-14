@@ -1,4 +1,5 @@
 ---
+draft: true
 title: "경제이론과 경제이론의 구분"
 date: 2019-01-08
 tags: ["경제학", "Economics"]

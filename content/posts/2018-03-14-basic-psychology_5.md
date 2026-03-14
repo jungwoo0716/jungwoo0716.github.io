@@ -1,4 +1,5 @@
 ---
+draft: true
 title: "신경계에서의 뇌(Brain)란?"
 date: 2018-03-14
 tags: ["심리학", "Psychology"]

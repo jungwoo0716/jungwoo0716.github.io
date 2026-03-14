@@ -1,4 +1,5 @@
 ---
+draft: true
 title: "합리적 선택(Rational Choice)을 하는 방법"
 date: 2019-01-04
 tags: ["경제학", "Economics"]

@@ -1,4 +1,5 @@
 ---
+draft: true
 title: "인간이 색채를 인식하는 방법"
 date: 2020-03-16
 tags: ["색채", "인지과학", "Color"]

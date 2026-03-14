@@ -1,4 +1,5 @@
 ---
+draft: true
 title: "가장 정교한 3D 프린터 방식 MJM 과 Polyjet 소재 분사 방식"
 date: 2023-12-05T09:15:00+09:00
 author: JW.Kim

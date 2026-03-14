@@ -1,4 +1,5 @@
 ---
+draft: true
 title: "인간의 정보처리 경로와 행동"
 date: 2018-03-11
 tags: ["심리학", "Psychology"]

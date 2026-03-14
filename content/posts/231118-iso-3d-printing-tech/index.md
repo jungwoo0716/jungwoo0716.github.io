@@ -1,4 +1,5 @@
 ---
+draft: true
 title: "3D 프린터의 정의 및 기술 분류 (3D 프린팅 개념, 기술, ISO 분류)"
 date: 2023-11-18T09:15:00+09:00
 author: JW.Kim

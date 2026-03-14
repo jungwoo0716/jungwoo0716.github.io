@@ -1,4 +1,5 @@
 ---
+draft: true
 title: "3d 프린터 SLA 방식 소개 (원리, 역사, 장단점)"
 date: 2023-11-11T09:15:00+09:00
 author: JW.Kim

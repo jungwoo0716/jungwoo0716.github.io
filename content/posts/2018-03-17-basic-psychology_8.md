@@ -1,4 +1,5 @@
 ---
+draft: true
 title: "인간의 의식에 관여하는 약물(drug)"
 date: 2018-03-17
 tags: ["심리학", "Psychology"]

@@ -1,4 +1,5 @@
 ---
+draft: true
 title: "3d 프린터 FDM 방식과 FFF 방식 (역사, 원리, 장단점, 레진)"
 date: 2023-11-07T09:15:00+09:00
 author: JW.Kim

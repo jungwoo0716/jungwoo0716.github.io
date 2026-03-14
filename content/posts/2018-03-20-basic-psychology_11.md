@@ -1,4 +1,5 @@
 ---
+draft: true
 title: "인간 발달이론"
 date: 2018-03-20
 tags: ["심리학", "Psychology"]

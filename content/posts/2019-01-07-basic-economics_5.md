@@ -1,4 +1,5 @@
 ---
+draft: true
 title: "시장경제에서부터 혼합경제의 등장"
 date: 2019-01-07
 tags: ["경제학", "Economics"]

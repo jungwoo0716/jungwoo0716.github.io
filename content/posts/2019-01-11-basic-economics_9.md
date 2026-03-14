@@ -1,4 +1,5 @@
 ---
+draft: true
 title: "공급(Supply)이란"
 date: 2019-01-11
 tags: ["경제학", "Economics"]

@@ -1,4 +1,5 @@
 ---
+draft: true
 title: "수요(Demand)의 탄력성"
 date: 2019-01-10
 tags: ["경제학", "Economics"]

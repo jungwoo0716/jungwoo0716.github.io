@@ -1,4 +1,5 @@
 ---
+draft: true
 title: "산업용 컬러 3D 프린터 CJP 3D 프린팅 원리 (석고분말)"
 date: 2023-11-21T09:15:00+09:00
 author: JW.Kim

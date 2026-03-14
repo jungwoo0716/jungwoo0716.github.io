@@ -1,4 +1,5 @@
 ---
+draft: true
 title: "심리학(Psychology)이란 무엇인가?"
 date: 2018-03-10
 tags: ["심리학", "Psychology"]
