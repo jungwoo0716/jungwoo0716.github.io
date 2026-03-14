@@ -1,0 +1,490 @@
+<!DOCTYPE html>
+<html lang="ko" dir="auto" data-theme="auto">
+
+<head><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="index, follow">
+<title>재무제표 현금흐름표를 쉽게 분석하기 위한 3가지 단계 | AWT</title>
+<meta name="keywords" content="재무기초, 재무제표, 회계">
+<meta name="description" content="재무제표는 기업을 이해하고 가치를 평가하기 위해서 꼭 알아야 하는 기업의 재무상태와 경영정보를 제공하는 중요한 자료입니다. 현금흐름표에 대해 알아보겠습니다.">
+<meta name="author" content="김정우">
+<link rel="canonical" href="https://jungwoo0716.github.io/posts/2024-07-01-principles-of-understanding-the-cash-flow/">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.da3211e5ef867bf2b75fd5a6515cfed7195c011e8ab735694e203810a827097b.css" integrity="sha256-2jIR5e&#43;Ge/K3X9WmUVz&#43;1xlcAR6KtzVpTiA4EKgnCXs=" rel="preload stylesheet" as="style">
+<link rel="icon" href="https://jungwoo0716.github.io/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="https://jungwoo0716.github.io/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="https://jungwoo0716.github.io/favicon-32x32.png">
+<link rel="apple-touch-icon" href="https://jungwoo0716.github.io/apple-touch-icon.png">
+<link rel="mask-icon" href="https://jungwoo0716.github.io/safari-pinned-tab.svg">
+<meta name="theme-color" content="#2e2e33">
+<meta name="msapplication-TileColor" content="#2e2e33">
+<link rel="alternate" hreflang="ko" href="https://jungwoo0716.github.io/posts/2024-07-01-principles-of-understanding-the-cash-flow/">
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
+
+    </style>
+    <style>
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --theme: rgb(29, 30, 32);
+                --entry: rgb(46, 46, 51);
+                --primary: rgb(218, 218, 219);
+                --secondary: rgb(155, 156, 157);
+                --tertiary: rgb(65, 66, 68);
+                --content: rgb(196, 196, 197);
+                --code-block-bg: rgb(46, 46, 51);
+                --code-bg: rgb(55, 56, 62);
+                --border: rgb(51, 51, 51);
+                color-scheme: dark;
+            }
+
+            .list {
+                background: var(--theme);
+            }
+
+            .toc {
+                background: var(--entry);
+            }
+        }
+
+        @media (prefers-color-scheme: light) {
+            .list::-webkit-scrollbar-thumb {
+                border-color: var(--code-bg);
+            }
+        }
+
+    </style>
+</noscript>
+<script>
+    if (localStorage.getItem("pref-theme") === "dark") {
+        document.querySelector("html").dataset.theme = 'dark';
+    } else if (localStorage.getItem("pref-theme") === "light") {
+       document.querySelector("html").dataset.theme = 'light';
+    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.querySelector("html").dataset.theme = 'dark';
+    } else {
+        document.querySelector("html").dataset.theme = 'light';
+    }
+
+</script><meta property="og:url" content="https://jungwoo0716.github.io/posts/2024-07-01-principles-of-understanding-the-cash-flow/">
+  <meta property="og:site_name" content="AWT">
+  <meta property="og:title" content="재무제표 현금흐름표를 쉽게 분석하기 위한 3가지 단계">
+  <meta property="og:description" content="재무제표는 기업을 이해하고 가치를 평가하기 위해서 꼭 알아야 하는 기업의 재무상태와 경영정보를 제공하는 중요한 자료입니다. 현금흐름표에 대해 알아보겠습니다.">
+  <meta property="og:locale" content="ko">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+    <meta property="article:published_time" content="2024-07-01T00:00:00+00:00">
+    <meta property="article:modified_time" content="2024-07-01T00:00:00+00:00">
+    <meta property="article:tag" content="재무기초">
+    <meta property="article:tag" content="재무제표">
+    <meta property="article:tag" content="회계">
+      <meta property="og:see_also" content="https://jungwoo0716.github.io/posts/2024-06-30-principles-of-understanding-the-income-statement/">
+      <meta property="og:see_also" content="https://jungwoo0716.github.io/posts/2024-06-29-principles-of-understanding-the-balance-sheet/">
+
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="재무제표 현금흐름표를 쉽게 분석하기 위한 3가지 단계">
+  <meta name="twitter:description" content="재무제표는 기업을 이해하고 가치를 평가하기 위해서 꼭 알아야 하는 기업의 재무상태와 경영정보를 제공하는 중요한 자료입니다. 현금흐름표에 대해 알아보겠습니다.">
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position":  1 ,
+      "name": "Posts",
+      "item": "https://jungwoo0716.github.io/posts/"
+    }, 
+    {
+      "@type": "ListItem",
+      "position":  2 ,
+      "name": "재무제표 현금흐름표를 쉽게 분석하기 위한 3가지 단계",
+      "item": "https://jungwoo0716.github.io/posts/2024-07-01-principles-of-understanding-the-cash-flow/"
+    }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "재무제표 현금흐름표를 쉽게 분석하기 위한 3가지 단계",
+  "name": "재무제표 현금흐름표를 쉽게 분석하기 위한 3가지 단계",
+  "description": "재무제표는 기업을 이해하고 가치를 평가하기 위해서 꼭 알아야 하는 기업의 재무상태와 경영정보를 제공하는 중요한 자료입니다. 현금흐름표에 대해 알아보겠습니다.",
+  "keywords": [
+    "재무기초", "재무제표", "회계"
+  ],
+  "articleBody": "재무제표는 기업을 이해하고 가치를 평가하기 위해서는 꼭 알아야 하는 기업의 재무상태와 경영정보를 제공하는 중요한 자료입니다.\n이번 포스팅에서는 그 중 현금흐름표에 대해 알아보겠습니다.\n1. 기본구성 현금흐름표는 실제로 현금으로 돈을 얼마나 벌었는지 판단할 수 있는 문서입니다.\n재무제표 중 가장 쉽게 이해할 수 있는 손익계산서에 나오는 매출 혹은 수익은 실제로 현금으로 들어 온 것이 아닙니다.\n발생주의 회계원칙에 따라 사건이 발생했을 때에 수익과 비용을 기재한 문서입니다.\n사건이 발생한 것이지, 현금 유출입이 일어난 것이 아닙니다.\n예를 들면, A가 스마트스토어를 운영한다고 가정해봅시다. A는 중국 회사에 3,000만원을 결제하여 판매할 상품 10,000개를 생산하였습니다.\nA는 현금 3,000만원을 결제했기 때문에 현금 유출입이 일어났습니다. 하지만 손익계산서에는 3,000만원이 비용으로 기재되지 않습니다. 사건이 발생하지 않았기 때문입니다.\nA가 생산한 10,000개의 상품은 재고 자산 입니다. 재고 자산은 팔려서 매출이 발생해야 그 부분만큼 원가로 잡을 수 있습니다.\n이것이 바로 손익계산서를 작성하는 방법입니다.\n만약 10,000개 중에 1,000개가 판매되는 사건이 발생했다면, 손익계산서 상 원가는 3,000만원 중 10% 인 300만원 이 되는 것입니다.\n즉, 손익계산서 기준으로는 판매되었다는 사건이 중요한 것 입니다.\n개인의 자금은 대부분 현금 유출입을 기반으로 관리합니다. 우리는 통장에 찍힌 돈을 기준으로 판단합니다.\n현금흐름표는 개인이 자금을 관리하는 방식으로 현금이 어떻게 흐르는지 볼 수 있는 매우 중요한 지표입니다.\n개인도 현금이 없으면 생존하기 어렵듯이, 기업 역시 현금이 없으면 생존하기 어렵습니다.\n현금흐름표는 크게 3가지로 구분할 수 있습니다.\n첫 번째는 영업과 관련된 현금흐름인 영업현금흐름(CFO - Cash Flow from Operations) 과\n두 번째로는 투자와 관련된 현금흐름인 투자현금흐름(CFI - Cash Flow from Investing) 이 있습니다.\n마지막으로는 재무와 관련된 현금흐름인 재무현금흐름(CFF - Cash Flow from Financing) 이 있습니다.\n2. 영업현금흐름(CFO) 영업현금흐름은 영업을 통해 발생한 현금흐름을 뜻합니다.\n영업현금흐름을 판단하기 위해서는 현금흐름표 자체만으로는 어렵고, 재무상태표와 손익계산서 모두 봐야 합니다.\n2022년 삼성전자의 사업보고서를 예로 들어보겠습니다.\n[\n](https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20230307000542)\n2022년 삼성전자 영업활동 현금흐름\n2022년 삼성전자의 손익계산서 상 당기순이익은 25조원이었습니다. 하지만 실제로 현금으로 돈을 번 금액은 무려 44조원입니다.\n당기순이익보다 ‘조정’ 부분이 엄청 큰 부분을 차지하고 있습니다. 재무제표 주석을 통해 ‘조정’ 부분을 자세히 보면, 감가상각비가 가장 큰 비율을 차지하고 있습니다.\n[\n](https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20230307000542)\n2022년 삼성전자 영업활동 현금흐름 - 조정\n또한 주석을 보면 많은 금액을 차지하는 것이 매출채권/매입채무 및 재고자산이 있습니다.\n[\n](https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20230307000542)\n2022년 삼성전자 영업활동 현금흐름 - 자산부채 변동\n즉, 영업현금흐름표를 판단하기 위해서 손익계산서 통해 당기순이익과 감가상각비 등을 보아야 하고, 재무상태표를 통해 영업과 관련된 자산인 매출채권, 매입채무, 재고자산 등의 자산 부채의 변동을 보아야 합니다.\n회계적인 용어로 보면 이해가 쉽지 않지만, 엄청나게 당연한 얘기입니다.\n판매를 해서 매출이 발생했는데, 돈을 아직 못 받았을 경우가 바로 매출채권 입니다. 현금을 투자해서 상품을 만들었는데, 아직 안팔렸을 경우가 바로 재고자산 입니다.\n매출채권과 재고자산이 늘어나면, 현금이 묶이는 것입니다. 즉, 현금흐름표상 마이너스 효과를 주는 것입니다.\n영업현금흐름은 다음과 같이 나타낼 수 있습니다.\n영업현금흐름 = 영업이익 + 감가상각비 +- 자산부채의 변동\n대부분의 경우 영업이익에 감가상각비를 더해주기 때문에 영업현금흐름이 \u003e 영업이익 이어야 합니다.\n삼성전자의 경우 실제로 손익계산서 상 당기순이익보다 현금으로 벌어 들인 돈이 대략 2배 정도 많은 것을 보아도 알 수 있습니다.\n3. 투자현금흐름(CFI) 투자현금흐름은 투자를 통해 발생한 현금흐름을 말합니다. 대부분 자본 지출을 말합니다. 자본지출이란 Capital Expenditure - CapEx 라고 하며, 미래의 이윤을 창출하기 위해 ‘투자’ 한 비용 입니다.\n2022년 삼성전자의 예시를 보면 기존에 갖고 있던 단기 예적금 같은 금융상품 회수를 통해 현금을 일부 마련해서 대부분 유형자산 및 무형자산에 투자한 것을 알 수 있습니다.\n[\n](https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20230307000542)\n2022년 삼성전자 투자활동 현금흐름\n4. 재무현금흐름(CFF) 재무현금흐름은 재무와 관련된 현금흐름을 말합니다. 차입금이나 유상증자 등 다양한 방법으로 자금조달을 통해 추가적인 현금을 마련할 수 있고, 아래의 삼성전자 처럼 벌어들인 돈이 많아 주주에게 배당을 통해 현금을 지출할 수 있습니다.\n[\n](https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20230307000542)\n2022년 삼성전자 재무활동 현금흐름\n5. 현금흐름표를 통해 보는 기업의 특징 1) 초기 스타트업 영업현금흐름 : – 투자현금흐름 : – 재무현금흐름 : + 스타트업은 기본적으로 영업현금흐름(–) 이 좋지 않습니다. 일단 돈도 벌지 못해서 영업이익은 당연히 내지 못합니다.\n하지만 향후 미래의 이익을 위해 많은 투자금을 유치하여(재무현금흐름 : + ) 유형자산 및 무형자산에 큰 투자를(투자현금흐름 : – ) 하게 됩니다.\n2) 성장형 기업 영업현금흐름 : + 투자현금흐름 : – 재무현금흐름 : + 비즈니스 모델이 검증되어 지속적으로 수익을 창출하고 현금을 벌어들이고 있는 상황이지만(영업현금흐름 : + ), 앞으로 더 많은 수익을 창출하고자 외부로부터 자금을 조달하여(재무현금흐름 : +) 유무형 자산에 지속적으로 투자(투자현금흐름 : – )를 하고 있는 기업입니다.\n3) 이상적인 안정화된 기업 영업현금흐름 : + 투자현금흐름 : – 재무현금흐름 : – 이상적이고 안정화된 기업은 지속적으로 수익을 내며, 영업으로 벌어들인 현금이 많습니다(영업현금흐름 : + ). 지속적으로 회사의 향후 미래를 위해 투자를 하고(투자현금흐름 : – ), 벌어들인 돈을 주주들에게 환원 합니다(재무현금흐름 : – ).\n4) 청산기업 영업현금흐름 : – 투자현금흐름 : + 재무현금흐름 : – / + 회사가 여러 환경 요인 속에 수익을 내지 못하고, 현금이 부족한 상황으로 (영업현금흐름 : – ), 부족한 현금을 마련하기 위해 자산을 매각하거나(투자현금흐름 : +), 회사를 살리고 싶어 외부에서 자금을 조달하거나(재무현금흐름 : +), 남은 자산이라도 팔아 주주들에게 돌려주는(재무현금흐름 : – ) 청산 기업이 위의 특징을 갖고 있습니다.\n마치며 이번 포스팅에서는 재무제표에 3번째로 다루어지는 현금흐름표에 대해 알아보았습니다.\n현금흐름표는 실제 현금, 돈을 얼마나 벌었는지 알 수 있는 중요한 지표이며, 워렌 버핏이 추구하는 가치 평가 방식인 DCF 방식에서 가장 중요한 핵심 개념이기도 합니다.\n",
+  "wordCount" : "767",
+  "inLanguage": "ko",
+  "datePublished": "2024-07-01T00:00:00Z",
+  "dateModified": "2024-07-01T00:00:00Z",
+  "author":{
+    "@type": "Person",
+    "name": "김정우"
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://jungwoo0716.github.io/posts/2024-07-01-principles-of-understanding-the-cash-flow/"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "AWT",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://jungwoo0716.github.io/favicon.ico"
+    }
+  }
+}
+</script>
+</head>
+<body id="top">
+    <header class="header">
+    <nav class="nav">
+        <div class="logo">
+            <a href="https://jungwoo0716.github.io/" accesskey="h" title="AWT (Alt + H)">AWT</a>
+            <div class="logo-switches">
+                <button id="theme-toggle" accesskey="t" title="(Alt + T)" aria-label="Toggle theme">
+                    <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                    </svg>
+                    <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="5"></circle>
+                        <line x1="12" y1="1" x2="12" y2="3"></line>
+                        <line x1="12" y1="21" x2="12" y2="23"></line>
+                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                        <line x1="1" y1="12" x2="3" y2="12"></line>
+                        <line x1="21" y1="12" x2="23" y2="12"></line>
+                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                    </svg>
+                </button>
+            </div>
+        </div>
+        <ul id="menu">
+            <li>
+                <a href="https://jungwoo0716.github.io/search/" title="검색 (Alt &#43; /)" accesskey=/>
+                    <span>검색</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://jungwoo0716.github.io/tags/" title="태그">
+                    <span>태그</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://jungwoo0716.github.io/series/" title="시리즈">
+                    <span>시리즈</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://jungwoo0716.github.io/archives/" title="아카이브">
+                    <span>아카이브</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</header>
+<main class="main">
+
+<article class="post-single">
+  <header class="post-header">
+    <div class="breadcrumbs"><a href="https://jungwoo0716.github.io/">홈</a>&nbsp;»&nbsp;<a href="https://jungwoo0716.github.io/posts/">Posts</a></div>
+    <h1 class="post-title entry-hint-parent">
+      재무제표 현금흐름표를 쉽게 분석하기 위한 3가지 단계
+    </h1>
+    <div class="post-description">
+      재무제표는 기업을 이해하고 가치를 평가하기 위해서 꼭 알아야 하는 기업의 재무상태와 경영정보를 제공하는 중요한 자료입니다. 현금흐름표에 대해 알아보겠습니다.
+    </div>
+    <div class="post-meta"><span title='2024-07-01 00:00:00 +0000 UTC'>2024-07-01</span>&nbsp;·&nbsp;<span>4 분</span>&nbsp;·&nbsp;<span>김정우</span>
+
+</div>
+  </header> <div class="toc">
+    <details >
+        <summary accesskey="c" title="(Alt + C)">
+            <span class="details">목차</span>
+        </summary>
+
+        <div class="inner"><ul>
+                <li>
+                    <a href="#1-%ea%b8%b0%eb%b3%b8%ea%b5%ac%ec%84%b1" aria-label="1. 기본구성">1. 기본구성</a></li>
+                <li>
+                    <a href="#2-%ec%98%81%ec%97%85%ed%98%84%ea%b8%88%ed%9d%90%eb%a6%84cfo" aria-label="2. 영업현금흐름(CFO)">2. 영업현금흐름(CFO)</a></li>
+                <li>
+                    <a href="#3-%ed%88%ac%ec%9e%90%ed%98%84%ea%b8%88%ed%9d%90%eb%a6%84cfi" aria-label="3. 투자현금흐름(CFI)">3. 투자현금흐름(CFI)</a></li>
+                <li>
+                    <a href="#4-%ec%9e%ac%eb%ac%b4%ed%98%84%ea%b8%88%ed%9d%90%eb%a6%84cff" aria-label="4. 재무현금흐름(CFF)">4. 재무현금흐름(CFF)</a></li>
+                <li>
+                    <a href="#5-%ed%98%84%ea%b8%88%ed%9d%90%eb%a6%84%ed%91%9c%eb%a5%bc-%ed%86%b5%ed%95%b4-%eb%b3%b4%eb%8a%94-%ea%b8%b0%ec%97%85%ec%9d%98-%ed%8a%b9%ec%a7%95" aria-label="5. 현금흐름표를 통해 보는 기업의 특징">5. 현금흐름표를 통해 보는 기업의 특징</a><ul>
+                        
+                <li>
+                    <a href="#1-%ec%b4%88%ea%b8%b0-%ec%8a%a4%ed%83%80%ed%8a%b8%ec%97%85" aria-label="1) 초기 스타트업">1) 초기 스타트업</a></li>
+                <li>
+                    <a href="#2-%ec%84%b1%ec%9e%a5%ed%98%95-%ea%b8%b0%ec%97%85" aria-label="2) 성장형 기업">2) 성장형 기업</a></li>
+                <li>
+                    <a href="#3-%ec%9d%b4%ec%83%81%ec%a0%81%ec%9d%b8-%ec%95%88%ec%a0%95%ed%99%94%eb%90%9c-%ea%b8%b0%ec%97%85" aria-label="3) 이상적인 안정화된 기업">3) 이상적인 안정화된 기업</a></li>
+                <li>
+                    <a href="#4-%ec%b2%ad%ec%82%b0%ea%b8%b0%ec%97%85" aria-label="4) 청산기업">4) 청산기업</a></li></ul>
+                </li>
+                <li>
+                    <a href="#%eb%a7%88%ec%b9%98%eb%a9%b0" aria-label="마치며">마치며</a>
+                </li>
+            </ul>
+        </div>
+    </details>
+</div>
+
+  <div class="post-content"><p>재무제표는 기업을 이해하고 가치를 평가하기 위해서는 꼭 알아야 하는 기업의 재무상태와 경영정보를 제공하는 중요한 자료입니다.</p>
+<p>이번 포스팅에서는 그 중 현금흐름표에 대해 알아보겠습니다.</p>
+<h2 id="1-기본구성">1. 기본구성<a hidden class="anchor" aria-hidden="true" href="#1-기본구성">#</a></h2>
+<p>현금흐름표는 실제로 현금으로 돈을 얼마나 벌었는지 판단할 수 있는 문서입니다.</p>
+<p>재무제표 중 가장 쉽게 이해할 수 있는 손익계산서에 나오는 매출 혹은 수익은 실제로 현금으로 들어 온 것이 아닙니다.</p>
+<p>발생주의 회계원칙에 따라 사건이 발생했을 때에 수익과 비용을 기재한 문서입니다.</p>
+<p>사건이 발생한 것이지, 현금 유출입이 일어난 것이 아닙니다.</p>
+<p>예를 들면, A가 스마트스토어를 운영한다고 가정해봅시다. A는 중국 회사에 3,000만원을 결제하여 판매할 상품 10,000개를 생산하였습니다.</p>
+<p>A는 현금 3,000만원을 결제했기 때문에 현금 유출입이 일어났습니다. 하지만 손익계산서에는 3,000만원이 비용으로 기재되지 않습니다. <strong>사건이 발생하지 않았기 때문</strong>입니다.</p>
+<p>A가 생산한 10,000개의 상품은 <strong>재고 자산</strong> 입니다. 재고 자산은 팔려서 매출이 발생해야 그 부분만큼 원가로 잡을 수 있습니다.</p>
+<p>이것이 바로 손익계산서를 작성하는 방법입니다.</p>
+<p>만약 10,000개 중에 <strong>1,000개가 판매되는 사건이 발생</strong>했다면, 손익계산서 상 원가는 3,000만원 중 <strong>10% 인 300만원</strong> 이 되는 것입니다.</p>
+<p><strong>즉, 손익계산서 기준으로는 판매되었다는 사건이 중요한 것</strong> 입니다.</p>
+<p>개인의 자금은 대부분 현금 유출입을 기반으로 관리합니다. 우리는 통장에 찍힌 돈을 기준으로 판단합니다.</p>
+<p>현금흐름표는 개인이 자금을 관리하는 방식으로 현금이 어떻게 흐르는지 볼 수 있는 매우 중요한 지표입니다.</p>
+<p><strong>개인도 현금이 없으면 생존하기 어렵듯이, 기업 역시 현금이 없으면 생존하기 어렵습니다.</strong></p>
+<p>현금흐름표는 크게 3가지로 구분할 수 있습니다.</p>
+<blockquote>
+<p>첫 번째는 영업과 관련된 현금흐름인 영업현금흐름(CFO - Cash Flow from Operations) 과</p>
+</blockquote>
+<blockquote>
+<p>두 번째로는 투자와 관련된 현금흐름인 투자현금흐름(CFI - Cash Flow from Investing) 이 있습니다.</p>
+</blockquote>
+<blockquote>
+<p>마지막으로는 재무와 관련된 현금흐름인 재무현금흐름(CFF - Cash Flow from Financing) 이 있습니다.</p>
+</blockquote>
+<h2 id="2-영업현금흐름cfo">2. 영업현금흐름(CFO)<a hidden class="anchor" aria-hidden="true" href="#2-영업현금흐름cfo">#</a></h2>
+<p>영업현금흐름은 영업을 통해 발생한 현금흐름을 뜻합니다.</p>
+<p>영업현금흐름을 판단하기 위해서는 현금흐름표 자체만으로는 어렵고, 재무상태표와 손익계산서 모두 봐야 합니다.</p>
+<p>2022년 삼성전자의 사업보고서를 예로 들어보겠습니다.</p>
+<p>[</p>
+<p>](<a href="https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20230307000542">https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20230307000542</a>)</p>
+<p>2022년 삼성전자 영업활동 현금흐름</p>
+<p>2022년 삼성전자의 손익계산서 상 당기순이익은 25조원이었습니다. 하지만 실제로 현금으로 돈을 번 금액은 무려 44조원입니다.</p>
+<p>당기순이익보다 &lsquo;조정&rsquo; 부분이 엄청 큰 부분을 차지하고 있습니다. 재무제표 주석을 통해 &lsquo;조정&rsquo; 부분을 자세히 보면, 감가상각비가 가장 큰 비율을 차지하고 있습니다.</p>
+<p>[</p>
+<p>](<a href="https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20230307000542">https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20230307000542</a>)</p>
+<p>2022년 삼성전자 영업활동 현금흐름 - 조정</p>
+<p>또한 주석을 보면 많은 금액을 차지하는 것이 매출채권/매입채무 및 재고자산이 있습니다.</p>
+<p>[</p>
+<p>](<a href="https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20230307000542">https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20230307000542</a>)</p>
+<p>2022년 삼성전자 영업활동 현금흐름 - 자산부채 변동</p>
+<p>즉, 영업현금흐름표를 판단하기 위해서 손익계산서 통해 당기순이익과 감가상각비 등을 보아야 하고, 재무상태표를 통해 영업과 관련된 자산인 매출채권, 매입채무, 재고자산 등의 자산 부채의 변동을 보아야 합니다.</p>
+<p>회계적인 용어로 보면 이해가 쉽지 않지만, 엄청나게 당연한 얘기입니다.</p>
+<p>판매를 해서 매출이 발생했는데, 돈을 아직 못 받았을 경우가 바로 <strong>매출채권</strong> 입니다. 현금을 투자해서 상품을 만들었는데, 아직 안팔렸을 경우가 바로 <strong>재고자산</strong> 입니다.</p>
+<p>매출채권과 재고자산이 늘어나면, 현금이 묶이는 것입니다. 즉, <strong>현금흐름표상 마이너스 효과</strong>를 주는 것입니다.</p>
+<p>영업현금흐름은 다음과 같이 나타낼 수 있습니다.</p>
+<blockquote>
+<p>영업현금흐름 = 영업이익 + 감가상각비 +- 자산부채의 변동</p>
+</blockquote>
+<p>대부분의 경우 영업이익에 감가상각비를 더해주기 때문에 <strong>영업현금흐름이 &gt; 영업이익</strong> 이어야 합니다.</p>
+<p>삼성전자의 경우 실제로 손익계산서 상 당기순이익보다 현금으로 벌어 들인 돈이 대략 2배 정도 많은 것을 보아도 알 수 있습니다.</p>
+<h2 id="3-투자현금흐름cfi">3. 투자현금흐름(CFI)<a hidden class="anchor" aria-hidden="true" href="#3-투자현금흐름cfi">#</a></h2>
+<p>투자현금흐름은 투자를 통해 발생한 현금흐름을 말합니다. 대부분 자본 지출을 말합니다. 자본지출이란 Capital Expenditure - CapEx 라고 하며, <strong>미래의 이윤을 창출하기 위해 &lsquo;투자&rsquo; 한 비용</strong> 입니다.</p>
+<p>2022년 삼성전자의 예시를 보면 기존에 갖고 있던 단기 예적금 같은 금융상품 회수를 통해 현금을 일부 마련해서 대부분 유형자산 및 무형자산에 투자한 것을 알 수 있습니다.</p>
+<p>[</p>
+<p>](<a href="https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20230307000542">https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20230307000542</a>)</p>
+<p>2022년 삼성전자 투자활동 현금흐름</p>
+<h2 id="4-재무현금흐름cff">4. 재무현금흐름(CFF)<a hidden class="anchor" aria-hidden="true" href="#4-재무현금흐름cff">#</a></h2>
+<p>재무현금흐름은 재무와 관련된 현금흐름을 말합니다. 차입금이나 유상증자 등 다양한 방법으로 자금조달을 통해 추가적인 현금을 마련할 수 있고, 아래의 삼성전자 처럼 벌어들인 돈이 많아 주주에게 배당을 통해 현금을 지출할 수 있습니다.</p>
+<p>[</p>
+<p>](<a href="https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20230307000542">https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20230307000542</a>)</p>
+<p>2022년 삼성전자 재무활동 현금흐름</p>
+<h2 id="5-현금흐름표를-통해-보는-기업의-특징">5. 현금흐름표를 통해 보는 기업의 특징<a hidden class="anchor" aria-hidden="true" href="#5-현금흐름표를-통해-보는-기업의-특징">#</a></h2>
+<h3 id="1-초기-스타트업">1) 초기 스타트업<a hidden class="anchor" aria-hidden="true" href="#1-초기-스타트업">#</a></h3>
+<ul>
+<li>영업현금흐름 : –</li>
+<li>투자현금흐름 : –</li>
+<li>재무현금흐름 : +</li>
+</ul>
+<p>스타트업은 기본적으로 영업현금흐름(–) 이 좋지 않습니다. 일단 돈도 벌지 못해서 영업이익은 당연히 내지 못합니다.</p>
+<p>하지만 향후 미래의 이익을 위해 많은 투자금을 유치하여(재무현금흐름 : + ) 유형자산 및 무형자산에 큰 투자를(투자현금흐름 : – ) 하게 됩니다.</p>
+<h3 id="2-성장형-기업">2) 성장형 기업<a hidden class="anchor" aria-hidden="true" href="#2-성장형-기업">#</a></h3>
+<ul>
+<li>영업현금흐름 : +</li>
+<li>투자현금흐름 : –</li>
+<li>재무현금흐름 : +</li>
+</ul>
+<p>비즈니스 모델이 검증되어 지속적으로 수익을 창출하고 현금을 벌어들이고 있는 상황이지만(영업현금흐름 : + ), 앞으로 더 많은 수익을 창출하고자 외부로부터 자금을 조달하여(재무현금흐름 : +) 유무형 자산에 지속적으로 투자(투자현금흐름 : – )를 하고 있는 기업입니다.</p>
+<h3 id="3-이상적인-안정화된-기업">3) 이상적인 안정화된 기업<a hidden class="anchor" aria-hidden="true" href="#3-이상적인-안정화된-기업">#</a></h3>
+<ul>
+<li>영업현금흐름 : +</li>
+<li>투자현금흐름 : –</li>
+<li>재무현금흐름 : –</li>
+</ul>
+<p>이상적이고 안정화된 기업은 지속적으로 수익을 내며, 영업으로 벌어들인 현금이 많습니다(영업현금흐름 : + ). 지속적으로 회사의 향후 미래를 위해 투자를 하고(투자현금흐름 : – ), 벌어들인 돈을 주주들에게 환원 합니다(재무현금흐름 : – ).</p>
+<h3 id="4-청산기업">4) 청산기업<a hidden class="anchor" aria-hidden="true" href="#4-청산기업">#</a></h3>
+<ul>
+<li>영업현금흐름 : –</li>
+<li>투자현금흐름 : +</li>
+<li>재무현금흐름 : – / +</li>
+</ul>
+<p>회사가 여러 환경 요인 속에 수익을 내지 못하고, 현금이 부족한 상황으로 (영업현금흐름 : – ), 부족한 현금을 마련하기 위해 자산을 매각하거나(투자현금흐름 : +), 회사를 살리고 싶어 외부에서 자금을 조달하거나(재무현금흐름 : +), 남은 자산이라도 팔아 주주들에게 돌려주는(재무현금흐름 : – ) 청산 기업이 위의 특징을 갖고 있습니다.</p>
+<h2 id="마치며">마치며<a hidden class="anchor" aria-hidden="true" href="#마치며">#</a></h2>
+<p>이번 포스팅에서는 재무제표에 3번째로 다루어지는 현금흐름표에 대해 알아보았습니다.</p>
+<p>현금흐름표는 실제 현금, 돈을 얼마나 벌었는지 알 수 있는 중요한 지표이며, 워렌 버핏이 추구하는 가치 평가 방식인 DCF 방식에서 가장 중요한 핵심 개념이기도 합니다.</p>
+
+
+  </div>
+
+  <footer class="post-footer">
+    <ul class="post-tags">
+      <li><a href="https://jungwoo0716.github.io/tags/%EC%9E%AC%EB%AC%B4%EA%B8%B0%EC%B4%88/">재무기초</a></li>
+      <li><a href="https://jungwoo0716.github.io/tags/%EC%9E%AC%EB%AC%B4%EC%A0%9C%ED%91%9C/">재무제표</a></li>
+      <li><a href="https://jungwoo0716.github.io/tags/%ED%9A%8C%EA%B3%84/">회계</a></li>
+    </ul>
+<nav class="paginav">
+  <a class="next" href="https://jungwoo0716.github.io/posts/2024-06-30-principles-of-understanding-the-income-statement/">
+    <span class="title">다음 페이지 »</span>
+    <br>
+    <span>재무제표 손익계산서를 쉽게 분석하기 위한 5가지 단계</span>
+  </a>
+</nav>
+
+  </footer>
+</article>
+    </main>
+    
+<footer class="footer">
+        <span>&copy; 2026 <a href="https://jungwoo0716.github.io/">AWT</a></span> · 
+
+    <span>
+        Powered by
+        <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a> &
+        <a href="https://github.com/adityatelange/hugo-PaperMod/" rel="noopener" target="_blank">PaperMod</a>
+    </span>
+</footer>
+<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
+        <path d="M12 6H0l6-6z" />
+    </svg>
+</a>
+
+<script>
+    let menu = document.getElementById('menu');
+    if (menu) {
+        
+        const scrollPosition = localStorage.getItem("menu-scroll-position");
+        if (scrollPosition) {
+            menu.scrollLeft = parseInt(scrollPosition, 10);
+        }
+        
+        menu.onscroll = function () {
+            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+        }
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
+
+</script>
+<script>
+    var mybutton = document.getElementById("top-link");
+    window.onscroll = function () {
+        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
+            mybutton.style.visibility = "visible";
+            mybutton.style.opacity = "1";
+        } else {
+            mybutton.style.visibility = "hidden";
+            mybutton.style.opacity = "0";
+        }
+    };
+
+</script>
+<script>
+    document.getElementById("theme-toggle").addEventListener("click", () => {
+        const html = document.querySelector("html");
+        if (html.dataset.theme === "dark") {
+            html.dataset.theme = 'light';
+            localStorage.setItem("pref-theme", 'light');
+        } else {
+            html.dataset.theme = 'dark';
+            localStorage.setItem("pref-theme", 'dark');
+        }
+    })
+
+</script>
+<script>
+    document.querySelectorAll('pre > code').forEach((codeblock) => {
+        const container = codeblock.parentNode.parentNode;
+
+        const copybutton = document.createElement('button');
+        copybutton.classList.add('copy-code');
+        copybutton.innerHTML = '복사';
+
+        function copyingDone() {
+            copybutton.innerHTML = '복사 완료!';
+            setTimeout(() => {
+                copybutton.innerHTML = '복사';
+            }, 2000);
+        }
+
+        copybutton.addEventListener('click', (cb) => {
+            if ('clipboard' in navigator) {
+                navigator.clipboard.writeText(codeblock.textContent);
+                copyingDone();
+                return;
+            }
+
+            const range = document.createRange();
+            range.selectNodeContents(codeblock);
+            const selection = window.getSelection();
+            selection.removeAllRanges();
+            selection.addRange(range);
+            try {
+                document.execCommand('copy');
+                copyingDone();
+            } catch (e) { };
+            selection.removeRange(range);
+        });
+
+        if (container.classList.contains("highlight")) {
+            container.appendChild(copybutton);
+        } else if (container.parentNode.firstChild == container) {
+            
+        } else if (codeblock.parentNode.parentNode.parentNode.parentNode.parentNode.nodeName == "TABLE") {
+            
+            codeblock.parentNode.parentNode.parentNode.parentNode.parentNode.appendChild(copybutton);
+        } else {
+            
+            codeblock.parentNode.appendChild(copybutton);
+        }
+    });
+</script>
+</body>
+
+</html>

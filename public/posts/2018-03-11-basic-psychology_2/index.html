@@ -1,0 +1,438 @@
+<!DOCTYPE html>
+<html lang="ko" dir="auto" data-theme="auto">
+
+<head><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="index, follow">
+<title>인간의 정보처리 경로와 행동 | AWT</title>
+<meta name="keywords" content="심리학, Psychology">
+<meta name="description" content="행동의 생물학
+사람들은 같은 시각적 자극에 대해서도 각자 다른 생각을 한다. 같은 그림을 보아도 생각이나 느낌이 개인마다 모두 다르다. 왜 사람들은 같은 것을 보아도 다르게 생각하는 것일까?
+[
+](/static/d5e9a51515e8741fb70caefd01b28760/91043/image1.png)
+위의 사진을 보고 제일 처음으로 어떤 생각이 들었는가?
+필자는 깔끔하다고 생각했다. 하지만 어떤 사람은 하얗다고 생각할 수도 있고, 그저 주방이라고 인지할 수도 있다. 또 어떤 사람은 중앙에 있는 싱크대를 먼저 본 것이 아니라, 오른쪽에 있는 초록색 나무를 먼저 보았을 수도 있다. 이렇게 각자 사람들마다 다른 생각을 하는 이유를 알아볼 것이다.">
+<meta name="author" content="김정우">
+<link rel="canonical" href="https://jungwoo0716.github.io/posts/2018-03-11-basic-psychology_2/">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.da3211e5ef867bf2b75fd5a6515cfed7195c011e8ab735694e203810a827097b.css" integrity="sha256-2jIR5e&#43;Ge/K3X9WmUVz&#43;1xlcAR6KtzVpTiA4EKgnCXs=" rel="preload stylesheet" as="style">
+<link rel="icon" href="https://jungwoo0716.github.io/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="https://jungwoo0716.github.io/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="https://jungwoo0716.github.io/favicon-32x32.png">
+<link rel="apple-touch-icon" href="https://jungwoo0716.github.io/apple-touch-icon.png">
+<link rel="mask-icon" href="https://jungwoo0716.github.io/safari-pinned-tab.svg">
+<meta name="theme-color" content="#2e2e33">
+<meta name="msapplication-TileColor" content="#2e2e33">
+<link rel="alternate" hreflang="ko" href="https://jungwoo0716.github.io/posts/2018-03-11-basic-psychology_2/">
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
+
+    </style>
+    <style>
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --theme: rgb(29, 30, 32);
+                --entry: rgb(46, 46, 51);
+                --primary: rgb(218, 218, 219);
+                --secondary: rgb(155, 156, 157);
+                --tertiary: rgb(65, 66, 68);
+                --content: rgb(196, 196, 197);
+                --code-block-bg: rgb(46, 46, 51);
+                --code-bg: rgb(55, 56, 62);
+                --border: rgb(51, 51, 51);
+                color-scheme: dark;
+            }
+
+            .list {
+                background: var(--theme);
+            }
+
+            .toc {
+                background: var(--entry);
+            }
+        }
+
+        @media (prefers-color-scheme: light) {
+            .list::-webkit-scrollbar-thumb {
+                border-color: var(--code-bg);
+            }
+        }
+
+    </style>
+</noscript>
+<script>
+    if (localStorage.getItem("pref-theme") === "dark") {
+        document.querySelector("html").dataset.theme = 'dark';
+    } else if (localStorage.getItem("pref-theme") === "light") {
+       document.querySelector("html").dataset.theme = 'light';
+    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.querySelector("html").dataset.theme = 'dark';
+    } else {
+        document.querySelector("html").dataset.theme = 'light';
+    }
+
+</script><meta property="og:url" content="https://jungwoo0716.github.io/posts/2018-03-11-basic-psychology_2/">
+  <meta property="og:site_name" content="AWT">
+  <meta property="og:title" content="인간의 정보처리 경로와 행동">
+  <meta property="og:description" content="행동의 생물학 사람들은 같은 시각적 자극에 대해서도 각자 다른 생각을 한다. 같은 그림을 보아도 생각이나 느낌이 개인마다 모두 다르다. 왜 사람들은 같은 것을 보아도 다르게 생각하는 것일까?
+[
+](/static/d5e9a51515e8741fb70caefd01b28760/91043/image1.png)
+위의 사진을 보고 제일 처음으로 어떤 생각이 들었는가? 필자는 깔끔하다고 생각했다. 하지만 어떤 사람은 하얗다고 생각할 수도 있고, 그저 주방이라고 인지할 수도 있다. 또 어떤 사람은 중앙에 있는 싱크대를 먼저 본 것이 아니라, 오른쪽에 있는 초록색 나무를 먼저 보았을 수도 있다. 이렇게 각자 사람들마다 다른 생각을 하는 이유를 알아볼 것이다.">
+  <meta property="og:locale" content="ko">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+    <meta property="article:published_time" content="2018-03-11T00:00:00+00:00">
+    <meta property="article:modified_time" content="2018-03-11T00:00:00+00:00">
+    <meta property="article:tag" content="심리학">
+    <meta property="article:tag" content="Psychology">
+
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="인간의 정보처리 경로와 행동">
+  <meta name="twitter:description" content="행동의 생물학 사람들은 같은 시각적 자극에 대해서도 각자 다른 생각을 한다. 같은 그림을 보아도 생각이나 느낌이 개인마다 모두 다르다. 왜 사람들은 같은 것을 보아도 다르게 생각하는 것일까?
+[
+](/static/d5e9a51515e8741fb70caefd01b28760/91043/image1.png)
+위의 사진을 보고 제일 처음으로 어떤 생각이 들었는가? 필자는 깔끔하다고 생각했다. 하지만 어떤 사람은 하얗다고 생각할 수도 있고, 그저 주방이라고 인지할 수도 있다. 또 어떤 사람은 중앙에 있는 싱크대를 먼저 본 것이 아니라, 오른쪽에 있는 초록색 나무를 먼저 보았을 수도 있다. 이렇게 각자 사람들마다 다른 생각을 하는 이유를 알아볼 것이다.">
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position":  1 ,
+      "name": "Posts",
+      "item": "https://jungwoo0716.github.io/posts/"
+    }, 
+    {
+      "@type": "ListItem",
+      "position":  2 ,
+      "name": "인간의 정보처리 경로와 행동",
+      "item": "https://jungwoo0716.github.io/posts/2018-03-11-basic-psychology_2/"
+    }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "인간의 정보처리 경로와 행동",
+  "name": "인간의 정보처리 경로와 행동",
+  "description": "행동의 생물학 사람들은 같은 시각적 자극에 대해서도 각자 다른 생각을 한다. 같은 그림을 보아도 생각이나 느낌이 개인마다 모두 다르다. 왜 사람들은 같은 것을 보아도 다르게 생각하는 것일까?\n[\n](/static/d5e9a51515e8741fb70caefd01b28760/91043/image1.png)\n위의 사진을 보고 제일 처음으로 어떤 생각이 들었는가? 필자는 깔끔하다고 생각했다. 하지만 어떤 사람은 하얗다고 생각할 수도 있고, 그저 주방이라고 인지할 수도 있다. 또 어떤 사람은 중앙에 있는 싱크대를 먼저 본 것이 아니라, 오른쪽에 있는 초록색 나무를 먼저 보았을 수도 있다. 이렇게 각자 사람들마다 다른 생각을 하는 이유를 알아볼 것이다.\n",
+  "keywords": [
+    "심리학", "Psychology"
+  ],
+  "articleBody": "행동의 생물학 사람들은 같은 시각적 자극에 대해서도 각자 다른 생각을 한다. 같은 그림을 보아도 생각이나 느낌이 개인마다 모두 다르다. 왜 사람들은 같은 것을 보아도 다르게 생각하는 것일까?\n[\n](/static/d5e9a51515e8741fb70caefd01b28760/91043/image1.png)\n위의 사진을 보고 제일 처음으로 어떤 생각이 들었는가? 필자는 깔끔하다고 생각했다. 하지만 어떤 사람은 하얗다고 생각할 수도 있고, 그저 주방이라고 인지할 수도 있다. 또 어떤 사람은 중앙에 있는 싱크대를 먼저 본 것이 아니라, 오른쪽에 있는 초록색 나무를 먼저 보았을 수도 있다. 이렇게 각자 사람들마다 다른 생각을 하는 이유를 알아볼 것이다.\n인간의 정보처리 경로 인간의 정보처리 경로는 크게 상향적 처리(feedforward, bottom-up)와 하향적 처리(feedback, top-down) 두 가지 방식이 있다.\n[\n](/static/789a9a34a6e8413d1e46aa4600442f85/69344/image2.png)\n인간의 정보처리 경로 일반적인 시각적 자극의 경우 물체가 빛을 반사하여 망막에 들어온다. 망막에 들어온 시각정보는 위의 사진처럼 뇌 뒤쪽(후두엽)의 시각 연합 영역(Visual Association Area)으로 오게 된다. 후두엽으로 온 시각정보는 전두엽까지 전달된다. 모든 사람은 이런 과정을 겪고, 이 과정에서는 사람들간의 차이가 나타나지 않는다. 하지만 이 시각정보가 전두엽에서 전전두엽으로 들어올 때 사람들의 생각이나 느낌이 달라진다.\n*후두엽은 시각 정보를 처리하는 부분으로 시각 피질이라고도 부름. [\n](/static/498632ef2ee0aa7c7bd2fd77070cde32/152a6/image3.png)\n[ ](/static/e6ffdec436945b66898da25ad329fdd1/e933f/image4.png)\n뇌의 구조와 기능 사람마다 인지하는 것이 다른 이유는 바로 기억 때문이다. 최근 기억, 혹은 인상 깊은 기억 등 각자가 경험한 것들이 다르기 때문에, 같은 사진을 봐도 어떤 사람은 책을 어떤 사람은 나무를 먼저 보게 된다.\n행동이란 위의 과정을 보면 사람은 외부 자극이 생기면 행동(반응)을 한다는 것을 알 수 있다. 그렇다면 여기서 말하는 행동의 정의는 무엇일까?\n행동은 사실 정의에 따라서 달라질 수 있지만, 심리학에서는 가장 큰 두가지 핵심 요소를 포함해야 행동이라 할 수 있다. 첫 번째, 행동은 외부 자극에 대한 반응이어야 하고, 두 번째, 행동은 측정가능해야 한다. 제일 중요한 것은 측정 가능해야 한다.\n“심장이 뜀” “침을 흘림” “수업을 들음” “음악을 감상함” “눈을 훅 불었더니 눈이 깜빡거림” “뜨거운 물에 데여서 순간적으로 손을 치움”\n위의 6가지 예시 중 무엇이 행동이라고 할 수 있을까? 심장이 뛴 것도 무엇인가 외부에 대한 자극이 있었다는 것이고, 그 이외에 모든 예시가 외부에 대한 자극이 있었다는 것은 알 수 있다. 일단 첫 번째 조건에는 만족한다. 그렇다면 나머지 다 두번째 조건에도 만족할까? 답을 먼저 말하자면, 6가지 예시 모두 다 측정가능하여 행동이라고 정의 할 수 있다. (심장은 심장 박동수 측정 등)\n그렇다면 이중에 제일 측정이 어려운 것이 무엇일까? 음악을 감상하는 것이 제일 측정이 어렵다. 음악을 감상하는 것은 행동이라 쉽게 생각할 수 있지만, 최근까지 음악을 감상하는 것을 측정하지 못했다. 하지만 시간이 지날수록 기술이 발달하면서 측정할 수 있게 되었다. 그렇게 음악을 감상하는 것이 최근에서야 행동으로 정의가 되었다.\n행동에도 여러 가지 행동이 있지만, 대뇌가 관여하지 않고 중추신경계에서 제어하는 **무조건반사(A very simple behavior)**가 있다. 무조건반사는 의식적으로 제어하지 못하지만, 그만큼 빠른 속도로 행동할 수 있기 때문에 일반적으로 생물의 생존에 직결되어 있는 행동이다.\n",
+  "wordCount" : "409",
+  "inLanguage": "ko",
+  "datePublished": "2018-03-11T00:00:00Z",
+  "dateModified": "2018-03-11T00:00:00Z",
+  "author":{
+    "@type": "Person",
+    "name": "김정우"
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://jungwoo0716.github.io/posts/2018-03-11-basic-psychology_2/"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "AWT",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://jungwoo0716.github.io/favicon.ico"
+    }
+  }
+}
+</script>
+</head>
+<body id="top">
+    <header class="header">
+    <nav class="nav">
+        <div class="logo">
+            <a href="https://jungwoo0716.github.io/" accesskey="h" title="AWT (Alt + H)">AWT</a>
+            <div class="logo-switches">
+                <button id="theme-toggle" accesskey="t" title="(Alt + T)" aria-label="Toggle theme">
+                    <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                    </svg>
+                    <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="5"></circle>
+                        <line x1="12" y1="1" x2="12" y2="3"></line>
+                        <line x1="12" y1="21" x2="12" y2="23"></line>
+                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                        <line x1="1" y1="12" x2="3" y2="12"></line>
+                        <line x1="21" y1="12" x2="23" y2="12"></line>
+                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                    </svg>
+                </button>
+            </div>
+        </div>
+        <ul id="menu">
+            <li>
+                <a href="https://jungwoo0716.github.io/search/" title="검색 (Alt &#43; /)" accesskey=/>
+                    <span>검색</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://jungwoo0716.github.io/tags/" title="태그">
+                    <span>태그</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://jungwoo0716.github.io/series/" title="시리즈">
+                    <span>시리즈</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://jungwoo0716.github.io/archives/" title="아카이브">
+                    <span>아카이브</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</header>
+<main class="main">
+
+<article class="post-single">
+  <header class="post-header">
+    <div class="breadcrumbs"><a href="https://jungwoo0716.github.io/">홈</a>&nbsp;»&nbsp;<a href="https://jungwoo0716.github.io/posts/">Posts</a></div>
+    <h1 class="post-title entry-hint-parent">
+      인간의 정보처리 경로와 행동
+    </h1>
+    <div class="post-meta"><span title='2018-03-11 00:00:00 +0000 UTC'>2018-03-11</span>&nbsp;·&nbsp;<span>2 분</span>&nbsp;·&nbsp;<span>김정우</span>
+
+</div>
+  </header> <div class="toc">
+    <details >
+        <summary accesskey="c" title="(Alt + C)">
+            <span class="details">목차</span>
+        </summary>
+
+        <div class="inner"><ul>
+                <li>
+                    <a href="#%ed%96%89%eb%8f%99%ec%9d%98-%ec%83%9d%eb%ac%bc%ed%95%99" aria-label="행동의 생물학">행동의 생물학</a></li>
+                <li>
+                    <a href="#%ec%9d%b8%ea%b0%84%ec%9d%98-%ec%a0%95%eb%b3%b4%ec%b2%98%eb%a6%ac-%ea%b2%bd%eb%a1%9c" aria-label="인간의 정보처리 경로">인간의 정보처리 경로</a><ul>
+                        <ul>
+                        <ul>
+                        <ul>
+                        
+                <li>
+                    <a href="#%ec%9d%b8%ea%b0%84%ec%9d%98-%ec%a0%95%eb%b3%b4%ec%b2%98%eb%a6%ac-%ea%b2%bd%eb%a1%9c-1" aria-label="인간의 정보처리 경로">인간의 정보처리 경로</a></li></ul>
+                    
+                <li>
+                    <a href="#%ed%9b%84%eb%91%90%ec%97%bd%ec%9d%80-%ec%8b%9c%ea%b0%81-%ec%a0%95%eb%b3%b4%eb%a5%bc-%ec%b2%98%eb%a6%ac%ed%95%98%eb%8a%94-%eb%b6%80%eb%b6%84%ec%9c%bc%eb%a1%9c-%ec%8b%9c%ea%b0%81-%ed%94%bc%ec%a7%88%ec%9d%b4%eb%9d%bc%ea%b3%a0%eb%8f%84-%eb%b6%80%eb%a6%84" aria-label="*후두엽은 시각 정보를 처리하는 부분으로 시각 피질이라고도 부름.">*후두엽은 시각 정보를 처리하는 부분으로 시각 피질이라고도 부름.</a><ul>
+                        
+                <li>
+                    <a href="#%eb%87%8c%ec%9d%98-%ea%b5%ac%ec%a1%b0%ec%99%80-%ea%b8%b0%eb%8a%a5" aria-label="뇌의 구조와 기능">뇌의 구조와 기능</a></li></ul>
+                </li></ul>
+                    </ul>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#%ed%96%89%eb%8f%99%ec%9d%b4%eb%9e%80" aria-label="행동이란">행동이란</a>
+                </li>
+            </ul>
+        </div>
+    </details>
+</div>
+
+  <div class="post-content"><h2 id="행동의-생물학">행동의 생물학<a hidden class="anchor" aria-hidden="true" href="#행동의-생물학">#</a></h2>
+<p>사람들은 같은 시각적 자극에 대해서도 각자 다른 생각을 한다. 같은 그림을 보아도 생각이나 느낌이 개인마다 모두 다르다. 왜 사람들은 같은 것을 보아도 다르게 생각하는 것일까?</p>
+<p>[</p>
+<p>](/static/d5e9a51515e8741fb70caefd01b28760/91043/image1.png)</p>
+<p>위의 사진을 보고 제일 처음으로 어떤 생각이 들었는가?
+필자는 깔끔하다고 생각했다. 하지만 어떤 사람은 하얗다고 생각할 수도 있고, 그저 주방이라고 인지할 수도 있다. 또 어떤 사람은 중앙에 있는 싱크대를 먼저 본 것이 아니라, 오른쪽에 있는 초록색 나무를 먼저 보았을 수도 있다. 이렇게 각자 사람들마다 다른 생각을 하는 이유를 알아볼 것이다.</p>
+<h2 id="인간의-정보처리-경로">인간의 정보처리 경로<a hidden class="anchor" aria-hidden="true" href="#인간의-정보처리-경로">#</a></h2>
+<p>인간의 정보처리 경로는 크게 상향적 처리(feedforward, bottom-up)와 하향적 처리(feedback, top-down) 두 가지 방식이 있다.</p>
+<p>[</p>
+<p>](/static/789a9a34a6e8413d1e46aa4600442f85/69344/image2.png)</p>
+<h6 id="인간의-정보처리-경로-1">인간의 정보처리 경로<a hidden class="anchor" aria-hidden="true" href="#인간의-정보처리-경로-1">#</a></h6>
+<p>일반적인 시각적 자극의 경우 물체가 빛을 반사하여 망막에 들어온다. 망막에 들어온 시각정보는 위의 사진처럼 뇌 뒤쪽(후두엽)의 시각 연합 영역(Visual Association Area)으로 오게 된다. 후두엽으로 온 시각정보는 전두엽까지 전달된다. 모든 사람은 이런 과정을 겪고, 이 과정에서는 사람들간의 차이가 나타나지 않는다. 하지만 이 시각정보가 <strong>전두엽에서 전전두엽으로 들어올 때</strong> 사람들의 생각이나 느낌이 달라진다.</p>
+<h5 id="후두엽은-시각-정보를-처리하는-부분으로-시각-피질이라고도-부름">*후두엽은 시각 정보를 처리하는 부분으로 시각 피질이라고도 부름.<a hidden class="anchor" aria-hidden="true" href="#후두엽은-시각-정보를-처리하는-부분으로-시각-피질이라고도-부름">#</a></h5>
+<p>[</p>
+<p>](/static/498632ef2ee0aa7c7bd2fd77070cde32/152a6/image3.png)</p>
+<pre><code>  [
+</code></pre>
+<p>](/static/e6ffdec436945b66898da25ad329fdd1/e933f/image4.png)</p>
+<h6 id="뇌의-구조와-기능">뇌의 구조와 기능<a hidden class="anchor" aria-hidden="true" href="#뇌의-구조와-기능">#</a></h6>
+<p>사람마다 인지하는 것이 다른 이유는 바로 <strong>기억</strong> 때문이다. 최근 기억, 혹은 인상 깊은 기억 등 각자가 경험한 것들이 다르기 때문에, 같은 사진을 봐도 어떤 사람은 책을 어떤 사람은 나무를 먼저 보게 된다.</p>
+<h2 id="행동이란">행동이란<a hidden class="anchor" aria-hidden="true" href="#행동이란">#</a></h2>
+<p>위의 과정을 보면 사람은 외부 자극이 생기면 행동(반응)을 한다는 것을 알 수 있다. 그렇다면 여기서 말하는 행동의 정의는 무엇일까?</p>
+<p>행동은 사실 정의에 따라서 달라질 수 있지만, 심리학에서는 가장 큰 두가지 핵심 요소를 포함해야 행동이라 할 수 있다.
+첫 번째, 행동은 외부 자극에 대한 반응이어야 하고,
+두 번째, 행동은 측정가능해야 한다. 제일 중요한 것은 <strong>측정 가능해야 한다.</strong></p>
+<p>“심장이 뜀”
+“침을 흘림”
+“수업을 들음”
+“음악을 감상함”
+“눈을 훅 불었더니 눈이 깜빡거림”
+“뜨거운 물에 데여서 순간적으로 손을 치움”</p>
+<p>위의 6가지 예시 중 무엇이 행동이라고 할 수 있을까? 심장이 뛴 것도 무엇인가 외부에 대한 자극이 있었다는 것이고, 그 이외에 모든 예시가 외부에 대한 자극이 있었다는 것은 알 수 있다. 일단 첫 번째 조건에는 만족한다.
+그렇다면 나머지 다 두번째 조건에도 만족할까? 답을 먼저 말하자면, 6가지 예시 모두 다 측정가능하여 행동이라고 정의 할 수 있다. (심장은 심장 박동수 측정 등)</p>
+<p>그렇다면 이중에 제일 측정이 어려운 것이 무엇일까? 음악을 감상하는 것이 제일 측정이 어렵다. 음악을 감상하는 것은 행동이라 쉽게 생각할 수 있지만, 최근까지 음악을 감상하는 것을 측정하지 못했다. 하지만 시간이 지날수록 기술이 발달하면서 측정할 수 있게 되었다. 그렇게 음악을 감상하는 것이 최근에서야 행동으로 정의가 되었다.</p>
+<p>행동에도 여러 가지 행동이 있지만, 대뇌가 관여하지 않고 중추신경계에서 제어하는 **무조건반사(A very simple behavior)**가 있다. 무조건반사는 의식적으로 제어하지 못하지만, 그만큼 빠른 속도로 행동할 수 있기 때문에 일반적으로 생물의 생존에 직결되어 있는 행동이다.</p>
+
+
+  </div>
+
+  <footer class="post-footer">
+    <ul class="post-tags">
+      <li><a href="https://jungwoo0716.github.io/tags/%EC%8B%AC%EB%A6%AC%ED%95%99/">심리학</a></li>
+      <li><a href="https://jungwoo0716.github.io/tags/psychology/">Psychology</a></li>
+    </ul>
+<nav class="paginav">
+  <a class="prev" href="https://jungwoo0716.github.io/posts/2018-03-12-basic-psychology_3/">
+    <span class="title">« 이전 페이지</span>
+    <br>
+    <span>뉴런(Neuron)이란?</span>
+  </a>
+  <a class="next" href="https://jungwoo0716.github.io/posts/2018-03-10-basic-psychology_1/">
+    <span class="title">다음 페이지 »</span>
+    <br>
+    <span>심리학(Psychology)이란 무엇인가?</span>
+  </a>
+</nav>
+
+  </footer>
+</article>
+    </main>
+    
+<footer class="footer">
+        <span>&copy; 2026 <a href="https://jungwoo0716.github.io/">AWT</a></span> · 
+
+    <span>
+        Powered by
+        <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a> &
+        <a href="https://github.com/adityatelange/hugo-PaperMod/" rel="noopener" target="_blank">PaperMod</a>
+    </span>
+</footer>
+<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
+        <path d="M12 6H0l6-6z" />
+    </svg>
+</a>
+
+<script>
+    let menu = document.getElementById('menu');
+    if (menu) {
+        
+        const scrollPosition = localStorage.getItem("menu-scroll-position");
+        if (scrollPosition) {
+            menu.scrollLeft = parseInt(scrollPosition, 10);
+        }
+        
+        menu.onscroll = function () {
+            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+        }
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
+
+</script>
+<script>
+    var mybutton = document.getElementById("top-link");
+    window.onscroll = function () {
+        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
+            mybutton.style.visibility = "visible";
+            mybutton.style.opacity = "1";
+        } else {
+            mybutton.style.visibility = "hidden";
+            mybutton.style.opacity = "0";
+        }
+    };
+
+</script>
+<script>
+    document.getElementById("theme-toggle").addEventListener("click", () => {
+        const html = document.querySelector("html");
+        if (html.dataset.theme === "dark") {
+            html.dataset.theme = 'light';
+            localStorage.setItem("pref-theme", 'light');
+        } else {
+            html.dataset.theme = 'dark';
+            localStorage.setItem("pref-theme", 'dark');
+        }
+    })
+
+</script>
+<script>
+    document.querySelectorAll('pre > code').forEach((codeblock) => {
+        const container = codeblock.parentNode.parentNode;
+
+        const copybutton = document.createElement('button');
+        copybutton.classList.add('copy-code');
+        copybutton.innerHTML = '복사';
+
+        function copyingDone() {
+            copybutton.innerHTML = '복사 완료!';
+            setTimeout(() => {
+                copybutton.innerHTML = '복사';
+            }, 2000);
+        }
+
+        copybutton.addEventListener('click', (cb) => {
+            if ('clipboard' in navigator) {
+                navigator.clipboard.writeText(codeblock.textContent);
+                copyingDone();
+                return;
+            }
+
+            const range = document.createRange();
+            range.selectNodeContents(codeblock);
+            const selection = window.getSelection();
+            selection.removeAllRanges();
+            selection.addRange(range);
+            try {
+                document.execCommand('copy');
+                copyingDone();
+            } catch (e) { };
+            selection.removeRange(range);
+        });
+
+        if (container.classList.contains("highlight")) {
+            container.appendChild(copybutton);
+        } else if (container.parentNode.firstChild == container) {
+            
+        } else if (codeblock.parentNode.parentNode.parentNode.parentNode.parentNode.nodeName == "TABLE") {
+            
+            codeblock.parentNode.parentNode.parentNode.parentNode.parentNode.appendChild(copybutton);
+        } else {
+            
+            codeblock.parentNode.appendChild(copybutton);
+        }
+    });
+</script>
+</body>
+
+</html>

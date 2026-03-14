@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="ko" dir="auto" data-theme="auto">
+
+<head>
+	<meta name="generator" content="Hugo 0.157.0"><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="index, follow">
+<title>AWT</title>
+
+<meta name="description" content="Always With Tech - 기술과 함께하는 생각들">
+<meta name="author" content="김정우">
+<link rel="canonical" href="https://jungwoo0716.github.io/">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.da3211e5ef867bf2b75fd5a6515cfed7195c011e8ab735694e203810a827097b.css" integrity="sha256-2jIR5e&#43;Ge/K3X9WmUVz&#43;1xlcAR6KtzVpTiA4EKgnCXs=" rel="preload stylesheet" as="style">
+<link rel="icon" href="https://jungwoo0716.github.io/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="https://jungwoo0716.github.io/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="https://jungwoo0716.github.io/favicon-32x32.png">
+<link rel="apple-touch-icon" href="https://jungwoo0716.github.io/apple-touch-icon.png">
+<link rel="mask-icon" href="https://jungwoo0716.github.io/safari-pinned-tab.svg">
+<meta name="theme-color" content="#2e2e33">
+<meta name="msapplication-TileColor" content="#2e2e33">
+<link rel="alternate" type="application/rss+xml" href="https://jungwoo0716.github.io/index.xml" title="rss">
+<link rel="alternate" type="application/json" href="https://jungwoo0716.github.io/index.json" title="json">
+<link rel="alternate" hreflang="ko" href="https://jungwoo0716.github.io/">
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
+
+    </style>
+    <style>
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --theme: rgb(29, 30, 32);
+                --entry: rgb(46, 46, 51);
+                --primary: rgb(218, 218, 219);
+                --secondary: rgb(155, 156, 157);
+                --tertiary: rgb(65, 66, 68);
+                --content: rgb(196, 196, 197);
+                --code-block-bg: rgb(46, 46, 51);
+                --code-bg: rgb(55, 56, 62);
+                --border: rgb(51, 51, 51);
+                color-scheme: dark;
+            }
+
+            .list {
+                background: var(--theme);
+            }
+
+            .toc {
+                background: var(--entry);
+            }
+        }
+
+        @media (prefers-color-scheme: light) {
+            .list::-webkit-scrollbar-thumb {
+                border-color: var(--code-bg);
+            }
+        }
+
+    </style>
+</noscript>
+<script>
+    if (localStorage.getItem("pref-theme") === "dark") {
+        document.querySelector("html").dataset.theme = 'dark';
+    } else if (localStorage.getItem("pref-theme") === "light") {
+       document.querySelector("html").dataset.theme = 'light';
+    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.querySelector("html").dataset.theme = 'dark';
+    } else {
+        document.querySelector("html").dataset.theme = 'light';
+    }
+
+</script><meta property="og:url" content="https://jungwoo0716.github.io/">
+  <meta property="og:site_name" content="AWT">
+  <meta property="og:title" content="AWT">
+  <meta property="og:description" content="Always With Tech - 기술과 함께하는 생각들">
+  <meta property="og:locale" content="ko">
+  <meta property="og:type" content="website">
+
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="AWT">
+  <meta name="twitter:description" content="Always With Tech - 기술과 함께하는 생각들">
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "AWT",
+  "url": "https://jungwoo0716.github.io/",
+  "description": "Always With Tech - 기술과 함께하는 생각들",
+  "logo": "https://jungwoo0716.github.io/favicon.ico",
+  "sameAs": [
+      "https://github.com/jungwoo0716"
+  ]
+}
+</script>
+</head>
+<body class="list" id="top">
+    <header class="header">
+    <nav class="nav">
+        <div class="logo">
+            <a href="https://jungwoo0716.github.io/" accesskey="h" title="AWT (Alt + H)">AWT</a>
+            <div class="logo-switches">
+                <button id="theme-toggle" accesskey="t" title="(Alt + T)" aria-label="Toggle theme">
+                    <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                    </svg>
+                    <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="5"></circle>
+                        <line x1="12" y1="1" x2="12" y2="3"></line>
+                        <line x1="12" y1="21" x2="12" y2="23"></line>
+                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                        <line x1="1" y1="12" x2="3" y2="12"></line>
+                        <line x1="21" y1="12" x2="23" y2="12"></line>
+                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                    </svg>
+                </button>
+            </div>
+        </div>
+        <ul id="menu">
+            <li>
+                <a href="https://jungwoo0716.github.io/search/" title="검색 (Alt &#43; /)" accesskey=/>
+                    <span>검색</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://jungwoo0716.github.io/tags/" title="태그">
+                    <span>태그</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://jungwoo0716.github.io/series/" title="시리즈">
+                    <span>시리즈</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://jungwoo0716.github.io/archives/" title="아카이브">
+                    <span>아카이브</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</header>
+<main class="main"> 
+
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">발달심리학(Developmental Psychology)이란
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>발달심리학이란 인간은 나이가 들면서 행동하는 것들이 여러 면에서 변화한다. 인간의 신체, 인지, 사회정서 변화를 인생의 주기에 따라 연구하는 심리학을 발달심리학이라고 부른다.
+발달이란 많은 연구자들은 발달의 정의를 여러 방면으로 정의해왔다. Hurlock(1955)은 발달을 ‘질서정연하고 일관성 있는 형태의 진보적인 변화의 연속으로서, 개체의 전 생애의 주기를 통해 일어나는 계속적인 변화’라고 했다. 또 다른 연구자인 Koffka(1957)는 발달을 ‘유기체와 그 기관이 양적으로 크게 변화하고, 기능에 있어서 미숙하고 낮은 수준에서 원활하고 높은 수준으로 변화할 뿐만 아니라, 신체적 심리적 측면에서 구조적인 변화를 가져오는 질적으로 변화나는 과정’이라고 정의 내렸다. 또 McGraw(1974)는 인간의 발달을 ‘유기체 내에 있는 힘과 환경 속에 있는 힘이 끊임없이 변화하고 교류한 결과에 의해 산출되는 과정’이라고 했다.
+...</p>
+  </div>
+  <footer class="entry-footer"><span title='2018-03-18 00:00:00 +0000 UTC'>2018-03-18</span>&nbsp;·&nbsp;<span>5 분</span>&nbsp;·&nbsp;<span>김정우</span></footer>
+  <a class="entry-link" aria-label="post link to 발달심리학(Developmental Psychology)이란" href="https://jungwoo0716.github.io/posts/2018-03-18-basic-psychology_9/"></a>
+</article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">인간의 의식에 관여하는 약물(drug)
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>의식과 약물 [
+](/static/307fb936597edc0846cf8c8ff981cf73/e7068/image1.jpg)
+Drug Drug(약물)은 우리의 지각이나 기분 혹은 의식을 바꾸는 화학적 구성 요소를 말한다.
+[
+](/static/15d79be2035b3f1b2d032ccef865af40/4eb29/image1.png)
+뉴런의 구조 인간의 정보 처리에 있어서 가장 기초적인 단위인 뉴런에는 Axon(축삭돌기)가 있다. 이 축삭돌기는 절연체인 Myelin Sheath(미엘린초)로 둘러 싸여 있고, 일정한 간격으로 끊겨있다. 전기 신호는 축색돌기에서 화학 물질로 바뀌어 다른 뉴런이나 기관 혹은 근육으로 전달 되는데, 이 화학 작용에 다양한 약물로 영향을 줄 수 있다. 즉, 우리는 약물로 신경전달물질에 영향을 줄 수 있는 것이다. 이 뉴런 반응의 집합이 우리의 의식이기 때문에, 약물로 우리 인간의 의식에 영향을 줄 수 있다.
+...</p>
+  </div>
+  <footer class="entry-footer"><span title='2018-03-17 00:00:00 +0000 UTC'>2018-03-17</span>&nbsp;·&nbsp;<span>4 분</span>&nbsp;·&nbsp;<span>김정우</span></footer>
+  <a class="entry-link" aria-label="post link to 인간의 의식에 관여하는 약물(drug)" href="https://jungwoo0716.github.io/posts/2018-03-17-basic-psychology_8/"></a>
+</article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">인간의 생체리듬(Circadian Rhythms)
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>생체리듬(Circadian Rhythms) [
+](/static/b2bfa53bb3c42c624d1266338091e122/dfe57/image1.png)
+2017년 노벨 생리·의학상을 수상한 제프리 홀, 마이클 로스바쉬, 마이클 영 교수 / 노벨위원회 2017년 노벨 생리·의학상 수상자로 Jeffrey C Hall, Michael Rosbash, Michael W Young 등 3명의 유전학자들이 선정되었다. 이들은 Circadian Rhythms로 명명된 생체 리듬 혹은 24시간 주기가 사람을 비롯한 동식물 세포 안에서 작동하고 있다는 것을 밝혀냈다. 이 생체리듬을 통해 우리의 수면 습관이라던지 시차 적응 등 신체의 건강에 대한 연구가 가능해졌다.
+[
+](/static/71b63149e54128e74729f2ff5e50db0e/4c1a3/image2.png)
+낮과 밤에서의 인간의 뇌 우리의 뇌에는 위의 사진과 같이 **Suprachiasmatic nucleus(SCN, 시교차 상핵)**이라고 하는 세포핵이 존재한다. 이것은 눈의 신경이 교차하는 곳 근처에 있는 신경 세포핵으로, 빛을 느끼고 반응한다. 또한 리듬을 갖고 있다. 이 세포핵은 **Pineal Gland(송과선)**을 통해 **Melatonin(멜라토닌)**이라는 호르몬을 분비시킴으로써 우리 인간의 생체시계를 조절한다.
+...</p>
+  </div>
+  <footer class="entry-footer"><span title='2018-03-16 00:00:00 +0000 UTC'>2018-03-16</span>&nbsp;·&nbsp;<span>3 분</span>&nbsp;·&nbsp;<span>김정우</span></footer>
+  <a class="entry-link" aria-label="post link to 인간의 생체리듬(Circadian Rhythms)" href="https://jungwoo0716.github.io/posts/2018-03-16-basic-psychology_7/"></a>
+</article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">의식과 무의식(Consciousness &amp; Unconsciousness)
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>의식과 무의식 의식은 매우 정의하기 어려운 개념이다. 20년 전까지만해도 의식이라는 개념은 연구 대상이 아니었다. 이 의식이란 것을 연구 할 수 있었던 것은 측정가능한 행동들이 생겼기 때문이다. 대화와 뇌파를 이용해 뇌의 행동을 측정할 수 있게되면서 의식이라는 개념을 연구할 수 있게 되었다.
+우리의 뇌는 신기하게도, 우리가 받는 그 많은 자극 중에 일부분만 의식적으로 지각한다. 자극을 처리하는 과정 속에서도 극히 일부분만 의식적으로 지각한다. 사람마다 경험이 다 다르기 때문에, 의식하는 것들도 다 다르다. 이렇게 의식적으로 지각하는 것을 다른 말로 **‘주의’ 혹은 ‘집중’**이라고 한다. 심리학에서는 ‘주의’라는 단어를 더 자주 사용한다.
+...</p>
+  </div>
+  <footer class="entry-footer"><span title='2018-03-15 00:00:00 +0000 UTC'>2018-03-15</span>&nbsp;·&nbsp;<span>3 분</span>&nbsp;·&nbsp;<span>김정우</span></footer>
+  <a class="entry-link" aria-label="post link to 의식과 무의식(Consciousness & Unconsciousness)" href="https://jungwoo0716.github.io/posts/2018-03-15-basic-psychology_6/"></a>
+</article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">신경계에서의 뇌(Brain)란?
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>신경계에서의 뇌(Brain) [
+](/static/256fd0358db7659151c08fad4791127f/14e05/image1.png)
+신경계에서의 뇌 뇌는 고차 구조(Order Structure)를 갖는다. 즉, 매우 복잡하고 높은 차원의 구조를 갖고 있다고 이해하면 된다. 위의 그림은 신경의 신호가 뇌에 들어오는 과정에서 필요한 뇌의 구조를 보여주고 있다.
+Thalamus(시상)은 모든 감각정보의 중개소 역할을 한다. Reticular formation(망상체)는 의식, 호흡 등 생명에 직결되는 것들을 관리하는 부분이다. 망상체가 닫히면 호흡을 하지 못하기 때문에, 바로 죽음에 이를 수 있다. 그만큼 매우 중요한 부분이다.
+[
+](/static/50d7e64dd356ff7ea7d7c31725cce0cc/983e0/image2.png)
+소뇌(Cerebellum) **Cerebellum(소뇌)**는 위의 그림과 같이 척수와 근접한 곳에 위치한다. 중추신경계의 일부로서, 척수로부터 외부에 대한 감각정보를 받아 이를 처리하여 운동기능을 조절한다. 인간의 운동 기능과, 균형 잡기, 밸런스 등 정밀한 운동이 가능하도록 도와주는 곳이다. 소뇌는 활발한 것보다는 쓸데없는 것을 억제하는 기능이 더 중요하다.
+...</p>
+  </div>
+  <footer class="entry-footer"><span title='2018-03-14 00:00:00 +0000 UTC'>2018-03-14</span>&nbsp;·&nbsp;<span>3 분</span>&nbsp;·&nbsp;<span>김정우</span></footer>
+  <a class="entry-link" aria-label="post link to 신경계에서의 뇌(Brain)란?" href="https://jungwoo0716.github.io/posts/2018-03-14-basic-psychology_5/"></a>
+</article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">신경계(Nervous System)란 무엇인가?
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>신경계(Nervous System) [
+](/static/c31a09db17b5e9a6a8992beffecd411e/962ce/image1.png)
+신경계(Nervous System) 신경계는 위 그림에서처럼 말초신경(Peripheral)과 중추신경(Central)으로 나누어진다. 말초신경은 자율신경계(Autonomic Nervous System)과 체성신경계(Somatic Nervous System)으로 나뉜다. 자율신경계에는 교감신경계(Sympathetic)과 부교감신경계(Parasympathetic)가 있다.
+중추신경은 우리 몸에서 가장 중요한 신경으로, 뇌와 척수신경을 뜻한다. 우리 몸의 여러 감각기관에서 보내준 모든 신경정보들을 받아서 처리하는 역할을 한다. 체성신경계는 골격근을 통해 우리가 의식적이고 자발적인 운동을 할 수 있도록 조절한다.
+[
+](/static/5eebd3d481994f45814190c5a0fe241b/e8121/image2.png)
+자율 신경계(Autonomic Nervous System) 교감신경계는 말 그대로 어떤 상황과 교감하는 것을 말한다. 반면, 부교감신경계는 차분하게 교감이나 공감을 하지 않는다는 것을 의미한다. 각성이나, 긴장을 하게 되는 위험한 상황에 직면하면, 교감 신경계가 활성화하여, 특정 내분비 시스템이 활성화 된다. 이로 인해 심장이 빨리 뛰고, 동공이 확장되며, 소화가 잘 되지 않는다. 반대의 상황에 직면하면, 부교감 신경계가 활성화하여 편안하고, 소화가 잘 된다.
+...</p>
+  </div>
+  <footer class="entry-footer"><span title='2018-03-13 00:00:00 +0000 UTC'>2018-03-13</span>&nbsp;·&nbsp;<span>1 분</span>&nbsp;·&nbsp;<span>김정우</span></footer>
+  <a class="entry-link" aria-label="post link to 신경계(Nervous System)란 무엇인가?" href="https://jungwoo0716.github.io/posts/2018-03-13-basic-psychology_4/"></a>
+</article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">뉴런(Neuron)이란?
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>뉴런(Neuron)이란 뉴런은 인간 정보 처리의 가장 기초적이고 핵심적인 단위이다. 개별 뉴런의 구조 및 기능은 상대적으로 매우 간단하다. 신호를 입력받고 신호의 결과를 출력하는 방식이다. 하지만 이런 뉴런 간의 연결은 거의 무한대의 경우의 수가 가능할 정도로 매우 복잡하다.
+뇌에서는 전기화학신호만 처리가 가능하다. 우리가 보는 시각적인(빛)의 자극도 감각 기관의 감각 뉴런이 감각 정보를 전기적 신호로 변환시킨다. 운동 기관의 운동 뉴런은 전기 신호를 운동 뉴런으로 변환시킨다. 요즘 기술이 발달하면서 3D 프린터를 이용해 사람의 장기를 재현하여, 실제로 이식하는 경우도 생겨나고 있다. 즉, 사람의 여러 기관이 다쳐도 기술을 바탕으로 회복하는 경우가 많아지고 있는 것이다. 하지만 다른 정보를 전기 신호로 바꾸는 감각 기관의 특성은 아직까지 흉내 내기가 쉽지 않아, 감각 기관이 다치게 되면 회복하는 것이 거의 불가능하다. 예를 들면 감각 기관인 망막을 다치게 되면 눈을 통해 빛 에너지가 전기 신호로 바뀌는 기능을 잃는 것이기 때문에, 영원히 시력을 잃게 될 수 있다. 망막질환은 실명을 유발할 수 있기에 조심해야하는 것이다.
+...</p>
+  </div>
+  <footer class="entry-footer"><span title='2018-03-12 00:00:00 +0000 UTC'>2018-03-12</span>&nbsp;·&nbsp;<span>3 분</span>&nbsp;·&nbsp;<span>김정우</span></footer>
+  <a class="entry-link" aria-label="post link to 뉴런(Neuron)이란?" href="https://jungwoo0716.github.io/posts/2018-03-12-basic-psychology_3/"></a>
+</article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">인간의 정보처리 경로와 행동
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>행동의 생물학 사람들은 같은 시각적 자극에 대해서도 각자 다른 생각을 한다. 같은 그림을 보아도 생각이나 느낌이 개인마다 모두 다르다. 왜 사람들은 같은 것을 보아도 다르게 생각하는 것일까?
+[
+](/static/d5e9a51515e8741fb70caefd01b28760/91043/image1.png)
+위의 사진을 보고 제일 처음으로 어떤 생각이 들었는가? 필자는 깔끔하다고 생각했다. 하지만 어떤 사람은 하얗다고 생각할 수도 있고, 그저 주방이라고 인지할 수도 있다. 또 어떤 사람은 중앙에 있는 싱크대를 먼저 본 것이 아니라, 오른쪽에 있는 초록색 나무를 먼저 보았을 수도 있다. 이렇게 각자 사람들마다 다른 생각을 하는 이유를 알아볼 것이다.
+...</p>
+  </div>
+  <footer class="entry-footer"><span title='2018-03-11 00:00:00 +0000 UTC'>2018-03-11</span>&nbsp;·&nbsp;<span>2 분</span>&nbsp;·&nbsp;<span>김정우</span></footer>
+  <a class="entry-link" aria-label="post link to 인간의 정보처리 경로와 행동" href="https://jungwoo0716.github.io/posts/2018-03-11-basic-psychology_2/"></a>
+</article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">심리학(Psychology)이란 무엇인가?
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>심리학이란 심리학이란 무엇일까?
+“심리학은 심리학적인 질문에 답하는 학문이다.”
+정말 간단하게 답을 할 수 있지만, 질문한 사람이 원하는 대답은 아니다. 우리는 추가적으로 “심리학적인 질문”과 “학문”에 대해 설명할 수 있어야 한다.
+심리학적인 질문이란 심리학적인 질문은 정확하게 정의할 수는 없다. 다만 여러 예를 들 수 있겠다.
+“성격은 유전일까? 아니면 자라온 환경의 영향일까?” “어떤 사람은 왜 다른 사람보다 친구가 많을까?” “남자와 여자는 다른가?” “꿈은 왜 꾸는 것일까?” “아기들은 실제로 지각하고 생각할까?”
+위와 같은 질문들이 심리학적인 질문이다. 하지만 위의 질문들이 심리학적인 질문이 아닐 때가 있었다.
+...</p>
+  </div>
+  <footer class="entry-footer"><span title='2018-03-10 00:00:00 +0000 UTC'>2018-03-10</span>&nbsp;·&nbsp;<span>4 분</span>&nbsp;·&nbsp;<span>김정우</span></footer>
+  <a class="entry-link" aria-label="post link to 심리학(Psychology)이란 무엇인가?" href="https://jungwoo0716.github.io/posts/2018-03-10-basic-psychology_1/"></a>
+</article>
+<footer class="page-footer">
+  <nav class="pagination">
+    <a class="prev" href="https://jungwoo0716.github.io/page/2/">
+      «&nbsp;이전 페이지&nbsp;
+    </a>
+  </nav>
+</footer>
+    </main>
+    
+<footer class="footer">
+        <span>&copy; 2026 <a href="https://jungwoo0716.github.io/">AWT</a></span> · 
+
+    <span>
+        Powered by
+        <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a> &
+        <a href="https://github.com/adityatelange/hugo-PaperMod/" rel="noopener" target="_blank">PaperMod</a>
+    </span>
+</footer>
+<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
+        <path d="M12 6H0l6-6z" />
+    </svg>
+</a>
+
+<script>
+    let menu = document.getElementById('menu');
+    if (menu) {
+        
+        const scrollPosition = localStorage.getItem("menu-scroll-position");
+        if (scrollPosition) {
+            menu.scrollLeft = parseInt(scrollPosition, 10);
+        }
+        
+        menu.onscroll = function () {
+            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+        }
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
+
+</script>
+<script>
+    var mybutton = document.getElementById("top-link");
+    window.onscroll = function () {
+        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
+            mybutton.style.visibility = "visible";
+            mybutton.style.opacity = "1";
+        } else {
+            mybutton.style.visibility = "hidden";
+            mybutton.style.opacity = "0";
+        }
+    };
+
+</script>
+<script>
+    document.getElementById("theme-toggle").addEventListener("click", () => {
+        const html = document.querySelector("html");
+        if (html.dataset.theme === "dark") {
+            html.dataset.theme = 'light';
+            localStorage.setItem("pref-theme", 'light');
+        } else {
+            html.dataset.theme = 'dark';
+            localStorage.setItem("pref-theme", 'dark');
+        }
+    })
+
+</script>
+</body>
+
+</html>

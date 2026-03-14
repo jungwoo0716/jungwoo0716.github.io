@@ -1,0 +1,431 @@
+<!DOCTYPE html>
+<html lang="ko" dir="auto" data-theme="auto">
+
+<head>
+	<meta name="generator" content="Hugo 0.157.0"><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="index, follow">
+<title>AWT</title>
+
+<meta name="description" content="Always With Tech - 기술과 함께하는 생각들">
+<meta name="author" content="김정우">
+<link rel="canonical" href="https://jungwoo0716.github.io/">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.da3211e5ef867bf2b75fd5a6515cfed7195c011e8ab735694e203810a827097b.css" integrity="sha256-2jIR5e&#43;Ge/K3X9WmUVz&#43;1xlcAR6KtzVpTiA4EKgnCXs=" rel="preload stylesheet" as="style">
+<link rel="icon" href="https://jungwoo0716.github.io/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="https://jungwoo0716.github.io/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="https://jungwoo0716.github.io/favicon-32x32.png">
+<link rel="apple-touch-icon" href="https://jungwoo0716.github.io/apple-touch-icon.png">
+<link rel="mask-icon" href="https://jungwoo0716.github.io/safari-pinned-tab.svg">
+<meta name="theme-color" content="#2e2e33">
+<meta name="msapplication-TileColor" content="#2e2e33">
+<link rel="alternate" type="application/rss+xml" href="https://jungwoo0716.github.io/index.xml" title="rss">
+<link rel="alternate" type="application/json" href="https://jungwoo0716.github.io/index.json" title="json">
+<link rel="alternate" hreflang="ko" href="https://jungwoo0716.github.io/">
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
+
+    </style>
+    <style>
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --theme: rgb(29, 30, 32);
+                --entry: rgb(46, 46, 51);
+                --primary: rgb(218, 218, 219);
+                --secondary: rgb(155, 156, 157);
+                --tertiary: rgb(65, 66, 68);
+                --content: rgb(196, 196, 197);
+                --code-block-bg: rgb(46, 46, 51);
+                --code-bg: rgb(55, 56, 62);
+                --border: rgb(51, 51, 51);
+                color-scheme: dark;
+            }
+
+            .list {
+                background: var(--theme);
+            }
+
+            .toc {
+                background: var(--entry);
+            }
+        }
+
+        @media (prefers-color-scheme: light) {
+            .list::-webkit-scrollbar-thumb {
+                border-color: var(--code-bg);
+            }
+        }
+
+    </style>
+</noscript>
+<script>
+    if (localStorage.getItem("pref-theme") === "dark") {
+        document.querySelector("html").dataset.theme = 'dark';
+    } else if (localStorage.getItem("pref-theme") === "light") {
+       document.querySelector("html").dataset.theme = 'light';
+    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.querySelector("html").dataset.theme = 'dark';
+    } else {
+        document.querySelector("html").dataset.theme = 'light';
+    }
+
+</script><meta property="og:url" content="https://jungwoo0716.github.io/">
+  <meta property="og:site_name" content="AWT">
+  <meta property="og:title" content="AWT">
+  <meta property="og:description" content="Always With Tech - 기술과 함께하는 생각들">
+  <meta property="og:locale" content="ko">
+  <meta property="og:type" content="website">
+
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="AWT">
+  <meta name="twitter:description" content="Always With Tech - 기술과 함께하는 생각들">
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "AWT",
+  "url": "https://jungwoo0716.github.io/",
+  "description": "Always With Tech - 기술과 함께하는 생각들",
+  "logo": "https://jungwoo0716.github.io/favicon.ico",
+  "sameAs": [
+      "https://github.com/jungwoo0716"
+  ]
+}
+</script>
+</head>
+<body class="list" id="top">
+    <header class="header">
+    <nav class="nav">
+        <div class="logo">
+            <a href="https://jungwoo0716.github.io/" accesskey="h" title="AWT (Alt + H)">AWT</a>
+            <div class="logo-switches">
+                <button id="theme-toggle" accesskey="t" title="(Alt + T)" aria-label="Toggle theme">
+                    <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                    </svg>
+                    <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="5"></circle>
+                        <line x1="12" y1="1" x2="12" y2="3"></line>
+                        <line x1="12" y1="21" x2="12" y2="23"></line>
+                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                        <line x1="1" y1="12" x2="3" y2="12"></line>
+                        <line x1="21" y1="12" x2="23" y2="12"></line>
+                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                    </svg>
+                </button>
+            </div>
+        </div>
+        <ul id="menu">
+            <li>
+                <a href="https://jungwoo0716.github.io/search/" title="검색 (Alt &#43; /)" accesskey=/>
+                    <span>검색</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://jungwoo0716.github.io/tags/" title="태그">
+                    <span>태그</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://jungwoo0716.github.io/series/" title="시리즈">
+                    <span>시리즈</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://jungwoo0716.github.io/archives/" title="아카이브">
+                    <span>아카이브</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</header>
+<main class="main"> 
+<article class="first-entry home-info">
+    <header class="entry-header">
+        <h1>AWT</h1>
+    </header>
+    <div class="entry-content">
+        Always With Tech - 기술, 경제, 심리학, 그리고 생각의 기록
+    </div>
+    <footer class="entry-footer">
+        <div class="social-icons" >
+    <a href="https://github.com/jungwoo0716" target="_blank" rel="noopener noreferrer me"
+        title="Github">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+    stroke-linecap="round" stroke-linejoin="round">
+    <path
+        d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22">
+    </path>
+</svg>
+    </a>
+</div>
+
+    </footer>
+</article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">재무제표 현금흐름표를 쉽게 분석하기 위한 3가지 단계
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>재무제표는 기업을 이해하고 가치를 평가하기 위해서는 꼭 알아야 하는 기업의 재무상태와 경영정보를 제공하는 중요한 자료입니다.
+이번 포스팅에서는 그 중 현금흐름표에 대해 알아보겠습니다.
+1. 기본구성 현금흐름표는 실제로 현금으로 돈을 얼마나 벌었는지 판단할 수 있는 문서입니다.
+재무제표 중 가장 쉽게 이해할 수 있는 손익계산서에 나오는 매출 혹은 수익은 실제로 현금으로 들어 온 것이 아닙니다.
+발생주의 회계원칙에 따라 사건이 발생했을 때에 수익과 비용을 기재한 문서입니다.
+사건이 발생한 것이지, 현금 유출입이 일어난 것이 아닙니다.
+...</p>
+  </div>
+  <footer class="entry-footer"><span title='2024-07-01 00:00:00 +0000 UTC'>2024-07-01</span>&nbsp;·&nbsp;<span>4 분</span>&nbsp;·&nbsp;<span>김정우</span></footer>
+  <a class="entry-link" aria-label="post link to 재무제표 현금흐름표를 쉽게 분석하기 위한 3가지 단계" href="https://jungwoo0716.github.io/posts/2024-07-01-principles-of-understanding-the-cash-flow/"></a>
+</article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">재무제표 손익계산서를 쉽게 분석하기 위한 5가지 단계
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>재무제표는 기업을 이해하고 가치를 평가하는데 꼭 알아야 할 기업의 재무상태와 경영정보를 제공하는 중요한 자료입니다. 이번 포스팅에서는 손익계산서에 대해 알아보겠습니다.
+1. 기본 구성 손익계산서는 재무제표를 잘 알지 못하는 분들도 이해하기 쉬운 재무 지표 중 하나 입니다. 1년 동안 영업을 잘했는지 알려 주는 그런 문서입니다.
+[
+](https://jungwoo0716.github.io/principles-of-understanding-the-income-statement/)
+손익계산서는 크게 (1) 매출 (2) 매출총이익 (3) 영업이익 (4) 경상이익 (5) 당기순이익 5가지로 구성됩니다.
+매출에서 매출원가를 빼면 매출총이익이 되며 (매출 - 매출원가 = 매출총이익)
+매출총이익에서 판매비와 관리비를 차감하면 영업이익이 됩니다. (매출총이익 - 판관비 = 영업이익)
+...</p>
+  </div>
+  <footer class="entry-footer"><span title='2024-06-30 00:00:00 +0000 UTC'>2024-06-30</span>&nbsp;·&nbsp;<span>5 분</span>&nbsp;·&nbsp;<span>김정우</span></footer>
+  <a class="entry-link" aria-label="post link to 재무제표 손익계산서를 쉽게 분석하기 위한 5가지 단계" href="https://jungwoo0716.github.io/posts/2024-06-30-principles-of-understanding-the-income-statement/"></a>
+</article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">재무제표 재무상태표를 쉽게 분석하기 위한 3가지 단계
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>재무제표는 기업을 이해하고 가치를 평가하기 위해서는 꼭 알아야 하는 기업의 재무상태와 경영정보를 제공하는 중요한 자료입니다. 이번 포스팅에서는 그 중 재무상태표에 대해 알아보겠습니다.
+1. 기본 구성 재무상태표는 대차대조표라 하며 자산, 부채, 자본 3가지로 구성되어 있습니다. 일반적으로 자산, 부채, 자본의 관계를 설명할 때 다음과 같이 표시합니다.
+자산 = 부채 &#43; 자본
+재무상태표에서는 자산의 총액은 부채의 총합과 자본의 총합을 합친 것과 같습니다.
+[
+](https://jungwoo0716.github.io/principles-of-understanding-the-balance-sheet/)
+회계 관점에서 기업은 복식 부기를 작성해야 합니다. 복식 부기는 차변/대변으로 이루어져 있으며, 위의 이미지 왼쪽이 재무상태표의 차변, 오른쪽이 재무상태표의 대변이라고 이해하면 됩니다.
+...</p>
+  </div>
+  <footer class="entry-footer"><span title='2024-06-29 00:00:00 +0000 UTC'>2024-06-29</span>&nbsp;·&nbsp;<span>6 분</span>&nbsp;·&nbsp;<span>김정우</span></footer>
+  <a class="entry-link" aria-label="post link to 재무제표 재무상태표를 쉽게 분석하기 위한 3가지 단계" href="https://jungwoo0716.github.io/posts/2024-06-29-principles-of-understanding-the-balance-sheet/"></a>
+</article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">밀리의서재 투자 가치 분석 및 평가
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>2023년 9월 27일 최근 상장하는 밀리의서재 재무제표를 통해 해당 기업의 적정 주가는 얼마인지 가치를 평가해보겠습니다.
+PER 등 다양한 방법이 있지만, 이익기준의 평가법을 이용해서 평가하는 방법이 투자자 입장에서는 가장 좋습니다.
+1. 이익기준평가법 일반적인 투자자에게 가장 쉬운 평가법은 상대가치법입니다.
+상대가치법에는 PER(Price Earnings Ratio), PSR(Price Sales Ratio), PBR(Price Book Value Ratio), PCFR(Price Cash Flow Ratio), EV/EBITDA 등이 있습니다.
+상대가치법은 굉장히 쉽습니다. 공모가 산정할 때 가장 많이 쓰는 방식이 바로 상대가치법입니다. 경쟁사를 찾기만 하면, 경쟁사 대비해서 상대가치로 공모주 평가를 하면 되기 때문입니다.
+...</p>
+  </div>
+  <footer class="entry-footer"><span title='2023-09-23 00:00:00 +0000 UTC'>2023-09-23</span>&nbsp;·&nbsp;<span>5 분</span>&nbsp;·&nbsp;<span>김정우</span></footer>
+  <a class="entry-link" aria-label="post link to 밀리의서재 투자 가치 분석 및 평가" href="https://jungwoo0716.github.io/posts/2023-09-23-millie-2023-valuation/"></a>
+</article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">전자책의 혁신, 2023년 밀리의서재 재무제표 분석
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>밀리의서재의 2023년 재무제표와 투자설명서를 보고 좋은 비즈니스 모델인지 평가해보겠습니다.
+첫 번째 재무제표가 어떻게 만들어졌는지 파악하고, 두 번째 재무제표를 분석해보고, 세 번째 재무제표를 제 나름대로 해석하는 과정으로 진행하겠습니다.
+1. 재무제표 만들어지는 과정 재무제표를 접근하는 방식은 크게 탑다운 방식과 다운탑 방식이 있습니다.
+제3자가 기업의 가치를 평가할 때는 탑에서 큰 관점에서 중요한 정보를 판단하여 필요한 정보만 보는 것이 기업을 빠르게 이해할 수 있는 방법입니다.
+1) 재무상태표 재무상태표가 만들어지는 과정은 아래의 링크를 클릭해서 읽어보시고 나머지 글을 읽는 것을 추천드립니다.
+...</p>
+  </div>
+  <footer class="entry-footer"><span title='2023-09-22 00:00:00 +0000 UTC'>2023-09-22</span>&nbsp;·&nbsp;<span>5 분</span>&nbsp;·&nbsp;<span>김정우</span></footer>
+  <a class="entry-link" aria-label="post link to 전자책의 혁신, 2023년 밀리의서재 재무제표 분석" href="https://jungwoo0716.github.io/posts/2023-09-22-millie-2023-financial-statement-analysis/"></a>
+</article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">디지털 독서의 선두주자, 밀리의 서재 상장 이야기
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>2023년 09월 27일 KT 계열사 중 하나인 밀리의 서재가 상장 합니다. 스타트업으로 시작하여 현재는 전자책 분야의 디지털 독서 플랫폼에서 선두주자로서 자리매김하였고, 코스닥 상장이 확정되며 상장사로 거듭났습니다.
+밀리의 서재가 상장하기 까지 어떻게 성장하였는지 알아보겠습니다.
+1. 회사소개 밀리의 서재는 2016년 7월 설립되어 2017년 10월 국내에서는 최초로 전자책 분야에서는 월 정액 구독 서비스를 정식으로 오픈 한 독서 플랫폼 회사입니다.
+최근에는 전자책 외에도 오디오북과 챗북, 오디오 드라마 등 새로운 형태의 독서 콘텐츠 등을 생산하며 새로운 디지털 콘텐츠 트렌드를 선도하고 있습니다.
+...</p>
+  </div>
+  <footer class="entry-footer"><span title='2023-09-21 00:00:00 +0000 UTC'>2023-09-21</span>&nbsp;·&nbsp;<span>5 분</span>&nbsp;·&nbsp;<span>김정우</span></footer>
+  <a class="entry-link" aria-label="post link to 디지털 독서의 선두주자, 밀리의 서재 상장 이야기" href="https://jungwoo0716.github.io/posts/2023-09-21-millie-seojae-intro/"></a>
+</article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">임금대장(급여대장) 구글 스프레드시트 양식 및 작성방법
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>자영업자나 초기 사업가들이 직원을 고용을 할 때 시스템이 갖춰져 있지 않아 기본적인 사항을 지키지 못하는 경우가 많습니다. 기본적인 인사노무에 관하여 배운 적이 없거나, 배울 여력과 기회가 없는 경우 좋지 않은 상황이 일어날 때까지 모르는 경우가 많습니다.
+근로기준법 제48조(임금대장)
+사용자는 각 사업장별로 임금대장을 작성하고 임금과 가족수당 계산의 기초가 되는 사항, 임금액, 그 밖에 대통령령으로 정하는 사항을 임금을 지급할 때마다 적어야 한다.
+직원을 고용해서 30일 이상 근무하고, 급여를 지급하게 되면 임금대장(급여대장)은 필수적으로 작성해야 합니다. 임금대장은 다음과 같은 내용이 들어가야 합니다.
+...</p>
+  </div>
+  <footer class="entry-footer"><span title='2020-04-08 00:00:00 +0000 UTC'>2020-04-08</span>&nbsp;·&nbsp;<span>2 분</span>&nbsp;·&nbsp;<span>김정우</span></footer>
+  <a class="entry-link" aria-label="post link to 임금대장(급여대장) 구글 스프레드시트 양식 및 작성방법" href="https://jungwoo0716.github.io/posts/2020-04-08-payroll-form/"></a>
+</article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">고분자를 만드는 방법 - 중합반응(Polymerization)
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>고분자(Polymer) 분자의 크기에 따라 분자량이 1,000 이하이면 저분자, 10,000 이상이면 고분자로 분류한다. 고분자는 단량체(monomer)라고 불리는 작은 분자가 수백에서 수천개씩 공유결합으로 연결되어 만들어진다. 단량체로부터 고분자를 생성하는 반응을 중합(Polymerization)반응이라고 한다.
+고분자는 결국 단량체를 기본으로 하기 때문에, 단량체의 구조에 따라 중합 반응이 다르다. 중합반응은 크게 3가지로 나눌 수 있다.
+1. 작용기(functional group)를 갖는 화합물 작용기(functional group)는 유기화합물의 화학적 성질을 결정하는 원자단이다. 예를 들면 아세트산은 –COOH[\text{–}COOH–COOH 카복시기(Carboxyl Group)를 갖고 있고, 에틸알코올은 –OH\text{–}OH–OH 하이드록시기(Hydroxy Group)를 갖고 있다.
+...</p>
+  </div>
+  <footer class="entry-footer"><span title='2020-03-27 00:00:00 +0000 UTC'>2020-03-27</span>&nbsp;·&nbsp;<span>1 분</span>&nbsp;·&nbsp;<span>김정우</span></footer>
+  <a class="entry-link" aria-label="post link to 고분자를 만드는 방법 - 중합반응(Polymerization)" href="https://jungwoo0716.github.io/posts/2020-03-27-polymer-formation/"></a>
+</article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">인간이 색채를 인식하는 방법
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>인간이 ‘색(color)’ 을 인식하기 위해서는 3가지가 필요하다. 빛이 있어야 하고, 물체가 있어야 하고, 볼 수 있는 눈이 있어야 한다. 빛, 물체, 눈 3가지 모두가 있어야만 색을 볼 수 있고 느낄 수 있다. 하나라도 없으면 색을 지각하지 못한다.
+우리가 색을 인식하는 방법은 2가지가 있다. 2가지 방법 모두 물체가 빛을 어떤식으로 받아들이냐에 따라 다르다.
+[ ](/static/99bbf993ae16ac5f7b579504dfd984fd/182fd/image1.png)
+위의 그림에서와 같이 2개의 스타벅스 텀블러가 있다. 같은 플라스틱이지만 왼쪽 텀블러는 우리 눈에 흰색으로 지각되고, 오른쪽 텀블러는 투명하게 지각된다. 왼쪽 텀블러는 불투명하다. 인간이 흰색을 느끼는 것은 이 텀블러가 빛을 반사(재복사)하여 나타내는 표면색이 흰색이기 때문이다. 오른쪽 텀블러는 투명하다. 인간이 투명하다고 느끼는 것은 빛이 이 투명한 텀블러를 투과하기 때문이다. 투과색이라고 한다.
+...</p>
+  </div>
+  <footer class="entry-footer"><span title='2020-03-16 00:00:00 +0000 UTC'>2020-03-16</span>&nbsp;·&nbsp;<span>2 분</span>&nbsp;·&nbsp;<span>김정우</span></footer>
+  <a class="entry-link" aria-label="post link to 인간이 색채를 인식하는 방법" href="https://jungwoo0716.github.io/posts/2020-03-16-color-recognition-process/"></a>
+</article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">공급(Supply)이란
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>공급이란 생산자가 재화나 서비스를 판매하고자 하는 의도이다. 공급량은 생산자가 재화나 서비스를 판매하고자 하는 양을 의미한다. 수요와 마찬가지로 공급 역시 똑같은 2가지 성질을 가진다. 실제로 판매한 양이 아니라 판매하고자 하는 의도를 말한다는 점과, 공급량은 유량 개념이어야 한다는 점이다.
+[
+](/static/1c37f8e3b56496bd902d8a60d373f48e/e7068/image1.jpg)
+공급(Supply)이란? 공급을 결정하는 요인들 공급을 결정하는 요인에는 5가지가 있다. 첫 번째 재화의 시장가격이다. 재화의 시장가격이 상승하면 그 재화를 생산하는 것이 더 큰 이득을 가져다주기 때문에 공급량이 증가한다. 반대의 경우는 공급량이 감소한다.
+두 번째 다른 재화의 가격이다. 다른 재화의 가격이 상승하면 이들을 공급하는 것이 더 많은 이득이 되기 때문에, 가격이 그대로인 재화의 공급은 감소하게 된다.
+...</p>
+  </div>
+  <footer class="entry-footer"><span title='2019-01-11 00:00:00 +0000 UTC'>2019-01-11</span>&nbsp;·&nbsp;<span>2 분</span>&nbsp;·&nbsp;<span>김정우</span></footer>
+  <a class="entry-link" aria-label="post link to 공급(Supply)이란" href="https://jungwoo0716.github.io/posts/2019-01-11-basic-economics_9/"></a>
+</article>
+<footer class="page-footer">
+  <nav class="pagination">
+    <a class="next" href="https://jungwoo0716.github.io/page/2/">다음 페이지&nbsp;&nbsp;»
+    </a>
+  </nav>
+</footer>
+    </main>
+    
+<footer class="footer">
+        <span>&copy; 2026 <a href="https://jungwoo0716.github.io/">AWT</a></span> · 
+
+    <span>
+        Powered by
+        <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a> &
+        <a href="https://github.com/adityatelange/hugo-PaperMod/" rel="noopener" target="_blank">PaperMod</a>
+    </span>
+</footer>
+<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
+        <path d="M12 6H0l6-6z" />
+    </svg>
+</a>
+
+<script>
+    let menu = document.getElementById('menu');
+    if (menu) {
+        
+        const scrollPosition = localStorage.getItem("menu-scroll-position");
+        if (scrollPosition) {
+            menu.scrollLeft = parseInt(scrollPosition, 10);
+        }
+        
+        menu.onscroll = function () {
+            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+        }
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
+
+</script>
+<script>
+    var mybutton = document.getElementById("top-link");
+    window.onscroll = function () {
+        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
+            mybutton.style.visibility = "visible";
+            mybutton.style.opacity = "1";
+        } else {
+            mybutton.style.visibility = "hidden";
+            mybutton.style.opacity = "0";
+        }
+    };
+
+</script>
+<script>
+    document.getElementById("theme-toggle").addEventListener("click", () => {
+        const html = document.querySelector("html");
+        if (html.dataset.theme === "dark") {
+            html.dataset.theme = 'light';
+            localStorage.setItem("pref-theme", 'light');
+        } else {
+            html.dataset.theme = 'dark';
+            localStorage.setItem("pref-theme", 'dark');
+        }
+    })
+
+</script>
+</body>
+
+</html>

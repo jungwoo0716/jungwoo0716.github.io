@@ -1,0 +1,79 @@
+baseURL = 'https://jungwoo0716.github.io/'
+languageCode = 'ko'
+defaultContentLanguage = 'ko'
+title = 'AWT'
+theme = 'PaperMod'
+paginate = 10
+
+[params]
+  env = "production"
+  author = "김정우"
+  description = "Always With Tech - 기술과 함께하는 생각들"
+  DateFormat = "2006-01-02"
+  defaultTheme = "auto"
+  ShowReadingTime = true
+  ShowShareButtons = false
+  ShowPostNavLinks = true
+  ShowBreadCrumbs = true
+  ShowCodeCopyButtons = true
+  ShowToc = true
+  TocOpen = false
+
+  [params.homeInfoParams]
+    Title = "AWT"
+    Content = "Always With Tech - 기술, 경제, 심리학, 그리고 생각의 기록"
+
+  [[params.socialIcons]]
+    name = "github"
+    url = "https://github.com/jungwoo0716"
+
+[params.cover]
+  hidden = false
+  hiddenInList = false
+  hiddenInSingle = false
+
+[params.fuseOpts]
+  isCaseSensitive = false
+  shouldSort = true
+  location = 0
+  distance = 1000
+  threshold = 0.4
+  minMatchCharLength = 0
+  keys = ["title", "permalink", "summary", "content"]
+
+[menu]
+  [[menu.main]]
+    identifier = "search"
+    name = "검색"
+    url = "/search/"
+    weight = 1
+  [[menu.main]]
+    identifier = "tags"
+    name = "태그"
+    url = "/tags/"
+    weight = 2
+  [[menu.main]]
+    identifier = "series"
+    name = "시리즈"
+    url = "/series/"
+    weight = 3
+  [[menu.main]]
+    identifier = "archives"
+    name = "아카이브"
+    url = "/archives/"
+    weight = 4
+
+[taxonomies]
+  tag = "tags"
+  series = "series"
+
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
+
+[markup]
+  [markup.highlight]
+    style = "monokai"
+    lineNos = false
+    codeFences = true
+  [markup.goldmark.renderer]
+    unsafe = true

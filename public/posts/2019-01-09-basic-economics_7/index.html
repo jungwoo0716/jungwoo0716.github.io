@@ -1,0 +1,449 @@
+<!DOCTYPE html>
+<html lang="ko" dir="auto" data-theme="auto">
+
+<head><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="index, follow">
+<title>수요(Demand)와 수요곡선 | AWT</title>
+<meta name="keywords" content="경제학, Economics">
+<meta name="description" content="수요(Demand)
+수요란 소비자가 재화나 서비스를 구매하고자 하는 욕구이며, 수요량은 소비자가 구매하고자 하는 재화나 서비스의 양이다.
+수요는 크게 2가지의 성질을 가진다. 첫 번째 성질은 소비자들이 구매하려고 하는 **의도(willingness to purchase)**를 나타낸다. 이는 실제 구매량이 아니라서 그 재화의 존재량이나 공급량과 직접적인 관계가 없다.
+두 번째 성질은 수요는 어떤 일정 기간 동안 구매의 흐름, 즉 **유량(flow)**를 의미한다. 유량은 일정한 기간을 기준으로 그 양을 재야 하는 것이기 때문에, 기간당 얼마라는 식으로 표현된다.
+예를 들면 아이스크림에 대한 수요가 천만 개라고 할 때, 그것이 어떤 기간(예를 들면 일년) 동안의 수요인지를 무조건 나타내야 한다. 기간 뿐 아니라 어느 시점에서의 수요를 나타내는 방법도 있는데, 이를 **저량(stock)**이라고 한다.">
+<meta name="author" content="김정우">
+<link rel="canonical" href="https://jungwoo0716.github.io/posts/2019-01-09-basic-economics_7/">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.da3211e5ef867bf2b75fd5a6515cfed7195c011e8ab735694e203810a827097b.css" integrity="sha256-2jIR5e&#43;Ge/K3X9WmUVz&#43;1xlcAR6KtzVpTiA4EKgnCXs=" rel="preload stylesheet" as="style">
+<link rel="icon" href="https://jungwoo0716.github.io/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="https://jungwoo0716.github.io/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="https://jungwoo0716.github.io/favicon-32x32.png">
+<link rel="apple-touch-icon" href="https://jungwoo0716.github.io/apple-touch-icon.png">
+<link rel="mask-icon" href="https://jungwoo0716.github.io/safari-pinned-tab.svg">
+<meta name="theme-color" content="#2e2e33">
+<meta name="msapplication-TileColor" content="#2e2e33">
+<link rel="alternate" hreflang="ko" href="https://jungwoo0716.github.io/posts/2019-01-09-basic-economics_7/">
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
+
+    </style>
+    <style>
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --theme: rgb(29, 30, 32);
+                --entry: rgb(46, 46, 51);
+                --primary: rgb(218, 218, 219);
+                --secondary: rgb(155, 156, 157);
+                --tertiary: rgb(65, 66, 68);
+                --content: rgb(196, 196, 197);
+                --code-block-bg: rgb(46, 46, 51);
+                --code-bg: rgb(55, 56, 62);
+                --border: rgb(51, 51, 51);
+                color-scheme: dark;
+            }
+
+            .list {
+                background: var(--theme);
+            }
+
+            .toc {
+                background: var(--entry);
+            }
+        }
+
+        @media (prefers-color-scheme: light) {
+            .list::-webkit-scrollbar-thumb {
+                border-color: var(--code-bg);
+            }
+        }
+
+    </style>
+</noscript>
+<script>
+    if (localStorage.getItem("pref-theme") === "dark") {
+        document.querySelector("html").dataset.theme = 'dark';
+    } else if (localStorage.getItem("pref-theme") === "light") {
+       document.querySelector("html").dataset.theme = 'light';
+    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.querySelector("html").dataset.theme = 'dark';
+    } else {
+        document.querySelector("html").dataset.theme = 'light';
+    }
+
+</script><meta property="og:url" content="https://jungwoo0716.github.io/posts/2019-01-09-basic-economics_7/">
+  <meta property="og:site_name" content="AWT">
+  <meta property="og:title" content="수요(Demand)와 수요곡선">
+  <meta property="og:description" content="수요(Demand) 수요란 소비자가 재화나 서비스를 구매하고자 하는 욕구이며, 수요량은 소비자가 구매하고자 하는 재화나 서비스의 양이다.
+수요는 크게 2가지의 성질을 가진다. 첫 번째 성질은 소비자들이 구매하려고 하는 **의도(willingness to purchase)**를 나타낸다. 이는 실제 구매량이 아니라서 그 재화의 존재량이나 공급량과 직접적인 관계가 없다. 두 번째 성질은 수요는 어떤 일정 기간 동안 구매의 흐름, 즉 **유량(flow)**를 의미한다. 유량은 일정한 기간을 기준으로 그 양을 재야 하는 것이기 때문에, 기간당 얼마라는 식으로 표현된다. 예를 들면 아이스크림에 대한 수요가 천만 개라고 할 때, 그것이 어떤 기간(예를 들면 일년) 동안의 수요인지를 무조건 나타내야 한다. 기간 뿐 아니라 어느 시점에서의 수요를 나타내는 방법도 있는데, 이를 **저량(stock)**이라고 한다.">
+  <meta property="og:locale" content="ko">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+    <meta property="article:published_time" content="2019-01-09T00:00:00+00:00">
+    <meta property="article:modified_time" content="2019-01-09T00:00:00+00:00">
+    <meta property="article:tag" content="경제학">
+    <meta property="article:tag" content="Economics">
+
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="수요(Demand)와 수요곡선">
+  <meta name="twitter:description" content="수요(Demand) 수요란 소비자가 재화나 서비스를 구매하고자 하는 욕구이며, 수요량은 소비자가 구매하고자 하는 재화나 서비스의 양이다.
+수요는 크게 2가지의 성질을 가진다. 첫 번째 성질은 소비자들이 구매하려고 하는 **의도(willingness to purchase)**를 나타낸다. 이는 실제 구매량이 아니라서 그 재화의 존재량이나 공급량과 직접적인 관계가 없다. 두 번째 성질은 수요는 어떤 일정 기간 동안 구매의 흐름, 즉 **유량(flow)**를 의미한다. 유량은 일정한 기간을 기준으로 그 양을 재야 하는 것이기 때문에, 기간당 얼마라는 식으로 표현된다. 예를 들면 아이스크림에 대한 수요가 천만 개라고 할 때, 그것이 어떤 기간(예를 들면 일년) 동안의 수요인지를 무조건 나타내야 한다. 기간 뿐 아니라 어느 시점에서의 수요를 나타내는 방법도 있는데, 이를 **저량(stock)**이라고 한다.">
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position":  1 ,
+      "name": "Posts",
+      "item": "https://jungwoo0716.github.io/posts/"
+    }, 
+    {
+      "@type": "ListItem",
+      "position":  2 ,
+      "name": "수요(Demand)와 수요곡선",
+      "item": "https://jungwoo0716.github.io/posts/2019-01-09-basic-economics_7/"
+    }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "수요(Demand)와 수요곡선",
+  "name": "수요(Demand)와 수요곡선",
+  "description": "수요(Demand) 수요란 소비자가 재화나 서비스를 구매하고자 하는 욕구이며, 수요량은 소비자가 구매하고자 하는 재화나 서비스의 양이다.\n수요는 크게 2가지의 성질을 가진다. 첫 번째 성질은 소비자들이 구매하려고 하는 **의도(willingness to purchase)**를 나타낸다. 이는 실제 구매량이 아니라서 그 재화의 존재량이나 공급량과 직접적인 관계가 없다. 두 번째 성질은 수요는 어떤 일정 기간 동안 구매의 흐름, 즉 **유량(flow)**를 의미한다. 유량은 일정한 기간을 기준으로 그 양을 재야 하는 것이기 때문에, 기간당 얼마라는 식으로 표현된다. 예를 들면 아이스크림에 대한 수요가 천만 개라고 할 때, 그것이 어떤 기간(예를 들면 일년) 동안의 수요인지를 무조건 나타내야 한다. 기간 뿐 아니라 어느 시점에서의 수요를 나타내는 방법도 있는데, 이를 **저량(stock)**이라고 한다.\n",
+  "keywords": [
+    "경제학", "Economics"
+  ],
+  "articleBody": "수요(Demand) 수요란 소비자가 재화나 서비스를 구매하고자 하는 욕구이며, 수요량은 소비자가 구매하고자 하는 재화나 서비스의 양이다.\n수요는 크게 2가지의 성질을 가진다. 첫 번째 성질은 소비자들이 구매하려고 하는 **의도(willingness to purchase)**를 나타낸다. 이는 실제 구매량이 아니라서 그 재화의 존재량이나 공급량과 직접적인 관계가 없다. 두 번째 성질은 수요는 어떤 일정 기간 동안 구매의 흐름, 즉 **유량(flow)**를 의미한다. 유량은 일정한 기간을 기준으로 그 양을 재야 하는 것이기 때문에, 기간당 얼마라는 식으로 표현된다. 예를 들면 아이스크림에 대한 수요가 천만 개라고 할 때, 그것이 어떤 기간(예를 들면 일년) 동안의 수요인지를 무조건 나타내야 한다. 기간 뿐 아니라 어느 시점에서의 수요를 나타내는 방법도 있는데, 이를 **저량(stock)**이라고 한다.\n[\n](/static/d222022d5d4f1b9c06fa4020a840a3b3/14e05/image.png)\n수요(Demand)란 수요를 결정하는 요인들 수요에 영향을 주는 요인들에는 여러가지가 있다. 첫번째 그 재화의 시장가격이다. 일반적으로 시장가격이 높다면 수요는 적다. 낮다면 물론 수요는 많다.\n두 번째 다른 재화의 가격이다. 다른 재화가 대체제(substitute goods)일 경우, 재화의 가격이 증가한다면 이 대체제의 수요는 증가한다. 보완재(complementary goods)일 경우는 재화의 가격이 증가한다면 이 보완재의 수요 역시 감소한다. 독립재(independent goods)일 경우 재화의 가격이 변화하더라도 수요가 전혀 변하지 않는 경우이다.\n세 번째는 소비자의 소득수준이다. 대부분은 소득이 증가하면 수요가 증가한다. 이런 재화를 정상재(normal goods)라고 한다. 하지만 반대의 경우도 있다. 소득이 증가하면서 수요가 낮아지는 것을 열등재(inferior goods)라고 한다. 이건 재화의 고유의 속성은 아니다. 역사적, 문화적 환경에 따라, 기술의 변화에 따라 어떤 재화던지 정상재가 될 수 있고, 열등재가 될 수 있다.\n네 번째는 소비자의 기호이다. 소비자가 원하는 것이 달라지면 수요가 변화한다. 소비자들이 건강에 관심이 생기면서 유기농 식품에 대한 수요가 높아지는 것을 그 예로 들 수 있다. 소비자의 기호는 언론, 미디어, 광고, 혹은 해외 사례 등을 통해 변화한다.\n다섯 번째는 인구규모와 구성이다. 인구가 증가하면 모든 재화에 대한 수요가 증가한다. 중국처럼 많은 인구를 가지고 있는 나라를 보면 알 수 있다. 이 외에도 어떤 인구분포를 가지느냐에 따라 주로 가지는 수요도 달라진다. 고령화 사회에 접어들수록 의료서비스에 대한 수요가 증가하는 것이 그 예이다.\n여섯 번째는 소비자들 간의 소득분포이다. 소득수준의 차이가 별로 없는 곳일 경우 큰 차이가 없을 것이지만, 소득수준의 차이가 크면 각 층이 수요하는 재화의 종류나 양에 많은 차이가 발생할 것이다.\n수요곡선 수요곡선은 다른 변수들이 변하지 않는다고 가정하고, 가격에 따라 변하는 수요량을 그래프로 나타낸 것이다. 어떤 상품의 가격이 떨어짐에 따라 소비자들이 더 많은 양을 수요하는 현상이 바로 **‘수요의 법칙’**이다. 물론 이 수요의 법칙을 따르지 않는 상품도 있다. 이런 상품들은 가격이 오를 때 수요량이 더 커지는데, 흔히 과시적 소비를 하기 위한 상품으로 기픈재(Giffen goods)라고 한다.\n수요곡선의 예를 들기 위해, 경민이가 아이스크림 가격에 따라 한달 수요량을 아래와 같은 그래프로 나타낼 수 있다. 이와 같이 수요곡선은 우하향하는 모양을 가진다.\n[\n](/static/9b7b8727387975f4e57420d52596f49a/14e05/image2.png)\n수요곡선 위의 그래프에서 수요량은 유량(flow)의 성격을 갖는 변수이다. 일정한 기간을 기준으로 양을 재야하는 변수이기 때문이다. 수요곡선의 높이는 **한계편익(marginal benefit)**을 의미한다. 즉 상품의 각 단위를 얻기 위해 소비자가 지불할 용의가 있는 가격, 즉 소비자가 만족할 수 있는 가격을 의미한다.\n[\n](/static/f66142c1f799aa19ba6e5afd8fa05b39/14e05/image3.png)\n수요곡선 위의 운동과 수요곡선의 이동 원래의 수요곡선 위에서 운동할 때는 상품 가격이 변화가 생길 때이다. 이를 수요량의 변화라고 한다.\n하지만 수요곡선 자체가 이동되는 경우가 생기는데, 이는 앞에서 언급했던 6가지의 수요를 결정하는 요인에 변화가 생길 때 발생한다. 초기 수요곡선을 그릴 때 다른 가정을 일정하다고 가정했지만, 수요곡선이 이동할 때는 일정하다고 가정된 변수에 변화가 생길때만 수요곡선이 이동한다. 이는 수요의 변화이다.\n시장 전체의 수요곡선 시장 수요는 간단히 각 소비자의 수요를 더 해서 구할 수 있다. 예를 들어 가격이 1만 5천원일 때 경민 16통, 다혜 14통, 진영 13통의 아이스크림 수요가 있을 때, 시장 전체는 합산한 43통이다. 수요곡선 상에서도 가격은 일정하다는 가정하에 시장 전체의 수요량을 계산할 수 있기 때문에 수평 방향으로 더하면 된다.\n[\n](/static/f63d937315503e82fa027f0475d2e938/14e05/image4.png)\n시장 전체의 수요곡선 ",
+  "wordCount" : "545",
+  "inLanguage": "ko",
+  "datePublished": "2019-01-09T00:00:00Z",
+  "dateModified": "2019-01-09T00:00:00Z",
+  "author":{
+    "@type": "Person",
+    "name": "김정우"
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://jungwoo0716.github.io/posts/2019-01-09-basic-economics_7/"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "AWT",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://jungwoo0716.github.io/favicon.ico"
+    }
+  }
+}
+</script>
+</head>
+<body id="top">
+    <header class="header">
+    <nav class="nav">
+        <div class="logo">
+            <a href="https://jungwoo0716.github.io/" accesskey="h" title="AWT (Alt + H)">AWT</a>
+            <div class="logo-switches">
+                <button id="theme-toggle" accesskey="t" title="(Alt + T)" aria-label="Toggle theme">
+                    <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                    </svg>
+                    <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="5"></circle>
+                        <line x1="12" y1="1" x2="12" y2="3"></line>
+                        <line x1="12" y1="21" x2="12" y2="23"></line>
+                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                        <line x1="1" y1="12" x2="3" y2="12"></line>
+                        <line x1="21" y1="12" x2="23" y2="12"></line>
+                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                    </svg>
+                </button>
+            </div>
+        </div>
+        <ul id="menu">
+            <li>
+                <a href="https://jungwoo0716.github.io/search/" title="검색 (Alt &#43; /)" accesskey=/>
+                    <span>검색</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://jungwoo0716.github.io/tags/" title="태그">
+                    <span>태그</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://jungwoo0716.github.io/series/" title="시리즈">
+                    <span>시리즈</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://jungwoo0716.github.io/archives/" title="아카이브">
+                    <span>아카이브</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</header>
+<main class="main">
+
+<article class="post-single">
+  <header class="post-header">
+    <div class="breadcrumbs"><a href="https://jungwoo0716.github.io/">홈</a>&nbsp;»&nbsp;<a href="https://jungwoo0716.github.io/posts/">Posts</a></div>
+    <h1 class="post-title entry-hint-parent">
+      수요(Demand)와 수요곡선
+    </h1>
+    <div class="post-meta"><span title='2019-01-09 00:00:00 +0000 UTC'>2019-01-09</span>&nbsp;·&nbsp;<span>3 분</span>&nbsp;·&nbsp;<span>김정우</span>
+
+</div>
+  </header> <div class="toc">
+    <details >
+        <summary accesskey="c" title="(Alt + C)">
+            <span class="details">목차</span>
+        </summary>
+
+        <div class="inner"><ul>
+                <li>
+                    <a href="#%ec%88%98%ec%9a%94demand" aria-label="수요(Demand)">수요(Demand)</a><ul>
+                        <ul>
+                        <ul>
+                        <ul>
+                        
+                <li>
+                    <a href="#%ec%88%98%ec%9a%94demand%eb%9e%80" aria-label="수요(Demand)란">수요(Demand)란</a></li></ul>
+                    </ul>
+                    </ul>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#%ec%88%98%ec%9a%94%eb%a5%bc-%ea%b2%b0%ec%a0%95%ed%95%98%eb%8a%94-%ec%9a%94%ec%9d%b8%eb%93%a4" aria-label="수요를 결정하는 요인들">수요를 결정하는 요인들</a></li>
+                <li>
+                    <a href="#%ec%88%98%ec%9a%94%ea%b3%a1%ec%84%a0" aria-label="수요곡선">수요곡선</a><ul>
+                        <ul>
+                        <ul>
+                        <ul>
+                        
+                <li>
+                    <a href="#%ec%88%98%ec%9a%94%ea%b3%a1%ec%84%a0-1" aria-label="수요곡선">수요곡선</a></li>
+                <li>
+                    <a href="#%ec%88%98%ec%9a%94%ea%b3%a1%ec%84%a0-%ec%9c%84%ec%9d%98-%ec%9a%b4%eb%8f%99%ea%b3%bc-%ec%88%98%ec%9a%94%ea%b3%a1%ec%84%a0%ec%9d%98-%ec%9d%b4%eb%8f%99" aria-label="수요곡선 위의 운동과 수요곡선의 이동">수요곡선 위의 운동과 수요곡선의 이동</a></li></ul>
+                    </ul>
+                    </ul>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#%ec%8b%9c%ec%9e%a5-%ec%a0%84%ec%b2%b4%ec%9d%98-%ec%88%98%ec%9a%94%ea%b3%a1%ec%84%a0" aria-label="시장 전체의 수요곡선">시장 전체의 수요곡선</a><ul>
+                        <ul>
+                        <ul>
+                        <ul>
+                        
+                <li>
+                    <a href="#%ec%8b%9c%ec%9e%a5-%ec%a0%84%ec%b2%b4%ec%9d%98-%ec%88%98%ec%9a%94%ea%b3%a1%ec%84%a0-1" aria-label="시장 전체의 수요곡선">시장 전체의 수요곡선</a>
+                </li>
+            </ul>
+            </ul>
+            </ul>
+            </ul>
+            </li>
+            </ul>
+        </div>
+    </details>
+</div>
+
+  <div class="post-content"><h2 id="수요demand">수요(Demand)<a hidden class="anchor" aria-hidden="true" href="#수요demand">#</a></h2>
+<p>수요란 소비자가 재화나 서비스를 구매하고자 하는 욕구이며, 수요량은 소비자가 구매하고자 하는 재화나 서비스의 양이다.</p>
+<p>수요는 크게 2가지의 성질을 가진다. 첫 번째 성질은 소비자들이 구매하려고 하는 **의도(willingness to purchase)**를 나타낸다. 이는 실제 구매량이 아니라서 그 재화의 존재량이나 공급량과 직접적인 관계가 없다.
+두 번째 성질은 수요는 어떤 일정 기간 동안 구매의 흐름, 즉 **유량(flow)**를 의미한다. 유량은 일정한 기간을 기준으로 그 양을 재야 하는 것이기 때문에, 기간당 얼마라는 식으로 표현된다.
+예를 들면 아이스크림에 대한 수요가 천만 개라고 할 때, 그것이 어떤 기간(예를 들면 일년) 동안의 수요인지를 무조건 나타내야 한다. 기간 뿐 아니라 어느 시점에서의 수요를 나타내는 방법도 있는데, 이를 **저량(stock)**이라고 한다.</p>
+<p>[</p>
+<p>](/static/d222022d5d4f1b9c06fa4020a840a3b3/14e05/image.png)</p>
+<h6 id="수요demand란">수요(Demand)란<a hidden class="anchor" aria-hidden="true" href="#수요demand란">#</a></h6>
+<h2 id="수요를-결정하는-요인들">수요를 결정하는 요인들<a hidden class="anchor" aria-hidden="true" href="#수요를-결정하는-요인들">#</a></h2>
+<p>수요에 영향을 주는 요인들에는 여러가지가 있다. 첫번째 그 재화의 <strong>시장가격</strong>이다. 일반적으로 시장가격이 높다면 수요는 적다. 낮다면 물론 수요는 많다.</p>
+<p>두 번째 <strong>다른 재화의 가격</strong>이다. 다른 재화가 대체제(substitute goods)일 경우, 재화의 가격이 증가한다면 이 대체제의 수요는 증가한다. 보완재(complementary goods)일 경우는 재화의 가격이 증가한다면 이 보완재의 수요 역시 감소한다. 독립재(independent goods)일 경우 재화의 가격이 변화하더라도 수요가 전혀 변하지 않는 경우이다.</p>
+<p>세 번째는 <strong>소비자의 소득수준</strong>이다. 대부분은 소득이 증가하면 수요가 증가한다. 이런 재화를 정상재(normal goods)라고 한다. 하지만 반대의 경우도 있다. 소득이 증가하면서 수요가 낮아지는 것을 열등재(inferior goods)라고 한다. 이건 재화의 고유의 속성은 아니다. 역사적, 문화적 환경에 따라, 기술의 변화에 따라 어떤 재화던지 정상재가 될 수 있고, 열등재가 될 수 있다.</p>
+<p>네 번째는 <strong>소비자의 기호</strong>이다. 소비자가 원하는 것이 달라지면 수요가 변화한다. 소비자들이 건강에 관심이 생기면서 유기농 식품에 대한 수요가 높아지는 것을 그 예로 들 수 있다. 소비자의 기호는 언론, 미디어, 광고, 혹은 해외 사례 등을 통해 변화한다.</p>
+<p>다섯 번째는 <strong>인구규모와 구성</strong>이다. 인구가 증가하면 모든 재화에 대한 수요가 증가한다. 중국처럼 많은 인구를 가지고 있는 나라를 보면 알 수 있다. 이 외에도 어떤 인구분포를 가지느냐에 따라 주로 가지는 수요도 달라진다. 고령화 사회에 접어들수록 의료서비스에 대한 수요가 증가하는 것이 그 예이다.</p>
+<p>여섯 번째는 <strong>소비자들 간의 소득분포</strong>이다. 소득수준의 차이가 별로 없는 곳일 경우 큰 차이가 없을 것이지만, 소득수준의 차이가 크면 각 층이 수요하는 재화의 종류나 양에 많은 차이가 발생할 것이다.</p>
+<h2 id="수요곡선">수요곡선<a hidden class="anchor" aria-hidden="true" href="#수요곡선">#</a></h2>
+<p>수요곡선은 다른 변수들이 변하지 않는다고 가정하고, 가격에 따라 변하는 수요량을 그래프로 나타낸 것이다. 어떤 상품의 가격이 떨어짐에 따라 소비자들이 더 많은 양을 수요하는 현상이 바로 **&lsquo;수요의 법칙&rsquo;**이다. 물론 이 수요의 법칙을 따르지 않는 상품도 있다. 이런 상품들은 가격이 오를 때 수요량이 더 커지는데, 흔히 과시적 소비를 하기 위한 상품으로 기픈재(Giffen goods)라고 한다.</p>
+<p>수요곡선의 예를 들기 위해, 경민이가 아이스크림 가격에 따라 한달 수요량을 아래와 같은 그래프로 나타낼 수 있다. 이와 같이 수요곡선은 우하향하는 모양을 가진다.</p>
+<p>[</p>
+<p>](/static/9b7b8727387975f4e57420d52596f49a/14e05/image2.png)</p>
+<h6 id="수요곡선-1">수요곡선<a hidden class="anchor" aria-hidden="true" href="#수요곡선-1">#</a></h6>
+<p>위의 그래프에서 수요량은 유량(flow)의 성격을 갖는 변수이다. 일정한 기간을 기준으로 양을 재야하는 변수이기 때문이다. 수요곡선의 높이는 **한계편익(marginal benefit)**을 의미한다. 즉 상품의 각 단위를 얻기 위해 소비자가 지불할 용의가 있는 가격, 즉 소비자가 만족할 수 있는 가격을 의미한다.</p>
+<p>[</p>
+<p>](/static/f66142c1f799aa19ba6e5afd8fa05b39/14e05/image3.png)</p>
+<h6 id="수요곡선-위의-운동과-수요곡선의-이동">수요곡선 위의 운동과 수요곡선의 이동<a hidden class="anchor" aria-hidden="true" href="#수요곡선-위의-운동과-수요곡선의-이동">#</a></h6>
+<p>원래의 수요곡선 위에서 운동할 때는 상품 가격이 변화가 생길 때이다. 이를 <strong>수요량의 변화</strong>라고 한다.</p>
+<p>하지만 수요곡선 자체가 이동되는 경우가 생기는데, 이는 앞에서 언급했던 6가지의 수요를 결정하는 요인에 변화가 생길 때 발생한다. 초기 수요곡선을 그릴 때 다른 가정을 일정하다고 가정했지만, 수요곡선이 이동할 때는 일정하다고 가정된 변수에 변화가 생길때만 수요곡선이 이동한다. 이는 <strong>수요의 변화</strong>이다.</p>
+<h2 id="시장-전체의-수요곡선">시장 전체의 수요곡선<a hidden class="anchor" aria-hidden="true" href="#시장-전체의-수요곡선">#</a></h2>
+<p>시장 수요는 간단히 각 소비자의 수요를 더 해서 구할 수 있다. 예를 들어 가격이 1만 5천원일 때 경민 16통, 다혜 14통, 진영 13통의 아이스크림 수요가 있을 때, 시장 전체는 합산한 43통이다. 수요곡선 상에서도 가격은 일정하다는 가정하에 시장 전체의 수요량을 계산할 수 있기 때문에 수평 방향으로 더하면 된다.</p>
+<p>[</p>
+<p>](/static/f63d937315503e82fa027f0475d2e938/14e05/image4.png)</p>
+<h6 id="시장-전체의-수요곡선-1">시장 전체의 수요곡선<a hidden class="anchor" aria-hidden="true" href="#시장-전체의-수요곡선-1">#</a></h6>
+
+
+  </div>
+
+  <footer class="post-footer">
+    <ul class="post-tags">
+      <li><a href="https://jungwoo0716.github.io/tags/%EA%B2%BD%EC%A0%9C%ED%95%99/">경제학</a></li>
+      <li><a href="https://jungwoo0716.github.io/tags/economics/">Economics</a></li>
+    </ul>
+<nav class="paginav">
+  <a class="prev" href="https://jungwoo0716.github.io/posts/2019-01-10-basic-economics_8/">
+    <span class="title">« 이전 페이지</span>
+    <br>
+    <span>수요(Demand)의 탄력성</span>
+  </a>
+  <a class="next" href="https://jungwoo0716.github.io/posts/2019-01-08-basic-economics_6/">
+    <span class="title">다음 페이지 »</span>
+    <br>
+    <span>경제이론과 경제이론의 구분</span>
+  </a>
+</nav>
+
+  </footer>
+</article>
+    </main>
+    
+<footer class="footer">
+        <span>&copy; 2026 <a href="https://jungwoo0716.github.io/">AWT</a></span> · 
+
+    <span>
+        Powered by
+        <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a> &
+        <a href="https://github.com/adityatelange/hugo-PaperMod/" rel="noopener" target="_blank">PaperMod</a>
+    </span>
+</footer>
+<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
+        <path d="M12 6H0l6-6z" />
+    </svg>
+</a>
+
+<script>
+    let menu = document.getElementById('menu');
+    if (menu) {
+        
+        const scrollPosition = localStorage.getItem("menu-scroll-position");
+        if (scrollPosition) {
+            menu.scrollLeft = parseInt(scrollPosition, 10);
+        }
+        
+        menu.onscroll = function () {
+            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+        }
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
+
+</script>
+<script>
+    var mybutton = document.getElementById("top-link");
+    window.onscroll = function () {
+        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
+            mybutton.style.visibility = "visible";
+            mybutton.style.opacity = "1";
+        } else {
+            mybutton.style.visibility = "hidden";
+            mybutton.style.opacity = "0";
+        }
+    };
+
+</script>
+<script>
+    document.getElementById("theme-toggle").addEventListener("click", () => {
+        const html = document.querySelector("html");
+        if (html.dataset.theme === "dark") {
+            html.dataset.theme = 'light';
+            localStorage.setItem("pref-theme", 'light');
+        } else {
+            html.dataset.theme = 'dark';
+            localStorage.setItem("pref-theme", 'dark');
+        }
+    })
+
+</script>
+<script>
+    document.querySelectorAll('pre > code').forEach((codeblock) => {
+        const container = codeblock.parentNode.parentNode;
+
+        const copybutton = document.createElement('button');
+        copybutton.classList.add('copy-code');
+        copybutton.innerHTML = '복사';
+
+        function copyingDone() {
+            copybutton.innerHTML = '복사 완료!';
+            setTimeout(() => {
+                copybutton.innerHTML = '복사';
+            }, 2000);
+        }
+
+        copybutton.addEventListener('click', (cb) => {
+            if ('clipboard' in navigator) {
+                navigator.clipboard.writeText(codeblock.textContent);
+                copyingDone();
+                return;
+            }
+
+            const range = document.createRange();
+            range.selectNodeContents(codeblock);
+            const selection = window.getSelection();
+            selection.removeAllRanges();
+            selection.addRange(range);
+            try {
+                document.execCommand('copy');
+                copyingDone();
+            } catch (e) { };
+            selection.removeRange(range);
+        });
+
+        if (container.classList.contains("highlight")) {
+            container.appendChild(copybutton);
+        } else if (container.parentNode.firstChild == container) {
+            
+        } else if (codeblock.parentNode.parentNode.parentNode.parentNode.parentNode.nodeName == "TABLE") {
+            
+            codeblock.parentNode.parentNode.parentNode.parentNode.parentNode.appendChild(copybutton);
+        } else {
+            
+            codeblock.parentNode.appendChild(copybutton);
+        }
+    });
+</script>
+</body>
+
+</html>

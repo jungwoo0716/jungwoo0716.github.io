@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>회계 on AWT</title>
+    <link>https://jungwoo0716.github.io/tags/%ED%9A%8C%EA%B3%84/</link>
+    <description>Recent content in 회계 on AWT</description>
+    <generator>Hugo</generator>
+    <language>ko</language>
+    <lastBuildDate>Mon, 01 Jul 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://jungwoo0716.github.io/tags/%ED%9A%8C%EA%B3%84/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>재무제표 현금흐름표를 쉽게 분석하기 위한 3가지 단계</title>
+      <link>https://jungwoo0716.github.io/posts/2024-07-01-principles-of-understanding-the-cash-flow/</link>
+      <pubDate>Mon, 01 Jul 2024 00:00:00 +0000</pubDate>
+      <guid>https://jungwoo0716.github.io/posts/2024-07-01-principles-of-understanding-the-cash-flow/</guid>
+      <description>재무제표는 기업을 이해하고 가치를 평가하기 위해서 꼭 알아야 하는 기업의 재무상태와 경영정보를 제공하는 중요한 자료입니다. 현금흐름표에 대해 알아보겠습니다.</description>
+    </item>
+    <item>
+      <title>재무제표 손익계산서를 쉽게 분석하기 위한 5가지 단계</title>
+      <link>https://jungwoo0716.github.io/posts/2024-06-30-principles-of-understanding-the-income-statement/</link>
+      <pubDate>Sun, 30 Jun 2024 00:00:00 +0000</pubDate>
+      <guid>https://jungwoo0716.github.io/posts/2024-06-30-principles-of-understanding-the-income-statement/</guid>
+      <description>재무제표는 기업을 이해하고 가치를 평가하기 위해서 꼭 알아야 하는 기업의 재무상태와 경영정보를 제공하는 중요한 자료입니다. 손익계산서에 대해 알아보겠습니다.</description>
+    </item>
+    <item>
+      <title>재무제표 재무상태표를 쉽게 분석하기 위한 3가지 단계</title>
+      <link>https://jungwoo0716.github.io/posts/2024-06-29-principles-of-understanding-the-balance-sheet/</link>
+      <pubDate>Sat, 29 Jun 2024 00:00:00 +0000</pubDate>
+      <guid>https://jungwoo0716.github.io/posts/2024-06-29-principles-of-understanding-the-balance-sheet/</guid>
+      <description>재무제표는 기업을 이해하고 가치를 평가하기 위해서 꼭 알아야할 기업의 재무상태와 경영정보를 제공하는 중요한 자료입니다. 재무상태표에 대해 알아보겠습니다.</description>
+    </item>
+  </channel>
+</rss>

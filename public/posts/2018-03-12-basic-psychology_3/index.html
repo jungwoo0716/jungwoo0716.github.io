@@ -1,0 +1,471 @@
+<!DOCTYPE html>
+<html lang="ko" dir="auto" data-theme="auto">
+
+<head><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="index, follow">
+<title>뉴런(Neuron)이란? | AWT</title>
+<meta name="keywords" content="심리학, Psychology">
+<meta name="description" content="뉴런(Neuron)이란
+뉴런은 인간 정보 처리의 가장 기초적이고 핵심적인 단위이다. 개별 뉴런의 구조 및 기능은 상대적으로 매우 간단하다. 신호를 입력받고 신호의 결과를 출력하는 방식이다. 하지만 이런 뉴런 간의 연결은 거의 무한대의 경우의 수가 가능할 정도로 매우 복잡하다.
+뇌에서는 전기화학신호만 처리가 가능하다. 우리가 보는 시각적인(빛)의 자극도 감각 기관의 감각 뉴런이 감각 정보를 전기적 신호로 변환시킨다. 운동 기관의 운동 뉴런은 전기 신호를 운동 뉴런으로 변환시킨다.
+요즘 기술이 발달하면서 3D 프린터를 이용해 사람의 장기를 재현하여, 실제로 이식하는 경우도 생겨나고 있다. 즉, 사람의 여러 기관이 다쳐도 기술을 바탕으로 회복하는 경우가 많아지고 있는 것이다. 하지만 다른 정보를 전기 신호로 바꾸는 감각 기관의 특성은 아직까지 흉내 내기가 쉽지 않아, 감각 기관이 다치게 되면 회복하는 것이 거의 불가능하다.
+예를 들면 감각 기관인 망막을 다치게 되면 눈을 통해 빛 에너지가 전기 신호로 바뀌는 기능을 잃는 것이기 때문에, 영원히 시력을 잃게 될 수 있다. 망막질환은 실명을 유발할 수 있기에 조심해야하는 것이다.">
+<meta name="author" content="김정우">
+<link rel="canonical" href="https://jungwoo0716.github.io/posts/2018-03-12-basic-psychology_3/">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.da3211e5ef867bf2b75fd5a6515cfed7195c011e8ab735694e203810a827097b.css" integrity="sha256-2jIR5e&#43;Ge/K3X9WmUVz&#43;1xlcAR6KtzVpTiA4EKgnCXs=" rel="preload stylesheet" as="style">
+<link rel="icon" href="https://jungwoo0716.github.io/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="https://jungwoo0716.github.io/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="https://jungwoo0716.github.io/favicon-32x32.png">
+<link rel="apple-touch-icon" href="https://jungwoo0716.github.io/apple-touch-icon.png">
+<link rel="mask-icon" href="https://jungwoo0716.github.io/safari-pinned-tab.svg">
+<meta name="theme-color" content="#2e2e33">
+<meta name="msapplication-TileColor" content="#2e2e33">
+<link rel="alternate" hreflang="ko" href="https://jungwoo0716.github.io/posts/2018-03-12-basic-psychology_3/">
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
+
+    </style>
+    <style>
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --theme: rgb(29, 30, 32);
+                --entry: rgb(46, 46, 51);
+                --primary: rgb(218, 218, 219);
+                --secondary: rgb(155, 156, 157);
+                --tertiary: rgb(65, 66, 68);
+                --content: rgb(196, 196, 197);
+                --code-block-bg: rgb(46, 46, 51);
+                --code-bg: rgb(55, 56, 62);
+                --border: rgb(51, 51, 51);
+                color-scheme: dark;
+            }
+
+            .list {
+                background: var(--theme);
+            }
+
+            .toc {
+                background: var(--entry);
+            }
+        }
+
+        @media (prefers-color-scheme: light) {
+            .list::-webkit-scrollbar-thumb {
+                border-color: var(--code-bg);
+            }
+        }
+
+    </style>
+</noscript>
+<script>
+    if (localStorage.getItem("pref-theme") === "dark") {
+        document.querySelector("html").dataset.theme = 'dark';
+    } else if (localStorage.getItem("pref-theme") === "light") {
+       document.querySelector("html").dataset.theme = 'light';
+    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.querySelector("html").dataset.theme = 'dark';
+    } else {
+        document.querySelector("html").dataset.theme = 'light';
+    }
+
+</script><meta property="og:url" content="https://jungwoo0716.github.io/posts/2018-03-12-basic-psychology_3/">
+  <meta property="og:site_name" content="AWT">
+  <meta property="og:title" content="뉴런(Neuron)이란?">
+  <meta property="og:description" content="뉴런(Neuron)이란 뉴런은 인간 정보 처리의 가장 기초적이고 핵심적인 단위이다. 개별 뉴런의 구조 및 기능은 상대적으로 매우 간단하다. 신호를 입력받고 신호의 결과를 출력하는 방식이다. 하지만 이런 뉴런 간의 연결은 거의 무한대의 경우의 수가 가능할 정도로 매우 복잡하다.
+뇌에서는 전기화학신호만 처리가 가능하다. 우리가 보는 시각적인(빛)의 자극도 감각 기관의 감각 뉴런이 감각 정보를 전기적 신호로 변환시킨다. 운동 기관의 운동 뉴런은 전기 신호를 운동 뉴런으로 변환시킨다. 요즘 기술이 발달하면서 3D 프린터를 이용해 사람의 장기를 재현하여, 실제로 이식하는 경우도 생겨나고 있다. 즉, 사람의 여러 기관이 다쳐도 기술을 바탕으로 회복하는 경우가 많아지고 있는 것이다. 하지만 다른 정보를 전기 신호로 바꾸는 감각 기관의 특성은 아직까지 흉내 내기가 쉽지 않아, 감각 기관이 다치게 되면 회복하는 것이 거의 불가능하다. 예를 들면 감각 기관인 망막을 다치게 되면 눈을 통해 빛 에너지가 전기 신호로 바뀌는 기능을 잃는 것이기 때문에, 영원히 시력을 잃게 될 수 있다. 망막질환은 실명을 유발할 수 있기에 조심해야하는 것이다.">
+  <meta property="og:locale" content="ko">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+    <meta property="article:published_time" content="2018-03-12T00:00:00+00:00">
+    <meta property="article:modified_time" content="2018-03-12T00:00:00+00:00">
+    <meta property="article:tag" content="심리학">
+    <meta property="article:tag" content="Psychology">
+
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="뉴런(Neuron)이란?">
+  <meta name="twitter:description" content="뉴런(Neuron)이란 뉴런은 인간 정보 처리의 가장 기초적이고 핵심적인 단위이다. 개별 뉴런의 구조 및 기능은 상대적으로 매우 간단하다. 신호를 입력받고 신호의 결과를 출력하는 방식이다. 하지만 이런 뉴런 간의 연결은 거의 무한대의 경우의 수가 가능할 정도로 매우 복잡하다.
+뇌에서는 전기화학신호만 처리가 가능하다. 우리가 보는 시각적인(빛)의 자극도 감각 기관의 감각 뉴런이 감각 정보를 전기적 신호로 변환시킨다. 운동 기관의 운동 뉴런은 전기 신호를 운동 뉴런으로 변환시킨다. 요즘 기술이 발달하면서 3D 프린터를 이용해 사람의 장기를 재현하여, 실제로 이식하는 경우도 생겨나고 있다. 즉, 사람의 여러 기관이 다쳐도 기술을 바탕으로 회복하는 경우가 많아지고 있는 것이다. 하지만 다른 정보를 전기 신호로 바꾸는 감각 기관의 특성은 아직까지 흉내 내기가 쉽지 않아, 감각 기관이 다치게 되면 회복하는 것이 거의 불가능하다. 예를 들면 감각 기관인 망막을 다치게 되면 눈을 통해 빛 에너지가 전기 신호로 바뀌는 기능을 잃는 것이기 때문에, 영원히 시력을 잃게 될 수 있다. 망막질환은 실명을 유발할 수 있기에 조심해야하는 것이다.">
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position":  1 ,
+      "name": "Posts",
+      "item": "https://jungwoo0716.github.io/posts/"
+    }, 
+    {
+      "@type": "ListItem",
+      "position":  2 ,
+      "name": "뉴런(Neuron)이란?",
+      "item": "https://jungwoo0716.github.io/posts/2018-03-12-basic-psychology_3/"
+    }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "뉴런(Neuron)이란?",
+  "name": "뉴런(Neuron)이란?",
+  "description": "뉴런(Neuron)이란 뉴런은 인간 정보 처리의 가장 기초적이고 핵심적인 단위이다. 개별 뉴런의 구조 및 기능은 상대적으로 매우 간단하다. 신호를 입력받고 신호의 결과를 출력하는 방식이다. 하지만 이런 뉴런 간의 연결은 거의 무한대의 경우의 수가 가능할 정도로 매우 복잡하다.\n뇌에서는 전기화학신호만 처리가 가능하다. 우리가 보는 시각적인(빛)의 자극도 감각 기관의 감각 뉴런이 감각 정보를 전기적 신호로 변환시킨다. 운동 기관의 운동 뉴런은 전기 신호를 운동 뉴런으로 변환시킨다. 요즘 기술이 발달하면서 3D 프린터를 이용해 사람의 장기를 재현하여, 실제로 이식하는 경우도 생겨나고 있다. 즉, 사람의 여러 기관이 다쳐도 기술을 바탕으로 회복하는 경우가 많아지고 있는 것이다. 하지만 다른 정보를 전기 신호로 바꾸는 감각 기관의 특성은 아직까지 흉내 내기가 쉽지 않아, 감각 기관이 다치게 되면 회복하는 것이 거의 불가능하다. 예를 들면 감각 기관인 망막을 다치게 되면 눈을 통해 빛 에너지가 전기 신호로 바뀌는 기능을 잃는 것이기 때문에, 영원히 시력을 잃게 될 수 있다. 망막질환은 실명을 유발할 수 있기에 조심해야하는 것이다.\n",
+  "keywords": [
+    "심리학", "Psychology"
+  ],
+  "articleBody": "뉴런(Neuron)이란 뉴런은 인간 정보 처리의 가장 기초적이고 핵심적인 단위이다. 개별 뉴런의 구조 및 기능은 상대적으로 매우 간단하다. 신호를 입력받고 신호의 결과를 출력하는 방식이다. 하지만 이런 뉴런 간의 연결은 거의 무한대의 경우의 수가 가능할 정도로 매우 복잡하다.\n뇌에서는 전기화학신호만 처리가 가능하다. 우리가 보는 시각적인(빛)의 자극도 감각 기관의 감각 뉴런이 감각 정보를 전기적 신호로 변환시킨다. 운동 기관의 운동 뉴런은 전기 신호를 운동 뉴런으로 변환시킨다. 요즘 기술이 발달하면서 3D 프린터를 이용해 사람의 장기를 재현하여, 실제로 이식하는 경우도 생겨나고 있다. 즉, 사람의 여러 기관이 다쳐도 기술을 바탕으로 회복하는 경우가 많아지고 있는 것이다. 하지만 다른 정보를 전기 신호로 바꾸는 감각 기관의 특성은 아직까지 흉내 내기가 쉽지 않아, 감각 기관이 다치게 되면 회복하는 것이 거의 불가능하다. 예를 들면 감각 기관인 망막을 다치게 되면 눈을 통해 빛 에너지가 전기 신호로 바뀌는 기능을 잃는 것이기 때문에, 영원히 시력을 잃게 될 수 있다. 망막질환은 실명을 유발할 수 있기에 조심해야하는 것이다.\n뉴런의 반응 [\n](/static/c37b08cd6120f0acb363935f1ebf0833/14e05/image1.png)\n뉴런의 반응 개별 뉴런의 반응은 자극이 있는지 없는지로만 판별한다. 컴퓨터의 신호처럼 2진법 형태로 0과 1로 나타내는 것과 유사하다. 위의 그림을 보면, 전기 신호가 -70으로 유지하다가, 자극이 오면 순간적으로 40이 되었다가 다시 떨어지는 것을 볼 수 있다. 휴지 \u001d전위(Resting Potential)에서 -70밑으로 갈수록(예를 들면 -80mV) 과분극(Hyperpolarization), 0에 가까워 질 수록 **탈분극(Depolarization)**이라고 한다.\n신호변환 빛 에너지는 망막(Retina)의 시각 뉴런들에 의해 전기 신호로 변환된다.\n[\n](/static/ab0baa4e199ea66e764c44ab25e7b4aa/14e05/image2.png)\n눈(eye) 위 그림은 눈의 구조와 망막을 확대한 것이다. 우측에서 두번째가 뉴런이고, 우측이 감각 뉴런이다.\n눈에 들어온 빛이 렌즈를 거쳐서 맨 끝에 있는 망막을 때린다. 그러면 시각적인 정보가 뉴런을 통해 신호가 생기고 이를 감각 뉴런이 전기적 신호로 바꾸어준다. 못에 찔리거나 부딪히는 경우 감각뉴런을 먼저 자극한 것으로, 누르는 에너지가 감각 뉴런을 통해 전기 에너지로 바뀌는 것이다.\n뉴런 간의 의사소통 뉴런과 뉴런 사이는 물리적으로 연결되어 있지 않고, 일부 빈 공간이 있다. 따라서 전기가 계속적으로 흐르지 못한다. 그렇기 때문에 뉴런의 끝부분에서 전기 신호가 화학 신호로 변환되어 연결되었다가 다음 뉴런에 가서 다시 전기 신호로 바뀐다. 즉 전기와 화학 신호가 계속적으로 반복되면서 정보가 전달된다.\n뉴런의 구조 [\n](/static/365ca836eb505eae9f75502ad41d6752/4eb29/image3.png)\n뉴런의 구조 Cell body(세포체)는 신경세포인 뉴런을 구성하는 한 부분으로, 세포의 생명을 유지하도록 돕는 역할을 한다. Dendrites(수상돌기)는 세포질의 돌기 형태로 생겨, 다른 세포가 보낸 메세지를 받는 역할을 한다. Axon(축삭돌기)은 뉴런의 세포체로부터 뻗어나온 긴 돌기 형태를 지니며, 세포체의 메세지를 다른 뉴런이나 근육 혹은 분비샘에게 전달한다. 이 Axon을 둘러싸면서 절연체 역할을 하는 것이 Myelin sheath(미엘린초 혹은 수초)이다. 미엘린초는 일정한 간격으로 끊겨있는데, 그 부분을 랑비에 결절이라고 한다. 이 뉴런을 통해 전기화학적 신호가 전달된다. 그런 과정을 **Neural impulse(신경임펄스, 신경충돌)**이라고 부르는데, 신경섬유를 따라서 전달되는 전기화학적 과정이다.\n뉴럴 네트워크 뉴럴 네트워크(신경망)는 인간의 뇌 기능을 유사하게 만들어내고자 하는 네트워크를 의미한다. 인공지능, AI가 요즘 화두이다. 이런 기법 중에 최근 제일 화두가 되고 있는게 머신러닝(Machine Learning)과 딥러닝(Deep Learning)이다. 머신 러닝은 간단히 말하면, 복잡한 물체를 단순한 특징으로 나누어 분석하는 방법이다. 딥러닝은 간단히 말하면 사람이 데이터에 손을 대지 않고, 컴퓨터가 알아서 분석하여 해답을 도출해내는 방법이다. 특히 딥러닝의 경우는 뉴런의 연결 구조의 특성을 바탕으로 만들어졌다.\n신경전달물질 신경전달물질(Nuerotransmitter)은 뉴런 간의 연결을 위한 화학물질이다. 뉴런마다 분비하는 화학물질이 다르고, 그 분포도 다르다. 아래의 표가 뉴런에서 분비하는 화학물질과 그 기능을 보여준다.\n[\n](/static/4014f9723bd7f77e35252f28de1ec61e/80307/image4.png)\n뉴신경전달물질 종류 위의 테이블 중 아마 제일 많이 들어보았던 물질은 도파민일 것이다. 도파민은 중독성이 강하고, 알츠하이머(치매)의 원인이 되기도 하며, 파킨슨병과 관련 되어 있는 물질이라고 알려져 있다. 알츠하이머의 원인은 도파민의 부족이다. 많은 연구진들이 알츠하이머를 치료하기 위해 노력하고 있지만, 현재 알츠하이머를 치료하는 방법은 없다. 아직 이 도파민을 머릿속에 넣을 수 있는 방법을 찾지 못했기 때문이다. 도파민은 중독과도 매우 밀접한 관련이 있는데, 도파민 뉴런을 계속 자극하면 외부적 이유 없이 계속 그 행동을 하게 된다.\n그 이외 Acetylcholine(ACh)는 근육의 움직임에 중요한 역할을 한다. 이 역시 알츠하이머와도 연관이 있다. 알츠하이머는 이 ACh를 생산하는 뉴런을 더 악화시킨다. 한 번 죽은 뉴런은 재생이 안되기 때문에, 속도를 더디게 하는 방법 밖에 없다.\nSerotonin(세로토닌)은 우울증 약으로 주로 사용한다. 대표적인 우울증 약으로 Prozac이 있다. 성분에 세로토닌이 있다.\nGABA와 Glutamate(글루타민)은 서로 반대되는 역할을 하는 물질이다. GABA는 뇌를 억제하는 신경전달물질이고, 글루타민은 뇌를 활성화시키는 신경전달물질이다.\n",
+  "wordCount" : "607",
+  "inLanguage": "ko",
+  "datePublished": "2018-03-12T00:00:00Z",
+  "dateModified": "2018-03-12T00:00:00Z",
+  "author":{
+    "@type": "Person",
+    "name": "김정우"
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://jungwoo0716.github.io/posts/2018-03-12-basic-psychology_3/"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "AWT",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://jungwoo0716.github.io/favicon.ico"
+    }
+  }
+}
+</script>
+</head>
+<body id="top">
+    <header class="header">
+    <nav class="nav">
+        <div class="logo">
+            <a href="https://jungwoo0716.github.io/" accesskey="h" title="AWT (Alt + H)">AWT</a>
+            <div class="logo-switches">
+                <button id="theme-toggle" accesskey="t" title="(Alt + T)" aria-label="Toggle theme">
+                    <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                    </svg>
+                    <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="5"></circle>
+                        <line x1="12" y1="1" x2="12" y2="3"></line>
+                        <line x1="12" y1="21" x2="12" y2="23"></line>
+                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                        <line x1="1" y1="12" x2="3" y2="12"></line>
+                        <line x1="21" y1="12" x2="23" y2="12"></line>
+                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                    </svg>
+                </button>
+            </div>
+        </div>
+        <ul id="menu">
+            <li>
+                <a href="https://jungwoo0716.github.io/search/" title="검색 (Alt &#43; /)" accesskey=/>
+                    <span>검색</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://jungwoo0716.github.io/tags/" title="태그">
+                    <span>태그</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://jungwoo0716.github.io/series/" title="시리즈">
+                    <span>시리즈</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://jungwoo0716.github.io/archives/" title="아카이브">
+                    <span>아카이브</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</header>
+<main class="main">
+
+<article class="post-single">
+  <header class="post-header">
+    <div class="breadcrumbs"><a href="https://jungwoo0716.github.io/">홈</a>&nbsp;»&nbsp;<a href="https://jungwoo0716.github.io/posts/">Posts</a></div>
+    <h1 class="post-title entry-hint-parent">
+      뉴런(Neuron)이란?
+    </h1>
+    <div class="post-meta"><span title='2018-03-12 00:00:00 +0000 UTC'>2018-03-12</span>&nbsp;·&nbsp;<span>3 분</span>&nbsp;·&nbsp;<span>김정우</span>
+
+</div>
+  </header> <div class="toc">
+    <details >
+        <summary accesskey="c" title="(Alt + C)">
+            <span class="details">목차</span>
+        </summary>
+
+        <div class="inner"><ul>
+                <li>
+                    <a href="#%eb%89%b4%eb%9f%b0neuron%ec%9d%b4%eb%9e%80" aria-label="뉴런(Neuron)이란">뉴런(Neuron)이란</a></li>
+                <li>
+                    <a href="#%eb%89%b4%eb%9f%b0%ec%9d%98-%eb%b0%98%ec%9d%91" aria-label="뉴런의 반응">뉴런의 반응</a><ul>
+                        <ul>
+                        <ul>
+                        <ul>
+                        
+                <li>
+                    <a href="#%eb%89%b4%eb%9f%b0%ec%9d%98-%eb%b0%98%ec%9d%91-1" aria-label="뉴런의 반응">뉴런의 반응</a></li></ul>
+                    </ul>
+                    </ul>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#%ec%8b%a0%ed%98%b8%eb%b3%80%ed%99%98" aria-label="신호변환">신호변환</a><ul>
+                        <ul>
+                        <ul>
+                        <ul>
+                        
+                <li>
+                    <a href="#%eb%88%88eye" aria-label="눈(eye)">눈(eye)</a></li></ul>
+                    </ul>
+                    </ul>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#%eb%89%b4%eb%9f%b0-%ea%b0%84%ec%9d%98-%ec%9d%98%ec%82%ac%ec%86%8c%ed%86%b5" aria-label="뉴런 간의 의사소통">뉴런 간의 의사소통</a></li>
+                <li>
+                    <a href="#%eb%89%b4%eb%9f%b0%ec%9d%98-%ea%b5%ac%ec%a1%b0" aria-label="뉴런의 구조">뉴런의 구조</a><ul>
+                        <ul>
+                        <ul>
+                        <ul>
+                        
+                <li>
+                    <a href="#%eb%89%b4%eb%9f%b0%ec%9d%98-%ea%b5%ac%ec%a1%b0-1" aria-label="뉴런의 구조">뉴런의 구조</a></li></ul>
+                    </ul>
+                    </ul>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#%eb%89%b4%eb%9f%b4-%eb%84%a4%ed%8a%b8%ec%9b%8c%ed%81%ac" aria-label="뉴럴 네트워크">뉴럴 네트워크</a></li>
+                <li>
+                    <a href="#%ec%8b%a0%ea%b2%bd%ec%a0%84%eb%8b%ac%eb%ac%bc%ec%a7%88" aria-label="신경전달물질">신경전달물질</a><ul>
+                        <ul>
+                        <ul>
+                        <ul>
+                        
+                <li>
+                    <a href="#%eb%89%b4%ec%8b%a0%ea%b2%bd%ec%a0%84%eb%8b%ac%eb%ac%bc%ec%a7%88-%ec%a2%85%eb%a5%98" aria-label="뉴신경전달물질 종류">뉴신경전달물질 종류</a>
+                </li>
+            </ul>
+            </ul>
+            </ul>
+            </ul>
+            </li>
+            </ul>
+        </div>
+    </details>
+</div>
+
+  <div class="post-content"><h2 id="뉴런neuron이란">뉴런(Neuron)이란<a hidden class="anchor" aria-hidden="true" href="#뉴런neuron이란">#</a></h2>
+<p>뉴런은 인간 정보 처리의 가장 기초적이고 핵심적인 단위이다. 개별 뉴런의 구조 및 기능은 상대적으로 매우 간단하다. 신호를 입력받고 신호의 결과를 출력하는 방식이다. 하지만 이런 뉴런 간의 연결은 거의 무한대의 경우의 수가 가능할 정도로 매우 복잡하다.</p>
+<p>뇌에서는 전기화학신호만 처리가 가능하다. 우리가 보는 시각적인(빛)의 자극도 감각 기관의 감각 뉴런이 감각 정보를 전기적 신호로 변환시킨다. 운동 기관의 운동 뉴런은 전기 신호를 운동 뉴런으로 변환시킨다.
+요즘 기술이 발달하면서 3D 프린터를 이용해 사람의 장기를 재현하여, 실제로 이식하는 경우도 생겨나고 있다. 즉, 사람의 여러 기관이 다쳐도 기술을 바탕으로 회복하는 경우가 많아지고 있는 것이다. 하지만 다른 정보를 전기 신호로 바꾸는 감각 기관의 특성은 아직까지 흉내 내기가 쉽지 않아, 감각 기관이 다치게 되면 회복하는 것이 거의 불가능하다.
+예를 들면 감각 기관인 망막을 다치게 되면 눈을 통해 빛 에너지가 전기 신호로 바뀌는 기능을 잃는 것이기 때문에, 영원히 시력을 잃게 될 수 있다. 망막질환은 실명을 유발할 수 있기에 조심해야하는 것이다.</p>
+<h2 id="뉴런의-반응">뉴런의 반응<a hidden class="anchor" aria-hidden="true" href="#뉴런의-반응">#</a></h2>
+<p>[</p>
+<p>](/static/c37b08cd6120f0acb363935f1ebf0833/14e05/image1.png)</p>
+<h6 id="뉴런의-반응-1">뉴런의 반응<a hidden class="anchor" aria-hidden="true" href="#뉴런의-반응-1">#</a></h6>
+<p>개별 뉴런의 반응은 자극이 있는지 없는지로만 판별한다. 컴퓨터의 신호처럼 2진법 형태로 0과 1로 나타내는 것과 유사하다.
+위의 그림을 보면, 전기 신호가 -70으로 유지하다가, 자극이 오면 순간적으로 40이 되었다가 다시 떨어지는 것을 볼 수 있다. 휴지 전위(Resting Potential)에서 -70밑으로 갈수록(예를 들면 -80mV) <strong>과분극(Hyperpolarization)</strong>, 0에 가까워 질 수록 **탈분극(Depolarization)**이라고 한다.</p>
+<h2 id="신호변환">신호변환<a hidden class="anchor" aria-hidden="true" href="#신호변환">#</a></h2>
+<p>빛 에너지는 망막(Retina)의 시각 뉴런들에 의해 전기 신호로 변환된다.</p>
+<p>[</p>
+<p>](/static/ab0baa4e199ea66e764c44ab25e7b4aa/14e05/image2.png)</p>
+<h6 id="눈eye">눈(eye)<a hidden class="anchor" aria-hidden="true" href="#눈eye">#</a></h6>
+<p>위 그림은 눈의 구조와 망막을 확대한 것이다. 우측에서 두번째가 뉴런이고, 우측이 감각 뉴런이다.</p>
+<p>눈에 들어온 빛이 렌즈를 거쳐서 맨 끝에 있는 망막을 때린다. 그러면 시각적인 정보가 뉴런을 통해 신호가 생기고 이를 감각 뉴런이 전기적 신호로 바꾸어준다.
+못에 찔리거나 부딪히는 경우 감각뉴런을 먼저 자극한 것으로, 누르는 에너지가 감각 뉴런을 통해 전기 에너지로 바뀌는 것이다.</p>
+<h2 id="뉴런-간의-의사소통">뉴런 간의 의사소통<a hidden class="anchor" aria-hidden="true" href="#뉴런-간의-의사소통">#</a></h2>
+<p>뉴런과 뉴런 사이는 물리적으로 연결되어 있지 않고, 일부 빈 공간이 있다. 따라서 전기가 계속적으로 흐르지 못한다. 그렇기 때문에 뉴런의 끝부분에서 전기 신호가 화학 신호로 변환되어 연결되었다가 다음 뉴런에 가서 다시 전기 신호로 바뀐다. 즉 전기와 화학 신호가 계속적으로 반복되면서 정보가 전달된다.</p>
+<h2 id="뉴런의-구조">뉴런의 구조<a hidden class="anchor" aria-hidden="true" href="#뉴런의-구조">#</a></h2>
+<p>[</p>
+<p>](/static/365ca836eb505eae9f75502ad41d6752/4eb29/image3.png)</p>
+<h6 id="뉴런의-구조-1">뉴런의 구조<a hidden class="anchor" aria-hidden="true" href="#뉴런의-구조-1">#</a></h6>
+<p>Cell body(세포체)는 신경세포인 뉴런을 구성하는 한 부분으로, 세포의 생명을 유지하도록 돕는 역할을 한다.
+Dendrites(수상돌기)는 세포질의 돌기 형태로 생겨, 다른 세포가 보낸 메세지를 받는 역할을 한다.
+Axon(축삭돌기)은 뉴런의 세포체로부터 뻗어나온 긴 돌기 형태를 지니며, 세포체의 메세지를 다른 뉴런이나 근육 혹은 분비샘에게 전달한다. 이 Axon을 둘러싸면서 절연체 역할을 하는 것이 Myelin sheath(미엘린초 혹은 수초)이다. 미엘린초는 일정한 간격으로 끊겨있는데, 그 부분을 랑비에 결절이라고 한다.
+이 뉴런을 통해 전기화학적 신호가 전달된다. 그런 과정을 **Neural impulse(신경임펄스, 신경충돌)**이라고 부르는데, 신경섬유를 따라서 전달되는 전기화학적 과정이다.</p>
+<h2 id="뉴럴-네트워크">뉴럴 네트워크<a hidden class="anchor" aria-hidden="true" href="#뉴럴-네트워크">#</a></h2>
+<p>뉴럴 네트워크(신경망)는 인간의 뇌 기능을 유사하게 만들어내고자 하는 네트워크를 의미한다. 인공지능, AI가 요즘 화두이다. 이런 기법 중에 최근 제일 화두가 되고 있는게 머신러닝(Machine Learning)과 딥러닝(Deep Learning)이다. 머신 러닝은 간단히 말하면, 복잡한 물체를 단순한 특징으로 나누어 분석하는 방법이다. 딥러닝은 간단히 말하면 사람이 데이터에 손을 대지 않고, 컴퓨터가 알아서 분석하여 해답을 도출해내는 방법이다. 특히 딥러닝의 경우는 뉴런의 연결 구조의 특성을 바탕으로 만들어졌다.</p>
+<h2 id="신경전달물질">신경전달물질<a hidden class="anchor" aria-hidden="true" href="#신경전달물질">#</a></h2>
+<p>신경전달물질(Nuerotransmitter)은 뉴런 간의 연결을 위한 화학물질이다. 뉴런마다 분비하는 화학물질이 다르고, 그 분포도 다르다. 아래의 표가 뉴런에서 분비하는 화학물질과 그 기능을 보여준다.</p>
+<p>[</p>
+<p>](/static/4014f9723bd7f77e35252f28de1ec61e/80307/image4.png)</p>
+<h6 id="뉴신경전달물질-종류">뉴신경전달물질 종류<a hidden class="anchor" aria-hidden="true" href="#뉴신경전달물질-종류">#</a></h6>
+<p>위의 테이블 중 아마 제일 많이 들어보았던 물질은 도파민일 것이다. 도파민은 중독성이 강하고, 알츠하이머(치매)의 원인이 되기도 하며, 파킨슨병과 관련 되어 있는 물질이라고 알려져 있다. 알츠하이머의 원인은 도파민의 부족이다. 많은 연구진들이 알츠하이머를 치료하기 위해 노력하고 있지만, 현재 알츠하이머를 치료하는 방법은 없다. 아직 이 도파민을 머릿속에 넣을 수 있는 방법을 찾지 못했기 때문이다. 도파민은 중독과도 매우 밀접한 관련이 있는데, 도파민 뉴런을 계속 자극하면 외부적 이유 없이 계속 그 행동을 하게 된다.</p>
+<p>그 이외 Acetylcholine(ACh)는 근육의 움직임에 중요한 역할을 한다. 이 역시 알츠하이머와도 연관이 있다. 알츠하이머는 이 ACh를 생산하는 뉴런을 더 악화시킨다. 한 번 죽은 뉴런은 재생이 안되기 때문에, 속도를 더디게 하는 방법 밖에 없다.</p>
+<p>Serotonin(세로토닌)은 우울증 약으로 주로 사용한다. 대표적인 우울증 약으로 Prozac이 있다. 성분에 세로토닌이 있다.</p>
+<p>GABA와 Glutamate(글루타민)은 서로 반대되는 역할을 하는 물질이다. GABA는 뇌를 억제하는 신경전달물질이고, 글루타민은 뇌를 활성화시키는 신경전달물질이다.</p>
+
+
+  </div>
+
+  <footer class="post-footer">
+    <ul class="post-tags">
+      <li><a href="https://jungwoo0716.github.io/tags/%EC%8B%AC%EB%A6%AC%ED%95%99/">심리학</a></li>
+      <li><a href="https://jungwoo0716.github.io/tags/psychology/">Psychology</a></li>
+    </ul>
+<nav class="paginav">
+  <a class="prev" href="https://jungwoo0716.github.io/posts/2018-03-13-basic-psychology_4/">
+    <span class="title">« 이전 페이지</span>
+    <br>
+    <span>신경계(Nervous System)란 무엇인가?</span>
+  </a>
+  <a class="next" href="https://jungwoo0716.github.io/posts/2018-03-11-basic-psychology_2/">
+    <span class="title">다음 페이지 »</span>
+    <br>
+    <span>인간의 정보처리 경로와 행동</span>
+  </a>
+</nav>
+
+  </footer>
+</article>
+    </main>
+    
+<footer class="footer">
+        <span>&copy; 2026 <a href="https://jungwoo0716.github.io/">AWT</a></span> · 
+
+    <span>
+        Powered by
+        <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a> &
+        <a href="https://github.com/adityatelange/hugo-PaperMod/" rel="noopener" target="_blank">PaperMod</a>
+    </span>
+</footer>
+<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
+        <path d="M12 6H0l6-6z" />
+    </svg>
+</a>
+
+<script>
+    let menu = document.getElementById('menu');
+    if (menu) {
+        
+        const scrollPosition = localStorage.getItem("menu-scroll-position");
+        if (scrollPosition) {
+            menu.scrollLeft = parseInt(scrollPosition, 10);
+        }
+        
+        menu.onscroll = function () {
+            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+        }
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
+
+</script>
+<script>
+    var mybutton = document.getElementById("top-link");
+    window.onscroll = function () {
+        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
+            mybutton.style.visibility = "visible";
+            mybutton.style.opacity = "1";
+        } else {
+            mybutton.style.visibility = "hidden";
+            mybutton.style.opacity = "0";
+        }
+    };
+
+</script>
+<script>
+    document.getElementById("theme-toggle").addEventListener("click", () => {
+        const html = document.querySelector("html");
+        if (html.dataset.theme === "dark") {
+            html.dataset.theme = 'light';
+            localStorage.setItem("pref-theme", 'light');
+        } else {
+            html.dataset.theme = 'dark';
+            localStorage.setItem("pref-theme", 'dark');
+        }
+    })
+
+</script>
+<script>
+    document.querySelectorAll('pre > code').forEach((codeblock) => {
+        const container = codeblock.parentNode.parentNode;
+
+        const copybutton = document.createElement('button');
+        copybutton.classList.add('copy-code');
+        copybutton.innerHTML = '복사';
+
+        function copyingDone() {
+            copybutton.innerHTML = '복사 완료!';
+            setTimeout(() => {
+                copybutton.innerHTML = '복사';
+            }, 2000);
+        }
+
+        copybutton.addEventListener('click', (cb) => {
+            if ('clipboard' in navigator) {
+                navigator.clipboard.writeText(codeblock.textContent);
+                copyingDone();
+                return;
+            }
+
+            const range = document.createRange();
+            range.selectNodeContents(codeblock);
+            const selection = window.getSelection();
+            selection.removeAllRanges();
+            selection.addRange(range);
+            try {
+                document.execCommand('copy');
+                copyingDone();
+            } catch (e) { };
+            selection.removeRange(range);
+        });
+
+        if (container.classList.contains("highlight")) {
+            container.appendChild(copybutton);
+        } else if (container.parentNode.firstChild == container) {
+            
+        } else if (codeblock.parentNode.parentNode.parentNode.parentNode.parentNode.nodeName == "TABLE") {
+            
+            codeblock.parentNode.parentNode.parentNode.parentNode.parentNode.appendChild(copybutton);
+        } else {
+            
+            codeblock.parentNode.appendChild(copybutton);
+        }
+    });
+</script>
+</body>
+
+</html>

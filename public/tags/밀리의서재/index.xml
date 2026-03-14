@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>밀리의서재 on AWT</title>
+    <link>https://jungwoo0716.github.io/tags/%EB%B0%80%EB%A6%AC%EC%9D%98%EC%84%9C%EC%9E%AC/</link>
+    <description>Recent content in 밀리의서재 on AWT</description>
+    <generator>Hugo</generator>
+    <language>ko</language>
+    <lastBuildDate>Sat, 23 Sep 2023 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://jungwoo0716.github.io/tags/%EB%B0%80%EB%A6%AC%EC%9D%98%EC%84%9C%EC%9E%AC/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>밀리의서재 투자 가치 분석 및 평가</title>
+      <link>https://jungwoo0716.github.io/posts/2023-09-23-millie-2023-valuation/</link>
+      <pubDate>Sat, 23 Sep 2023 00:00:00 +0000</pubDate>
+      <guid>https://jungwoo0716.github.io/posts/2023-09-23-millie-2023-valuation/</guid>
+      <description>밀리의서재 기업의 적정 주가는 얼마인지 가치를 평가해보겠습니다. 이익기준 평가법을 이용합니다.</description>
+    </item>
+    <item>
+      <title>전자책의 혁신, 2023년 밀리의서재 재무제표 분석</title>
+      <link>https://jungwoo0716.github.io/posts/2023-09-22-millie-2023-financial-statement-analysis/</link>
+      <pubDate>Fri, 22 Sep 2023 00:00:00 +0000</pubDate>
+      <guid>https://jungwoo0716.github.io/posts/2023-09-22-millie-2023-financial-statement-analysis/</guid>
+      <description>밀리의서재의 2023년 재무제표와 투자설명서를 보고 좋은 비즈니스 모델인지 평가해보겠습니다.</description>
+    </item>
+    <item>
+      <title>디지털 독서의 선두주자, 밀리의 서재 상장 이야기</title>
+      <link>https://jungwoo0716.github.io/posts/2023-09-21-millie-seojae-intro/</link>
+      <pubDate>Thu, 21 Sep 2023 00:00:00 +0000</pubDate>
+      <guid>https://jungwoo0716.github.io/posts/2023-09-21-millie-seojae-intro/</guid>
+      <description>2023년 09월 27일 KT 계열사 중 하나인 밀리의 서재가 상장 합니다. 스타트업으로 시작하여 현재는 전자책 분야의 디지털 독서 플랫폼에서 선두주자로 자리매김하였고, 코스닥 상장을 하였습니다.</description>
+    </item>
+  </channel>
+</rss>

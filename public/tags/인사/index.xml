@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>인사 on AWT</title>
+    <link>https://jungwoo0716.github.io/tags/%EC%9D%B8%EC%82%AC/</link>
+    <description>Recent content in 인사 on AWT</description>
+    <generator>Hugo</generator>
+    <language>ko</language>
+    <lastBuildDate>Wed, 08 Apr 2020 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://jungwoo0716.github.io/tags/%EC%9D%B8%EC%82%AC/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>임금대장(급여대장) 구글 스프레드시트 양식 및 작성방법</title>
+      <link>https://jungwoo0716.github.io/posts/2020-04-08-payroll-form/</link>
+      <pubDate>Wed, 08 Apr 2020 00:00:00 +0000</pubDate>
+      <guid>https://jungwoo0716.github.io/posts/2020-04-08-payroll-form/</guid>
+      <description>&lt;p&gt;자영업자나 초기 사업가들이 직원을 고용을 할 때 시스템이 갖춰져 있지 않아 기본적인 사항을 지키지 못하는 경우가 많습니다.
+기본적인 인사노무에 관하여 배운 적이 없거나, 배울 여력과 기회가 없는 경우 좋지 않은 상황이 일어날 때까지 모르는 경우가 많습니다.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;근로기준법 제48조(임금대장)&lt;/p&gt;
+&lt;p&gt;사용자는 각 사업장별로 임금대장을 작성하고 임금과 가족수당 계산의 기초가 되는 사항, 임금액, 그 밖에 대통령령으로 정하는 사항을 임금을 지급할 때마다 적어야 한다.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;직원을 고용해서 30일 이상 근무하고, 급여를 지급하게 되면 임금대장(급여대장)은 필수적으로 작성해야 합니다.
+임금대장은 다음과 같은 내용이 들어가야 합니다.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

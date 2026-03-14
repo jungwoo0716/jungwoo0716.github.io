@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="ko" dir="auto" data-theme="auto">
+
+<head><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="index, follow">
+<title>재무제표 | AWT</title>
+<meta name="keywords" content="">
+<meta name="description" content="Always With Tech - 기술과 함께하는 생각들">
+<meta name="author" content="김정우">
+<link rel="canonical" href="https://jungwoo0716.github.io/tags/%EC%9E%AC%EB%AC%B4%EC%A0%9C%ED%91%9C/">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.da3211e5ef867bf2b75fd5a6515cfed7195c011e8ab735694e203810a827097b.css" integrity="sha256-2jIR5e&#43;Ge/K3X9WmUVz&#43;1xlcAR6KtzVpTiA4EKgnCXs=" rel="preload stylesheet" as="style">
+<link rel="icon" href="https://jungwoo0716.github.io/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="https://jungwoo0716.github.io/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="https://jungwoo0716.github.io/favicon-32x32.png">
+<link rel="apple-touch-icon" href="https://jungwoo0716.github.io/apple-touch-icon.png">
+<link rel="mask-icon" href="https://jungwoo0716.github.io/safari-pinned-tab.svg">
+<meta name="theme-color" content="#2e2e33">
+<meta name="msapplication-TileColor" content="#2e2e33">
+<link rel="alternate" type="application/rss+xml" href="https://jungwoo0716.github.io/tags/%EC%9E%AC%EB%AC%B4%EC%A0%9C%ED%91%9C/index.xml" title="rss">
+<link rel="alternate" hreflang="ko" href="https://jungwoo0716.github.io/tags/%EC%9E%AC%EB%AC%B4%EC%A0%9C%ED%91%9C/">
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
+
+    </style>
+    <style>
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --theme: rgb(29, 30, 32);
+                --entry: rgb(46, 46, 51);
+                --primary: rgb(218, 218, 219);
+                --secondary: rgb(155, 156, 157);
+                --tertiary: rgb(65, 66, 68);
+                --content: rgb(196, 196, 197);
+                --code-block-bg: rgb(46, 46, 51);
+                --code-bg: rgb(55, 56, 62);
+                --border: rgb(51, 51, 51);
+                color-scheme: dark;
+            }
+
+            .list {
+                background: var(--theme);
+            }
+
+            .toc {
+                background: var(--entry);
+            }
+        }
+
+        @media (prefers-color-scheme: light) {
+            .list::-webkit-scrollbar-thumb {
+                border-color: var(--code-bg);
+            }
+        }
+
+    </style>
+</noscript>
+<script>
+    if (localStorage.getItem("pref-theme") === "dark") {
+        document.querySelector("html").dataset.theme = 'dark';
+    } else if (localStorage.getItem("pref-theme") === "light") {
+       document.querySelector("html").dataset.theme = 'light';
+    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.querySelector("html").dataset.theme = 'dark';
+    } else {
+        document.querySelector("html").dataset.theme = 'light';
+    }
+
+</script><meta property="og:url" content="https://jungwoo0716.github.io/tags/%EC%9E%AC%EB%AC%B4%EC%A0%9C%ED%91%9C/">
+  <meta property="og:site_name" content="AWT">
+  <meta property="og:title" content="재무제표">
+  <meta property="og:description" content="Always With Tech - 기술과 함께하는 생각들">
+  <meta property="og:locale" content="ko">
+  <meta property="og:type" content="website">
+
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="재무제표">
+  <meta name="twitter:description" content="Always With Tech - 기술과 함께하는 생각들">
+
+</head>
+<body class="list" id="top">
+    <header class="header">
+    <nav class="nav">
+        <div class="logo">
+            <a href="https://jungwoo0716.github.io/" accesskey="h" title="AWT (Alt + H)">AWT</a>
+            <div class="logo-switches">
+                <button id="theme-toggle" accesskey="t" title="(Alt + T)" aria-label="Toggle theme">
+                    <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                    </svg>
+                    <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="5"></circle>
+                        <line x1="12" y1="1" x2="12" y2="3"></line>
+                        <line x1="12" y1="21" x2="12" y2="23"></line>
+                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                        <line x1="1" y1="12" x2="3" y2="12"></line>
+                        <line x1="21" y1="12" x2="23" y2="12"></line>
+                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                    </svg>
+                </button>
+            </div>
+        </div>
+        <ul id="menu">
+            <li>
+                <a href="https://jungwoo0716.github.io/search/" title="검색 (Alt &#43; /)" accesskey=/>
+                    <span>검색</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://jungwoo0716.github.io/tags/" title="태그">
+                    <span>태그</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://jungwoo0716.github.io/series/" title="시리즈">
+                    <span>시리즈</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://jungwoo0716.github.io/archives/" title="아카이브">
+                    <span>아카이브</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</header>
+<main class="main"> 
+<header class="page-header"><div class="breadcrumbs"><a href="https://jungwoo0716.github.io/">홈</a>&nbsp;»&nbsp;<a href="https://jungwoo0716.github.io/tags/">Tags</a></div>
+  <h1>
+    재무제표
+  </h1>
+</header>
+
+<article class="post-entry tag-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">재무제표 현금흐름표를 쉽게 분석하기 위한 3가지 단계
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>재무제표는 기업을 이해하고 가치를 평가하기 위해서는 꼭 알아야 하는 기업의 재무상태와 경영정보를 제공하는 중요한 자료입니다.
+이번 포스팅에서는 그 중 현금흐름표에 대해 알아보겠습니다.
+1. 기본구성 현금흐름표는 실제로 현금으로 돈을 얼마나 벌었는지 판단할 수 있는 문서입니다.
+재무제표 중 가장 쉽게 이해할 수 있는 손익계산서에 나오는 매출 혹은 수익은 실제로 현금으로 들어 온 것이 아닙니다.
+발생주의 회계원칙에 따라 사건이 발생했을 때에 수익과 비용을 기재한 문서입니다.
+사건이 발생한 것이지, 현금 유출입이 일어난 것이 아닙니다.
+...</p>
+  </div>
+  <footer class="entry-footer"><span title='2024-07-01 00:00:00 +0000 UTC'>2024-07-01</span>&nbsp;·&nbsp;<span>4 분</span>&nbsp;·&nbsp;<span>김정우</span></footer>
+  <a class="entry-link" aria-label="post link to 재무제표 현금흐름표를 쉽게 분석하기 위한 3가지 단계" href="https://jungwoo0716.github.io/posts/2024-07-01-principles-of-understanding-the-cash-flow/"></a>
+</article>
+
+<article class="post-entry tag-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">재무제표 손익계산서를 쉽게 분석하기 위한 5가지 단계
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>재무제표는 기업을 이해하고 가치를 평가하는데 꼭 알아야 할 기업의 재무상태와 경영정보를 제공하는 중요한 자료입니다. 이번 포스팅에서는 손익계산서에 대해 알아보겠습니다.
+1. 기본 구성 손익계산서는 재무제표를 잘 알지 못하는 분들도 이해하기 쉬운 재무 지표 중 하나 입니다. 1년 동안 영업을 잘했는지 알려 주는 그런 문서입니다.
+[
+](https://jungwoo0716.github.io/principles-of-understanding-the-income-statement/)
+손익계산서는 크게 (1) 매출 (2) 매출총이익 (3) 영업이익 (4) 경상이익 (5) 당기순이익 5가지로 구성됩니다.
+매출에서 매출원가를 빼면 매출총이익이 되며 (매출 - 매출원가 = 매출총이익)
+매출총이익에서 판매비와 관리비를 차감하면 영업이익이 됩니다. (매출총이익 - 판관비 = 영업이익)
+...</p>
+  </div>
+  <footer class="entry-footer"><span title='2024-06-30 00:00:00 +0000 UTC'>2024-06-30</span>&nbsp;·&nbsp;<span>5 분</span>&nbsp;·&nbsp;<span>김정우</span></footer>
+  <a class="entry-link" aria-label="post link to 재무제표 손익계산서를 쉽게 분석하기 위한 5가지 단계" href="https://jungwoo0716.github.io/posts/2024-06-30-principles-of-understanding-the-income-statement/"></a>
+</article>
+
+<article class="post-entry tag-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">재무제표 재무상태표를 쉽게 분석하기 위한 3가지 단계
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>재무제표는 기업을 이해하고 가치를 평가하기 위해서는 꼭 알아야 하는 기업의 재무상태와 경영정보를 제공하는 중요한 자료입니다. 이번 포스팅에서는 그 중 재무상태표에 대해 알아보겠습니다.
+1. 기본 구성 재무상태표는 대차대조표라 하며 자산, 부채, 자본 3가지로 구성되어 있습니다. 일반적으로 자산, 부채, 자본의 관계를 설명할 때 다음과 같이 표시합니다.
+자산 = 부채 &#43; 자본
+재무상태표에서는 자산의 총액은 부채의 총합과 자본의 총합을 합친 것과 같습니다.
+[
+](https://jungwoo0716.github.io/principles-of-understanding-the-balance-sheet/)
+회계 관점에서 기업은 복식 부기를 작성해야 합니다. 복식 부기는 차변/대변으로 이루어져 있으며, 위의 이미지 왼쪽이 재무상태표의 차변, 오른쪽이 재무상태표의 대변이라고 이해하면 됩니다.
+...</p>
+  </div>
+  <footer class="entry-footer"><span title='2024-06-29 00:00:00 +0000 UTC'>2024-06-29</span>&nbsp;·&nbsp;<span>6 분</span>&nbsp;·&nbsp;<span>김정우</span></footer>
+  <a class="entry-link" aria-label="post link to 재무제표 재무상태표를 쉽게 분석하기 위한 3가지 단계" href="https://jungwoo0716.github.io/posts/2024-06-29-principles-of-understanding-the-balance-sheet/"></a>
+</article>
+    </main>
+    
+<footer class="footer">
+        <span>&copy; 2026 <a href="https://jungwoo0716.github.io/">AWT</a></span> · 
+
+    <span>
+        Powered by
+        <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a> &
+        <a href="https://github.com/adityatelange/hugo-PaperMod/" rel="noopener" target="_blank">PaperMod</a>
+    </span>
+</footer>
+<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
+        <path d="M12 6H0l6-6z" />
+    </svg>
+</a>
+
+<script>
+    let menu = document.getElementById('menu');
+    if (menu) {
+        
+        const scrollPosition = localStorage.getItem("menu-scroll-position");
+        if (scrollPosition) {
+            menu.scrollLeft = parseInt(scrollPosition, 10);
+        }
+        
+        menu.onscroll = function () {
+            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+        }
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
+
+</script>
+<script>
+    var mybutton = document.getElementById("top-link");
+    window.onscroll = function () {
+        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
+            mybutton.style.visibility = "visible";
+            mybutton.style.opacity = "1";
+        } else {
+            mybutton.style.visibility = "hidden";
+            mybutton.style.opacity = "0";
+        }
+    };
+
+</script>
+<script>
+    document.getElementById("theme-toggle").addEventListener("click", () => {
+        const html = document.querySelector("html");
+        if (html.dataset.theme === "dark") {
+            html.dataset.theme = 'light';
+            localStorage.setItem("pref-theme", 'light');
+        } else {
+            html.dataset.theme = 'dark';
+            localStorage.setItem("pref-theme", 'dark');
+        }
+    })
+
+</script>
+</body>
+
+</html>
