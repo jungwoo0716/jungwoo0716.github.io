@@ -27,6 +27,6 @@ AI SaaS, 커머스, 콘텐츠/미디어 사업을 운영하고 있습니다.
 
 ### 연락처
 
-- Email: [jungwoo@spacebarcorp.co.kr](mailto:jungwoo@spacebarcorp.co.kr)
+- Email: [kimjungwoo0716@gmail.com](mailto:kimjungwoo0716@gmail.com)
 - GitHub: [jungwoo0716](https://github.com/jungwoo0716)
 - 회사: [SPACEBAR Corp.](https://github.com/spacebarai)

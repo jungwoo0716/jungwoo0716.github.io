@@ -31,7 +31,7 @@ paginate = 10
 
   [[params.socialIcons]]
     name = "email"
-    url = "mailto:jungwoo@spacebarcorp.co.kr"
+    url = "mailto:kimjungwoo0716@gmail.com"
 
   [params.assets]
     favicon = "favicon.ico"
@@ -82,10 +82,15 @@ paginate = 10
     url = "/archives/"
     weight = 4
   [[menu.main]]
+    identifier = "dansang"
+    name = "단상"
+    url = "/series/단상/"
+    weight = 5
+  [[menu.main]]
     identifier = "about"
     name = "소개"
     url = "/about/"
-    weight = 5
+    weight = 6
 
 [taxonomies]
   tag = "tags"
