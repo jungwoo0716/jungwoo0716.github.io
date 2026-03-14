@@ -2,6 +2,8 @@
 title: "신경계에서의 뇌(Brain)란?"
 date: 2018-03-14
 tags: ["심리학", "Psychology"]
+description: "신경계에서 뇌의 구조와 기능을 심리학 관점에서 살펴봅니다."
+series: ["심리학기초"]
 ---
 
 ## 신경계에서의 뇌(Brain)

@@ -1,14 +1,15 @@
 baseURL = 'https://jungwoo0716.github.io/'
 languageCode = 'ko'
 defaultContentLanguage = 'ko'
-title = 'AWT'
+title = 'JUNGWOO KIM'
 theme = 'PaperMod'
 paginate = 10
 
 [params]
   env = "production"
   author = "김정우"
-  description = "Always With Tech - 기술과 함께하는 생각들"
+  description = "AI, Business, Technology - 김정우의 기술 블로그"
+  keywords = ["AI", "Business", "SaaS", "스타트업", "기술블로그", "김정우"]
   DateFormat = "2006-01-02"
   defaultTheme = "auto"
   ShowReadingTime = true
@@ -18,14 +19,27 @@ paginate = 10
   ShowCodeCopyButtons = true
   ShowToc = true
   TocOpen = false
+  images = ["images/og-default.png"]
 
   [params.homeInfoParams]
-    Title = "AWT"
-    Content = "Always With Tech - 기술, 경제, 심리학, 그리고 생각의 기록"
+    Title = "JUNGWOO KIM"
+    Content = "AI & Business — CEO of SPACEBAR Corp. AI SaaS, 커머스, 그리고 기술에 대한 생각들"
 
   [[params.socialIcons]]
     name = "github"
     url = "https://github.com/jungwoo0716"
+
+  [[params.socialIcons]]
+    name = "email"
+    url = "mailto:jungwoo@spacebarcorp.co.kr"
+
+  [params.assets]
+    favicon = "favicon.ico"
+    favicon16x16 = "favicon-16x16.png"
+    favicon32x32 = "favicon-32x32.png"
+    apple_touch_icon = "apple-touch-icon.png"
+    theme_color = "#1a1a2e"
+    msapplication_TileColor = "#1a1a2e"
 
 [params.cover]
   hidden = false
@@ -40,6 +54,11 @@ paginate = 10
   threshold = 0.4
   minMatchCharLength = 0
   keys = ["title", "permalink", "summary", "content"]
+
+[sitemap]
+  changefreq = "weekly"
+  priority = 0.5
+  filename = "sitemap.xml"
 
 [menu]
   [[menu.main]]
@@ -62,6 +81,11 @@ paginate = 10
     name = "아카이브"
     url = "/archives/"
     weight = 4
+  [[menu.main]]
+    identifier = "about"
+    name = "소개"
+    url = "/about/"
+    weight = 5
 
 [taxonomies]
   tag = "tags"

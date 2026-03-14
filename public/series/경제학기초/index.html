@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="ko" dir="auto" data-theme="auto">
+
+<head><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="index, follow">
+<title>경제학기초 | JUNGWOO KIM</title>
+<meta name="keywords" content="">
+<meta name="description" content="AI, Business, Technology - 김정우의 기술 블로그">
+<meta name="author" content="김정우">
+<link rel="canonical" href="https://jungwoo0716.github.io/series/%EA%B2%BD%EC%A0%9C%ED%95%99%EA%B8%B0%EC%B4%88/">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.58f6928b50e79d038761fc2c387dc39539ecce2ba49914f687fd24f112776607.css" integrity="sha256-WPaSi1DnnQOHYfwsOH3DlTnsziukmRT2h/0k8RJ3Zgc=" rel="preload stylesheet" as="style">
+<link rel="icon" href="https://jungwoo0716.github.io/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="https://jungwoo0716.github.io/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="https://jungwoo0716.github.io/favicon-32x32.png">
+<link rel="apple-touch-icon" href="https://jungwoo0716.github.io/apple-touch-icon.png">
+<link rel="mask-icon" href="https://jungwoo0716.github.io/safari-pinned-tab.svg">
+<meta name="theme-color" content="#1a1a2e">
+<meta name="msapplication-TileColor" content="#1a1a2e">
+<link rel="alternate" type="application/rss+xml" href="https://jungwoo0716.github.io/series/%EA%B2%BD%EC%A0%9C%ED%95%99%EA%B8%B0%EC%B4%88/index.xml" title="rss">
+<link rel="alternate" hreflang="ko" href="https://jungwoo0716.github.io/series/%EA%B2%BD%EC%A0%9C%ED%95%99%EA%B8%B0%EC%B4%88/">
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
+
+    </style>
+    <style>
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --theme: rgb(29, 30, 32);
+                --entry: rgb(46, 46, 51);
+                --primary: rgb(218, 218, 219);
+                --secondary: rgb(155, 156, 157);
+                --tertiary: rgb(65, 66, 68);
+                --content: rgb(196, 196, 197);
+                --code-block-bg: rgb(46, 46, 51);
+                --code-bg: rgb(55, 56, 62);
+                --border: rgb(51, 51, 51);
+                color-scheme: dark;
+            }
+
+            .list {
+                background: var(--theme);
+            }
+
+            .toc {
+                background: var(--entry);
+            }
+        }
+
+        @media (prefers-color-scheme: light) {
+            .list::-webkit-scrollbar-thumb {
+                border-color: var(--code-bg);
+            }
+        }
+
+    </style>
+</noscript>
+<script>
+    if (localStorage.getItem("pref-theme") === "dark") {
+        document.querySelector("html").dataset.theme = 'dark';
+    } else if (localStorage.getItem("pref-theme") === "light") {
+       document.querySelector("html").dataset.theme = 'light';
+    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.querySelector("html").dataset.theme = 'dark';
+    } else {
+        document.querySelector("html").dataset.theme = 'light';
+    }
+
+</script>
+<link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
+
+
+
+<meta property="og:image" content="https://jungwoo0716.github.io/images/og-default.png">
+<meta name="twitter:image" content="https://jungwoo0716.github.io/images/og-default.png">
+<meta name="twitter:card" content="summary_large_image">
+
+
+
+
+<meta property="og:url" content="https://jungwoo0716.github.io/series/%EA%B2%BD%EC%A0%9C%ED%95%99%EA%B8%B0%EC%B4%88/">
+  <meta property="og:site_name" content="JUNGWOO KIM">
+  <meta property="og:title" content="경제학기초">
+  <meta property="og:description" content="AI, Business, Technology - 김정우의 기술 블로그">
+  <meta property="og:locale" content="ko">
+  <meta property="og:type" content="website">
+      <meta property="og:image" content="https://jungwoo0716.github.io/images/og-default.png">
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:image" content="https://jungwoo0716.github.io/images/og-default.png">
+  <meta name="twitter:title" content="경제학기초">
+  <meta name="twitter:description" content="AI, Business, Technology - 김정우의 기술 블로그">
+
+</head>
+<body class="list" id="top">
+    <header class="header">
+    <nav class="nav">
+        <div class="logo">
+            <a href="https://jungwoo0716.github.io/" accesskey="h" title="JUNGWOO KIM (Alt + H)">JUNGWOO KIM</a>
+            <div class="logo-switches">
+                <button id="theme-toggle" accesskey="t" title="(Alt + T)" aria-label="Toggle theme">
+                    <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                    </svg>
+                    <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="5"></circle>
+                        <line x1="12" y1="1" x2="12" y2="3"></line>
+                        <line x1="12" y1="21" x2="12" y2="23"></line>
+                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                        <line x1="1" y1="12" x2="3" y2="12"></line>
+                        <line x1="21" y1="12" x2="23" y2="12"></line>
+                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                    </svg>
+                </button>
+            </div>
+        </div>
+        <ul id="menu">
+            <li>
+                <a href="https://jungwoo0716.github.io/search/" title="검색 (Alt &#43; /)" accesskey=/>
+                    <span>검색</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://jungwoo0716.github.io/tags/" title="태그">
+                    <span>태그</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://jungwoo0716.github.io/series/" title="시리즈">
+                    <span>시리즈</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://jungwoo0716.github.io/archives/" title="아카이브">
+                    <span>아카이브</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://jungwoo0716.github.io/about/" title="소개">
+                    <span>소개</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</header>
+<main class="main"> 
+<header class="page-header"><div class="breadcrumbs"><a href="https://jungwoo0716.github.io/">홈</a>&nbsp;»&nbsp;<a href="https://jungwoo0716.github.io/series/">Series</a></div>
+  <h1>
+    경제학기초
+  </h1>
+</header>
+
+<article class="post-entry tag-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">공급(Supply)이란
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>공급이란 생산자가 재화나 서비스를 판매하고자 하는 의도이다. 공급량은 생산자가 재화나 서비스를 판매하고자 하는 양을 의미한다. 수요와 마찬가지로 공급 역시 똑같은 2가지 성질을 가진다. 실제로 판매한 양이 아니라 판매하고자 하는 의도를 말한다는 점과, 공급량은 유량 개념이어야 한다는 점이다.
+[
+](/static/1c37f8e3b56496bd902d8a60d373f48e/e7068/image1.jpg)
+공급(Supply)이란? 공급을 결정하는 요인들 공급을 결정하는 요인에는 5가지가 있다. 첫 번째 재화의 시장가격이다. 재화의 시장가격이 상승하면 그 재화를 생산하는 것이 더 큰 이득을 가져다주기 때문에 공급량이 증가한다. 반대의 경우는 공급량이 감소한다.
+두 번째 다른 재화의 가격이다. 다른 재화의 가격이 상승하면 이들을 공급하는 것이 더 많은 이득이 되기 때문에, 가격이 그대로인 재화의 공급은 감소하게 된다.
+...</p>
+  </div>
+  <footer class="entry-footer"><span title='2019-01-11 00:00:00 +0000 UTC'>2019-01-11</span>&nbsp;·&nbsp;<span>2 분</span>&nbsp;·&nbsp;<span>김정우</span></footer>
+  <a class="entry-link" aria-label="post link to 공급(Supply)이란" href="https://jungwoo0716.github.io/posts/2019-01-11-basic-economics_9/"></a>
+</article>
+
+<article class="post-entry tag-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">수요(Demand)의 탄력성
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>수요의 개념을 알고 수요곡선을 알고 있다고 해도 이를 실제 현실 세계에서는 사용할 일이 많지 않다. 실용적으로 사용하기 위해서는 **수요의 탄력성(elasticity of demand)**을 알아야 한다. 수요의 탄력성은 수요에 영향을 주는 요인들이 변화함에 따라 해당 상품의 수요량이 얼마나 민감하게 반응하는가를 나타내는 정도를 의미한다.
+어떤 제품을 판매할 때, 가격에 따라 수요량이 얼마인지를 파악한다면, 판매수입을 예측할 수 있고, 이에 따른 손익분기점을 추정하여 예산계획을 수립할 수 있다.
+[
+](/static/b38582150e19fa54e0ac8aea4a0ab00c/e7068/image1.jpg)
+탄력성을 알면 예산계획을 수립할 수 있다. 수요의 가격탄력성(Price elasticity of demand) 가격에 따라 생긴 변화가 그 상품의 수요량에 얼마만큼의 변화를 가져오는지를 나타내는 수치가 가격탄력성이다.
+...</p>
+  </div>
+  <footer class="entry-footer"><span title='2019-01-10 00:00:00 +0000 UTC'>2019-01-10</span>&nbsp;·&nbsp;<span>2 분</span>&nbsp;·&nbsp;<span>김정우</span></footer>
+  <a class="entry-link" aria-label="post link to 수요(Demand)의 탄력성" href="https://jungwoo0716.github.io/posts/2019-01-10-basic-economics_8/"></a>
+</article>
+
+<article class="post-entry tag-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">수요(Demand)와 수요곡선
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>수요(Demand) 수요란 소비자가 재화나 서비스를 구매하고자 하는 욕구이며, 수요량은 소비자가 구매하고자 하는 재화나 서비스의 양이다.
+수요는 크게 2가지의 성질을 가진다. 첫 번째 성질은 소비자들이 구매하려고 하는 **의도(willingness to purchase)**를 나타낸다. 이는 실제 구매량이 아니라서 그 재화의 존재량이나 공급량과 직접적인 관계가 없다. 두 번째 성질은 수요는 어떤 일정 기간 동안 구매의 흐름, 즉 **유량(flow)**를 의미한다. 유량은 일정한 기간을 기준으로 그 양을 재야 하는 것이기 때문에, 기간당 얼마라는 식으로 표현된다. 예를 들면 아이스크림에 대한 수요가 천만 개라고 할 때, 그것이 어떤 기간(예를 들면 일년) 동안의 수요인지를 무조건 나타내야 한다. 기간 뿐 아니라 어느 시점에서의 수요를 나타내는 방법도 있는데, 이를 **저량(stock)**이라고 한다.
+...</p>
+  </div>
+  <footer class="entry-footer"><span title='2019-01-09 00:00:00 +0000 UTC'>2019-01-09</span>&nbsp;·&nbsp;<span>3 분</span>&nbsp;·&nbsp;<span>김정우</span></footer>
+  <a class="entry-link" aria-label="post link to 수요(Demand)와 수요곡선" href="https://jungwoo0716.github.io/posts/2019-01-09-basic-economics_7/"></a>
+</article>
+
+<article class="post-entry tag-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">경제이론과 경제이론의 구분
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>어떤 학문이든 가설을 정하고, 이 가설을 검증할만한 과학적인 방법을 통해 가설을 증명해냄으로서 이론을 정립한다. 이런 많은 이론과 지식이 모여서 학문이 된다. 과학에서의 이론은 현실에 존재하는 여러 변수들 사이의 관계를 의도적으로 단순화하여 이론을 만든다. 그렇다면 경제학에서도 이게 가능할까?
+경제이론이란 경제학은 어떻게 보면 인간의 행동을 예측해야 한다. 경제학은 앞서 말했듯이 선택에 관련된 학문이다. 정확히 말하면 인간의 선택, 인간들의 선택이다. 공학이나 자연과학과는 다르게 사회과학이 힘든 점이 바로 이 사람의 행동을 이해하고 예측하는 것이 매우 어렵기 때문이다.
+...</p>
+  </div>
+  <footer class="entry-footer"><span title='2019-01-08 00:00:00 +0000 UTC'>2019-01-08</span>&nbsp;·&nbsp;<span>2 분</span>&nbsp;·&nbsp;<span>김정우</span></footer>
+  <a class="entry-link" aria-label="post link to 경제이론과 경제이론의 구분" href="https://jungwoo0716.github.io/posts/2019-01-08-basic-economics_6/"></a>
+</article>
+
+<article class="post-entry tag-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">시장경제에서부터 혼합경제의 등장
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>시장경제(Market Economy) 시장경제는 시장이 모든 경제활동의 중심이 되는 경제체제를 의미한다. 이 곳에서는 모든 상품 가격이 시장에서 자유로이 결정되고, 재산권(Property Right)을 갖고, 자유로운 경쟁이 가능하고, 자유로운 교역이 가능하다.
+시장경제와 반대로 통제경제(Command Economy)가 존재하는데, 이 경제는 주로 정부의 통제에 의해 움직이는 체제로 현재 북한을 그 예로 들 수 있다. 현 시대에는 많은 국가의 사례로 인하여 시장경제가 통제경제보다 더 합리적 선택임이 드러났다.
+[
+](/static/caa0a8c2eb9b4cf9eb08886ba413079d/e7068/image1.jpg)
+시장경제에서 자유로운 경쟁 가계와 기업의 자유로운 경제활동이 각각 주체의 이익뿐 아니라 사회 전반적인 발전을 가져오는 데 필수적임을 주장한 인물이 아담 스미스 다. 그는 이러한 내용을 *‘국부론’*을 통해 주장했다.
+...</p>
+  </div>
+  <footer class="entry-footer"><span title='2019-01-07 00:00:00 +0000 UTC'>2019-01-07</span>&nbsp;·&nbsp;<span>3 분</span>&nbsp;·&nbsp;<span>김정우</span></footer>
+  <a class="entry-link" aria-label="post link to 시장경제에서부터 혼합경제의 등장" href="https://jungwoo0716.github.io/posts/2019-01-07-basic-economics_5/"></a>
+</article>
+
+<article class="post-entry tag-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">경제학에서 시장(Market)이란
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>경제학에서는 크게 3가지의 경제주체로 나누는데, 가계, 기업, 정부가 바로 그것들이다. 가계(household)는 생산요소를 공급하고, 상품을 소비하는 역할을 갖고 있고, 기업(Firm)은 생산요소를 구입하여, 상품을 만들고 공급하는 역할을 갖는다. 그리고 정부(Government)는 세금을 징수하고 효율적인 자원 배분을 위해 각종 여러 사업을 수행하는 역할을 갖는다.
+[
+](/static/526f2a5834d75d7ee96b3716d0374476/e7068/image1.jpg)
+시장 시장(Market) 시장은 개인과 기업이 상품을 사고 팔기 위해 모인 모임을 의미한다. 시장은 크게 상품시장과 생산요소시장 2가지로 나눌 수 있는데, 이 생산요소시장은 노동시장과 자본시장을 포함한다. 상품시장은 기업이 상품을 공급하고, 가계가 상품을 수요하는 시장을 의미한다. 반대로 생산요소시장은 기업이 수요자이고, 가계는 공급자의 역할을 갖게 된다.
+...</p>
+  </div>
+  <footer class="entry-footer"><span title='2019-01-06 00:00:00 +0000 UTC'>2019-01-06</span>&nbsp;·&nbsp;<span>2 분</span>&nbsp;·&nbsp;<span>김정우</span></footer>
+  <a class="entry-link" aria-label="post link to 경제학에서 시장(Market)이란" href="https://jungwoo0716.github.io/posts/2019-01-06-basic-economics_4/"></a>
+</article>
+
+<article class="post-entry tag-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">경제적 자원과 생산가능곡선
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>경제적 자원 경제적 자원은 넓은 의미에서 보았을 때 우리가 아껴 써야 하는 모든 것을 의미한다. 좁은 의미에서는 생산요소(Factors of Production)를 의미한다. 즉 상품이나 서비스를 만들기 위해 필요한 자원을 우리는 경제적 자원이라고 부른다.
+이 경제적 자원에는 크게 4가지 요소가 있다. **노동(Labor), 자본(Capital), 토지(Land), 기업가적 노력(Entrepreneurials Efforts)**이다. 사실 이런 요소들도 시간에 따라 변화해 왔다. 18세기 이전에는 오로지 토지와 노동만을 생산요소로 취급했지만, 산업화가 진행되고 제조업이 발달하면서 노동, 자본, 토지가 3대 생산 요소로 자리 매김했다. 최근에는 시대의 변화, 생산의 변화가 급속도로 이루어짐에 따라 기업가적 노력을 중시하는 경향이 생기면서 공식적이지는 않지만, 생산요소의 한 요소로 포함되기도 한다.
+...</p>
+  </div>
+  <footer class="entry-footer"><span title='2019-01-05 00:00:00 +0000 UTC'>2019-01-05</span>&nbsp;·&nbsp;<span>3 분</span>&nbsp;·&nbsp;<span>김정우</span></footer>
+  <a class="entry-link" aria-label="post link to 경제적 자원과 생산가능곡선" href="https://jungwoo0716.github.io/posts/2019-01-05-basic-economics_3/"></a>
+</article>
+
+<article class="post-entry tag-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">합리적 선택(Rational Choice)을 하는 방법
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>경제학은 선택의 학문이라고도 했다. 경제학에서는 개인뿐 아니라 사회적 차원에서 이루어지는 모든 경제적 선택행위에 대해 연구 한다. 기존의 경제학은 상품 생산, 교환, 소비와 관련된 문제에 대해서 주로 연구하는 학문으로서 받아들여졌지만, 현대의 경제학은 선택의 문제와 관련된 모든 것이 연구 대상이다.
+현대에 들면서 경제학에서 다루는 관심사가 매우 포괄적이고 넓어졌다. 범죄와 처벌의 경제학, 예술의 경제학, 스포츠의 경제학 등 다양한 관심 분야의 경제학이 생기고 있다. 이외에도 국가와 사회라는 큰 차원에서 이루어지는 선택도 각 사회마다, 나라마다 다른 경제제도와, 그 경제제도로 인해 나타나는 독특한 경제현상을 배우고 이해하는 것이다. 즉 경제학의 원론은 모든 분야에서 합리적 선택을 가능하게 한다.
+...</p>
+  </div>
+  <footer class="entry-footer"><span title='2019-01-04 00:00:00 +0000 UTC'>2019-01-04</span>&nbsp;·&nbsp;<span>3 분</span>&nbsp;·&nbsp;<span>김정우</span></footer>
+  <a class="entry-link" aria-label="post link to 합리적 선택(Rational Choice)을 하는 방법" href="https://jungwoo0716.github.io/posts/2019-01-04-basic-economics_2/"></a>
+</article>
+
+<article class="post-entry tag-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">경제학(economics)을 배워야 하는 이유
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>인간은 무엇인가 하고싶거나, 갖고 싶거나 하는 욕구가 있다. 욕구는 인간마다 다양하지만, 그 욕구가 무한하다는 점은 공통적이다. 다양한 욕구가 있고 그 욕구마다의 가치를 측정할 수는 없지만, 경제학에서는 인간이 무한한 욕구를 가지고 있음을 기본적인 전제로 한다. 그러나 안타깝게도 우리에게 욕구를 충족시키는 수단은 항상 한정적이다. ‘진시황’은 많은 자원을 갖고 있었지만, 평생 살고 싶은 욕구를 충족시킬 수단은 존재하지 않았다.
+그 이외 사람들이 갖고 있는 욕구도 마찬가지이다. 많은 자원을 갖고 있던 적은 자원을 갖고 있던 항상 욕구를 충족시키기 위해 필요한 수단에는 제약사항이 많다. 경제학에서도 인간의 욕구를 충족시킬 수 있는 수단은 항상 한정적임을 기본적인 전제로 한다.
+...</p>
+  </div>
+  <footer class="entry-footer"><span title='2019-01-03 00:00:00 +0000 UTC'>2019-01-03</span>&nbsp;·&nbsp;<span>2 분</span>&nbsp;·&nbsp;<span>김정우</span></footer>
+  <a class="entry-link" aria-label="post link to 경제학(economics)을 배워야 하는 이유" href="https://jungwoo0716.github.io/posts/2019-01-03-basic-economics_1/"></a>
+</article>
+    </main>
+    
+<footer class="footer">
+        <span>&copy; 2026 <a href="https://jungwoo0716.github.io/">JUNGWOO KIM</a></span> · 
+
+    <span>
+        Powered by
+        <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a> &
+        <a href="https://github.com/adityatelange/hugo-PaperMod/" rel="noopener" target="_blank">PaperMod</a>
+    </span>
+</footer>
+<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
+        <path d="M12 6H0l6-6z" />
+    </svg>
+</a><div style="text-align:center; font-size:0.8rem; color:var(--secondary); padding-top:12px;">
+  CEO, <a href="https://github.com/spacebarai" target="_blank" rel="noopener" style="color:var(--secondary);">SPACEBAR Corp.</a>
+</div>
+
+
+<script>
+    let menu = document.getElementById('menu');
+    if (menu) {
+        
+        const scrollPosition = localStorage.getItem("menu-scroll-position");
+        if (scrollPosition) {
+            menu.scrollLeft = parseInt(scrollPosition, 10);
+        }
+        
+        menu.onscroll = function () {
+            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+        }
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
+
+</script>
+<script>
+    var mybutton = document.getElementById("top-link");
+    window.onscroll = function () {
+        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
+            mybutton.style.visibility = "visible";
+            mybutton.style.opacity = "1";
+        } else {
+            mybutton.style.visibility = "hidden";
+            mybutton.style.opacity = "0";
+        }
+    };
+
+</script>
+<script>
+    document.getElementById("theme-toggle").addEventListener("click", () => {
+        const html = document.querySelector("html");
+        if (html.dataset.theme === "dark") {
+            html.dataset.theme = 'light';
+            localStorage.setItem("pref-theme", 'light');
+        } else {
+            html.dataset.theme = 'dark';
+            localStorage.setItem("pref-theme", 'dark');
+        }
+    })
+
+</script>
+</body>
+
+</html>

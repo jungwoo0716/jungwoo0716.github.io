@@ -1,9 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>3D프린터 on AWT</title>
+    <title>3D프린터 on JUNGWOO KIM</title>
     <link>https://jungwoo0716.github.io/tags/3d%ED%94%84%EB%A6%B0%ED%84%B0/</link>
-    <description>Recent content in 3D프린터 on AWT</description>
+    <description>Recent content in 3D프린터 on JUNGWOO KIM</description>
+    <image>
+      <title>JUNGWOO KIM</title>
+      <url>https://jungwoo0716.github.io/images/og-default.png</url>
+      <link>https://jungwoo0716.github.io/images/og-default.png</link>
+    </image>
     <generator>Hugo</generator>
     <language>ko</language>
     <lastBuildDate>Tue, 05 Dec 2023 09:15:00 +0900</lastBuildDate>

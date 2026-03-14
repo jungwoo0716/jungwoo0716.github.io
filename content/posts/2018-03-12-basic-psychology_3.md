@@ -2,6 +2,8 @@
 title: "뉴런(Neuron)이란?"
 date: 2018-03-12
 tags: ["심리학", "Psychology"]
+description: "신경계의 기본 단위인 뉴런의 구조와 기능을 알아봅니다."
+series: ["심리학기초"]
 ---
 
 ## 뉴런(Neuron)이란

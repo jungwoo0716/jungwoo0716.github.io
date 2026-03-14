@@ -1,0 +1,32 @@
+---
+title: "About"
+layout: "single"
+url: "/about/"
+summary: "about"
+ShowToc: false
+ShowReadingTime: false
+ShowBreadCrumbs: false
+---
+
+## 김정우 (JungWoo Kim)
+
+**주식회사 스페이스바 (SPACEBAR Corp.)** 대표이사
+
+AI SaaS, 커머스, 콘텐츠/미디어 사업을 운영하고 있습니다.
+
+기술과 비즈니스의 교차점에서 생각하고, 실행하고, 기록합니다.
+
+---
+
+### 관심 분야
+
+- **AI / SaaS** — AI 에이전트, 자동화, SaaS 제품 개발
+- **커머스** — 건강기능식품/화장품 유통 및 제조
+- **투자 / 재무** — 기업 분석, 가치 평가, 재무제표 분석
+- **교육** — AI 활용 교육, 기술 리터러시
+
+### 연락처
+
+- Email: [jungwoo@spacebarcorp.co.kr](mailto:jungwoo@spacebarcorp.co.kr)
+- GitHub: [jungwoo0716](https://github.com/jungwoo0716)
+- 회사: [SPACEBAR Corp.](https://github.com/spacebarai)

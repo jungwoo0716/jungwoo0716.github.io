@@ -2,6 +2,8 @@
 title: "시장경제에서부터 혼합경제의 등장"
 date: 2019-01-07
 tags: ["경제학", "Economics"]
+description: "시장경제에서 혼합경제로의 발전 과정을 살펴봅니다."
+series: ["경제학기초"]
 ---
 
 ## 시장경제(Market Economy)

@@ -2,6 +2,8 @@
 title: "신경계(Nervous System)란 무엇인가?"
 date: 2018-03-13
 tags: ["심리학", "Psychology"]
+description: "인간의 신경계 구조와 역할에 대해 알아봅니다."
+series: ["심리학기초"]
 ---
 
 ## 신경계(Nervous System)

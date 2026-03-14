@@ -2,6 +2,8 @@
 title: "수요(Demand)와 수요곡선"
 date: 2019-01-09
 tags: ["경제학", "Economics"]
+description: "수요의 개념과 수요곡선의 이동 요인을 분석합니다."
+series: ["경제학기초"]
 ---
 
 ## 수요(Demand)

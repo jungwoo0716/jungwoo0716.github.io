@@ -1,9 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Psychology on AWT</title>
+    <title>Psychology on JUNGWOO KIM</title>
     <link>https://jungwoo0716.github.io/tags/psychology/</link>
-    <description>Recent content in Psychology on AWT</description>
+    <description>Recent content in Psychology on JUNGWOO KIM</description>
+    <image>
+      <title>JUNGWOO KIM</title>
+      <url>https://jungwoo0716.github.io/images/og-default.png</url>
+      <link>https://jungwoo0716.github.io/images/og-default.png</link>
+    </image>
     <generator>Hugo</generator>
     <language>ko</language>
     <lastBuildDate>Tue, 20 Mar 2018 00:00:00 +0000</lastBuildDate>
@@ -13,153 +18,77 @@
       <link>https://jungwoo0716.github.io/posts/2018-03-20-basic-psychology_11/</link>
       <pubDate>Tue, 20 Mar 2018 00:00:00 +0000</pubDate>
       <guid>https://jungwoo0716.github.io/posts/2018-03-20-basic-psychology_11/</guid>
-      <description>&lt;p&gt;Piaget의 인지 발달이론&lt;/p&gt;
-&lt;p&gt;| Jean Piaget (1896 ~ 1980)&lt;/p&gt;
-&lt;p&gt;피아제는 아동이 성장함에 따라 이루어지는 정신구조의 발달적 변화에는 질적인 차이를 갖는 일련의 단계로 구성 된다고 보았다. 평형상태의 스키마가 새로운 대상에 의해 불평형 상태가 되어 동화(assimilation)와 조절(accommodation)에 의한 적응을 하면서 불평형 상태가 평형 상태로 되면서 이루어진다고 주장했다.
-도식(스키마)는 사물이나 사건을 이해하기 위한 기본적인 정신 구조를 의미한다. 동화는 기존의 스키마를 가지고 외부의 경험을 이해하는 방식을 의미한다. 하지만 기존의 스키마만으로는 외부 자극을 해석할 수 없기 때문에, 기존의 스키마를 변경하고 새로운 스키마를 생성하는 과정이 필요하다. 이를 ‘조절’이라고 부른다. 여기서의 평형은 이 기존의 스키마와 새로운 자극간의 균형을 의미한다.&lt;/p&gt;</description>
+      <description>피아제, 에릭슨 등 주요 인간 발달이론을 비교 분석합니다.</description>
     </item>
     <item>
       <title>인간 발달의 단계 및 특성</title>
       <link>https://jungwoo0716.github.io/posts/2018-03-19-basic_psychology_10/</link>
       <pubDate>Mon, 19 Mar 2018 00:00:00 +0000</pubDate>
       <guid>https://jungwoo0716.github.io/posts/2018-03-19-basic_psychology_10/</guid>
-      <description>&lt;h2 id=&#34;인간-발달의-단계&#34;&gt;인간 발달의 단계&lt;/h2&gt;
-&lt;p&gt;인간 발달의 단계는 신생아기, 영아기, 유아기 및 아동기로 나눈다.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;신생아기&lt;/strong&gt;는 출생 후 약 2주 정도를 의미한다. 신생아의 평균 신장은 50cm이고, 체중은 약 3.3kg 정도이다. 성인과는 다르게 신생아는 전체 신장에 대비하여 머리가 차지하는 비율이 크다. 또한 골격이 부드럽고 연하다. 두개골 역시 완전히 발달하지 못한 상태로 6개의 숫구멍이 남아있다.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;영아기&lt;/strong&gt;는 출생 후 2주 이후부터 약 30개월 정도를 의미한다. 이 시기의 인간은 성장속도가 매우 빠르다. 운동능력과 사회성이 발달하고, 언어 발달의 전언어 시기, 한 단어 시기, 두 단어 시기 등의 과정을 거친다. 양육자와의 상호관계를 통해 기본적인 신뢰감이 형성되고, 생후 6개월 무렵에는 애착 형성이 되어 주된 양육자와는 특별한 관계를 이루게 된다.
-영아는 다른 색상이나, 글자, 도형에 비해서, 사람의 얼굴의 패턴에 더 많은 주의를 기울인다. 이를 통해 영아가 시각적 선호를 가지고 태어난다는 것을 알 수 있다. 영아는 얼굴 패턴 중, 눈 코 입 위치만 달라진 것은 구별하지 못한다. 하지만 눈 코 입이 거꾸로 되었다면, 이를 인지한다.
-**‘습관화(habituation)&amp;rsquo;**는 반복된 자극에 대한 반응 저하를 의미한다. 영아는 시각적 자극에 반복적으로 노출되면, 이에 친숙함을 느끼고 자극에 대한 흥미를 잃게 된다. 친숙한 자극에 대한 반응이 감소한다는 의미는, 자극을 보고 기억 한다는 의미이기도 하다.
-**탈습관화(dishabituation)**은 자극의 변화가 이전에 습관화된 강도를 증가시킨다는 것이다.&lt;/p&gt;</description>
+      <description>인간 발달의 주요 단계와 각 단계별 특성을 살펴봅니다.</description>
     </item>
     <item>
       <title>발달심리학(Developmental Psychology)이란</title>
       <link>https://jungwoo0716.github.io/posts/2018-03-18-basic-psychology_9/</link>
       <pubDate>Sun, 18 Mar 2018 00:00:00 +0000</pubDate>
       <guid>https://jungwoo0716.github.io/posts/2018-03-18-basic-psychology_9/</guid>
-      <description>&lt;h2 id=&#34;발달심리학이란&#34;&gt;발달심리학이란&lt;/h2&gt;
-&lt;p&gt;인간은 나이가 들면서 행동하는 것들이 여러 면에서 변화한다. 인간의 신체, 인지, 사회정서 변화를 인생의 주기에 따라 연구하는 심리학을 발달심리학이라고 부른다.&lt;/p&gt;
-&lt;h2 id=&#34;발달이란&#34;&gt;발달이란&lt;/h2&gt;
-&lt;p&gt;많은 연구자들은 발달의 정의를 여러 방면으로 정의해왔다. Hurlock(1955)은 발달을 ‘질서정연하고 일관성 있는 형태의 진보적인 변화의 연속으로서, 개체의 전 생애의 주기를 통해 일어나는 계속적인 변화’라고 했다.
-또 다른 연구자인 Koffka(1957)는 발달을 ‘유기체와 그 기관이 양적으로 크게 변화하고, 기능에 있어서 미숙하고 낮은 수준에서 원활하고 높은 수준으로 변화할 뿐만 아니라, 신체적 심리적 측면에서 구조적인 변화를 가져오는 질적으로 변화나는 과정’이라고 정의 내렸다.
-또 McGraw(1974)는 인간의 발달을 ‘유기체 내에 있는 힘과 환경 속에 있는 힘이 끊임없이 변화하고 교류한 결과에 의해 산출되는 과정’이라고 했다.&lt;/p&gt;</description>
+      <description>발달심리학의 개념과 연구 분야를 소개합니다.</description>
     </item>
     <item>
       <title>인간의 의식에 관여하는 약물(drug)</title>
       <link>https://jungwoo0716.github.io/posts/2018-03-17-basic-psychology_8/</link>
       <pubDate>Sat, 17 Mar 2018 00:00:00 +0000</pubDate>
       <guid>https://jungwoo0716.github.io/posts/2018-03-17-basic-psychology_8/</guid>
-      <description>&lt;h2 id=&#34;의식과-약물&#34;&gt;의식과 약물&lt;/h2&gt;
-&lt;p&gt;[&lt;/p&gt;
-&lt;p&gt;](/static/307fb936597edc0846cf8c8ff981cf73/e7068/image1.jpg)&lt;/p&gt;
-&lt;h6 id=&#34;drug&#34;&gt;Drug&lt;/h6&gt;
-&lt;p&gt;Drug(약물)은 우리의 지각이나 기분 혹은 의식을 바꾸는 화학적 구성 요소를 말한다.&lt;/p&gt;
-&lt;p&gt;[&lt;/p&gt;
-&lt;p&gt;](/static/15d79be2035b3f1b2d032ccef865af40/4eb29/image1.png)&lt;/p&gt;
-&lt;h6 id=&#34;뉴런의-구조&#34;&gt;뉴런의 구조&lt;/h6&gt;
-&lt;p&gt;인간의 정보 처리에 있어서 가장 기초적인 단위인 뉴런에는 Axon(축삭돌기)가 있다. 이 축삭돌기는 절연체인 Myelin Sheath(미엘린초)로 둘러 싸여 있고, 일정한 간격으로 끊겨있다. 전기 신호는 축색돌기에서 화학 물질로 바뀌어 다른 뉴런이나 기관 혹은 근육으로 전달 되는데, 이 화학 작용에 다양한 약물로 영향을 줄 수 있다.
-즉, 우리는 약물로 신경전달물질에 영향을 줄 수 있는 것이다. 이 뉴런 반응의 집합이 우리의 의식이기 때문에, 약물로 우리 인간의 의식에 영향을 줄 수 있다.&lt;/p&gt;</description>
+      <description>인간의 의식 상태에 영향을 미치는 약물의 종류와 작용을 알아봅니다.</description>
     </item>
     <item>
       <title>인간의 생체리듬(Circadian Rhythms)</title>
       <link>https://jungwoo0716.github.io/posts/2018-03-16-basic-psychology_7/</link>
       <pubDate>Fri, 16 Mar 2018 00:00:00 +0000</pubDate>
       <guid>https://jungwoo0716.github.io/posts/2018-03-16-basic-psychology_7/</guid>
-      <description>&lt;h2 id=&#34;생체리듬circadian-rhythms&#34;&gt;생체리듬(Circadian Rhythms)&lt;/h2&gt;
-&lt;p&gt;[&lt;/p&gt;
-&lt;p&gt;](/static/b2bfa53bb3c42c624d1266338091e122/dfe57/image1.png)&lt;/p&gt;
-&lt;h6 id=&#34;2017년-노벨-생리의학상을-수상한-제프리-홀-마이클-로스바쉬-마이클-영-교수--노벨위원회&#34;&gt;2017년 노벨 생리·의학상을 수상한 제프리 홀, 마이클 로스바쉬, 마이클 영 교수 / 노벨위원회&lt;/h6&gt;
-&lt;p&gt;2017년 노벨 생리·의학상 수상자로 Jeffrey C Hall, Michael Rosbash, Michael W Young 등 3명의 유전학자들이 선정되었다. 이들은 Circadian Rhythms로 명명된 생체 리듬 혹은 24시간 주기가 사람을 비롯한 동식물 세포 안에서 작동하고 있다는 것을 밝혀냈다.
-이 생체리듬을 통해 우리의 수면 습관이라던지 시차 적응 등 신체의 건강에 대한 연구가 가능해졌다.&lt;/p&gt;
-&lt;p&gt;[&lt;/p&gt;
-&lt;p&gt;](/static/71b63149e54128e74729f2ff5e50db0e/4c1a3/image2.png)&lt;/p&gt;
-&lt;h6 id=&#34;낮과-밤에서의-인간의-뇌&#34;&gt;낮과 밤에서의 인간의 뇌&lt;/h6&gt;
-&lt;p&gt;우리의 뇌에는 위의 사진과 같이 **Suprachiasmatic nucleus(SCN, 시교차 상핵)**이라고 하는 세포핵이 존재한다. 이것은 눈의 신경이 교차하는 곳 근처에 있는 신경 세포핵으로, 빛을 느끼고 반응한다. 또한 리듬을 갖고 있다. 이 세포핵은 **Pineal Gland(송과선)**을 통해 **Melatonin(멜라토닌)**이라는 호르몬을 분비시킴으로써 우리 인간의 생체시계를 조절한다.&lt;/p&gt;</description>
+      <description>인간의 생체리듬과 수면 주기의 심리학적 이해를 다룹니다.</description>
     </item>
     <item>
       <title>의식과 무의식(Consciousness &amp; Unconsciousness)</title>
       <link>https://jungwoo0716.github.io/posts/2018-03-15-basic-psychology_6/</link>
       <pubDate>Thu, 15 Mar 2018 00:00:00 +0000</pubDate>
       <guid>https://jungwoo0716.github.io/posts/2018-03-15-basic-psychology_6/</guid>
-      <description>&lt;h2 id=&#34;의식과-무의식&#34;&gt;의식과 무의식&lt;/h2&gt;
-&lt;p&gt;의식은 매우 정의하기 어려운 개념이다. 20년 전까지만해도 의식이라는 개념은 연구 대상이 아니었다. 이 의식이란 것을 연구 할 수 있었던 것은 측정가능한 행동들이 생겼기 때문이다. 대화와 뇌파를 이용해 뇌의 행동을 측정할 수 있게되면서 의식이라는 개념을 연구할 수 있게 되었다.&lt;/p&gt;
-&lt;p&gt;우리의 뇌는 신기하게도, 우리가 받는 그 많은 자극 중에 일부분만 의식적으로 지각한다. 자극을 처리하는 과정 속에서도 극히 일부분만 의식적으로 지각한다. 사람마다 경험이 다 다르기 때문에, 의식하는 것들도 다 다르다. 이렇게 의식적으로 지각하는 것을 다른 말로 **‘주의’ 혹은 ‘집중’**이라고 한다. 심리학에서는 ‘주의’라는 단어를 더 자주 사용한다.&lt;/p&gt;</description>
+      <description>의식과 무의식의 개념과 차이점을 심리학적으로 분석합니다.</description>
     </item>
     <item>
       <title>신경계에서의 뇌(Brain)란?</title>
       <link>https://jungwoo0716.github.io/posts/2018-03-14-basic-psychology_5/</link>
       <pubDate>Wed, 14 Mar 2018 00:00:00 +0000</pubDate>
       <guid>https://jungwoo0716.github.io/posts/2018-03-14-basic-psychology_5/</guid>
-      <description>&lt;h2 id=&#34;신경계에서의-뇌brain&#34;&gt;신경계에서의 뇌(Brain)&lt;/h2&gt;
-&lt;p&gt;[&lt;/p&gt;
-&lt;p&gt;](/static/256fd0358db7659151c08fad4791127f/14e05/image1.png)&lt;/p&gt;
-&lt;h6 id=&#34;신경계에서의-뇌&#34;&gt;신경계에서의 뇌&lt;/h6&gt;
-&lt;p&gt;뇌는 고차 구조(Order Structure)를 갖는다. 즉, 매우 복잡하고 높은 차원의 구조를 갖고 있다고 이해하면 된다. 위의 그림은 신경의 신호가 뇌에 들어오는 과정에서 필요한 뇌의 구조를 보여주고 있다.&lt;/p&gt;
-&lt;p&gt;Thalamus(시상)은 모든 감각정보의 중개소 역할을 한다.
-Reticular formation(망상체)는 의식, 호흡 등 생명에 직결되는 것들을 관리하는 부분이다. 망상체가 닫히면 호흡을 하지 못하기 때문에, 바로 죽음에 이를 수 있다. 그만큼 매우 중요한 부분이다.&lt;/p&gt;
-&lt;p&gt;[&lt;/p&gt;
-&lt;p&gt;](/static/50d7e64dd356ff7ea7d7c31725cce0cc/983e0/image2.png)&lt;/p&gt;
-&lt;h6 id=&#34;소뇌cerebellum&#34;&gt;소뇌(Cerebellum)&lt;/h6&gt;
-&lt;p&gt;**Cerebellum(소뇌)**는 위의 그림과 같이 척수와 근접한 곳에 위치한다. 중추신경계의 일부로서, 척수로부터 외부에 대한 감각정보를 받아 이를 처리하여 운동기능을 조절한다. 인간의 운동 기능과, 균형 잡기, 밸런스 등 정밀한 운동이 가능하도록 도와주는 곳이다. 소뇌는 활발한 것보다는 쓸데없는 것을 억제하는 기능이 더 중요하다.&lt;/p&gt;</description>
+      <description>신경계에서 뇌의 구조와 기능을 심리학 관점에서 살펴봅니다.</description>
     </item>
     <item>
       <title>신경계(Nervous System)란 무엇인가?</title>
       <link>https://jungwoo0716.github.io/posts/2018-03-13-basic-psychology_4/</link>
       <pubDate>Tue, 13 Mar 2018 00:00:00 +0000</pubDate>
       <guid>https://jungwoo0716.github.io/posts/2018-03-13-basic-psychology_4/</guid>
-      <description>&lt;h2 id=&#34;신경계nervous-system&#34;&gt;신경계(Nervous System)&lt;/h2&gt;
-&lt;p&gt;[&lt;/p&gt;
-&lt;p&gt;](/static/c31a09db17b5e9a6a8992beffecd411e/962ce/image1.png)&lt;/p&gt;
-&lt;h6 id=&#34;신경계nervous-system-1&#34;&gt;신경계(Nervous System)&lt;/h6&gt;
-&lt;p&gt;신경계는 위 그림에서처럼 말초신경(Peripheral)과 중추신경(Central)으로 나누어진다. 말초신경은 자율신경계(Autonomic Nervous System)과 체성신경계(Somatic Nervous System)으로 나뉜다. 자율신경계에는 교감신경계(Sympathetic)과 부교감신경계(Parasympathetic)가 있다.&lt;/p&gt;
-&lt;p&gt;중추신경은 우리 몸에서 가장 중요한 신경으로, 뇌와 척수신경을 뜻한다. 우리 몸의 여러 감각기관에서 보내준 모든 신경정보들을 받아서 처리하는 역할을 한다.  체성신경계는 골격근을 통해 우리가 의식적이고 자발적인 운동을 할 수 있도록 조절한다.&lt;/p&gt;
-&lt;p&gt;[&lt;/p&gt;
-&lt;p&gt;](/static/5eebd3d481994f45814190c5a0fe241b/e8121/image2.png)&lt;/p&gt;
-&lt;h6 id=&#34;자율-신경계autonomic-nervous-system&#34;&gt;자율 신경계(Autonomic Nervous System)&lt;/h6&gt;
-&lt;p&gt;교감신경계는 말 그대로 어떤 상황과 교감하는 것을 말한다. 반면, 부교감신경계는 차분하게 교감이나 공감을 하지 않는다는 것을 의미한다.
-각성이나, 긴장을 하게 되는 위험한 상황에 직면하면, 교감 신경계가 활성화하여, 특정 내분비 시스템이 활성화 된다. 이로 인해 심장이 빨리 뛰고, 동공이 확장되며, 소화가 잘 되지 않는다. 반대의 상황에 직면하면, 부교감 신경계가 활성화하여 편안하고, 소화가 잘 된다.&lt;/p&gt;</description>
+      <description>인간의 신경계 구조와 역할에 대해 알아봅니다.</description>
     </item>
     <item>
       <title>뉴런(Neuron)이란?</title>
       <link>https://jungwoo0716.github.io/posts/2018-03-12-basic-psychology_3/</link>
       <pubDate>Mon, 12 Mar 2018 00:00:00 +0000</pubDate>
       <guid>https://jungwoo0716.github.io/posts/2018-03-12-basic-psychology_3/</guid>
-      <description>&lt;h2 id=&#34;뉴런neuron이란&#34;&gt;뉴런(Neuron)이란&lt;/h2&gt;
-&lt;p&gt;뉴런은 인간 정보 처리의 가장 기초적이고 핵심적인 단위이다. 개별 뉴런의 구조 및 기능은 상대적으로 매우 간단하다. 신호를 입력받고 신호의 결과를 출력하는 방식이다. 하지만 이런 뉴런 간의 연결은 거의 무한대의 경우의 수가 가능할 정도로 매우 복잡하다.&lt;/p&gt;
-&lt;p&gt;뇌에서는 전기화학신호만 처리가 가능하다. 우리가 보는 시각적인(빛)의 자극도 감각 기관의 감각 뉴런이 감각 정보를 전기적 신호로 변환시킨다. 운동 기관의 운동 뉴런은 전기 신호를 운동 뉴런으로 변환시킨다.
-요즘 기술이 발달하면서 3D 프린터를 이용해 사람의 장기를 재현하여, 실제로 이식하는 경우도 생겨나고 있다. 즉, 사람의 여러 기관이 다쳐도 기술을 바탕으로 회복하는 경우가 많아지고 있는 것이다. 하지만 다른 정보를 전기 신호로 바꾸는 감각 기관의 특성은 아직까지 흉내 내기가 쉽지 않아, 감각 기관이 다치게 되면 회복하는 것이 거의 불가능하다.
-예를 들면 감각 기관인 망막을 다치게 되면 눈을 통해 빛 에너지가 전기 신호로 바뀌는 기능을 잃는 것이기 때문에, 영원히 시력을 잃게 될 수 있다. 망막질환은 실명을 유발할 수 있기에 조심해야하는 것이다.&lt;/p&gt;</description>
+      <description>신경계의 기본 단위인 뉴런의 구조와 기능을 알아봅니다.</description>
     </item>
     <item>
       <title>인간의 정보처리 경로와 행동</title>
       <link>https://jungwoo0716.github.io/posts/2018-03-11-basic-psychology_2/</link>
       <pubDate>Sun, 11 Mar 2018 00:00:00 +0000</pubDate>
       <guid>https://jungwoo0716.github.io/posts/2018-03-11-basic-psychology_2/</guid>
-      <description>&lt;h2 id=&#34;행동의-생물학&#34;&gt;행동의 생물학&lt;/h2&gt;
-&lt;p&gt;사람들은 같은 시각적 자극에 대해서도 각자 다른 생각을 한다. 같은 그림을 보아도 생각이나 느낌이 개인마다 모두 다르다. 왜 사람들은 같은 것을 보아도 다르게 생각하는 것일까?&lt;/p&gt;
-&lt;p&gt;[&lt;/p&gt;
-&lt;p&gt;](/static/d5e9a51515e8741fb70caefd01b28760/91043/image1.png)&lt;/p&gt;
-&lt;p&gt;위의 사진을 보고 제일 처음으로 어떤 생각이 들었는가?
-필자는 깔끔하다고 생각했다. 하지만 어떤 사람은 하얗다고 생각할 수도 있고, 그저 주방이라고 인지할 수도 있다. 또 어떤 사람은 중앙에 있는 싱크대를 먼저 본 것이 아니라, 오른쪽에 있는 초록색 나무를 먼저 보았을 수도 있다. 이렇게 각자 사람들마다 다른 생각을 하는 이유를 알아볼 것이다.&lt;/p&gt;</description>
+      <description>인간의 정보처리 경로와 행동의 관계를 심리학 관점에서 살펴봅니다.</description>
     </item>
     <item>
       <title>심리학(Psychology)이란 무엇인가?</title>
       <link>https://jungwoo0716.github.io/posts/2018-03-10-basic-psychology_1/</link>
       <pubDate>Sat, 10 Mar 2018 00:00:00 +0000</pubDate>
       <guid>https://jungwoo0716.github.io/posts/2018-03-10-basic-psychology_1/</guid>
-      <description>&lt;h2 id=&#34;심리학이란&#34;&gt;심리학이란&lt;/h2&gt;
-&lt;p&gt;심리학이란 무엇일까?&lt;/p&gt;
-&lt;p&gt;“심리학은 심리학적인 질문에 답하는 학문이다.”&lt;/p&gt;
-&lt;p&gt;정말 간단하게 답을 할 수 있지만, 질문한 사람이 원하는 대답은 아니다.
-우리는 추가적으로 “심리학적인 질문”과 “학문”에 대해 설명할 수 있어야 한다.&lt;/p&gt;
-&lt;h2 id=&#34;심리학적인-질문이란&#34;&gt;심리학적인 질문이란&lt;/h2&gt;
-&lt;p&gt;심리학적인 질문은 정확하게 정의할 수는 없다. 다만 여러 예를 들 수 있겠다.&lt;/p&gt;
-&lt;p&gt;“성격은 유전일까? 아니면 자라온 환경의 영향일까?”
-“어떤 사람은 왜 다른 사람보다 친구가 많을까?”
-“남자와 여자는 다른가?”
-“꿈은 왜 꾸는 것일까?”
-“아기들은 실제로 지각하고 생각할까?”&lt;/p&gt;
-&lt;p&gt;위와 같은 질문들이 심리학적인 질문이다.
-하지만 위의 질문들이 심리학적인 질문이 아닐 때가 있었다.&lt;/p&gt;</description>
+      <description>심리학의 정의와 심리학적 질문이란 무엇인지 알아봅니다.</description>
     </item>
   </channel>
 </rss>

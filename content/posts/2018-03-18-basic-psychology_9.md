@@ -2,6 +2,8 @@
 title: "발달심리학(Developmental Psychology)이란"
 date: 2018-03-18
 tags: ["심리학", "Psychology"]
+description: "발달심리학의 개념과 연구 분야를 소개합니다."
+series: ["심리학기초"]
 ---
 
 ## 발달심리학이란

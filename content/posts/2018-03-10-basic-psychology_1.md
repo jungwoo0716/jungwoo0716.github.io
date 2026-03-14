@@ -2,6 +2,8 @@
 title: "심리학(Psychology)이란 무엇인가?"
 date: 2018-03-10
 tags: ["심리학", "Psychology"]
+description: "심리학의 정의와 심리학적 질문이란 무엇인지 알아봅니다."
+series: ["심리학기초"]
 ---
 
 ## 심리학이란

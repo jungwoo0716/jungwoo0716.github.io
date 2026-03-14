@@ -1,9 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>AWT</title>
+    <title>JUNGWOO KIM</title>
     <link>https://jungwoo0716.github.io/</link>
-    <description>Recent content on AWT</description>
+    <description>Recent content on JUNGWOO KIM</description>
+    <image>
+      <title>JUNGWOO KIM</title>
+      <url>https://jungwoo0716.github.io/images/og-default.png</url>
+      <link>https://jungwoo0716.github.io/images/og-default.png</link>
+    </image>
     <generator>Hugo</generator>
     <language>ko</language>
     <lastBuildDate>Mon, 01 Jul 2024 00:00:00 +0000</lastBuildDate>
@@ -104,292 +109,168 @@
       <link>https://jungwoo0716.github.io/posts/2020-04-08-payroll-form/</link>
       <pubDate>Wed, 08 Apr 2020 00:00:00 +0000</pubDate>
       <guid>https://jungwoo0716.github.io/posts/2020-04-08-payroll-form/</guid>
-      <description>&lt;p&gt;자영업자나 초기 사업가들이 직원을 고용을 할 때 시스템이 갖춰져 있지 않아 기본적인 사항을 지키지 못하는 경우가 많습니다.
-기본적인 인사노무에 관하여 배운 적이 없거나, 배울 여력과 기회가 없는 경우 좋지 않은 상황이 일어날 때까지 모르는 경우가 많습니다.&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;근로기준법 제48조(임금대장)&lt;/p&gt;
-&lt;p&gt;사용자는 각 사업장별로 임금대장을 작성하고 임금과 가족수당 계산의 기초가 되는 사항, 임금액, 그 밖에 대통령령으로 정하는 사항을 임금을 지급할 때마다 적어야 한다.&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;직원을 고용해서 30일 이상 근무하고, 급여를 지급하게 되면 임금대장(급여대장)은 필수적으로 작성해야 합니다.
-임금대장은 다음과 같은 내용이 들어가야 합니다.&lt;/p&gt;</description>
+      <description>임금대장 작성에 필요한 구글 스프레드시트 양식과 작성 방법을 안내합니다.</description>
     </item>
     <item>
       <title>고분자를 만드는 방법 - 중합반응(Polymerization)</title>
       <link>https://jungwoo0716.github.io/posts/2020-03-27-polymer-formation/</link>
       <pubDate>Fri, 27 Mar 2020 00:00:00 +0000</pubDate>
       <guid>https://jungwoo0716.github.io/posts/2020-03-27-polymer-formation/</guid>
-      <description>&lt;h2 id=&#34;고분자polymer&#34;&gt;고분자(Polymer)&lt;/h2&gt;
-&lt;p&gt;분자의 크기에 따라 분자량이 1,000 이하이면 저분자, 10,000 이상이면 고분자로 분류한다. 고분자는 단량체(monomer)라고 불리는 작은 분자가 수백에서 수천개씩 공유결합으로 연결되어 만들어진다.
-단량체로부터 고분자를 생성하는 반응을 중합(Polymerization)반응이라고 한다.&lt;/p&gt;
-&lt;p&gt;고분자는 결국 단량체를 기본으로 하기 때문에, 단량체의 구조에 따라 중합 반응이 다르다. 중합반응은 크게 3가지로 나눌 수 있다.&lt;/p&gt;
-&lt;h3 id=&#34;1-작용기functional-group를-갖는-화합물&#34;&gt;1. 작용기(functional group)를 갖는 화합물&lt;/h3&gt;
-&lt;p&gt;작용기(functional group)는 유기화합물의 화학적 성질을 결정하는 원자단이다.
-예를 들면 아세트산은 –COOH[\text{&amp;ndash;}COOH–COOH 카복시기(Carboxyl Group)를 갖고 있고, 에틸알코올은 –OH\text{&amp;ndash;}OH–OH 하이드록시기(Hydroxy Group)를 갖고 있다.&lt;/p&gt;</description>
+      <description>고분자를 만드는 중합반응의 종류와 원리를 설명합니다.</description>
     </item>
     <item>
       <title>인간이 색채를 인식하는 방법</title>
       <link>https://jungwoo0716.github.io/posts/2020-03-16-color-recognition-process/</link>
       <pubDate>Mon, 16 Mar 2020 00:00:00 +0000</pubDate>
       <guid>https://jungwoo0716.github.io/posts/2020-03-16-color-recognition-process/</guid>
-      <description>&lt;p&gt;인간이 &lt;strong&gt;&amp;lsquo;색(color)&amp;rsquo;&lt;/strong&gt; 을 인식하기 위해서는 3가지가 필요하다. 빛이 있어야 하고, 물체가 있어야 하고, 볼 수 있는 눈이 있어야 한다. 빛, 물체, 눈 3가지 모두가 있어야만 색을 볼 수 있고 느낄 수 있다. 하나라도 없으면 색을 지각하지 못한다.&lt;/p&gt;
-&lt;p&gt;우리가 색을 인식하는 방법은 2가지가 있다. 2가지 방법 모두 물체가 빛을 어떤식으로 받아들이냐에 따라 다르다.&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;  [
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;](/static/99bbf993ae16ac5f7b579504dfd984fd/182fd/image1.png)&lt;/p&gt;
-&lt;p&gt;위의 그림에서와 같이 2개의 스타벅스 텀블러가 있다. 같은 플라스틱이지만 왼쪽 텀블러는 우리 눈에 흰색으로 지각되고, 오른쪽 텀블러는 투명하게 지각된다.
-왼쪽 텀블러는 불투명하다. 인간이 흰색을 느끼는 것은 이 텀블러가 빛을 반사(재복사)하여 나타내는 &lt;strong&gt;표면색&lt;/strong&gt;이 흰색이기 때문이다.
-오른쪽 텀블러는 투명하다. 인간이 투명하다고 느끼는 것은 빛이 이 투명한 텀블러를 투과하기 때문이다. &lt;strong&gt;투과색&lt;/strong&gt;이라고 한다.&lt;/p&gt;</description>
+      <description>인간의 시각 시스템이 색채를 인식하는 과정과 원리를 알아봅니다.</description>
     </item>
     <item>
       <title>공급(Supply)이란</title>
       <link>https://jungwoo0716.github.io/posts/2019-01-11-basic-economics_9/</link>
       <pubDate>Fri, 11 Jan 2019 00:00:00 +0000</pubDate>
       <guid>https://jungwoo0716.github.io/posts/2019-01-11-basic-economics_9/</guid>
-      <description>&lt;p&gt;공급이란 생산자가 재화나 서비스를 판매하고자 하는 의도이다. 공급량은 생산자가 재화나 서비스를 판매하고자 하는 양을 의미한다. 수요와 마찬가지로 공급 역시 똑같은 2가지 성질을 가진다. 실제로 판매한 양이 아니라 판매하고자 하는 의도를 말한다는 점과, 공급량은 유량 개념이어야 한다는 점이다.&lt;/p&gt;
-&lt;p&gt;[&lt;/p&gt;
-&lt;p&gt;](/static/1c37f8e3b56496bd902d8a60d373f48e/e7068/image1.jpg)&lt;/p&gt;
-&lt;h6 id=&#34;공급supply이란&#34;&gt;공급(Supply)이란?&lt;/h6&gt;
-&lt;h2 id=&#34;공급을-결정하는-요인들&#34;&gt;공급을 결정하는 요인들&lt;/h2&gt;
-&lt;p&gt;공급을 결정하는 요인에는 5가지가 있다. 첫 번째 재화의 시장가격이다. 재화의 시장가격이 상승하면 그 재화를 생산하는 것이 더 큰 이득을 가져다주기 때문에 공급량이 증가한다. 반대의 경우는 공급량이 감소한다.&lt;/p&gt;
-&lt;p&gt;두 번째 다른 재화의 가격이다. 다른 재화의 가격이 상승하면 이들을 공급하는 것이 더 많은 이득이 되기 때문에, 가격이 그대로인 재화의 공급은 감소하게 된다.&lt;/p&gt;</description>
+      <description>공급의 개념과 공급곡선의 결정 요인을 살펴봅니다.</description>
     </item>
     <item>
       <title>수요(Demand)의 탄력성</title>
       <link>https://jungwoo0716.github.io/posts/2019-01-10-basic-economics_8/</link>
       <pubDate>Thu, 10 Jan 2019 00:00:00 +0000</pubDate>
       <guid>https://jungwoo0716.github.io/posts/2019-01-10-basic-economics_8/</guid>
-      <description>&lt;p&gt;수요의 개념을 알고 수요곡선을 알고 있다고 해도 이를 실제 현실 세계에서는 사용할 일이 많지 않다. 실용적으로 사용하기 위해서는 **수요의 탄력성(elasticity of demand)**을 알아야 한다. 수요의 탄력성은 수요에 영향을 주는 요인들이 변화함에 따라 해당 상품의 수요량이 얼마나 민감하게 반응하는가를 나타내는 정도를 의미한다.&lt;/p&gt;
-&lt;p&gt;어떤 제품을 판매할 때, 가격에 따라 수요량이 얼마인지를 파악한다면, 판매수입을 예측할 수 있고, 이에 따른 손익분기점을 추정하여 예산계획을 수립할 수 있다.&lt;/p&gt;
-&lt;p&gt;[&lt;/p&gt;
-&lt;p&gt;](/static/b38582150e19fa54e0ac8aea4a0ab00c/e7068/image1.jpg)&lt;/p&gt;
-&lt;h6 id=&#34;탄력성을-알면-예산계획을-수립할-수-있다&#34;&gt;탄력성을 알면 예산계획을 수립할 수 있다.&lt;/h6&gt;
-&lt;h2 id=&#34;수요의-가격탄력성price-elasticity-of-demand&#34;&gt;수요의 가격탄력성(Price elasticity of demand)&lt;/h2&gt;
-&lt;p&gt;가격에 따라 생긴 변화가 그 상품의 수요량에 얼마만큼의 변화를 가져오는지를 나타내는 수치가 가격탄력성이다.&lt;/p&gt;</description>
+      <description>수요의 가격 탄력성 개념과 계산 방법을 알아봅니다.</description>
     </item>
     <item>
       <title>수요(Demand)와 수요곡선</title>
       <link>https://jungwoo0716.github.io/posts/2019-01-09-basic-economics_7/</link>
       <pubDate>Wed, 09 Jan 2019 00:00:00 +0000</pubDate>
       <guid>https://jungwoo0716.github.io/posts/2019-01-09-basic-economics_7/</guid>
-      <description>&lt;h2 id=&#34;수요demand&#34;&gt;수요(Demand)&lt;/h2&gt;
-&lt;p&gt;수요란 소비자가 재화나 서비스를 구매하고자 하는 욕구이며, 수요량은 소비자가 구매하고자 하는 재화나 서비스의 양이다.&lt;/p&gt;
-&lt;p&gt;수요는 크게 2가지의 성질을 가진다. 첫 번째 성질은 소비자들이 구매하려고 하는 **의도(willingness to purchase)**를 나타낸다. 이는 실제 구매량이 아니라서 그 재화의 존재량이나 공급량과 직접적인 관계가 없다.
-두 번째 성질은 수요는 어떤 일정 기간 동안 구매의 흐름, 즉 **유량(flow)**를 의미한다. 유량은 일정한 기간을 기준으로 그 양을 재야 하는 것이기 때문에, 기간당 얼마라는 식으로 표현된다.
-예를 들면 아이스크림에 대한 수요가 천만 개라고 할 때, 그것이 어떤 기간(예를 들면 일년) 동안의 수요인지를 무조건 나타내야 한다. 기간 뿐 아니라 어느 시점에서의 수요를 나타내는 방법도 있는데, 이를 **저량(stock)**이라고 한다.&lt;/p&gt;</description>
+      <description>수요의 개념과 수요곡선의 이동 요인을 분석합니다.</description>
     </item>
     <item>
       <title>경제이론과 경제이론의 구분</title>
       <link>https://jungwoo0716.github.io/posts/2019-01-08-basic-economics_6/</link>
       <pubDate>Tue, 08 Jan 2019 00:00:00 +0000</pubDate>
       <guid>https://jungwoo0716.github.io/posts/2019-01-08-basic-economics_6/</guid>
-      <description>&lt;p&gt;어떤 학문이든 가설을 정하고, 이 가설을 검증할만한 과학적인 방법을 통해 가설을 증명해냄으로서 이론을 정립한다. 이런 많은 이론과 지식이 모여서 학문이 된다. 과학에서의 이론은 현실에 존재하는 여러 변수들 사이의 관계를 의도적으로 단순화하여 이론을 만든다. 그렇다면 경제학에서도 이게 가능할까?&lt;/p&gt;
-&lt;h2 id=&#34;경제이론이란&#34;&gt;경제이론이란&lt;/h2&gt;
-&lt;p&gt;경제학은 어떻게 보면 인간의 행동을 예측해야 한다. 경제학은 앞서 말했듯이 선택에 관련된 학문이다. 정확히 말하면 인간의 선택, 인간들의 선택이다. 공학이나 자연과학과는 다르게 사회과학이 힘든 점이 바로 이 사람의 행동을 이해하고 예측하는 것이 매우 어렵기 때문이다.&lt;/p&gt;</description>
+      <description>경제이론의 분류와 각 이론의 특징을 알아봅니다.</description>
     </item>
     <item>
       <title>시장경제에서부터 혼합경제의 등장</title>
       <link>https://jungwoo0716.github.io/posts/2019-01-07-basic-economics_5/</link>
       <pubDate>Mon, 07 Jan 2019 00:00:00 +0000</pubDate>
       <guid>https://jungwoo0716.github.io/posts/2019-01-07-basic-economics_5/</guid>
-      <description>&lt;h2 id=&#34;시장경제market-economy&#34;&gt;시장경제(Market Economy)&lt;/h2&gt;
-&lt;p&gt;시장경제는 시장이 모든 경제활동의 중심이 되는 경제체제를 의미한다. 이 곳에서는 모든 상품 가격이 시장에서 자유로이 결정되고, 재산권(Property Right)을 갖고, 자유로운 경쟁이 가능하고, 자유로운 교역이 가능하다.&lt;/p&gt;
-&lt;p&gt;시장경제와 반대로 통제경제(Command Economy)가 존재하는데, 이 경제는 주로 정부의 통제에 의해 움직이는 체제로 현재 북한을 그 예로 들 수 있다. 현 시대에는 많은 국가의 사례로 인하여 시장경제가 통제경제보다 더 합리적 선택임이 드러났다.&lt;/p&gt;
-&lt;p&gt;[&lt;/p&gt;
-&lt;p&gt;](/static/caa0a8c2eb9b4cf9eb08886ba413079d/e7068/image1.jpg)&lt;/p&gt;
-&lt;h6 id=&#34;시장경제에서-자유로운-경쟁&#34;&gt;시장경제에서 자유로운 경쟁&lt;/h6&gt;
-&lt;p&gt;가계와 기업의 자유로운 경제활동이 각각 주체의 이익뿐 아니라 사회 전반적인 발전을 가져오는 데 필수적임을 주장한 인물이 &lt;strong&gt;아담 스미스&lt;/strong&gt; 다. 그는 이러한 내용을 *&amp;lsquo;국부론&amp;rsquo;*을 통해 주장했다.&lt;/p&gt;</description>
+      <description>시장경제에서 혼합경제로의 발전 과정을 살펴봅니다.</description>
     </item>
     <item>
       <title>경제학에서 시장(Market)이란</title>
       <link>https://jungwoo0716.github.io/posts/2019-01-06-basic-economics_4/</link>
       <pubDate>Sun, 06 Jan 2019 00:00:00 +0000</pubDate>
       <guid>https://jungwoo0716.github.io/posts/2019-01-06-basic-economics_4/</guid>
-      <description>&lt;p&gt;경제학에서는 크게 3가지의 경제주체로 나누는데, &lt;strong&gt;가계, 기업, 정부&lt;/strong&gt;가 바로 그것들이다. 가계(household)는 생산요소를 공급하고, 상품을 소비하는 역할을 갖고 있고, 기업(Firm)은 생산요소를 구입하여, 상품을 만들고 공급하는 역할을 갖는다. 그리고 정부(Government)는 세금을 징수하고 효율적인 자원 배분을 위해 각종 여러 사업을 수행하는 역할을 갖는다.&lt;/p&gt;
-&lt;p&gt;[&lt;/p&gt;
-&lt;p&gt;](/static/526f2a5834d75d7ee96b3716d0374476/e7068/image1.jpg)&lt;/p&gt;
-&lt;h6 id=&#34;시장&#34;&gt;시장&lt;/h6&gt;
-&lt;h2 id=&#34;시장market&#34;&gt;시장(Market)&lt;/h2&gt;
-&lt;p&gt;시장은 개인과 기업이 상품을 사고 팔기 위해 모인 모임을 의미한다. 시장은 크게 상품시장과 생산요소시장 2가지로 나눌 수 있는데, 이 생산요소시장은 노동시장과 자본시장을 포함한다. 상품시장은 기업이 상품을 공급하고, 가계가 상품을 수요하는 시장을 의미한다. 반대로 생산요소시장은 기업이 수요자이고, 가계는 공급자의 역할을 갖게 된다.&lt;/p&gt;</description>
+      <description>경제학에서 시장의 정의와 시장 메커니즘을 알아봅니다.</description>
     </item>
     <item>
       <title>경제적 자원과 생산가능곡선</title>
       <link>https://jungwoo0716.github.io/posts/2019-01-05-basic-economics_3/</link>
       <pubDate>Sat, 05 Jan 2019 00:00:00 +0000</pubDate>
       <guid>https://jungwoo0716.github.io/posts/2019-01-05-basic-economics_3/</guid>
-      <description>&lt;h2 id=&#34;경제적-자원&#34;&gt;경제적 자원&lt;/h2&gt;
-&lt;p&gt;경제적 자원은 넓은 의미에서 보았을 때 우리가 아껴 써야 하는 모든 것을 의미한다. 좁은 의미에서는 생산요소(Factors of Production)를 의미한다. 즉 상품이나 서비스를 만들기 위해 필요한 자원을 우리는 경제적 자원이라고 부른다.&lt;/p&gt;
-&lt;p&gt;이 경제적 자원에는 크게 4가지 요소가 있다. **노동(Labor), 자본(Capital), 토지(Land), 기업가적 노력(Entrepreneurials Efforts)**이다. 사실 이런 요소들도 시간에 따라 변화해 왔다. 18세기 이전에는 오로지 토지와 노동만을 생산요소로 취급했지만, 산업화가 진행되고 제조업이 발달하면서 노동, 자본, 토지가 3대 생산 요소로 자리 매김했다. 최근에는 시대의 변화, 생산의 변화가 급속도로 이루어짐에 따라 기업가적 노력을 중시하는 경향이 생기면서 공식적이지는 않지만, 생산요소의 한 요소로 포함되기도 한다.&lt;/p&gt;</description>
+      <description>경제적 자원의 개념과 생산가능곡선을 통한 기회비용 이해.</description>
     </item>
     <item>
       <title>합리적 선택(Rational Choice)을 하는 방법</title>
       <link>https://jungwoo0716.github.io/posts/2019-01-04-basic-economics_2/</link>
       <pubDate>Fri, 04 Jan 2019 00:00:00 +0000</pubDate>
       <guid>https://jungwoo0716.github.io/posts/2019-01-04-basic-economics_2/</guid>
-      <description>&lt;p&gt;경제학은 선택의 학문이라고도 했다. 경제학에서는 개인뿐 아니라 사회적 차원에서 이루어지는 모든 경제적 선택행위에 대해 연구 한다. 기존의 경제학은 상품 생산, 교환, 소비와 관련된 문제에 대해서 주로 연구하는 학문으로서 받아들여졌지만, 현대의 경제학은 선택의 문제와 관련된 모든 것이 연구 대상이다.&lt;/p&gt;
-&lt;p&gt;현대에 들면서 경제학에서 다루는 관심사가 매우 포괄적이고 넓어졌다. 범죄와 처벌의 경제학, 예술의 경제학, 스포츠의 경제학 등 다양한 관심 분야의 경제학이 생기고 있다. 이외에도 국가와 사회라는 큰 차원에서 이루어지는 선택도 각 사회마다, 나라마다 다른 경제제도와, 그 경제제도로 인해 나타나는 독특한 경제현상을 배우고 이해하는 것이다. 즉 경제학의 원론은 모든 분야에서 합리적 선택을 가능하게 한다.&lt;/p&gt;</description>
+      <description>경제학에서 합리적 선택의 의미와 의사결정 방법을 살펴봅니다.</description>
     </item>
     <item>
       <title>경제학(economics)을 배워야 하는 이유</title>
       <link>https://jungwoo0716.github.io/posts/2019-01-03-basic-economics_1/</link>
       <pubDate>Thu, 03 Jan 2019 00:00:00 +0000</pubDate>
       <guid>https://jungwoo0716.github.io/posts/2019-01-03-basic-economics_1/</guid>
-      <description>&lt;p&gt;인간은 무엇인가 하고싶거나, 갖고 싶거나 하는 욕구가 있다. 욕구는 인간마다 다양하지만, 그 욕구가 무한하다는 점은 공통적이다.
-다양한 욕구가 있고 그 욕구마다의 가치를 측정할 수는 없지만, 경제학에서는 인간이 무한한 욕구를 가지고 있음을 기본적인 전제로 한다.
-그러나 안타깝게도 우리에게 욕구를 충족시키는 수단은 항상 한정적이다. &amp;lsquo;진시황&amp;rsquo;은 많은 자원을 갖고 있었지만, 평생 살고 싶은 욕구를 충족시킬 수단은 존재하지 않았다.&lt;/p&gt;
-&lt;p&gt;그 이외 사람들이 갖고 있는 욕구도 마찬가지이다. 많은 자원을 갖고 있던 적은 자원을 갖고 있던 항상 욕구를 충족시키기 위해 필요한 수단에는 제약사항이 많다. 경제학에서도 인간의 욕구를 충족시킬 수 있는 수단은 항상 한정적임을 기본적인 전제로 한다.&lt;/p&gt;</description>
+      <description>경제학의 기본 개념과 배워야 하는 이유를 알아봅니다.</description>
     </item>
     <item>
       <title>인간 발달이론</title>
       <link>https://jungwoo0716.github.io/posts/2018-03-20-basic-psychology_11/</link>
       <pubDate>Tue, 20 Mar 2018 00:00:00 +0000</pubDate>
       <guid>https://jungwoo0716.github.io/posts/2018-03-20-basic-psychology_11/</guid>
-      <description>&lt;p&gt;Piaget의 인지 발달이론&lt;/p&gt;
-&lt;p&gt;| Jean Piaget (1896 ~ 1980)&lt;/p&gt;
-&lt;p&gt;피아제는 아동이 성장함에 따라 이루어지는 정신구조의 발달적 변화에는 질적인 차이를 갖는 일련의 단계로 구성 된다고 보았다. 평형상태의 스키마가 새로운 대상에 의해 불평형 상태가 되어 동화(assimilation)와 조절(accommodation)에 의한 적응을 하면서 불평형 상태가 평형 상태로 되면서 이루어진다고 주장했다.
-도식(스키마)는 사물이나 사건을 이해하기 위한 기본적인 정신 구조를 의미한다. 동화는 기존의 스키마를 가지고 외부의 경험을 이해하는 방식을 의미한다. 하지만 기존의 스키마만으로는 외부 자극을 해석할 수 없기 때문에, 기존의 스키마를 변경하고 새로운 스키마를 생성하는 과정이 필요하다. 이를 ‘조절’이라고 부른다. 여기서의 평형은 이 기존의 스키마와 새로운 자극간의 균형을 의미한다.&lt;/p&gt;</description>
+      <description>피아제, 에릭슨 등 주요 인간 발달이론을 비교 분석합니다.</description>
     </item>
     <item>
       <title>인간 발달의 단계 및 특성</title>
       <link>https://jungwoo0716.github.io/posts/2018-03-19-basic_psychology_10/</link>
       <pubDate>Mon, 19 Mar 2018 00:00:00 +0000</pubDate>
       <guid>https://jungwoo0716.github.io/posts/2018-03-19-basic_psychology_10/</guid>
-      <description>&lt;h2 id=&#34;인간-발달의-단계&#34;&gt;인간 발달의 단계&lt;/h2&gt;
-&lt;p&gt;인간 발달의 단계는 신생아기, 영아기, 유아기 및 아동기로 나눈다.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;신생아기&lt;/strong&gt;는 출생 후 약 2주 정도를 의미한다. 신생아의 평균 신장은 50cm이고, 체중은 약 3.3kg 정도이다. 성인과는 다르게 신생아는 전체 신장에 대비하여 머리가 차지하는 비율이 크다. 또한 골격이 부드럽고 연하다. 두개골 역시 완전히 발달하지 못한 상태로 6개의 숫구멍이 남아있다.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;영아기&lt;/strong&gt;는 출생 후 2주 이후부터 약 30개월 정도를 의미한다. 이 시기의 인간은 성장속도가 매우 빠르다. 운동능력과 사회성이 발달하고, 언어 발달의 전언어 시기, 한 단어 시기, 두 단어 시기 등의 과정을 거친다. 양육자와의 상호관계를 통해 기본적인 신뢰감이 형성되고, 생후 6개월 무렵에는 애착 형성이 되어 주된 양육자와는 특별한 관계를 이루게 된다.
-영아는 다른 색상이나, 글자, 도형에 비해서, 사람의 얼굴의 패턴에 더 많은 주의를 기울인다. 이를 통해 영아가 시각적 선호를 가지고 태어난다는 것을 알 수 있다. 영아는 얼굴 패턴 중, 눈 코 입 위치만 달라진 것은 구별하지 못한다. 하지만 눈 코 입이 거꾸로 되었다면, 이를 인지한다.
-**‘습관화(habituation)&amp;rsquo;**는 반복된 자극에 대한 반응 저하를 의미한다. 영아는 시각적 자극에 반복적으로 노출되면, 이에 친숙함을 느끼고 자극에 대한 흥미를 잃게 된다. 친숙한 자극에 대한 반응이 감소한다는 의미는, 자극을 보고 기억 한다는 의미이기도 하다.
-**탈습관화(dishabituation)**은 자극의 변화가 이전에 습관화된 강도를 증가시킨다는 것이다.&lt;/p&gt;</description>
+      <description>인간 발달의 주요 단계와 각 단계별 특성을 살펴봅니다.</description>
     </item>
     <item>
       <title>발달심리학(Developmental Psychology)이란</title>
       <link>https://jungwoo0716.github.io/posts/2018-03-18-basic-psychology_9/</link>
       <pubDate>Sun, 18 Mar 2018 00:00:00 +0000</pubDate>
       <guid>https://jungwoo0716.github.io/posts/2018-03-18-basic-psychology_9/</guid>
-      <description>&lt;h2 id=&#34;발달심리학이란&#34;&gt;발달심리학이란&lt;/h2&gt;
-&lt;p&gt;인간은 나이가 들면서 행동하는 것들이 여러 면에서 변화한다. 인간의 신체, 인지, 사회정서 변화를 인생의 주기에 따라 연구하는 심리학을 발달심리학이라고 부른다.&lt;/p&gt;
-&lt;h2 id=&#34;발달이란&#34;&gt;발달이란&lt;/h2&gt;
-&lt;p&gt;많은 연구자들은 발달의 정의를 여러 방면으로 정의해왔다. Hurlock(1955)은 발달을 ‘질서정연하고 일관성 있는 형태의 진보적인 변화의 연속으로서, 개체의 전 생애의 주기를 통해 일어나는 계속적인 변화’라고 했다.
-또 다른 연구자인 Koffka(1957)는 발달을 ‘유기체와 그 기관이 양적으로 크게 변화하고, 기능에 있어서 미숙하고 낮은 수준에서 원활하고 높은 수준으로 변화할 뿐만 아니라, 신체적 심리적 측면에서 구조적인 변화를 가져오는 질적으로 변화나는 과정’이라고 정의 내렸다.
-또 McGraw(1974)는 인간의 발달을 ‘유기체 내에 있는 힘과 환경 속에 있는 힘이 끊임없이 변화하고 교류한 결과에 의해 산출되는 과정’이라고 했다.&lt;/p&gt;</description>
+      <description>발달심리학의 개념과 연구 분야를 소개합니다.</description>
     </item>
     <item>
       <title>인간의 의식에 관여하는 약물(drug)</title>
       <link>https://jungwoo0716.github.io/posts/2018-03-17-basic-psychology_8/</link>
       <pubDate>Sat, 17 Mar 2018 00:00:00 +0000</pubDate>
       <guid>https://jungwoo0716.github.io/posts/2018-03-17-basic-psychology_8/</guid>
-      <description>&lt;h2 id=&#34;의식과-약물&#34;&gt;의식과 약물&lt;/h2&gt;
-&lt;p&gt;[&lt;/p&gt;
-&lt;p&gt;](/static/307fb936597edc0846cf8c8ff981cf73/e7068/image1.jpg)&lt;/p&gt;
-&lt;h6 id=&#34;drug&#34;&gt;Drug&lt;/h6&gt;
-&lt;p&gt;Drug(약물)은 우리의 지각이나 기분 혹은 의식을 바꾸는 화학적 구성 요소를 말한다.&lt;/p&gt;
-&lt;p&gt;[&lt;/p&gt;
-&lt;p&gt;](/static/15d79be2035b3f1b2d032ccef865af40/4eb29/image1.png)&lt;/p&gt;
-&lt;h6 id=&#34;뉴런의-구조&#34;&gt;뉴런의 구조&lt;/h6&gt;
-&lt;p&gt;인간의 정보 처리에 있어서 가장 기초적인 단위인 뉴런에는 Axon(축삭돌기)가 있다. 이 축삭돌기는 절연체인 Myelin Sheath(미엘린초)로 둘러 싸여 있고, 일정한 간격으로 끊겨있다. 전기 신호는 축색돌기에서 화학 물질로 바뀌어 다른 뉴런이나 기관 혹은 근육으로 전달 되는데, 이 화학 작용에 다양한 약물로 영향을 줄 수 있다.
-즉, 우리는 약물로 신경전달물질에 영향을 줄 수 있는 것이다. 이 뉴런 반응의 집합이 우리의 의식이기 때문에, 약물로 우리 인간의 의식에 영향을 줄 수 있다.&lt;/p&gt;</description>
+      <description>인간의 의식 상태에 영향을 미치는 약물의 종류와 작용을 알아봅니다.</description>
     </item>
     <item>
       <title>인간의 생체리듬(Circadian Rhythms)</title>
       <link>https://jungwoo0716.github.io/posts/2018-03-16-basic-psychology_7/</link>
       <pubDate>Fri, 16 Mar 2018 00:00:00 +0000</pubDate>
       <guid>https://jungwoo0716.github.io/posts/2018-03-16-basic-psychology_7/</guid>
-      <description>&lt;h2 id=&#34;생체리듬circadian-rhythms&#34;&gt;생체리듬(Circadian Rhythms)&lt;/h2&gt;
-&lt;p&gt;[&lt;/p&gt;
-&lt;p&gt;](/static/b2bfa53bb3c42c624d1266338091e122/dfe57/image1.png)&lt;/p&gt;
-&lt;h6 id=&#34;2017년-노벨-생리의학상을-수상한-제프리-홀-마이클-로스바쉬-마이클-영-교수--노벨위원회&#34;&gt;2017년 노벨 생리·의학상을 수상한 제프리 홀, 마이클 로스바쉬, 마이클 영 교수 / 노벨위원회&lt;/h6&gt;
-&lt;p&gt;2017년 노벨 생리·의학상 수상자로 Jeffrey C Hall, Michael Rosbash, Michael W Young 등 3명의 유전학자들이 선정되었다. 이들은 Circadian Rhythms로 명명된 생체 리듬 혹은 24시간 주기가 사람을 비롯한 동식물 세포 안에서 작동하고 있다는 것을 밝혀냈다.
-이 생체리듬을 통해 우리의 수면 습관이라던지 시차 적응 등 신체의 건강에 대한 연구가 가능해졌다.&lt;/p&gt;
-&lt;p&gt;[&lt;/p&gt;
-&lt;p&gt;](/static/71b63149e54128e74729f2ff5e50db0e/4c1a3/image2.png)&lt;/p&gt;
-&lt;h6 id=&#34;낮과-밤에서의-인간의-뇌&#34;&gt;낮과 밤에서의 인간의 뇌&lt;/h6&gt;
-&lt;p&gt;우리의 뇌에는 위의 사진과 같이 **Suprachiasmatic nucleus(SCN, 시교차 상핵)**이라고 하는 세포핵이 존재한다. 이것은 눈의 신경이 교차하는 곳 근처에 있는 신경 세포핵으로, 빛을 느끼고 반응한다. 또한 리듬을 갖고 있다. 이 세포핵은 **Pineal Gland(송과선)**을 통해 **Melatonin(멜라토닌)**이라는 호르몬을 분비시킴으로써 우리 인간의 생체시계를 조절한다.&lt;/p&gt;</description>
+      <description>인간의 생체리듬과 수면 주기의 심리학적 이해를 다룹니다.</description>
     </item>
     <item>
       <title>의식과 무의식(Consciousness &amp; Unconsciousness)</title>
       <link>https://jungwoo0716.github.io/posts/2018-03-15-basic-psychology_6/</link>
       <pubDate>Thu, 15 Mar 2018 00:00:00 +0000</pubDate>
       <guid>https://jungwoo0716.github.io/posts/2018-03-15-basic-psychology_6/</guid>
-      <description>&lt;h2 id=&#34;의식과-무의식&#34;&gt;의식과 무의식&lt;/h2&gt;
-&lt;p&gt;의식은 매우 정의하기 어려운 개념이다. 20년 전까지만해도 의식이라는 개념은 연구 대상이 아니었다. 이 의식이란 것을 연구 할 수 있었던 것은 측정가능한 행동들이 생겼기 때문이다. 대화와 뇌파를 이용해 뇌의 행동을 측정할 수 있게되면서 의식이라는 개념을 연구할 수 있게 되었다.&lt;/p&gt;
-&lt;p&gt;우리의 뇌는 신기하게도, 우리가 받는 그 많은 자극 중에 일부분만 의식적으로 지각한다. 자극을 처리하는 과정 속에서도 극히 일부분만 의식적으로 지각한다. 사람마다 경험이 다 다르기 때문에, 의식하는 것들도 다 다르다. 이렇게 의식적으로 지각하는 것을 다른 말로 **‘주의’ 혹은 ‘집중’**이라고 한다. 심리학에서는 ‘주의’라는 단어를 더 자주 사용한다.&lt;/p&gt;</description>
+      <description>의식과 무의식의 개념과 차이점을 심리학적으로 분석합니다.</description>
     </item>
     <item>
       <title>신경계에서의 뇌(Brain)란?</title>
       <link>https://jungwoo0716.github.io/posts/2018-03-14-basic-psychology_5/</link>
       <pubDate>Wed, 14 Mar 2018 00:00:00 +0000</pubDate>
       <guid>https://jungwoo0716.github.io/posts/2018-03-14-basic-psychology_5/</guid>
-      <description>&lt;h2 id=&#34;신경계에서의-뇌brain&#34;&gt;신경계에서의 뇌(Brain)&lt;/h2&gt;
-&lt;p&gt;[&lt;/p&gt;
-&lt;p&gt;](/static/256fd0358db7659151c08fad4791127f/14e05/image1.png)&lt;/p&gt;
-&lt;h6 id=&#34;신경계에서의-뇌&#34;&gt;신경계에서의 뇌&lt;/h6&gt;
-&lt;p&gt;뇌는 고차 구조(Order Structure)를 갖는다. 즉, 매우 복잡하고 높은 차원의 구조를 갖고 있다고 이해하면 된다. 위의 그림은 신경의 신호가 뇌에 들어오는 과정에서 필요한 뇌의 구조를 보여주고 있다.&lt;/p&gt;
-&lt;p&gt;Thalamus(시상)은 모든 감각정보의 중개소 역할을 한다.
-Reticular formation(망상체)는 의식, 호흡 등 생명에 직결되는 것들을 관리하는 부분이다. 망상체가 닫히면 호흡을 하지 못하기 때문에, 바로 죽음에 이를 수 있다. 그만큼 매우 중요한 부분이다.&lt;/p&gt;
-&lt;p&gt;[&lt;/p&gt;
-&lt;p&gt;](/static/50d7e64dd356ff7ea7d7c31725cce0cc/983e0/image2.png)&lt;/p&gt;
-&lt;h6 id=&#34;소뇌cerebellum&#34;&gt;소뇌(Cerebellum)&lt;/h6&gt;
-&lt;p&gt;**Cerebellum(소뇌)**는 위의 그림과 같이 척수와 근접한 곳에 위치한다. 중추신경계의 일부로서, 척수로부터 외부에 대한 감각정보를 받아 이를 처리하여 운동기능을 조절한다. 인간의 운동 기능과, 균형 잡기, 밸런스 등 정밀한 운동이 가능하도록 도와주는 곳이다. 소뇌는 활발한 것보다는 쓸데없는 것을 억제하는 기능이 더 중요하다.&lt;/p&gt;</description>
+      <description>신경계에서 뇌의 구조와 기능을 심리학 관점에서 살펴봅니다.</description>
     </item>
     <item>
       <title>신경계(Nervous System)란 무엇인가?</title>
       <link>https://jungwoo0716.github.io/posts/2018-03-13-basic-psychology_4/</link>
       <pubDate>Tue, 13 Mar 2018 00:00:00 +0000</pubDate>
       <guid>https://jungwoo0716.github.io/posts/2018-03-13-basic-psychology_4/</guid>
-      <description>&lt;h2 id=&#34;신경계nervous-system&#34;&gt;신경계(Nervous System)&lt;/h2&gt;
-&lt;p&gt;[&lt;/p&gt;
-&lt;p&gt;](/static/c31a09db17b5e9a6a8992beffecd411e/962ce/image1.png)&lt;/p&gt;
-&lt;h6 id=&#34;신경계nervous-system-1&#34;&gt;신경계(Nervous System)&lt;/h6&gt;
-&lt;p&gt;신경계는 위 그림에서처럼 말초신경(Peripheral)과 중추신경(Central)으로 나누어진다. 말초신경은 자율신경계(Autonomic Nervous System)과 체성신경계(Somatic Nervous System)으로 나뉜다. 자율신경계에는 교감신경계(Sympathetic)과 부교감신경계(Parasympathetic)가 있다.&lt;/p&gt;
-&lt;p&gt;중추신경은 우리 몸에서 가장 중요한 신경으로, 뇌와 척수신경을 뜻한다. 우리 몸의 여러 감각기관에서 보내준 모든 신경정보들을 받아서 처리하는 역할을 한다.  체성신경계는 골격근을 통해 우리가 의식적이고 자발적인 운동을 할 수 있도록 조절한다.&lt;/p&gt;
-&lt;p&gt;[&lt;/p&gt;
-&lt;p&gt;](/static/5eebd3d481994f45814190c5a0fe241b/e8121/image2.png)&lt;/p&gt;
-&lt;h6 id=&#34;자율-신경계autonomic-nervous-system&#34;&gt;자율 신경계(Autonomic Nervous System)&lt;/h6&gt;
-&lt;p&gt;교감신경계는 말 그대로 어떤 상황과 교감하는 것을 말한다. 반면, 부교감신경계는 차분하게 교감이나 공감을 하지 않는다는 것을 의미한다.
-각성이나, 긴장을 하게 되는 위험한 상황에 직면하면, 교감 신경계가 활성화하여, 특정 내분비 시스템이 활성화 된다. 이로 인해 심장이 빨리 뛰고, 동공이 확장되며, 소화가 잘 되지 않는다. 반대의 상황에 직면하면, 부교감 신경계가 활성화하여 편안하고, 소화가 잘 된다.&lt;/p&gt;</description>
+      <description>인간의 신경계 구조와 역할에 대해 알아봅니다.</description>
     </item>
     <item>
       <title>뉴런(Neuron)이란?</title>
       <link>https://jungwoo0716.github.io/posts/2018-03-12-basic-psychology_3/</link>
       <pubDate>Mon, 12 Mar 2018 00:00:00 +0000</pubDate>
       <guid>https://jungwoo0716.github.io/posts/2018-03-12-basic-psychology_3/</guid>
-      <description>&lt;h2 id=&#34;뉴런neuron이란&#34;&gt;뉴런(Neuron)이란&lt;/h2&gt;
-&lt;p&gt;뉴런은 인간 정보 처리의 가장 기초적이고 핵심적인 단위이다. 개별 뉴런의 구조 및 기능은 상대적으로 매우 간단하다. 신호를 입력받고 신호의 결과를 출력하는 방식이다. 하지만 이런 뉴런 간의 연결은 거의 무한대의 경우의 수가 가능할 정도로 매우 복잡하다.&lt;/p&gt;
-&lt;p&gt;뇌에서는 전기화학신호만 처리가 가능하다. 우리가 보는 시각적인(빛)의 자극도 감각 기관의 감각 뉴런이 감각 정보를 전기적 신호로 변환시킨다. 운동 기관의 운동 뉴런은 전기 신호를 운동 뉴런으로 변환시킨다.
-요즘 기술이 발달하면서 3D 프린터를 이용해 사람의 장기를 재현하여, 실제로 이식하는 경우도 생겨나고 있다. 즉, 사람의 여러 기관이 다쳐도 기술을 바탕으로 회복하는 경우가 많아지고 있는 것이다. 하지만 다른 정보를 전기 신호로 바꾸는 감각 기관의 특성은 아직까지 흉내 내기가 쉽지 않아, 감각 기관이 다치게 되면 회복하는 것이 거의 불가능하다.
-예를 들면 감각 기관인 망막을 다치게 되면 눈을 통해 빛 에너지가 전기 신호로 바뀌는 기능을 잃는 것이기 때문에, 영원히 시력을 잃게 될 수 있다. 망막질환은 실명을 유발할 수 있기에 조심해야하는 것이다.&lt;/p&gt;</description>
+      <description>신경계의 기본 단위인 뉴런의 구조와 기능을 알아봅니다.</description>
     </item>
     <item>
       <title>인간의 정보처리 경로와 행동</title>
       <link>https://jungwoo0716.github.io/posts/2018-03-11-basic-psychology_2/</link>
       <pubDate>Sun, 11 Mar 2018 00:00:00 +0000</pubDate>
       <guid>https://jungwoo0716.github.io/posts/2018-03-11-basic-psychology_2/</guid>
-      <description>&lt;h2 id=&#34;행동의-생물학&#34;&gt;행동의 생물학&lt;/h2&gt;
-&lt;p&gt;사람들은 같은 시각적 자극에 대해서도 각자 다른 생각을 한다. 같은 그림을 보아도 생각이나 느낌이 개인마다 모두 다르다. 왜 사람들은 같은 것을 보아도 다르게 생각하는 것일까?&lt;/p&gt;
-&lt;p&gt;[&lt;/p&gt;
-&lt;p&gt;](/static/d5e9a51515e8741fb70caefd01b28760/91043/image1.png)&lt;/p&gt;
-&lt;p&gt;위의 사진을 보고 제일 처음으로 어떤 생각이 들었는가?
-필자는 깔끔하다고 생각했다. 하지만 어떤 사람은 하얗다고 생각할 수도 있고, 그저 주방이라고 인지할 수도 있다. 또 어떤 사람은 중앙에 있는 싱크대를 먼저 본 것이 아니라, 오른쪽에 있는 초록색 나무를 먼저 보았을 수도 있다. 이렇게 각자 사람들마다 다른 생각을 하는 이유를 알아볼 것이다.&lt;/p&gt;</description>
+      <description>인간의 정보처리 경로와 행동의 관계를 심리학 관점에서 살펴봅니다.</description>
     </item>
     <item>
       <title>심리학(Psychology)이란 무엇인가?</title>
       <link>https://jungwoo0716.github.io/posts/2018-03-10-basic-psychology_1/</link>
       <pubDate>Sat, 10 Mar 2018 00:00:00 +0000</pubDate>
       <guid>https://jungwoo0716.github.io/posts/2018-03-10-basic-psychology_1/</guid>
-      <description>&lt;h2 id=&#34;심리학이란&#34;&gt;심리학이란&lt;/h2&gt;
-&lt;p&gt;심리학이란 무엇일까?&lt;/p&gt;
-&lt;p&gt;“심리학은 심리학적인 질문에 답하는 학문이다.”&lt;/p&gt;
-&lt;p&gt;정말 간단하게 답을 할 수 있지만, 질문한 사람이 원하는 대답은 아니다.
-우리는 추가적으로 “심리학적인 질문”과 “학문”에 대해 설명할 수 있어야 한다.&lt;/p&gt;
-&lt;h2 id=&#34;심리학적인-질문이란&#34;&gt;심리학적인 질문이란&lt;/h2&gt;
-&lt;p&gt;심리학적인 질문은 정확하게 정의할 수는 없다. 다만 여러 예를 들 수 있겠다.&lt;/p&gt;
-&lt;p&gt;“성격은 유전일까? 아니면 자라온 환경의 영향일까?”
-“어떤 사람은 왜 다른 사람보다 친구가 많을까?”
-“남자와 여자는 다른가?”
-“꿈은 왜 꾸는 것일까?”
-“아기들은 실제로 지각하고 생각할까?”&lt;/p&gt;
-&lt;p&gt;위와 같은 질문들이 심리학적인 질문이다.
-하지만 위의 질문들이 심리학적인 질문이 아닐 때가 있었다.&lt;/p&gt;</description>
+      <description>심리학의 정의와 심리학적 질문이란 무엇인지 알아봅니다.</description>
+    </item>
+    <item>
+      <title>About</title>
+      <link>https://jungwoo0716.github.io/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://jungwoo0716.github.io/about/</guid>
+      <description>about</description>
     </item>
   </channel>
 </rss>

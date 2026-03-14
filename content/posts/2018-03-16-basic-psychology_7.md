@@ -2,6 +2,8 @@
 title: "인간의 생체리듬(Circadian Rhythms)"
 date: 2018-03-16
 tags: ["심리학", "Psychology"]
+description: "인간의 생체리듬과 수면 주기의 심리학적 이해를 다룹니다."
+series: ["심리학기초"]
 ---
 
 ## 생체리듬(Circadian Rhythms)

@@ -1,0 +1,12 @@
+<!-- Pretendard Font Preload -->
+<link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
+
+<!-- Default OG Image for posts without cover -->
+{{ if not .Params.cover }}{{ if not .Params.images }}
+<meta property="og:image" content="{{ "images/og-default.png" | absURL }}">
+<meta name="twitter:image" content="{{ "images/og-default.png" | absURL }}">
+<meta name="twitter:card" content="summary_large_image">
+{{ end }}{{ end }}
+
+<!-- Naver Search Verification (placeholder) -->
+<!-- <meta name="naver-site-verification" content="YOUR_CODE" /> -->

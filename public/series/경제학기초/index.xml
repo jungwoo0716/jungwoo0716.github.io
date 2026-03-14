@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>경제학기초 on JUNGWOO KIM</title>
+    <link>https://jungwoo0716.github.io/series/%EA%B2%BD%EC%A0%9C%ED%95%99%EA%B8%B0%EC%B4%88/</link>
+    <description>Recent content in 경제학기초 on JUNGWOO KIM</description>
+    <image>
+      <title>JUNGWOO KIM</title>
+      <url>https://jungwoo0716.github.io/images/og-default.png</url>
+      <link>https://jungwoo0716.github.io/images/og-default.png</link>
+    </image>
+    <generator>Hugo</generator>
+    <language>ko</language>
+    <lastBuildDate>Fri, 11 Jan 2019 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://jungwoo0716.github.io/series/%EA%B2%BD%EC%A0%9C%ED%95%99%EA%B8%B0%EC%B4%88/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>공급(Supply)이란</title>
+      <link>https://jungwoo0716.github.io/posts/2019-01-11-basic-economics_9/</link>
+      <pubDate>Fri, 11 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>https://jungwoo0716.github.io/posts/2019-01-11-basic-economics_9/</guid>
+      <description>공급의 개념과 공급곡선의 결정 요인을 살펴봅니다.</description>
+    </item>
+    <item>
+      <title>수요(Demand)의 탄력성</title>
+      <link>https://jungwoo0716.github.io/posts/2019-01-10-basic-economics_8/</link>
+      <pubDate>Thu, 10 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>https://jungwoo0716.github.io/posts/2019-01-10-basic-economics_8/</guid>
+      <description>수요의 가격 탄력성 개념과 계산 방법을 알아봅니다.</description>
+    </item>
+    <item>
+      <title>수요(Demand)와 수요곡선</title>
+      <link>https://jungwoo0716.github.io/posts/2019-01-09-basic-economics_7/</link>
+      <pubDate>Wed, 09 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>https://jungwoo0716.github.io/posts/2019-01-09-basic-economics_7/</guid>
+      <description>수요의 개념과 수요곡선의 이동 요인을 분석합니다.</description>
+    </item>
+    <item>
+      <title>경제이론과 경제이론의 구분</title>
+      <link>https://jungwoo0716.github.io/posts/2019-01-08-basic-economics_6/</link>
+      <pubDate>Tue, 08 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>https://jungwoo0716.github.io/posts/2019-01-08-basic-economics_6/</guid>
+      <description>경제이론의 분류와 각 이론의 특징을 알아봅니다.</description>
+    </item>
+    <item>
+      <title>시장경제에서부터 혼합경제의 등장</title>
+      <link>https://jungwoo0716.github.io/posts/2019-01-07-basic-economics_5/</link>
+      <pubDate>Mon, 07 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>https://jungwoo0716.github.io/posts/2019-01-07-basic-economics_5/</guid>
+      <description>시장경제에서 혼합경제로의 발전 과정을 살펴봅니다.</description>
+    </item>
+    <item>
+      <title>경제학에서 시장(Market)이란</title>
+      <link>https://jungwoo0716.github.io/posts/2019-01-06-basic-economics_4/</link>
+      <pubDate>Sun, 06 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>https://jungwoo0716.github.io/posts/2019-01-06-basic-economics_4/</guid>
+      <description>경제학에서 시장의 정의와 시장 메커니즘을 알아봅니다.</description>
+    </item>
+    <item>
+      <title>경제적 자원과 생산가능곡선</title>
+      <link>https://jungwoo0716.github.io/posts/2019-01-05-basic-economics_3/</link>
+      <pubDate>Sat, 05 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>https://jungwoo0716.github.io/posts/2019-01-05-basic-economics_3/</guid>
+      <description>경제적 자원의 개념과 생산가능곡선을 통한 기회비용 이해.</description>
+    </item>
+    <item>
+      <title>합리적 선택(Rational Choice)을 하는 방법</title>
+      <link>https://jungwoo0716.github.io/posts/2019-01-04-basic-economics_2/</link>
+      <pubDate>Fri, 04 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>https://jungwoo0716.github.io/posts/2019-01-04-basic-economics_2/</guid>
+      <description>경제학에서 합리적 선택의 의미와 의사결정 방법을 살펴봅니다.</description>
+    </item>
+    <item>
+      <title>경제학(economics)을 배워야 하는 이유</title>
+      <link>https://jungwoo0716.github.io/posts/2019-01-03-basic-economics_1/</link>
+      <pubDate>Thu, 03 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>https://jungwoo0716.github.io/posts/2019-01-03-basic-economics_1/</guid>
+      <description>경제학의 기본 개념과 배워야 하는 이유를 알아봅니다.</description>
+    </item>
+  </channel>
+</rss>

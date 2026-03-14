@@ -2,6 +2,8 @@
 title: "인간 발달이론"
 date: 2018-03-20
 tags: ["심리학", "Psychology"]
+description: "피아제, 에릭슨 등 주요 인간 발달이론을 비교 분석합니다."
+series: ["심리학기초"]
 ---
 
 Piaget의 인지 발달이론

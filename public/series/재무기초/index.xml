@@ -1,9 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>재무기초 on AWT</title>
+    <title>재무기초 on JUNGWOO KIM</title>
     <link>https://jungwoo0716.github.io/series/%EC%9E%AC%EB%AC%B4%EA%B8%B0%EC%B4%88/</link>
-    <description>Recent content in 재무기초 on AWT</description>
+    <description>Recent content in 재무기초 on JUNGWOO KIM</description>
+    <image>
+      <title>JUNGWOO KIM</title>
+      <url>https://jungwoo0716.github.io/images/og-default.png</url>
+      <link>https://jungwoo0716.github.io/images/og-default.png</link>
+    </image>
     <generator>Hugo</generator>
     <language>ko</language>
     <lastBuildDate>Mon, 01 Jul 2024 00:00:00 +0000</lastBuildDate>
