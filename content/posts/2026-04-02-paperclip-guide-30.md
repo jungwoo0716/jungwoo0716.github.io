@@ -1,6 +1,6 @@
 ---
 title: "Docker"
-date: 2026-04-02T39:00:00+09:00
+date: 2026-04-02T10:29:00+09:00
 description: "Paperclip 한국어 가이드 - 배포: Docker"
 series: ["Paperclip 가이드"]
 tags: ["Paperclip", "AI", "배포", "DevOps"]

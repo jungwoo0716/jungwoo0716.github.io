@@ -1,6 +1,6 @@
 ---
 title: "하트비트 프로토콜"
-date: 2026-04-02T23:00:00+09:00
+date: 2026-04-02T10:13:00+09:00
 description: "Paperclip 한국어 가이드 - 에이전트 개발자 가이드: 하트비트 프로토콜"
 series: ["Paperclip 가이드"]
 tags: ["Paperclip", "AI", "에이전트", "개발"]

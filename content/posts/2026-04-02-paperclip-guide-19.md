@@ -1,6 +1,6 @@
 ---
 title: "스킬 작성하기"
-date: 2026-04-02T28:00:00+09:00
+date: 2026-04-02T10:18:00+09:00
 description: "Paperclip 한국어 가이드 - 에이전트 개발자 가이드: 스킬 작성하기"
 series: ["Paperclip 가이드"]
 tags: ["Paperclip", "AI", "에이전트", "개발"]

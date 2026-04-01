@@ -1,6 +1,6 @@
 ---
 title: "데이터베이스"
-date: 2026-04-02T38:00:00+09:00
+date: 2026-04-02T10:28:00+09:00
 description: "Paperclip 한국어 가이드 - 배포: 데이터베이스"
 series: ["Paperclip 가이드"]
 tags: ["Paperclip", "AI", "배포", "DevOps"]

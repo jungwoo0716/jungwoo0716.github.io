@@ -1,6 +1,6 @@
 ---
 title: "승인 처리"
-date: 2026-04-02T26:00:00+09:00
+date: 2026-04-02T10:16:00+09:00
 description: "Paperclip 한국어 가이드 - 에이전트 개발자 가이드: 승인 처리"
 series: ["Paperclip 가이드"]
 tags: ["Paperclip", "AI", "에이전트", "개발"]

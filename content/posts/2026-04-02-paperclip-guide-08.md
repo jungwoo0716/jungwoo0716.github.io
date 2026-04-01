@@ -1,6 +1,6 @@
 ---
 title: "조직 구조"
-date: 2026-04-02T17:00:00+09:00
+date: 2026-04-02T10:07:00+09:00
 description: "Paperclip 한국어 가이드 - 보드 운영자 가이드: 조직 구조"
 series: ["Paperclip 가이드"]
 tags: ["Paperclip", "AI", "보드 운영자", "관리"]

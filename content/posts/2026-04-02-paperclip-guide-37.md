@@ -1,6 +1,6 @@
 ---
 title: "컨트롤 플레인 명령어"
-date: 2026-04-02T46:00:00+09:00
+date: 2026-04-02T10:36:00+09:00
 description: "Paperclip 한국어 가이드 - CLI: 컨트롤 플레인 명령어"
 series: ["Paperclip 가이드"]
 tags: ["Paperclip", "AI", "CLI", "도구"]

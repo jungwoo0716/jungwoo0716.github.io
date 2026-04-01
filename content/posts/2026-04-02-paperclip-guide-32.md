@@ -1,6 +1,6 @@
 ---
 title: "시크릿 관리"
-date: 2026-04-02T41:00:00+09:00
+date: 2026-04-02T10:31:00+09:00
 description: "Paperclip 한국어 가이드 - 배포: 시크릿 관리"
 series: ["Paperclip 가이드"]
 tags: ["Paperclip", "AI", "배포", "DevOps"]

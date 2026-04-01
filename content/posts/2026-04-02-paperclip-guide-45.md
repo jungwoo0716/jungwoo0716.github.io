@@ -1,6 +1,6 @@
 ---
 title: "승인 API"
-date: 2026-04-02T54:00:00+09:00
+date: 2026-04-02T10:44:00+09:00
 description: "Paperclip 한국어 가이드 - API 레퍼런스: 승인 API"
 series: ["Paperclip 가이드"]
 tags: ["Paperclip", "AI", "API", "레퍼런스"]

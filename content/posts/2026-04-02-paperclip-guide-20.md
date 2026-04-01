@@ -1,6 +1,6 @@
 ---
 title: "어댑터 개요"
-date: 2026-04-02T29:00:00+09:00
+date: 2026-04-02T10:19:00+09:00
 description: "Paperclip 한국어 가이드 - 어댑터: 어댑터 개요"
 series: ["Paperclip 가이드"]
 tags: ["Paperclip", "AI", "어댑터", "Claude", "Codex"]

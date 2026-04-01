@@ -1,6 +1,6 @@
 ---
 title: "설정 명령어"
-date: 2026-04-02T45:00:00+09:00
+date: 2026-04-02T10:35:00+09:00
 description: "Paperclip 한국어 가이드 - CLI: 설정 명령어"
 series: ["Paperclip 가이드"]
 tags: ["Paperclip", "AI", "CLI", "도구"]
