@@ -1,0 +1,56 @@
+---
+title: "환경 변수"
+date: 2026-04-02T40:00:00+09:00
+description: "Paperclip 한국어 가이드 - 배포: 환경 변수"
+series: ["Paperclip 가이드"]
+tags: ["Paperclip", "AI", "배포", "DevOps"]
+weight: 31
+ShowToc: true
+TocOpen: true
+---
+
+> 이 문서는 [Paperclip 공식 문서](https://docs.paperclip.ing/)를 한국어로 번역/정리한 것입니다.
+> **시리즈: Paperclip 가이드 — 배포**
+
+
+Paperclip이 사용하는 모든 환경 변수입니다.
+
+## 서버 설정
+
+| 변수 | 기본값 | 설명 |
+|------|--------|------|
+| `PORT` | `3100` | 서버 포트 |
+| `HOST` | `127.0.0.1` | 바인딩 호스트 |
+| `DATABASE_URL` | (임베디드) | PostgreSQL 연결 문자열 |
+| `PAPERCLIP_HOME` | `~/.paperclip` | 데이터 디렉토리 |
+| `PAPERCLIP_INSTANCE_ID` | `default` | 인스턴스 ID (다중 로컬 인스턴스용) |
+| `PAPERCLIP_DEPLOYMENT_MODE` | `local_trusted` | 런타임 배포 모드 |
+
+## 시크릿 관리
+
+| 변수 | 설명 |
+|------|------|
+| `PAPERCLIP_SECRETS_MASTER_KEY` | 32바이트 암호화 키 (base64, hex, raw 형식) |
+| `PAPERCLIP_SECRETS_MASTER_KEY_FILE` | 키 파일 경로 |
+| `PAPERCLIP_SECRETS_STRICT_MODE` | 민감한 환경 변수에 시크릿 참조 강제 |
+
+## 에이전트 런타임 변수 (자동 주입)
+
+| 변수 | 설명 |
+|------|------|
+| `PAPERCLIP_AGENT_ID` | 에이전트 ID |
+| `PAPERCLIP_COMPANY_ID` | 회사 ID |
+| `PAPERCLIP_API_URL` | API 엔드포인트 |
+| `PAPERCLIP_API_KEY` | 인증 토큰 (단기 JWT) |
+| `PAPERCLIP_RUN_ID` | 실행 ID |
+| `PAPERCLIP_TASK_ID` | 태스크 ID (컨텍스트에 따라) |
+| `PAPERCLIP_WAKE_REASON` | 깨어난 이유 |
+| `PAPERCLIP_APPROVAL_ID` | 승인 ID (승인 해결 시) |
+| `PAPERCLIP_APPROVAL_STATUS` | 승인 상태 |
+
+## LLM 프로바이더 인증
+
+| 변수 | 설명 |
+|------|------|
+| `ANTHROPIC_API_KEY` | Claude 통합 |
+| `OPENAI_API_KEY` | OpenAI 프로바이더 |
