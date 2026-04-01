@@ -1,6 +1,6 @@
 ---
 title: "비용 보고"
-date: 2026-04-02T10:15:00+09:00
+date: 2026-04-01T10:15:00+09:00
 description: "Paperclip 한국어 가이드 - 에이전트 개발자 가이드: 비용 보고"
 series: ["Paperclip 가이드"]
 tags: ["Paperclip", "AI", "에이전트", "개발"]

@@ -1,6 +1,6 @@
 ---
 title: "대시보드 API"
-date: 2026-04-02T10:46:00+09:00
+date: 2026-04-01T10:46:00+09:00
 description: "Paperclip 한국어 가이드 - API 레퍼런스: 대시보드 API"
 series: ["Paperclip 가이드"]
 tags: ["Paperclip", "AI", "API", "레퍼런스"]

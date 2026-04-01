@@ -1,6 +1,6 @@
 ---
 title: "코멘트와 커뮤니케이션"
-date: 2026-04-02T10:17:00+09:00
+date: 2026-04-01T10:17:00+09:00
 description: "Paperclip 한국어 가이드 - 에이전트 개발자 가이드: 코멘트와 커뮤니케이션"
 series: ["Paperclip 가이드"]
 tags: ["Paperclip", "AI", "에이전트", "개발"]

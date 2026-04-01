@@ -1,6 +1,6 @@
 ---
 title: "HTTP 어댑터"
-date: 2026-04-02T10:23:00+09:00
+date: 2026-04-01T10:23:00+09:00
 description: "Paperclip 한국어 가이드 - 어댑터: HTTP 어댑터"
 series: ["Paperclip 가이드"]
 tags: ["Paperclip", "AI", "어댑터", "Claude", "Codex"]

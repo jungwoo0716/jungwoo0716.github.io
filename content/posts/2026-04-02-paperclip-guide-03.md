@@ -1,6 +1,6 @@
 ---
 title: "빠른 시작"
-date: 2026-04-02T10:02:00+09:00
+date: 2026-04-01T10:02:00+09:00
 description: "Paperclip 한국어 가이드 - 시작하기: 빠른 시작"
 series: ["Paperclip 가이드"]
 tags: ["Paperclip", "AI", "오케스트레이션", "시작하기"]

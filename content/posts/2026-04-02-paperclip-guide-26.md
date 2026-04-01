@@ -1,6 +1,6 @@
 ---
 title: "커스텀 어댑터 만들기"
-date: 2026-04-02T10:25:00+09:00
+date: 2026-04-01T10:25:00+09:00
 description: "Paperclip 한국어 가이드 - 어댑터: 커스텀 어댑터 만들기"
 series: ["Paperclip 가이드"]
 tags: ["Paperclip", "AI", "어댑터", "Claude", "Codex"]
