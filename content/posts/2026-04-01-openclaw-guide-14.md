@@ -1,0 +1,217 @@
+---
+title: "스킬 만들기"
+date: 2026-04-01T11:13:00+09:00
+description: "OpenClaw 한국어 가이드: 스킬 만들기"
+series: ["OpenClaw 가이드"]
+tags: ["OpenClaw", "AI", "스킬", "도구"]
+weight: 14
+ShowToc: true
+TocOpen: true
+---
+
+> 이 문서는 [OpenClaw 공식 문서](https://docs.openclaw.ai/)를 한국어로 번역/정리한 것입니다.
+> **시리즈: OpenClaw 가이드**
+
+
+## 개요
+
+커스텀 스킬을 직접 만들어 에이전트의 능력을 확장할 수 있다. 스킬은 `SKILL.md` 파일이 있는 디렉토리로 구성된다.
+
+---
+
+## 빠른 시작
+
+### 1단계: 스킬 디렉토리 생성
+
+```bash
+mkdir -p workspace/skills/hello-world
+```
+
+### 2단계: SKILL.md 작성
+
+```bash
+cat > workspace/skills/hello-world/SKILL.md << 'EOF'
+---
+name: hello_world
+description: "간단한 인사 스킬 예시"
+requires:
+  bins: []
+  config: []
+---
+
+# Hello World 스킬
+
+## 설명
+이 스킬은 간단한 인사 메시지를 생성합니다.
+
+## 사용법
+사용자가 인사하면 친근하게 응답합니다.
+
+## 규칙
+- 항상 한국어로 인사
+- 시간대에 맞는 인사말 사용 (아침/오후/저녁)
+- 이모지 사용하지 않음
+EOF
+```
+
+### 3단계: 스킬 로드 확인
+
+워크스페이스 스킬은 자동으로 로드된다. 다음 명령어로 확인:
+
+```bash
+openclaw skills list
+```
+
+### 4단계: 테스트
+
+```bash
+openclaw agent --message "안녕하세요!"
+```
+
+---
+
+## SKILL.md 메타데이터 상세
+
+### 필수 필드
+
+```yaml
+---
+name: my_skill_name         # 스킬 이름 (snake_case 필수)
+description: "스킬 설명"     # 스킬의 역할을 간결하게 설명
+---
+```
+
+### 선택 필드
+
+```yaml
+---
+name: advanced_skill
+description: "고급 기능을 제공하는 스킬"
+requires:
+  bins:                      # 필요한 외부 바이너리
+    - jq
+    - curl
+    - python3
+  config:                    # 필요한 설정/환경변수
+    - GITHUB_TOKEN
+    - SLACK_WEBHOOK_URL
+metadata:
+  openclaw:
+    gates:                   # 필요한 게이트(권한)
+      - shell
+      - web_search
+      - network
+---
+```
+
+#### name 규칙
+
+- **snake_case** 사용 (하이픈 `-` 아닌 언더스코어 `_`)
+- 소문자만 사용
+- 예: `code_review`, `web_scraper`, `email_sender`
+
+#### requires.bins
+
+스킬이 동작하는 데 필요한 외부 프로그램 목록이다. 해당 프로그램이 시스템에 설치되어 있지 않으면 스킬 로드 시 경고가 표시된다.
+
+#### requires.config
+
+스킬에 필요한 설정 값이나 환경 변수이다. 설정되지 않은 항목이 있으면 스킬 로드 시 경고가 표시된다.
+
+---
+
+## 스킬 본문 작성 가이드
+
+`SKILL.md`의 프론트매터 아래 마크다운 본문은 에이전트의 시스템 프롬프트에 주입된다.
+
+### 효과적인 스킬 본문 구조
+
+```markdown
+# 스킬 이름
+
+## 설명
+이 스킬이 무엇을 하는지 한두 문장으로 설명.
+
+## 사용 시점
+이 스킬이 활성화되어야 하는 상황을 기술.
+
+## 사용법
+구체적인 동작 방식과 명령어 설명.
+
+## 규칙
+- 스킬이 따라야 할 규칙
+- 제한 사항
+- 예외 상황 처리
+
+## 예시
+입력과 출력의 구체적 예시.
+```
+
+---
+
+## 실전 예시: GitHub PR 리뷰 스킬
+
+```bash
+mkdir -p workspace/skills/pr-review
+```
+
+```markdown
+---
+name: pr_review
+description: "GitHub Pull Request를 리뷰하고 피드백을 제공하는 스킬"
+requires:
+  bins:
+    - gh
+  config:
+    - GITHUB_TOKEN
+metadata:
+  openclaw:
+    gates:
+      - shell
+---
+
+# PR Review 스킬
+
+## 설명
+GitHub Pull Request의 변경 사항을 분석하고 코드 리뷰 피드백을 제공한다.
+
+## 사용 시점
+- 사용자가 PR 리뷰를 요청할 때
+- PR URL이나 번호가 제공될 때
+
+## 사용법
+1. `gh pr view <number> --json` 으로 PR 정보 조회
+2. `gh pr diff <number>` 로 변경 사항 확인
+3. 코드 품질, 버그, 성능, 보안 관점에서 리뷰
+4. 구체적인 라인 레벨 피드백 제공
+
+## 규칙
+- 긍정적인 부분도 함께 언급
+- 버그나 보안 이슈는 반드시 지적
+- 코드 스타일은 프로젝트 기존 스타일을 따름
+- 제안은 구체적인 코드 예시와 함께 제공
+```
+
+---
+
+## 워크스페이스 스킬의 장점
+
+워크스페이스 스킬은 **가장 높은 우선순위**를 가진다.
+
+- 기본 내장 스킬을 오버라이드할 수 있음
+- 에이전트별 맞춤 동작 정의 가능
+- 버전 관리 (Git)에 포함하여 팀과 공유 가능
+- 프로젝트 특화 기능을 스킬로 모듈화
+
+```
+workspace/
+├── skills/
+│   ├── custom-search/     # 커스텀 검색 로직
+│   │   └── SKILL.md
+│   ├── team-rules/        # 팀 코딩 규칙
+│   │   └── SKILL.md
+│   └── deploy-helper/     # 배포 도우미
+│       └── SKILL.md
+├── AGENTS.md
+└── SOUL.md
+```

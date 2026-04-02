@@ -1,0 +1,240 @@
+---
+title: "설정"
+date: 2026-04-01T11:14:00+09:00
+description: "OpenClaw 한국어 가이드: 설정"
+series: ["OpenClaw 가이드"]
+tags: ["OpenClaw", "AI", "설정", "배포"]
+weight: 15
+ShowToc: true
+TocOpen: true
+---
+
+> 이 문서는 [OpenClaw 공식 문서](https://docs.openclaw.ai/)를 한국어로 번역/정리한 것입니다.
+> **시리즈: OpenClaw 가이드**
+
+
+## 개요
+
+OpenClaw의 설정은 **JSON5 형식**의 단일 설정 파일로 관리된다. 주석과 후행 쉼표를 지원하여 가독성이 높다.
+
+---
+
+## 설정 파일 위치
+
+```
+~/.openclaw/openclaw.json
+```
+
+환경 변수 `OPENCLAW_CONFIG`로 경로를 변경할 수 있다.
+
+---
+
+## 설정 방법
+
+4가지 방법으로 설정을 변경할 수 있다.
+
+### 1. 온보딩 마법사
+
+```bash
+openclaw onboard
+```
+
+최초 설정 시 대화형 마법사를 통해 기본 설정을 완료한다.
+
+### 2. CLI `config set`
+
+```bash
+# 기본 모델 변경
+openclaw config set models.default "anthropic/claude-sonnet-4-6"
+
+# 하트비트 간격 변경
+openclaw config set automation.heartbeat.every "1h"
+
+# 채널 활성화
+openclaw config set channels.telegram.enabled true
+```
+
+### 3. Control UI
+
+웹 브라우저에서 `http://127.0.0.1:18789/`에 접속하여 GUI로 설정을 변경한다.
+
+### 4. 직접 편집
+
+설정 파일을 텍스트 에디터로 직접 편집한다.
+
+```bash
+# VS Code로 열기
+code ~/.openclaw/openclaw.json
+
+# vim으로 열기
+vim ~/.openclaw/openclaw.json
+```
+
+---
+
+## 설정 검증
+
+설정 변경 시 JSON Schema로 **자동 검증**이 수행된다. 잘못된 설정 값은 거부되며 오류 메시지가 표시된다.
+
+```bash
+# 설정 검증 실행
+openclaw config validate
+```
+
+---
+
+## 핫 리로드
+
+설정 변경 시 게이트웨이를 재시작하지 않고 적용할 수 있다.
+
+### 리로드 모드
+
+| 모드 | 설명 |
+|------|------|
+| `hybrid` | 가능한 항목은 핫 리로드, 나머지는 재시작 (기본값) |
+| `hot` | 모든 변경 사항을 핫 리로드 시도 |
+| `restart` | 변경 시 항상 게이트웨이 재시작 |
+
+```json5
+{
+  "gateway": {
+    "reloadMode": "hybrid"   // "hybrid", "hot", "restart"
+  }
+}
+```
+
+---
+
+## 설정 파일 구조
+
+```json5
+{
+  // === 채널 설정 ===
+  "channels": {
+    "telegram": {
+      "enabled": true,
+      "token": "${TELEGRAM_BOT_TOKEN}",
+      "agent": "default"
+    },
+    "discord": {
+      "enabled": false,
+      "token": "${DISCORD_BOT_TOKEN}",
+      "agent": "default"
+    },
+    "whatsapp": {
+      "enabled": false
+    }
+  },
+
+  // === 모델 설정 ===
+  "models": {
+    "default": "anthropic/claude-sonnet-4-6",
+    "providers": {
+      // 커스텀 프로바이더 설정
+    }
+  },
+
+  // === 에이전트 설정 ===
+  "agents": {
+    "default": {
+      "model": "anthropic/claude-sonnet-4-6",
+      "workspace": "~/.openclaw/agents/default/workspace",
+      "skills": {},
+      "tools": {},
+      "sandbox": {}
+    }
+  },
+
+  // === 자동화 설정 ===
+  "automation": {
+    "heartbeat": {
+      "every": "30m",
+      "isolatedSession": true
+    },
+    "cron": [],
+    "hooks": {},
+    "webhooks": {}
+  },
+
+  // === 세션 설정 ===
+  "sessions": {
+    "maxHistory": 1000,        // 최대 히스토리 메시지 수
+    "compactThreshold": 0.8,   // 컨텍스트 사용률 임계치
+    "ttl": "7d"                // 세션 만료 시간
+  },
+
+  // === 도구 설정 ===
+  "tools": {
+    "shell": {
+      "enabled": true,
+      "timeout": 30000         // 밀리초
+    },
+    "browser": {
+      "enabled": true,
+      "headless": true
+    },
+    "web_search": {
+      "enabled": true,
+      "provider": "default"
+    }
+  },
+
+  // === 게이트웨이 설정 ===
+  "gateway": {
+    "port": 18789,
+    "host": "127.0.0.1",
+    "reloadMode": "hybrid"
+  }
+}
+```
+
+---
+
+## 환경 변수 치환
+
+설정 파일 내에서 `${VAR_NAME}` 구문으로 환경 변수를 참조할 수 있다.
+
+```json5
+{
+  "channels": {
+    "telegram": {
+      "token": "${TELEGRAM_BOT_TOKEN}"     // 환경 변수에서 읽음
+    },
+    "discord": {
+      "token": "${DISCORD_BOT_TOKEN}"
+    }
+  },
+  "models": {
+    "providers": {
+      "custom": {
+        "apiKey": "${CUSTOM_API_KEY}"
+      }
+    }
+  }
+}
+```
+
+### 환경 변수 설정
+
+```bash
+# .env 파일 또는 셸 프로필에 설정
+export TELEGRAM_BOT_TOKEN="1234567890:ABCdefGHI..."
+export DISCORD_BOT_TOKEN="MTIzNDU2Nzg5..."
+export CUSTOM_API_KEY="sk-..."
+```
+
+환경 변수가 설정되지 않으면 빈 문자열로 치환되며, 필수 항목의 경우 검증 오류가 발생한다.
+
+---
+
+## 주요 설정 항목 요약
+
+| 섹션 | 설명 |
+|------|------|
+| `channels` | 메시징 채널 연결 설정 |
+| `models` | AI 모델 프로바이더 및 기본 모델 |
+| `agents` | 에이전트별 설정 (모델, 도구, 스킬) |
+| `automation` | 하트비트, 크론, 훅, 웹훅 |
+| `sessions` | 세션 관리 (히스토리, 압축, TTL) |
+| `tools` | 도구 활성화 및 세부 설정 |
+| `gateway` | 게이트웨이 포트, 호스트, 리로드 모드 |
