@@ -47,19 +47,9 @@
   color: var(--secondary);
 }
 
-.docs-nav ul {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-}
-
-.docs-nav li {
-  margin: 0;
-}
-
-.docs-nav li a {
+.docs-nav a {
   display: block;
-  padding: 6px 20px 6px 28px;
+  padding: 6px 20px 6px 20px;
   font-size: 0.85rem;
   color: var(--secondary);
   text-decoration: none;
@@ -68,12 +58,12 @@
   line-height: 1.5;
 }
 
-.docs-nav li a:hover {
+.docs-nav a:hover {
   color: var(--primary);
   background: var(--code-bg);
 }
 
-.docs-nav li.active a {
+.docs-nav a.active {
   color: var(--primary);
   font-weight: 600;
   border-left-color: var(--primary);

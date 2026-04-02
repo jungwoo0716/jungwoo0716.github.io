@@ -1,7 +1,6 @@
 {{- define "main" }}
 
 <div class="docs-layout">
-  <!-- Left Sidebar -->
   <aside class="docs-sidebar">
     <div class="docs-sidebar-inner">
       <div class="docs-sidebar-title">
@@ -9,38 +8,18 @@
       </div>
       <nav class="docs-nav">
         {{ $currentPage := . }}
-        {{ $pages := .Parent.Pages.ByWeight }}
-        {{ $currentSection := "" }}
-        {{ range $pages }}
-          {{ $parts := split .Description "|" }}
-          {{ $section := index $parts 0 }}
-          {{ if ne $section $currentSection }}
-            {{ if ne $currentSection "" }}</ul></div>{{ end }}
-            <div class="docs-nav-section">
-              <div class="docs-nav-section-title">{{ $section }}</div>
-              <ul>
-            {{ $currentSection = $section }}
-          {{ end }}
-          <li{{ if eq .Permalink $currentPage.Permalink }} class="active"{{ end }}>
-            <a href="{{ .Permalink }}">{{ .Title }}</a>
-          </li>
+        {{ range .Parent.Pages.ByWeight }}
+        <a href="{{ .Permalink }}"{{ if eq .Permalink $currentPage.Permalink }} class="active"{{ end }}>{{ .Title }}</a>
         {{ end }}
-        {{ if ne $currentSection "" }}</ul></div>{{ end }}
       </nav>
     </div>
   </aside>
 
-  <!-- Main Content -->
   <div class="docs-content">
-    <article>
-      <h1 class="docs-title">{{ .Title }}</h1>
-      <div class="post-content">
-        {{- if not (.Param "disableAnchoredHeadings") }}
-        {{- partial "anchored_headings.html" .Content -}}
-        {{- else }}{{ .Content }}{{ end }}
-      </div>
-    </article>
-
+    <h1 class="docs-title">{{ .Title }}</h1>
+    <div class="post-content">
+      {{ .Content }}
+    </div>
     <div class="docs-pager">
       {{ with .PrevInSection }}
       <a href="{{ .Permalink }}" class="docs-pager-prev">
@@ -57,7 +36,6 @@
     </div>
   </div>
 
-  <!-- Right TOC -->
   <aside class="docs-toc">
     <div class="docs-toc-inner">
       <div class="docs-toc-title">목차</div>
