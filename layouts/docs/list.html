@@ -1,30 +1,16 @@
 {{- define "main" }}
 
-<div class="docs-layout">
-  <aside class="docs-sidebar">
-    <div class="docs-sidebar-inner">
-      <div class="docs-sidebar-title">{{ .Title }}</div>
-      <nav class="docs-nav">
-        {{ range .Pages.ByWeight }}
-        <a href="{{ .Permalink }}">{{ .Title }}</a>
-        {{ end }}
-      </nav>
-    </div>
-  </aside>
-
-  <div class="docs-content">
-    <h1 class="docs-title">{{ .Title }}</h1>
-    <div class="post-content">{{ .Content }}</div>
-    <div class="docs-index-grid">
-      {{ range .Pages.ByWeight }}
-      <a href="{{ .Permalink }}" class="docs-index-card">
-        <h3>{{ .Title }}</h3>
-      </a>
-      {{ end }}
-    </div>
+<div class="docs-index-page">
+  <h1 class="docs-index-title">{{ .Title }}</h1>
+  <div class="post-content">{{ .Content }}</div>
+  <div class="docs-index-grid">
+    {{ range .Pages.ByWeight }}
+    <a href="{{ .Permalink }}" class="docs-index-card">
+      <span class="docs-index-card-num">{{ .Weight }}</span>
+      <h3>{{ .Title }}</h3>
+    </a>
+    {{ end }}
   </div>
-
-  <aside class="docs-toc"></aside>
 </div>
 
 {{- end }}
