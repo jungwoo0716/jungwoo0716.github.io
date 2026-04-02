@@ -62,35 +62,40 @@ paginate = 10
 
 [menu]
   [[menu.main]]
+    identifier = "paperclip"
+    name = "Paperclip"
+    url = "/docs/paperclip/"
+    weight = 1
+  [[menu.main]]
+    identifier = "openclaw"
+    name = "OpenClaw"
+    url = "/docs/openclaw/"
+    weight = 2
+  [[menu.main]]
     identifier = "search"
     name = "검색"
     url = "/search/"
-    weight = 1
+    weight = 3
   [[menu.main]]
     identifier = "tags"
     name = "태그"
     url = "/tags/"
-    weight = 2
+    weight = 4
   [[menu.main]]
     identifier = "series"
     name = "시리즈"
     url = "/series/"
-    weight = 3
+    weight = 5
   [[menu.main]]
     identifier = "archives"
     name = "아카이브"
     url = "/archives/"
-    weight = 4
-  [[menu.main]]
-    identifier = "dansang"
-    name = "단상"
-    url = "/series/단상/"
-    weight = 5
+    weight = 6
   [[menu.main]]
     identifier = "about"
     name = "소개"
     url = "/about/"
-    weight = 6
+    weight = 7
 
 [taxonomies]
   tag = "tags"

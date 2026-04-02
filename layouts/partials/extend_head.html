@@ -1,3 +1,8 @@
+<!-- Docs CSS -->
+{{ with resources.Get "css/docs.css" }}
+<style>{{ .Content | safeCSS }}</style>
+{{ end }}
+
 <!-- Pretendard Font Preload -->
 <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
 

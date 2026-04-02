@@ -1,0 +1,47 @@
+{{ define "main" }}
+<div class="docs-layout">
+  <!-- Left Sidebar -->
+  <aside class="docs-sidebar">
+    <div class="docs-sidebar-inner">
+      <div class="docs-sidebar-title">
+        <a href="{{ .Permalink }}">{{ .Title }}</a>
+      </div>
+      <nav class="docs-nav">
+        {{ $pages := .Pages.ByWeight }}
+        {{ $currentSection := "" }}
+        {{ range $pages }}
+          {{ $desc := .Description }}
+          {{ $section := index (split $desc "|") 0 }}
+          {{ if ne $section $currentSection }}
+            {{ if ne $currentSection "" }}</ul></div>{{ end }}
+            <div class="docs-nav-section">
+              <div class="docs-nav-section-title">{{ $section }}</div>
+              <ul>
+            {{ $currentSection = $section }}
+          {{ end }}
+          <li><a href="{{ .Permalink }}">{{ .Title }}</a></li>
+        {{ end }}
+        {{ if ne $currentSection "" }}</ul></div>{{ end }}
+      </nav>
+    </div>
+  </aside>
+
+  <!-- Main Content -->
+  <main class="docs-content">
+    <article>
+      <h1>{{ .Title }}</h1>
+      {{ .Content }}
+      <div class="docs-index-grid">
+        {{ range .Pages.ByWeight }}
+        <a href="{{ .Permalink }}" class="docs-index-card">
+          <h3>{{ .Title }}</h3>
+          <p>{{ .Params.summary | default .Description }}</p>
+        </a>
+        {{ end }}
+      </div>
+    </article>
+  </main>
+
+  <aside class="docs-toc"></aside>
+</div>
+{{ end }}
