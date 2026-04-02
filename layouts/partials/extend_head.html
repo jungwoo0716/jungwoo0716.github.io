@@ -3,57 +3,96 @@
 <style>{{ .Content | safeCSS }}</style>
 {{ end }}
 
-<!-- 시리즈 메뉴를 드롭다운으로 변경 -->
+<!-- 시리즈 클릭 시 서브 네비게이션 바 표시 -->
 <script>
 document.addEventListener('DOMContentLoaded', function() {
   var nav = document.getElementById('menu');
   if (!nav) return;
+
+  // 서브 네비게이션 바 생성
+  var subNav = document.createElement('div');
+  subNav.className = 'series-subnav';
+  subNav.innerHTML =
+    '<div class="series-subnav-inner">' +
+    '<a href="/docs/paperclip/">Paperclip 가이드 <span class="series-subnav-count">48</span></a>' +
+    '<a href="/docs/openclaw/">OpenClaw 가이드 <span class="series-subnav-count">16</span></a>' +
+    '<a href="/series/" class="series-subnav-all">전체 시리즈</a>' +
+    '</div>';
+
+  // header 바로 아래에 삽입
+  var header = document.querySelector('header.header');
+  if (header) {
+    header.parentNode.insertBefore(subNav, header.nextSibling);
+  }
+
+  // 시리즈 메뉴 클릭 시 토글
   var items = nav.querySelectorAll('li');
   items.forEach(function(li) {
     var a = li.querySelector('a');
     if (a && a.textContent.trim() === '시리즈') {
-      li.style.position = 'relative';
-      var dd = document.createElement('div');
-      dd.className = 'series-dropdown';
-      dd.innerHTML = '<a href="/docs/paperclip/">Paperclip 가이드</a>' +
-        '<a href="/docs/openclaw/">OpenClaw 가이드</a>' +
-        '<hr style="margin:4px 0;border-color:var(--border)">' +
-        '<a href="/series/">전체 시리즈</a>';
-      li.appendChild(dd);
+      a.addEventListener('click', function(e) {
+        e.preventDefault();
+        subNav.classList.toggle('open');
+      });
     }
   });
+
+  // docs 페이지에서는 기본으로 열기
+  if (window.location.pathname.startsWith('/docs/')) {
+    subNav.classList.add('open');
+  }
 });
 </script>
 <style>
-.series-dropdown {
-  display: none;
-  position: absolute;
-  top: 100%;
-  left: 50%;
-  transform: translateX(-50%);
-  background: var(--theme);
-  border: 1px solid var(--border);
-  border-radius: 8px;
-  box-shadow: 0 4px 16px rgba(0,0,0,0.12);
-  min-width: 200px;
-  padding: 6px 0;
-  z-index: 100;
+.series-subnav {
+  max-height: 0;
+  overflow: hidden;
+  background: var(--entry);
+  border-bottom: 1px solid var(--border);
+  transition: max-height 0.25s ease;
 }
-.series-dropdown a {
-  display: block;
-  padding: 8px 16px;
+.series-subnav.open {
+  max-height: 60px;
+}
+.series-subnav-inner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  padding: 10px 20px;
+  max-width: 900px;
+  margin: 0 auto;
+}
+.series-subnav a {
+  padding: 6px 16px;
   font-size: 14px;
-  color: var(--secondary) !important;
-  text-decoration: none !important;
-  white-space: nowrap;
+  font-weight: 500;
+  color: var(--secondary);
+  text-decoration: none;
+  border-radius: 6px;
+  transition: all 0.15s;
 }
-.series-dropdown a:hover {
+.series-subnav a:hover {
   background: var(--code-bg);
-  color: var(--primary) !important;
+  color: var(--primary);
 }
-#menu li:hover .series-dropdown {
-  display: block;
+.series-subnav-count {
+  display: inline-block;
+  background: var(--code-bg);
+  color: var(--secondary);
+  font-size: 11px;
+  padding: 1px 6px;
+  border-radius: 10px;
+  margin-left: 4px;
 }
+.series-subnav-all {
+  margin-left: 8px;
+  font-size: 13px !important;
+  opacity: 0.7;
+}
+/* docs 페이지에서 현재 가이드 하이라이트 */
+.series-subnav a[href*="paperclip"] { }
+.series-subnav a[href*="openclaw"] { }
 </style>
 
 <!-- Pretendard Font Preload -->
