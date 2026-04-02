@@ -1,4 +1,5 @@
-{{ define "main" }}
+{{- define "main" }}
+
 <div class="docs-layout">
   <!-- Left Sidebar -->
   <aside class="docs-sidebar">
@@ -11,8 +12,8 @@
         {{ $pages := .Parent.Pages.ByWeight }}
         {{ $currentSection := "" }}
         {{ range $pages }}
-          {{ $desc := .Description }}
-          {{ $section := index (split $desc "|") 0 }}
+          {{ $parts := split .Description "|" }}
+          {{ $section := index $parts 0 }}
           {{ if ne $section $currentSection }}
             {{ if ne $currentSection "" }}</ul></div>{{ end }}
             <div class="docs-nav-section">
@@ -30,28 +31,31 @@
   </aside>
 
   <!-- Main Content -->
-  <main class="docs-content">
+  <div class="docs-content">
     <article>
-      <h1>{{ .Title }}</h1>
-      {{ .Content }}
+      <h1 class="docs-title">{{ .Title }}</h1>
+      <div class="post-content">
+        {{- if not (.Param "disableAnchoredHeadings") }}
+        {{- partial "anchored_headings.html" .Content -}}
+        {{- else }}{{ .Content }}{{ end }}
+      </div>
     </article>
 
-    <!-- Prev/Next Navigation -->
     <div class="docs-pager">
       {{ with .PrevInSection }}
       <a href="{{ .Permalink }}" class="docs-pager-prev">
-        <span class="docs-pager-label">← 이전</span>
+        <span class="docs-pager-label">&larr; 이전</span>
         <span class="docs-pager-title">{{ .Title }}</span>
       </a>
       {{ end }}
       {{ with .NextInSection }}
       <a href="{{ .Permalink }}" class="docs-pager-next">
-        <span class="docs-pager-label">다음 →</span>
+        <span class="docs-pager-label">다음 &rarr;</span>
         <span class="docs-pager-title">{{ .Title }}</span>
       </a>
       {{ end }}
     </div>
-  </main>
+  </div>
 
   <!-- Right TOC -->
   <aside class="docs-toc">
@@ -61,4 +65,5 @@
     </div>
   </aside>
 </div>
-{{ end }}
+
+{{- end }}

@@ -1,4 +1,5 @@
-{{ define "main" }}
+{{- define "main" }}
+
 <div class="docs-layout">
   <!-- Left Sidebar -->
   <aside class="docs-sidebar">
@@ -10,8 +11,8 @@
         {{ $pages := .Pages.ByWeight }}
         {{ $currentSection := "" }}
         {{ range $pages }}
-          {{ $desc := .Description }}
-          {{ $section := index (split $desc "|") 0 }}
+          {{ $parts := split .Description "|" }}
+          {{ $section := index $parts 0 }}
           {{ if ne $section $currentSection }}
             {{ if ne $currentSection "" }}</ul></div>{{ end }}
             <div class="docs-nav-section">
@@ -27,21 +28,27 @@
   </aside>
 
   <!-- Main Content -->
-  <main class="docs-content">
+  <div class="docs-content">
     <article>
-      <h1>{{ .Title }}</h1>
-      {{ .Content }}
+      <h1 class="docs-title">{{ .Title }}</h1>
+      <div class="post-content">
+        {{ .Content }}
+      </div>
       <div class="docs-index-grid">
         {{ range .Pages.ByWeight }}
         <a href="{{ .Permalink }}" class="docs-index-card">
           <h3>{{ .Title }}</h3>
-          <p>{{ .Params.summary | default .Description }}</p>
+          {{ $parts := split .Description "|" }}
+          {{ if gt (len $parts) 1 }}
+          <p>{{ index $parts 0 }}</p>
+          {{ end }}
         </a>
         {{ end }}
       </div>
     </article>
-  </main>
+  </div>
 
   <aside class="docs-toc"></aside>
 </div>
-{{ end }}
+
+{{- end }}
