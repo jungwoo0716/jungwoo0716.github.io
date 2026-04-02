@@ -3,6 +3,22 @@
 <style>{{ .Content | safeCSS }}</style>
 {{ end }}
 
+<!-- Docs Dropdown Menu Injection -->
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  var nav = document.getElementById('menu');
+  if (!nav) return;
+  var dropdown = document.createElement('li');
+  dropdown.className = 'nav-docs-dropdown';
+  dropdown.innerHTML = '<a href="#" onclick="return false" tabindex="0">가이드 ▾</a>' +
+    '<div class="nav-docs-dropdown-content">' +
+    '<a href="/docs/paperclip/">📎 Paperclip 가이드</a>' +
+    '<a href="/docs/openclaw/">🐾 OpenClaw 가이드</a>' +
+    '</div>';
+  nav.insertBefore(dropdown, nav.firstChild);
+});
+</script>
+
 <!-- Pretendard Font Preload -->
 <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
 
