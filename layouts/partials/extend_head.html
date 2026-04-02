@@ -3,21 +3,58 @@
 <style>{{ .Content | safeCSS }}</style>
 {{ end }}
 
-<!-- Docs Dropdown Menu Injection -->
+<!-- 시리즈 메뉴를 드롭다운으로 변경 -->
 <script>
 document.addEventListener('DOMContentLoaded', function() {
   var nav = document.getElementById('menu');
   if (!nav) return;
-  var dropdown = document.createElement('li');
-  dropdown.className = 'nav-docs-dropdown';
-  dropdown.innerHTML = '<a href="#" onclick="return false" tabindex="0">가이드 ▾</a>' +
-    '<div class="nav-docs-dropdown-content">' +
-    '<a href="/docs/paperclip/">📎 Paperclip 가이드</a>' +
-    '<a href="/docs/openclaw/">🐾 OpenClaw 가이드</a>' +
-    '</div>';
-  nav.insertBefore(dropdown, nav.firstChild);
+  var items = nav.querySelectorAll('li');
+  items.forEach(function(li) {
+    var a = li.querySelector('a');
+    if (a && a.textContent.trim() === '시리즈') {
+      li.style.position = 'relative';
+      var dd = document.createElement('div');
+      dd.className = 'series-dropdown';
+      dd.innerHTML = '<a href="/docs/paperclip/">Paperclip 가이드</a>' +
+        '<a href="/docs/openclaw/">OpenClaw 가이드</a>' +
+        '<hr style="margin:4px 0;border-color:var(--border)">' +
+        '<a href="/series/">전체 시리즈</a>';
+      li.appendChild(dd);
+    }
+  });
 });
 </script>
+<style>
+.series-dropdown {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  background: var(--theme);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  box-shadow: 0 4px 16px rgba(0,0,0,0.12);
+  min-width: 200px;
+  padding: 6px 0;
+  z-index: 100;
+}
+.series-dropdown a {
+  display: block;
+  padding: 8px 16px;
+  font-size: 14px;
+  color: var(--secondary) !important;
+  text-decoration: none !important;
+  white-space: nowrap;
+}
+.series-dropdown a:hover {
+  background: var(--code-bg);
+  color: var(--primary) !important;
+}
+#menu li:hover .series-dropdown {
+  display: block;
+}
+</style>
 
 <!-- Pretendard Font Preload -->
 <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
